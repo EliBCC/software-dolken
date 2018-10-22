@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"richard_test\startup_stm32f446xx.o"
+"richard_test\main.o"
+"richard_test\stm32f4xx_it.o"
+"richard_test\stm32f4xx_hal_msp.o"
+"richard_test\stm32f4xx_hal_can.o"
+"richard_test\stm32f4xx_hal_spi.o"
+"richard_test\stm32f4xx_hal_tim.o"
+"richard_test\stm32f4xx_hal_tim_ex.o"
+"richard_test\stm32f4xx_hal_uart.o"
+"richard_test\stm32f4xx_hal_rcc.o"
+"richard_test\stm32f4xx_hal_rcc_ex.o"
+"richard_test\stm32f4xx_hal_flash.o"
+"richard_test\stm32f4xx_hal_flash_ex.o"
+"richard_test\stm32f4xx_hal_flash_ramfunc.o"
+"richard_test\stm32f4xx_hal_gpio.o"
+"richard_test\stm32f4xx_hal_dma_ex.o"
+"richard_test\stm32f4xx_hal_dma.o"
+"richard_test\stm32f4xx_hal_pwr.o"
+"richard_test\stm32f4xx_hal_pwr_ex.o"
+"richard_test\stm32f4xx_hal_cortex.o"
+"richard_test\stm32f4xx_hal.o"
+"richard_test\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "RICHARD_TEST\RICHARD_TEST.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "RICHARD_TEST.map" -o RICHARD_TEST\RICHARD_TEST.axf

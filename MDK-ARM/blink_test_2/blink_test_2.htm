@@ -3,7 +3,7 @@
 <title>Static Call Graph - [blink_test_2\blink_test_2.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image blink_test_2\blink_test_2.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Mon Oct 22 13:23:25 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Mon Oct 22 18:01:14 2018
 <BR><P>
 <H3>Maximum Stack Usage =        760 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -263,8 +263,8 @@ Global Symbols
 <P><STRONG><a name="[13e]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
 
 <P><STRONG><a name="[7d]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
-<BR><BR>[Stack]<UL><LI>Max Depth = 456 + Unknown Stack Size
-<LI>Call Chain = __rt_entry_main &rArr; main &rArr; InitStMain(UART_HandleTypeDef*) &rArr; Board::setDebugLine(UART_HandleTypeDef*) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<BR><BR>[Stack]<UL><LI>Max Depth = 472 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; UpdateStMain() &rArr; JAE::update() &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
@@ -571,8 +571,8 @@ Global Symbols
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::terminate()
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_free_exception
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 <LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
 </UL>
 
@@ -610,8 +610,8 @@ Global Symbols
 <LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::get_foreign_intermediary(__cxa_exception*, _Unwind_Control_Block*)
 <LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::is_foreign_exception(_Unwind_Control_Block*)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 <LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
 <LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to arm_exceptions_c]::armcpp_exception_cleanup(_Unwind_Reason_Code, _Unwind_Control_Block*)
 <LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_terminate
@@ -1189,7 +1189,7 @@ Global Symbols
 <LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to main_c]::MX_GPIO_Init()
 </UL>
 
-<P><STRONG><a name="[108]"></a>HAL_GPIO_ReadPin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_ReadPin), UNUSED)
+<P><STRONG><a name="[108]"></a>HAL_GPIO_ReadPin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_ReadPin))
 <BR><BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
 </UL>
 
@@ -1518,8 +1518,11 @@ Global Symbols
 <BR>[Address Reference Count : 2]<UL><LI> sm_main_main.o(i._Z11ToggleBlinkv)
 <LI> sm_main_main.o(i._Z4Initv)
 </UL>
-<P><STRONG><a name="[fd]"></a>UpdateStMain()</STRONG> (Thumb, 132 bytes, Stack size 16 bytes, st_main.o(i._Z12UpdateStMainv), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::boardUpdate()
+<P><STRONG><a name="[fd]"></a>UpdateStMain()</STRONG> (Thumb, 132 bytes, Stack size 16 bytes, st_main.o(i._Z12UpdateStMainv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 464 + Unknown Stack Size
+<LI>Call Chain = UpdateStMain() &rArr; JAE::update() &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::boardUpdate()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
 <LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
@@ -1527,14 +1530,16 @@ Global Symbols
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_begin_catch
 <LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_end_catch
 </UL>
+<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
 
 <P><STRONG><a name="[fa]"></a>checkErrorType(int)</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, st_main.o(i._Z14checkErrorTypei))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = checkErrorType(int) &rArr; Board::printDebug(char*) &rArr; HAL_UART_Transmit &rArr; [local to stm32f4xx_hal_uart_c]::UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef*, unsigned, FlagStatus, unsigned, unsigned)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 </UL>
 
 <P><STRONG><a name="[101]"></a>SystemClock_Config()</STRONG> (Thumb, 130 bytes, Stack size 88 bytes, main_1.o(i._Z18SystemClock_Configv))
@@ -1573,8 +1578,10 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 </UL>
 
-<P><STRONG><a name="[100]"></a>Update()</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, sm_main_main.o(i._Z6Updatev), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<P><STRONG><a name="[100]"></a>Update()</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, sm_main_main.o(i._Z6Updatev))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Update()
+</UL>
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
 <LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
@@ -1597,8 +1604,11 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 </UL>
 
-<P><STRONG><a name="[ff]"></a>JAE::update()</STRONG> (Thumb, 168 bytes, Stack size 24 bytes, jae.o(i._ZN3JAE6updateEv), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<P><STRONG><a name="[ff]"></a>JAE::update()</STRONG> (Thumb, 168 bytes, Stack size 24 bytes, jae.o(i._ZN3JAE6updateEv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 448 + Unknown Stack Size
+<LI>Call Chain = JAE::update() &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
 <LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getCycleMillis()
 <LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_throw
@@ -1613,13 +1623,15 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Transmit
 <LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
+<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 <LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;checkErrorType(int)
-<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 </UL>
 
-<P><STRONG><a name="[fe]"></a>Board::boardUpdate()</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, boardinfo.o(i._ZN5Board11boardUpdateEv), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<P><STRONG><a name="[fe]"></a>Board::boardUpdate()</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, boardinfo.o(i._ZN5Board11boardUpdateEv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Board::boardUpdate()
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 </UL>
@@ -1884,11 +1896,12 @@ Global Symbols
 <LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
 </UL>
 
-<P><STRONG><a name="[7e]"></a>main</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, main_1.o(i.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 456 + Unknown Stack Size
-<LI>Call Chain = main &rArr; InitStMain(UART_HandleTypeDef*) &rArr; Board::setDebugLine(UART_HandleTypeDef*) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<P><STRONG><a name="[7e]"></a>main</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, main_1.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 472 + Unknown Stack Size
+<LI>Call Chain = main &rArr; UpdateStMain() &rArr; JAE::update() &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 <LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
 <LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
 <LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to main_c]::MX_USART1_UART_Init()

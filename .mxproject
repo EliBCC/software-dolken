@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/jakob/Documents/GitHub/FlightControllerDolken-RTOS/Inc
+HeaderPath=C:/Users/jakob/Documents/GitHub/Software-dolken/Inc
 HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;FreeRTOSConfig.h;
-SourcePath=C:/Users/jakob/Documents/GitHub/FlightControllerDolken-RTOS/Src
+SourcePath=C:/Users/jakob/Documents/GitHub/Software-dolken/Src
 SourceFiles=stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;freertos.c;
 
 [PreviousLibFiles]
