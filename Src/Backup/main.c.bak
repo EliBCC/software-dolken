@@ -39,7 +39,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f4xx_hal.h"
-#include "St_main.h"
 
 /* USER CODE BEGIN Includes */
 
@@ -109,9 +108,7 @@ int main(void)
   {
 
   /* USER CODE END WHILE */
-	
-		UpdateStMain();
-		
+
   /* USER CODE BEGIN 3 */
 
   }

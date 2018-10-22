@@ -16,6 +16,7 @@ void JAE::Callback_Delay(long int delayMillis, void (*function)()){
 
 void JAE::init(void){
 	
+	
 }
 
 

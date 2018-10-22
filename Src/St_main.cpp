@@ -45,7 +45,6 @@ void checkErrorType(int e){
 
 void InitStMain(UART_HandleTypeDef* uartDebugLine){
 	//test function by jae
-		
 	
 		try{
 			board.boardInit();

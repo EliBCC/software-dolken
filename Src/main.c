@@ -42,6 +42,8 @@
 
 /* USER CODE BEGIN Includes */
 
+#include "St_main.h"
+
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -107,6 +109,8 @@ int main(void)
   while (1)
   {
 
+		UpdateStMain();
+		
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
