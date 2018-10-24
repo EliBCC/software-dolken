@@ -2,7 +2,6 @@ blink_test_2\jae.o: ..\Src\JAE.cpp
 blink_test_2\jae.o: ..\Src\JAE_include.h
 blink_test_2\jae.o: ..\Src\Config.h
 blink_test_2\jae.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-blink_test_2\jae.o: ..\Src\BoardInfo.h
 blink_test_2\jae.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 blink_test_2\jae.o: ../Inc/stm32f4xx_hal_conf.h
 blink_test_2\jae.o: ../Inc/main.h
@@ -32,4 +31,5 @@ blink_test_2\jae.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramf
 blink_test_2\jae.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 blink_test_2\jae.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 blink_test_2\jae.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+blink_test_2\jae.o: ..\Src\BoardInfo.h
 blink_test_2\jae.o: ..\Src\Config.h

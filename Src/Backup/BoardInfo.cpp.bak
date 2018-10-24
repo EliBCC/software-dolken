@@ -28,6 +28,11 @@ void Board::printDebug(char message[]){
 	HAL_UART_Transmit(uartDebugLine, (uint8_t *) message, strlen(message), 10); 
 }
 
+void Board::printDebug(int message){
+	
+	HAL_UART_Transmit(uartDebugLine, (uint8_t *) message, sizeof(message), 10); 
+}
+
 long int Board::getCycleMillis(void){
 	
 	return cycleTime;

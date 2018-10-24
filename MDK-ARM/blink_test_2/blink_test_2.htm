@@ -3,7 +3,7 @@
 <title>Static Call Graph - [blink_test_2\blink_test_2.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image blink_test_2\blink_test_2.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Mon Oct 22 18:01:14 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Oct 23 18:59:47 2018
 <BR><P>
 <H3>Maximum Stack Usage =        760 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -19,7 +19,7 @@ Functions with no stack information
 <H3>
 Mutually Recursive functions
 </H3> <LI><a href="#[2e]">ADC_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[2e]">ADC_IRQHandler</a><BR>
- <LI><a href="#[10f]">[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[10f]">[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)</a><BR>
+ <LI><a href="#[111]">[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[111]">[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)</a><BR>
  <LI><a href="#[16]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[16]">BusFault_Handler</a><BR>
  <LI><a href="#[14]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[14]">HardFault_Handler</a><BR>
  <LI><a href="#[15]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[15]">MemManage_Handler</a><BR>
@@ -100,8 +100,8 @@ Function Pointers
  <LI><a href="#[57]">[local to unwinder_c]::EIT_comparator(const void*, const void*)</a> from unwinder.o(.text) referenced from unwinder.o(.text)
  <LI><a href="#[56]">[local to arm_exceptions_c]::__default_terminate_handler()</a> from arm_exceptions_globs.o(.text) referenced from arm_exceptions_globs.o(.text)
  <LI><a href="#[52]">[local to arm_exceptions_c]::armcpp_exception_cleanup(_Unwind_Reason_Code, _Unwind_Control_Block*)</a> from arm_exceptions_throw.o(.text) referenced from arm_exceptions_throw.o(.text)
- <LI><a href="#[65]">JAE::Vector&lang;void(*)()&rang;::~Vector()</a> from jae.o(t._ZN3JAE6VectorIPFvvEED1Ev) referenced from jae.o(i.__sti___7_JAE_cpp_22c424ef)
- <LI><a href="#[66]">JAE::Vector&lang;long&rang;::~Vector()</a> from jae.o(t._ZN3JAE6VectorIlED1Ev) referenced from jae.o(i.__sti___7_JAE_cpp_22c424ef)
+ <LI><a href="#[65]">JAE::Vector&lang;void(*)()&rang;::~Vector()</a> from jae.o(t._ZN3JAE6VectorIPFvvEED1Ev) referenced from jae.o(i.__sti___7_JAE_cpp_d31525d9)
+ <LI><a href="#[66]">JAE::Vector&lang;long&rang;::~Vector()</a> from jae.o(t._ZN3JAE6VectorIlED1Ev) referenced from jae.o(i.__sti___7_JAE_cpp_d31525d9)
  <LI><a href="#[5d]">[local to stm32f4xx_hal_uart_c]::UART_DMAError(__DMA_HandleTypeDef*)</a> from stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f13UART_DMAErrorEP19__DMA_HandleTypeDef) referenced from stm32f4xx_hal_uart.o(i.HAL_UART_Receive_DMA)
  <LI><a href="#[5d]">[local to stm32f4xx_hal_uart_c]::UART_DMAError(__DMA_HandleTypeDef*)</a> from stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f13UART_DMAErrorEP19__DMA_HandleTypeDef) referenced from stm32f4xx_hal_uart.o(i.HAL_UART_Transmit_DMA)
  <LI><a href="#[5c]">[local to stm32f4xx_hal_uart_c]::UART_DMARxHalfCplt(__DMA_HandleTypeDef*)</a> from stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f18UART_DMARxHalfCpltEP19__DMA_HandleTypeDef) referenced from stm32f4xx_hal_uart.o(i.HAL_UART_Receive_DMA)
@@ -123,7 +123,7 @@ Function Pointers
  <LI><a href="#[59]">__cxa_call_unexpected</a> from arm_exceptions_callunex.o(.text) referenced from unwind_prcommon.o(.text)
  <LI><a href="#[6c]">__main</a> from __main.o(!!!main) referenced from startup_stm32f410rx.o(.text)
  <LI><a href="#[6a]">__sti___11_St_main_cpp_board</a> from st_main.o(i.__sti___11_St_main_cpp_board) referenced from st_main.o(.init_array)
- <LI><a href="#[6b]">__sti___7_JAE_cpp_22c424ef</a> from jae.o(i.__sti___7_JAE_cpp_22c424ef) referenced from jae.o(.init_array)
+ <LI><a href="#[6b]">__sti___7_JAE_cpp_d31525d9</a> from jae.o(i.__sti___7_JAE_cpp_d31525d9) referenced from jae.o(.init_array)
 </UL>
 <P>
 <H3>
@@ -142,9 +142,9 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
 </UL>
 
-<P><STRONG><a name="[11f]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<P><STRONG><a name="[12a]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
 
-<P><STRONG><a name="[120]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<P><STRONG><a name="[12b]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
 
 <P><STRONG><a name="[71]"></a>__scatterload_copy</STRONG> (Thumb, 26 bytes, Stack size unknown bytes, __scatter_copy.o(!!handler_copy), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
@@ -152,7 +152,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
 </UL>
 
-<P><STRONG><a name="[121]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
+<P><STRONG><a name="[12c]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
 
 <P><STRONG><a name="[7c]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
@@ -169,15 +169,15 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_init_alloc
 </UL>
 
-<P><STRONG><a name="[122]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
+<P><STRONG><a name="[12d]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
 
-<P><STRONG><a name="[123]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+<P><STRONG><a name="[12e]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
 
-<P><STRONG><a name="[124]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
+<P><STRONG><a name="[12f]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
 
-<P><STRONG><a name="[125]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
+<P><STRONG><a name="[130]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
 
-<P><STRONG><a name="[126]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
+<P><STRONG><a name="[131]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
 
 <P><STRONG><a name="[76]"></a>__rt_lib_init_cpp_2</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000031))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16 + Unknown Stack Size
@@ -186,35 +186,35 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cpp_initialize__aeabi_
 </UL>
 
-<P><STRONG><a name="[127]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
+<P><STRONG><a name="[132]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
 
-<P><STRONG><a name="[128]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+<P><STRONG><a name="[133]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
 
-<P><STRONG><a name="[129]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
+<P><STRONG><a name="[134]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
 
-<P><STRONG><a name="[12a]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
+<P><STRONG><a name="[135]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
 
-<P><STRONG><a name="[12b]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
+<P><STRONG><a name="[136]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
 
-<P><STRONG><a name="[12c]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+<P><STRONG><a name="[137]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
 
-<P><STRONG><a name="[12d]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+<P><STRONG><a name="[138]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
 
-<P><STRONG><a name="[12e]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+<P><STRONG><a name="[139]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
 
-<P><STRONG><a name="[12f]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+<P><STRONG><a name="[13a]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
 
-<P><STRONG><a name="[130]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
+<P><STRONG><a name="[13b]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
 
-<P><STRONG><a name="[131]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+<P><STRONG><a name="[13c]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
 
-<P><STRONG><a name="[132]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
+<P><STRONG><a name="[13d]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
 
-<P><STRONG><a name="[133]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
+<P><STRONG><a name="[13e]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
 
-<P><STRONG><a name="[134]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
+<P><STRONG><a name="[13f]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
 
-<P><STRONG><a name="[135]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
+<P><STRONG><a name="[140]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
 
 <P><STRONG><a name="[81]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;abort
@@ -228,26 +228,26 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_finalize
 </UL>
 
-<P><STRONG><a name="[136]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+<P><STRONG><a name="[141]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
 
-<P><STRONG><a name="[137]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000007))
+<P><STRONG><a name="[142]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000007))
 
-<P><STRONG><a name="[138]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
+<P><STRONG><a name="[143]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
 
-<P><STRONG><a name="[139]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000010))
+<P><STRONG><a name="[144]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000010))
 
-<P><STRONG><a name="[13a]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A))
+<P><STRONG><a name="[145]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A))
 
-<P><STRONG><a name="[13b]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+<P><STRONG><a name="[146]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
 
-<P><STRONG><a name="[13c]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
+<P><STRONG><a name="[147]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
 
 <P><STRONG><a name="[6f]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
 <LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
 </UL>
 
-<P><STRONG><a name="[13d]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+<P><STRONG><a name="[148]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
 
 <P><STRONG><a name="[79]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
@@ -260,17 +260,17 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
 </UL>
 
-<P><STRONG><a name="[13e]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+<P><STRONG><a name="[149]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
 
 <P><STRONG><a name="[7d]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
-<BR><BR>[Stack]<UL><LI>Max Depth = 472 + Unknown Stack Size
-<LI>Call Chain = __rt_entry_main &rArr; main &rArr; UpdateStMain() &rArr; JAE::update() &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<BR><BR>[Stack]<UL><LI>Max Depth = 544 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; InitStMain(UART_HandleTypeDef*) &rArr; Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
 </UL>
 
-<P><STRONG><a name="[13f]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+<P><STRONG><a name="[14a]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
 
 <P><STRONG><a name="[c2]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
@@ -280,7 +280,7 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
 </UL>
 
-<P><STRONG><a name="[140]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+<P><STRONG><a name="[14b]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
 
 <P><STRONG><a name="[82]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
 <BR><BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
@@ -331,7 +331,7 @@ Global Symbols
 <P><STRONG><a name="[12]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f410rx.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f410rx.o(RESET)
 </UL>
-<P><STRONG><a name="[141]"></a>_maybe_terminate_alloc</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, maybetermalloc1.o(.emb_text), UNUSED)
+<P><STRONG><a name="[14c]"></a>_maybe_terminate_alloc</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, maybetermalloc1.o(.emb_text), UNUSED)
 
 <P><STRONG><a name="[2e]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f410rx.o(.text))
 <BR><BR>[Calls]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
@@ -500,7 +500,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
 </UL>
 
-<P><STRONG><a name="[142]"></a>_ll_udiv</STRONG> (Thumb, 238 bytes, Stack size 48 bytes, lludivv7m.o(.text), UNUSED)
+<P><STRONG><a name="[14d]"></a>_ll_udiv</STRONG> (Thumb, 238 bytes, Stack size 48 bytes, lludivv7m.o(.text), UNUSED)
 
 <P><STRONG><a name="[8a]"></a>__aeabi_atexit</STRONG> (Thumb, 46 bytes, Stack size 24 bytes, aeabi_atexit.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = __aeabi_atexit &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
@@ -508,10 +508,10 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
 <LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_ddtor_pointer_addr
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___7_JAE_cpp_22c424ef
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___7_JAE_cpp_d31525d9
 </UL>
 
-<P><STRONG><a name="[118]"></a>strlen</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, strlen.o(.text))
+<P><STRONG><a name="[123]"></a>strlen</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, strlen.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = strlen
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
@@ -520,19 +520,19 @@ Global Symbols
 <P><STRONG><a name="[b6]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, rt_memcpy_w.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_memcpy4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
+<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
 <LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_Unwind_Complete
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_Unwind_RaiseException
 </UL>
 
-<P><STRONG><a name="[143]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, rt_memcpy_w.o(.text), UNUSED)
+<P><STRONG><a name="[14e]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, rt_memcpy_w.o(.text), UNUSED)
 
-<P><STRONG><a name="[144]"></a>__rt_memcpy_w</STRONG> (Thumb, 100 bytes, Stack size 8 bytes, rt_memcpy_w.o(.text), UNUSED)
+<P><STRONG><a name="[14f]"></a>__rt_memcpy_w</STRONG> (Thumb, 100 bytes, Stack size 8 bytes, rt_memcpy_w.o(.text), UNUSED)
 
-<P><STRONG><a name="[145]"></a>_memcpy_lastbytes_aligned</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memcpy_w.o(.text), UNUSED)
+<P><STRONG><a name="[150]"></a>_memcpy_lastbytes_aligned</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memcpy_w.o(.text), UNUSED)
 
-<P><STRONG><a name="[146]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+<P><STRONG><a name="[151]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
 <P><STRONG><a name="[d]"></a>__rt_heap_escrow</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
@@ -553,8 +553,10 @@ Global Symbols
 <LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
 <LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::call_terminate_handler(_Unwind_Control_Block*)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::setDebugLine(UART_HandleTypeDef*)
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
+<BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::setDebugLine(UART_HandleTypeDef*)
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
 <LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::get_foreign_intermediary(__cxa_exception*, _Unwind_Control_Block*)
 <LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_bad_typeid
 <LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
@@ -571,7 +573,7 @@ Global Symbols
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::terminate()
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_free_exception
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 <LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
 </UL>
@@ -610,7 +612,7 @@ Global Symbols
 <LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::get_foreign_intermediary(__cxa_exception*, _Unwind_Control_Block*)
 <LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::is_foreign_exception(_Unwind_Control_Block*)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 <LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
 <LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to arm_exceptions_c]::armcpp_exception_cleanup(_Unwind_Reason_Code, _Unwind_Control_Block*)
@@ -646,8 +648,10 @@ Global Symbols
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_get_globals
 <LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_terminate
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::setDebugLine(UART_HandleTypeDef*)
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
+<BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::setDebugLine(UART_HandleTypeDef*)
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
 <LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_bad_typeid
 <LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
 <LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__default_new_handler()
@@ -675,8 +679,8 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> unwinder.o(.text)
 </UL>
-<P><STRONG><a name="[11d]"></a>__rt_new_handler_addr</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, rt_new_handler_addr_intlibspace.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new(unsigned)
+<P><STRONG><a name="[128]"></a>__rt_new_handler_addr</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, rt_new_handler_addr_intlibspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new(unsigned)
 </UL>
 
 <P><STRONG><a name="[8c]"></a>__rt_ddtor_pointer_addr</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, rt_ddtor_pointer_addr_intlibspace.o(.text))
@@ -690,7 +694,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_Full
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_heap_descriptor
 </UL>
-<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new(unsigned)
+<BR>[Called By]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new(unsigned)
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_atexit
 <LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_Unwind_RaiseException
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_get_globals
@@ -727,11 +731,11 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;abort
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_get_globals
 </UL>
-<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::default_unexpected_handler()
-<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
+<BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
 <LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_cxa_end_cleanup
 <LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::call_terminate_handler(_Unwind_Control_Block*)
 <LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_end_catch
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::default_unexpected_handler()
 </UL>
 
 <P><STRONG><a name="[a9]"></a>__ARM_exceptions_buffer_init</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, arm_exceptions_mem.o(.text))
@@ -789,8 +793,7 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 704 + Unknown Stack Size
 <LI>Call Chain = __cxa_call_unexpected &rArr; __cxa_type_match &rArr; __derived_to_base_conversion &rArr; [local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*) &rArr;  [local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*) (Cycle)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::unexpected()
-<LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_exception::~bad_exception()
+<BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_exception::~bad_exception()
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_exception::bad_exception()
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_exception::bad_exception(const std::bad_exception&)
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_get_globals
@@ -804,6 +807,7 @@ Global Symbols
 <LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::call_terminate_handler(_Unwind_Control_Block*)
 <LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_end_catch
 <LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_allocate_exception
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::unexpected()
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> unwind_prcommon.o(.text)
 </UL>
@@ -840,8 +844,7 @@ Global Symbols
 <LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_exceptions_buffer_init
 <LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::unexpected()
-<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
+<BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
 <LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_rethrow
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::terminate()
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_free_exception
@@ -853,6 +856,7 @@ Global Symbols
 <LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::call_terminate_handler(_Unwind_Control_Block*)
 <LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_end_catch
 <LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_allocate_exception
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::unexpected()
 </UL>
 
 <P><STRONG><a name="[b8]"></a>_Unwind_VRS_Set</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, unwinder.o(.text))
@@ -936,13 +940,13 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_unwind_cpp_pr0
 </UL>
 
-<P><STRONG><a name="[147]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+<P><STRONG><a name="[152]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
 
 <P><STRONG><a name="[c0]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
 </UL>
 
-<P><STRONG><a name="[148]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+<P><STRONG><a name="[153]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
 
 <P><STRONG><a name="[a4]"></a>__rt_heap_descriptor</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, rt_heap_descriptor_intlibspace.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
@@ -954,9 +958,9 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_get_globals
 </UL>
 
-<P><STRONG><a name="[149]"></a>__use_no_heap</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, hguard.o(.text), UNUSED)
+<P><STRONG><a name="[154]"></a>__use_no_heap</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, hguard.o(.text), UNUSED)
 
-<P><STRONG><a name="[14a]"></a>__heap$guard</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, hguard.o(.text), UNUSED)
+<P><STRONG><a name="[155]"></a>__heap$guard</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, hguard.o(.text), UNUSED)
 
 <P><STRONG><a name="[f]"></a>_terminate_user_alloc</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, init_alloc.o(.text), UNUSED)
 
@@ -977,10 +981,10 @@ Global Symbols
 <P><STRONG><a name="[75]"></a>_init_alloc</STRONG> (Thumb, 94 bytes, Stack size 24 bytes, init_alloc.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = _init_alloc &rArr; __rt_SIGRTMEM &rArr; __rt_SIGRTMEM_inner &rArr; __default_signal_display &rArr; _ttywrch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_ProvideMemory
-<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_Initialize
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_Initialize
 <LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_heap_descriptor
 <LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_SIGRTMEM
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_ProvideMemory
 </UL>
 <BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init_heap_2
 </UL>
@@ -996,28 +1000,28 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_heap_descriptor
 </UL>
-<BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_ProvideMemory
-<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_Unwind_Complete
+<BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_Unwind_Complete
 <LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_free_exception
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete (void*)
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete (void*)
 <LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_finalize
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_ProvideMemory
 </UL>
 
 <P><STRONG><a name="[a8]"></a>abort</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, abort.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48 + Unknown Stack Size
 <LI>Call Chain = abort &rArr; __rt_SIGABRT &rArr; __rt_SIGABRT_inner &rArr; __default_signal_display &rArr; _ttywrch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
-<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
+<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
 <LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_SIGABRT
+<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::unexpected()
-<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_Unwind_Complete
+<BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_Unwind_Complete
 <LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_unwind_next_frame
 <LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_Unwind_Resume
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_get_globals
 <LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to arm_exceptions_c]::__default_terminate_handler()
 <LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::terminate()
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::unexpected()
 </UL>
 
 <P><STRONG><a name="[b3]"></a>bsearch</STRONG> (Thumb, 80 bytes, Stack size 32 bytes, bsearch.o(.text))
@@ -1097,11 +1101,11 @@ Global Symbols
 <LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__Heap_Broken
 </UL>
 
-<P><STRONG><a name="[14b]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+<P><STRONG><a name="[156]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[14c]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+<P><STRONG><a name="[157]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[14d]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, indicate_semi.o(.text), UNUSED)
+<P><STRONG><a name="[158]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, indicate_semi.o(.text), UNUSED)
 
 <P><STRONG><a name="[c4]"></a>__sig_exit</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, defsig_exit.o(.text))
 <BR><BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
@@ -1186,21 +1190,28 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_GPIO_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to main_c]::MX_GPIO_Init()
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(unsigned char)
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(unsigned char)
 </UL>
 
-<P><STRONG><a name="[108]"></a>HAL_GPIO_ReadPin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_ReadPin))
-<BR><BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
+<P><STRONG><a name="[118]"></a>HAL_GPIO_ReadPin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_ReadPin))
+<BR><BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(unsigned char)
 </UL>
 
-<P><STRONG><a name="[fb]"></a>HAL_GPIO_TogglePin</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_TogglePin))
-<BR><BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ToggleBlink()
-<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init()
+<P><STRONG><a name="[112]"></a>HAL_GPIO_TogglePin</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_TogglePin))
+<BR><BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(unsigned char)
 </UL>
 
-<P><STRONG><a name="[109]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin))
-<BR><BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to main_c]::MX_GPIO_Init()
-<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
+<P><STRONG><a name="[113]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin))
+<BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(unsigned char)
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(unsigned char)
 </UL>
 
 <P><STRONG><a name="[c9]"></a>HAL_GetTick</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_hal.o(i.HAL_GetTick))
@@ -1212,13 +1223,13 @@ Global Symbols
 <LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_PollForTransfer
 <LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
 <LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::boardInit()
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::boardUpdate()
+<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::boardUpdate()
 <LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
 </UL>
 
-<P><STRONG><a name="[14e]"></a>HAL_GetTickFreq</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_hal.o(i.HAL_GetTickFreq), UNUSED)
+<P><STRONG><a name="[159]"></a>HAL_GetTickFreq</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_hal.o(i.HAL_GetTickFreq), UNUSED)
 
-<P><STRONG><a name="[14f]"></a>HAL_GetTickPrio</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_hal.o(i.HAL_GetTickPrio), UNUSED)
+<P><STRONG><a name="[15a]"></a>HAL_GetTickPrio</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_hal.o(i.HAL_GetTickPrio), UNUSED)
 
 <P><STRONG><a name="[cf]"></a>HAL_HalfDuplex_Init</STRONG> (Thumb, 108 bytes, Stack size 16 bytes, stm32f4xx_hal_uart.o(i.HAL_HalfDuplex_Init), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to stm32f4xx_hal_uart_c]::UART_SetConfig(UART_HandleTypeDef*)
@@ -1232,9 +1243,9 @@ Global Symbols
 <P><STRONG><a name="[d2]"></a>HAL_Init</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, stm32f4xx_hal.o(i.HAL_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_Init &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
-<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -1278,10 +1289,10 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to stm32f4xx_hal_cortex_c]::NVIC_SetPriority(IRQn_Type, unsigned)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
+<BR>[Called By]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
 <LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
-<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
 </UL>
 
 <P><STRONG><a name="[d3]"></a>HAL_NVIC_SetPriorityGrouping</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping))
@@ -1292,22 +1303,22 @@ Global Symbols
 <P><STRONG><a name="[db]"></a>HAL_RCC_ClockConfig</STRONG> (Thumb, 286 bytes, Stack size 32 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_ClockConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uldivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
-<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
-</UL>
-
-<P><STRONG><a name="[102]"></a>HAL_RCC_GetHCLKFreq</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetHCLKFreq))
-<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
+<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
 </UL>
 
-<P><STRONG><a name="[114]"></a>HAL_RCC_GetPCLK1Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq))
+<P><STRONG><a name="[105]"></a>HAL_RCC_GetHCLKFreq</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetHCLKFreq))
+<BR><BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
+</UL>
+
+<P><STRONG><a name="[11f]"></a>HAL_RCC_GetPCLK1Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq))
 <BR><BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to stm32f4xx_hal_uart_c]::UART_SetConfig(UART_HandleTypeDef*)
 </UL>
 
-<P><STRONG><a name="[113]"></a>HAL_RCC_GetPCLK2Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq))
+<P><STRONG><a name="[11e]"></a>HAL_RCC_GetPCLK2Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq))
 <BR><BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to stm32f4xx_hal_uart_c]::UART_SetConfig(UART_HandleTypeDef*)
 </UL>
 
@@ -1324,11 +1335,11 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
+<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
 </UL>
 
-<P><STRONG><a name="[103]"></a>HAL_SYSTICK_CLKSourceConfig</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_CLKSourceConfig))
-<BR><BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
+<P><STRONG><a name="[106]"></a>HAL_SYSTICK_CLKSourceConfig</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_CLKSourceConfig))
+<BR><BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
 </UL>
 
 <P><STRONG><a name="[e0]"></a>HAL_SYSTICK_Callback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_Callback))
@@ -1340,8 +1351,8 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to stm32f4xx_hal_cortex_c]::NVIC_SetPriority(IRQn_Type, unsigned)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
-<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<BR>[Called By]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
 </UL>
 
 <P><STRONG><a name="[df]"></a>HAL_SYSTICK_IRQHandler</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_IRQHandler))
@@ -1387,7 +1398,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to stm32f4xx_hal_uart_c]::UART_SetConfig(UART_HandleTypeDef*)
 <LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to main_c]::MX_USART1_UART_Init()
+<BR>[Called By]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to main_c]::MX_USART1_UART_Init()
 </UL>
 
 <P><STRONG><a name="[d0]"></a>HAL_UART_MspInit</STRONG> (Thumb, 80 bytes, Stack size 32 bytes, stm32f4xx_hal_msp.o(i.HAL_UART_MspInit))
@@ -1412,12 +1423,12 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Start_IT
 </UL>
 
-<P><STRONG><a name="[115]"></a>HAL_UART_RxCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_RxCpltCallback))
+<P><STRONG><a name="[120]"></a>HAL_UART_RxCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_RxCpltCallback))
 <BR><BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to stm32f4xx_hal_uart_c]::UART_DMAReceiveCplt(__DMA_HandleTypeDef*)
 <LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to stm32f4xx_hal_uart_c]::UART_Receive_IT(UART_HandleTypeDef*)
 </UL>
 
-<P><STRONG><a name="[116]"></a>HAL_UART_RxHalfCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_RxHalfCpltCallback))
+<P><STRONG><a name="[121]"></a>HAL_UART_RxHalfCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_RxHalfCpltCallback))
 <BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to stm32f4xx_hal_uart_c]::UART_DMARxHalfCplt(__DMA_HandleTypeDef*)
 </UL>
 
@@ -1439,7 +1450,7 @@ Global Symbols
 <LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_IRQHandler
 </UL>
 
-<P><STRONG><a name="[117]"></a>HAL_UART_TxHalfCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_TxHalfCpltCallback))
+<P><STRONG><a name="[122]"></a>HAL_UART_TxHalfCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_TxHalfCpltCallback))
 <BR><BR>[Called By]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to stm32f4xx_hal_uart_c]::UART_DMATxHalfCplt(__DMA_HandleTypeDef*)
 </UL>
 
@@ -1474,7 +1485,7 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f410rx.o(RESET)
 </UL>
-<P><STRONG><a name="[150]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 104 bytes, Stack size 16 bytes, system_stm32f4xx.o(i.SystemCoreClockUpdate), UNUSED)
+<P><STRONG><a name="[15b]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 104 bytes, Stack size 16 bytes, system_stm32f4xx.o(i.SystemCoreClockUpdate), UNUSED)
 
 <P><STRONG><a name="[50]"></a>SystemInit</STRONG> (Thumb, 66 bytes, Stack size 0 bytes, system_stm32f4xx.o(i.SystemInit))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f410rx.o(.text)
@@ -1494,8 +1505,8 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f410rx.o(RESET)
 </UL>
 <P><STRONG><a name="[f4]"></a>InitStMain(UART_HandleTypeDef*)</STRONG> (Thumb, 150 bytes, Stack size 16 bytes, st_main.o(i._Z10InitStMainP18UART_HandleTypeDef))
-<BR><BR>[Stack]<UL><LI>Max Depth = 448 + Unknown Stack Size
-<LI>Call Chain = InitStMain(UART_HandleTypeDef*) &rArr; Board::setDebugLine(UART_HandleTypeDef*) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<BR><BR>[Stack]<UL><LI>Max Depth = 504 + Unknown Stack Size
+<LI>Call Chain = InitStMain(UART_HandleTypeDef*) &rArr; Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::boardInit()
 <LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::setDebugLine(UART_HandleTypeDef*)
@@ -1509,23 +1520,66 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[61]"></a>ToggleBlink()</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, sm_main_main.o(i._Z11ToggleBlinkv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = ToggleBlink() &rArr; JAE::Callback_Delay(long, void(*)()) &rArr; operator new[] (unsigned) &rArr; operator new(unsigned) &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
+<P><STRONG><a name="[fb]"></a>getPinName(unsigned char)</STRONG> (Thumb, 162 bytes, Stack size 8 bytes, jae.o(i._Z10getPinNameh))
+<BR><BR>[Stack]<UL><LI>Max Depth = 432 + Unknown Stack Size
+<LI>Call Chain = getPinName(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_TogglePin
-<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
+<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_throw
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_allocate_exception
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(unsigned char)
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(unsigned char)
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(unsigned char)
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(unsigned char)
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(unsigned char)
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(unsigned char)
+</UL>
+
+<P><STRONG><a name="[61]"></a>ToggleBlink()</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, sm_main_main.o(i._Z11ToggleBlinkv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 456 + Unknown Stack Size
+<LI>Call Chain = ToggleBlink() &rArr; JAE::TOGGLE_PIN(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(unsigned char)
 </UL>
 <BR>[Address Reference Count : 2]<UL><LI> sm_main_main.o(i._Z11ToggleBlinkv)
 <LI> sm_main_main.o(i._Z4Initv)
 </UL>
-<P><STRONG><a name="[fd]"></a>UpdateStMain()</STRONG> (Thumb, 132 bytes, Stack size 16 bytes, st_main.o(i._Z12UpdateStMainv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 464 + Unknown Stack Size
-<LI>Call Chain = UpdateStMain() &rArr; JAE::update() &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<P><STRONG><a name="[fe]"></a>getPinGroup(unsigned char)</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, jae.o(i._Z11getPinGrouph))
+<BR><BR>[Stack]<UL><LI>Max Depth = 432 + Unknown Stack Size
+<LI>Call Chain = getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::boardUpdate()
+<BR>[Calls]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
-<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_throw
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_allocate_exception
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(unsigned char)
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(unsigned char)
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(unsigned char)
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(unsigned char)
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(unsigned char)
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(unsigned char)
+</UL>
+
+<P><STRONG><a name="[100]"></a>UpdateStMain()</STRONG> (Thumb, 132 bytes, Stack size 16 bytes, st_main.o(i._Z12UpdateStMainv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 472 + Unknown Stack Size
+<LI>Call Chain = UpdateStMain() &rArr; Update() &rArr; JAE::SET_PIN_HIGH(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+</UL>
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::boardUpdate()
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
 <LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;checkErrorType(int)
 <LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_begin_catch
 <LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_end_catch
@@ -1538,16 +1592,16 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 </UL>
 
-<P><STRONG><a name="[101]"></a>SystemClock_Config()</STRONG> (Thumb, 130 bytes, Stack size 88 bytes, main_1.o(i._Z18SystemClock_Configv))
+<P><STRONG><a name="[104]"></a>SystemClock_Config()</STRONG> (Thumb, 130 bytes, Stack size 88 bytes, main_1.o(i._Z18SystemClock_Configv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SystemClock_Config() &rArr; HAL_RCC_ClockConfig &rArr; HAL_RCC_GetSysClockFreq &rArr; __aeabi_uldivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
-<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_CLKSourceConfig
-<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetHCLKFreq
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_CLKSourceConfig
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetHCLKFreq
 <LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
 <LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
 <LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
@@ -1559,81 +1613,197 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 440 + Unknown Stack Size
 <LI>Call Chain = __default_new_handler() &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::bad_alloc()
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::bad_alloc(const std::bad_alloc&)
+<BR>[Calls]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::bad_alloc()
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::bad_alloc(const std::bad_alloc&)
 <LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::~bad_alloc()
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_throw
 <LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_allocate_exception
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> new.o(i._Znwj)
 </UL>
-<P><STRONG><a name="[f9]"></a>Init()</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, sm_main_main.o(i._Z4Initv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = Init() &rArr; JAE::Callback_Delay(long, void(*)()) &rArr; operator new[] (unsigned) &rArr; operator new(unsigned) &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
+<P><STRONG><a name="[f9]"></a>Init()</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, sm_main_main.o(i._Z4Initv))
+<BR><BR>[Stack]<UL><LI>Max Depth = 488 + Unknown Stack Size
+<LI>Call Chain = Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_TogglePin
-<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new[] (unsigned)
-<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Vector&lang;float&rang;::~Vector()
-<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(unsigned char)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 </UL>
 
-<P><STRONG><a name="[100]"></a>Update()</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, sm_main_main.o(i._Z6Updatev))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Update()
+<P><STRONG><a name="[103]"></a>Update()</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, sm_main_main.o(i._Z6Updatev))
+<BR><BR>[Stack]<UL><LI>Max Depth = 456 + Unknown Stack Size
+<LI>Call Chain = Update() &rArr; JAE::SET_PIN_HIGH(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(unsigned char)
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(unsigned char)
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(unsigned char)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 </UL>
 
-<P><STRONG><a name="[fc]"></a>JAE::Callback_Delay(long, void(*)())</STRONG> (Thumb, 162 bytes, Stack size 32 bytes, jae.o(i._ZN3JAE14Callback_DelayElPFvvE))
-<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = JAE::Callback_Delay(long, void(*)()) &rArr; operator new[] (unsigned) &rArr; operator new(unsigned) &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
+<P><STRONG><a name="[fc]"></a>JAE::TOGGLE_PIN(unsigned char)</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, jae.o(i._ZN3JAE10TOGGLE_PINEh))
+<BR><BR>[Stack]<UL><LI>Max Depth = 448 + Unknown Stack Size
+<LI>Call Chain = JAE::TOGGLE_PIN(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new[] (unsigned)
-<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
-<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
-<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getCycleMillis()
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_TogglePin
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ToggleBlink()
 <LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init()
+</UL>
+
+<P><STRONG><a name="[10b]"></a>JAE::SET_PIN_LOW(unsigned char)</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, jae.o(i._ZN3JAE11SET_PIN_LOWEh))
+<BR><BR>[Stack]<UL><LI>Max Depth = 448 + Unknown Stack Size
+<LI>Call Chain = JAE::SET_PIN_LOW(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+</UL>
+<BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+</UL>
+<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
+</UL>
+
+<P><STRONG><a name="[10c]"></a>JAE::SET_PIN_HIGH(unsigned char)</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, jae.o(i._ZN3JAE12SET_PIN_HIGHEh))
+<BR><BR>[Stack]<UL><LI>Max Depth = 448 + Unknown Stack Size
+<LI>Call Chain = JAE::SET_PIN_HIGH(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+</UL>
+<BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+</UL>
+<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
+</UL>
+
+<P><STRONG><a name="[fd]"></a>JAE::Callback_Delay(long, void(*)())</STRONG> (Thumb, 162 bytes, Stack size 32 bytes, jae.o(i._ZN3JAE14Callback_DelayElPFvvE))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = JAE::Callback_Delay(long, void(*)()) &rArr; operator new[] (unsigned) &rArr; operator new(unsigned) &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
+</UL>
+<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new[] (unsigned)
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getCycleMillis()
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+</UL>
+<BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ToggleBlink()
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init()
+</UL>
+
+<P><STRONG><a name="[117]"></a>JAE::SET_PIN_OUTPUT(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE14SET_PIN_OUTPUTEh), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
+</UL>
+
+<P><STRONG><a name="[10a]"></a>JAE::READ_PIN_DIGITAL(unsigned char)</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, jae.o(i._ZN3JAE16READ_PIN_DIGITALEh))
+<BR><BR>[Stack]<UL><LI>Max Depth = 440 + Unknown Stack Size
+<LI>Call Chain = JAE::READ_PIN_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+</UL>
+<BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+</UL>
+<BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
+</UL>
+
+<P><STRONG><a name="[119]"></a>JAE::SET_PIN_INPUT_ANALOG(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE20SET_PIN_INPUT_ANALOGEh), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
+</UL>
+
+<P><STRONG><a name="[109]"></a>JAE::SET_PIN_INPUT_DIGITAL(unsigned char)</STRONG> (Thumb, 172 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE21SET_PIN_INPUT_DIGITALEh))
+<BR><BR>[Stack]<UL><LI>Max Depth = 480 + Unknown Stack Size
+<LI>Call Chain = JAE::SET_PIN_INPUT_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init()
+</UL>
+
+<P><STRONG><a name="[11a]"></a>JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 40 bytes, jae.o(i._ZN3JAE27SET_PIN_INPUT_ANALOG_PULLUPEh), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
+</UL>
+
+<P><STRONG><a name="[11b]"></a>JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE28SET_PIN_INPUT_DIGITAL_PULLUPEh), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
+</UL>
+
+<P><STRONG><a name="[11c]"></a>JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 40 bytes, jae.o(i._ZN3JAE29SET_PIN_INPUT_ANALOG_PULLDOWNEh), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
+</UL>
+
+<P><STRONG><a name="[11d]"></a>JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE30SET_PIN_INPUT_DIGITAL_PULLDOWNEh), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 </UL>
 
 <P><STRONG><a name="[f7]"></a>JAE::init()</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, jae.o(i._ZN3JAE4initEv))
 <BR><BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 </UL>
 
-<P><STRONG><a name="[ff]"></a>JAE::update()</STRONG> (Thumb, 168 bytes, Stack size 24 bytes, jae.o(i._ZN3JAE6updateEv))
+<P><STRONG><a name="[102]"></a>JAE::update()</STRONG> (Thumb, 168 bytes, Stack size 24 bytes, jae.o(i._ZN3JAE6updateEv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 448 + Unknown Stack Size
 <LI>Call Chain = JAE::update() &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
-<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getCycleMillis()
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getCycleMillis()
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_throw
 <LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_allocate_exception
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 </UL>
 
 <P><STRONG><a name="[f8]"></a>Board::printDebug(char*)</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, boardinfo.o(i._ZN5Board10printDebugEPc))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = Board::printDebug(char*) &rArr; HAL_UART_Transmit &rArr; [local to stm32f4xx_hal_uart_c]::UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef*, unsigned, FlagStatus, unsigned, unsigned)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Transmit
-<LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;strlen
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(unsigned char)
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
 <LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;checkErrorType(int)
 </UL>
 
-<P><STRONG><a name="[fe]"></a>Board::boardUpdate()</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, boardinfo.o(i._ZN5Board11boardUpdateEv))
+<P><STRONG><a name="[101]"></a>Board::boardUpdate()</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, boardinfo.o(i._ZN5Board11boardUpdateEv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Board::boardUpdate()
 </UL>
 <BR>[Calls]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 </UL>
 
 <P><STRONG><a name="[f6]"></a>Board::setDebugLine(UART_HandleTypeDef*)</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, boardinfo.o(i._ZN5Board12setDebugLineEP18UART_HandleTypeDef))
@@ -1646,18 +1816,26 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 </UL>
 
-<P><STRONG><a name="[112]"></a>Board::getCycleMillis()</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, boardinfo.o(i._ZN5Board14getCycleMillisEv))
-<BR><BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
+<P><STRONG><a name="[116]"></a>Board::getCycleMillis()</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, boardinfo.o(i._ZN5Board14getCycleMillisEv))
+<BR><BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
 </UL>
 
-<P><STRONG><a name="[110]"></a>Board::getBoard()</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, boardinfo.o(i._ZN5Board8getBoardEv))
+<P><STRONG><a name="[ff]"></a>Board::getBoard()</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, boardinfo.o(i._ZN5Board8getBoardEv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = Board::getBoard() &rArr; operator new(unsigned) &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
 </UL>
-<BR>[Calls]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new(unsigned)
+<BR>[Calls]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new(unsigned)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
-<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
+<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(unsigned char)
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(unsigned char)
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___11_St_main_cpp_board
 </UL>
 
@@ -1673,11 +1851,11 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = std::type_info::operator ==(const std::type_info&) const
 </UL>
 <BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
-<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__dynamic_cast
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__dynamic_cast
 <LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__derived_to_base_conversion
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
 <LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::tbc_post_downcast(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
 <LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::tbc_downcast(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
 <LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_type_match
@@ -1692,28 +1870,28 @@ Global Symbols
 <P><STRONG><a name="[b0]"></a>std::bad_typeid::bad_typeid(const std::bad_typeid&)</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bad_typeid.o(i._ZNSt10bad_typeidC1ERKS_))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = std::bad_typeid::bad_typeid(const std::bad_typeid&)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception(const std::exception&)
+<BR>[Calls]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception(const std::exception&)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_bad_typeid
 </UL>
 
-<P><STRONG><a name="[151]"></a>std::bad_typeid::bad_typeid__sub_object(const std::bad_typeid&)</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_typeid.o(i._ZNSt10bad_typeidC1ERKS_), UNUSED)
+<P><STRONG><a name="[15c]"></a>std::bad_typeid::bad_typeid__sub_object(const std::bad_typeid&)</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_typeid.o(i._ZNSt10bad_typeidC1ERKS_), UNUSED)
 
 <P><STRONG><a name="[af]"></a>std::bad_typeid::bad_typeid()</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bad_typeid.o(i._ZNSt10bad_typeidC1Ev))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = std::bad_typeid::bad_typeid()
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception()
+<BR>[Calls]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception()
 </UL>
 <BR>[Called By]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_bad_typeid
 </UL>
 
-<P><STRONG><a name="[152]"></a>std::bad_typeid::bad_typeid__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_typeid.o(i._ZNSt10bad_typeidC1Ev), UNUSED)
+<P><STRONG><a name="[15d]"></a>std::bad_typeid::bad_typeid__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_typeid.o(i._ZNSt10bad_typeidC1Ev), UNUSED)
 
 <P><STRONG><a name="[67]"></a>std::bad_typeid::~bad_typeid__deallocating()</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, bad_typeid.o(i._ZNSt10bad_typeidD0Ev))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = std::bad_typeid::~bad_typeid__deallocating() &rArr; operator delete (void*) &rArr; free
 </UL>
 <BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_typeid::~bad_typeid()
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete (void*)
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete (void*)
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> bad_typeid.o(.constdata__ZTVSt10bad_typeid)
 </UL>
@@ -1726,33 +1904,33 @@ Global Symbols
 <BR>[Address Reference Count : 2]<UL><LI> arm_exceptions_bad_typeid.o(.text)
 <LI> bad_typeid.o(.constdata__ZTVSt10bad_typeid)
 </UL>
-<P><STRONG><a name="[153]"></a>std::bad_typeid::~bad_typeid__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_typeid.o(i._ZNSt10bad_typeidD1Ev), UNUSED)
+<P><STRONG><a name="[15e]"></a>std::bad_typeid::~bad_typeid__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_typeid.o(i._ZNSt10bad_typeidD1Ev), UNUSED)
 
 <P><STRONG><a name="[ad]"></a>std::bad_exception::bad_exception(const std::bad_exception&)</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bad_exception_cctor.o(i._ZNSt13bad_exceptionC1ERKS_))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = std::bad_exception::bad_exception(const std::bad_exception&)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception(const std::exception&)
+<BR>[Calls]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception(const std::exception&)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
 </UL>
 
-<P><STRONG><a name="[154]"></a>std::bad_exception::bad_exception__sub_object(const std::bad_exception&)</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_exception_cctor.o(i._ZNSt13bad_exceptionC1ERKS_), UNUSED)
+<P><STRONG><a name="[15f]"></a>std::bad_exception::bad_exception__sub_object(const std::bad_exception&)</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_exception_cctor.o(i._ZNSt13bad_exceptionC1ERKS_), UNUSED)
 
 <P><STRONG><a name="[ac]"></a>std::bad_exception::bad_exception()</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bad_exception_ctor.o(i._ZNSt13bad_exceptionC1Ev))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = std::bad_exception::bad_exception()
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception()
+<BR>[Calls]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception()
 </UL>
 <BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_unexpected
 </UL>
 
-<P><STRONG><a name="[155]"></a>std::bad_exception::bad_exception__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_exception_ctor.o(i._ZNSt13bad_exceptionC1Ev), UNUSED)
+<P><STRONG><a name="[160]"></a>std::bad_exception::bad_exception__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_exception_ctor.o(i._ZNSt13bad_exceptionC1Ev), UNUSED)
 
 <P><STRONG><a name="[68]"></a>std::bad_exception::~bad_exception__deallocating()</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, bad_exception_dtor.o(i._ZNSt13bad_exceptionD0Ev))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = std::bad_exception::~bad_exception__deallocating() &rArr; operator delete (void*) &rArr; free
 </UL>
 <BR>[Calls]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_exception::~bad_exception()
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete (void*)
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete (void*)
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> bad_exception_dtor.o(.constdata__ZTVSt13bad_exception)
 </UL>
@@ -1765,33 +1943,33 @@ Global Symbols
 <BR>[Address Reference Count : 2]<UL><LI> arm_exceptions_callunex.o(.text)
 <LI> bad_exception_dtor.o(.constdata__ZTVSt13bad_exception)
 </UL>
-<P><STRONG><a name="[156]"></a>std::bad_exception::~bad_exception__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_exception_dtor.o(i._ZNSt13bad_exceptionD1Ev), UNUSED)
+<P><STRONG><a name="[161]"></a>std::bad_exception::~bad_exception__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_exception_dtor.o(i._ZNSt13bad_exceptionD1Ev), UNUSED)
 
-<P><STRONG><a name="[105]"></a>std::bad_alloc::bad_alloc(const std::bad_alloc&)</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bad_alloc_cctor.o(i._ZNSt9bad_allocC1ERKS_))
+<P><STRONG><a name="[108]"></a>std::bad_alloc::bad_alloc(const std::bad_alloc&)</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bad_alloc_cctor.o(i._ZNSt9bad_allocC1ERKS_))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = std::bad_alloc::bad_alloc(const std::bad_alloc&)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception(const std::exception&)
+<BR>[Calls]<UL><LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception(const std::exception&)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__default_new_handler()
 </UL>
 
-<P><STRONG><a name="[157]"></a>std::bad_alloc::bad_alloc__sub_object(const std::bad_alloc&)</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_alloc_cctor.o(i._ZNSt9bad_allocC1ERKS_), UNUSED)
+<P><STRONG><a name="[162]"></a>std::bad_alloc::bad_alloc__sub_object(const std::bad_alloc&)</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_alloc_cctor.o(i._ZNSt9bad_allocC1ERKS_), UNUSED)
 
-<P><STRONG><a name="[104]"></a>std::bad_alloc::bad_alloc()</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bad_alloc_ctor.o(i._ZNSt9bad_allocC1Ev))
+<P><STRONG><a name="[107]"></a>std::bad_alloc::bad_alloc()</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, bad_alloc_ctor.o(i._ZNSt9bad_allocC1Ev))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = std::bad_alloc::bad_alloc()
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception()
+<BR>[Calls]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::exception::exception()
 </UL>
 <BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__default_new_handler()
 </UL>
 
-<P><STRONG><a name="[158]"></a>std::bad_alloc::bad_alloc__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_alloc_ctor.o(i._ZNSt9bad_allocC1Ev), UNUSED)
+<P><STRONG><a name="[163]"></a>std::bad_alloc::bad_alloc__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_alloc_ctor.o(i._ZNSt9bad_allocC1Ev), UNUSED)
 
 <P><STRONG><a name="[69]"></a>std::bad_alloc::~bad_alloc__deallocating()</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, bad_alloc_dtor.o(i._ZNSt9bad_allocD0Ev))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = std::bad_alloc::~bad_alloc__deallocating() &rArr; operator delete (void*) &rArr; free
 </UL>
 <BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::~bad_alloc()
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete (void*)
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete (void*)
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> bad_alloc_dtor.o(.constdata__ZTVSt9bad_alloc)
 </UL>
@@ -1801,67 +1979,65 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::~bad_alloc__deallocating()
 <LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__default_new_handler()
 </UL>
-<BR>[Address Reference Count : 2]<UL><LI> bad_alloc_dtor.o(.constdata__ZTVSt9bad_alloc)
-<LI> newhandler.o(i._Z21__default_new_handlerv)
+<BR>[Address Reference Count : 2]<UL><LI> newhandler.o(i._Z21__default_new_handlerv)
+<LI> bad_alloc_dtor.o(.constdata__ZTVSt9bad_alloc)
 </UL>
-<P><STRONG><a name="[159]"></a>std::bad_alloc::~bad_alloc__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_alloc_dtor.o(i._ZNSt9bad_allocD1Ev), UNUSED)
+<P><STRONG><a name="[164]"></a>std::bad_alloc::~bad_alloc__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, bad_alloc_dtor.o(i._ZNSt9bad_allocD1Ev), UNUSED)
 
-<P><STRONG><a name="[11a]"></a>std::exception::exception(const std::exception&)</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, exception_cctor.o(i._ZNSt9exceptionC1ERKS_))
+<P><STRONG><a name="[125]"></a>std::exception::exception(const std::exception&)</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, exception_cctor.o(i._ZNSt9exceptionC1ERKS_))
 <BR><BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_typeid::bad_typeid(const std::bad_typeid&)
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_exception::bad_exception(const std::bad_exception&)
-<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::bad_alloc(const std::bad_alloc&)
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::bad_alloc(const std::bad_alloc&)
 </UL>
 
-<P><STRONG><a name="[15a]"></a>std::exception::exception__sub_object(const std::exception&)</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, exception_cctor.o(i._ZNSt9exceptionC1ERKS_), UNUSED)
+<P><STRONG><a name="[165]"></a>std::exception::exception__sub_object(const std::exception&)</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, exception_cctor.o(i._ZNSt9exceptionC1ERKS_), UNUSED)
 
-<P><STRONG><a name="[11b]"></a>std::exception::exception()</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, exception_ctor.o(i._ZNSt9exceptionC1Ev))
+<P><STRONG><a name="[126]"></a>std::exception::exception()</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, exception_ctor.o(i._ZNSt9exceptionC1Ev))
 <BR><BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_typeid::bad_typeid()
 <LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_exception::bad_exception()
-<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::bad_alloc()
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::bad_alloc()
 </UL>
 
-<P><STRONG><a name="[15b]"></a>std::exception::exception__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, exception_ctor.o(i._ZNSt9exceptionC1Ev), UNUSED)
+<P><STRONG><a name="[166]"></a>std::exception::exception__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, exception_ctor.o(i._ZNSt9exceptionC1Ev), UNUSED)
 
-<P><STRONG><a name="[111]"></a>operator delete[] (void*)</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, array_del.o(i._ZdaPv))
+<P><STRONG><a name="[115]"></a>operator delete[] (void*)</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, array_del.o(i._ZdaPv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = operator delete[] (void*) &rArr; operator delete (void*) &rArr; free
 </UL>
-<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete (void*)
+<BR>[Calls]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete (void*)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Vector&lang;float&rang;::~Vector()
-<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Vector&lang;long&rang;::~Vector()
+<BR>[Called By]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Vector&lang;long&rang;::~Vector()
 <LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Vector&lang;void(*)()&rang;::~Vector()
-<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
 </UL>
 
-<P><STRONG><a name="[11c]"></a>operator delete (void*)</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, delete.o(i._ZdlPv))
+<P><STRONG><a name="[127]"></a>operator delete (void*)</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, delete.o(i._ZdlPv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = operator delete (void*) &rArr; free
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;free
 </UL>
-<BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
+<BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
 <LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_typeid::~bad_typeid__deallocating()
 <LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_exception::~bad_exception__deallocating()
 <LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::bad_alloc::~bad_alloc__deallocating()
 </UL>
 
-<P><STRONG><a name="[106]"></a>operator new[] (unsigned)</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, array_new.o(i._Znaj))
+<P><STRONG><a name="[114]"></a>operator new[] (unsigned)</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, array_new.o(i._Znaj))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = operator new[] (unsigned) &rArr; operator new(unsigned) &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
 </UL>
-<BR>[Calls]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new(unsigned)
+<BR>[Calls]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new(unsigned)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
-<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___7_JAE_cpp_22c424ef
-<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init()
+<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___7_JAE_cpp_d31525d9
 </UL>
 
-<P><STRONG><a name="[119]"></a>operator new(unsigned)</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, new.o(i._Znwj))
+<P><STRONG><a name="[124]"></a>operator new(unsigned)</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, new.o(i._Znwj))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = operator new(unsigned) &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
 </UL>
 <BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
-<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_new_handler_addr
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_new_handler_addr
 </UL>
-<BR>[Called By]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new[] (unsigned)
-<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<BR>[Called By]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new[] (unsigned)
+<LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 </UL>
 
 <P><STRONG><a name="[a0]"></a>__ARM_common_get_typeid</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, arm_exceptions_throw.o(i.__ARM_common_get_typeid))
@@ -1871,9 +2047,9 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_bad_typeid
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__derived_to_base_conversion
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
 <LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_type_match
 </UL>
 
@@ -1882,30 +2058,31 @@ Global Symbols
 <LI>Call Chain = __derived_to_base_conversion &rArr; [local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*) &rArr;  [local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*) (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::type_info::operator ==(const std::type_info&) const
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
 <LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_get_typeid
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__dynamic_cast
+<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__dynamic_cast
 <LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_type_match
 </UL>
 
-<P><STRONG><a name="[11e]"></a>__dynamic_cast</STRONG> (Thumb, 170 bytes, Stack size 72 bytes, rtti.o(i.__dynamic_cast), UNUSED)
+<P><STRONG><a name="[129]"></a>__dynamic_cast</STRONG> (Thumb, 170 bytes, Stack size 72 bytes, rtti.o(i.__dynamic_cast), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::type_info::operator ==(const std::type_info&) const
 <LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__derived_to_base_conversion
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
 </UL>
 
-<P><STRONG><a name="[7e]"></a>main</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, main_1.o(i.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 472 + Unknown Stack Size
-<LI>Call Chain = main &rArr; UpdateStMain() &rArr; JAE::update() &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<P><STRONG><a name="[7e]"></a>main</STRONG> (Thumb, 98 bytes, Stack size 40 bytes, main_1.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 544 + Unknown Stack Size
+<LI>Call Chain = main &rArr; InitStMain(UART_HandleTypeDef*) &rArr; Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
+<BR>[Calls]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 <LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
-<LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to main_c]::MX_USART1_UART_Init()
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to main_c]::MX_GPIO_Init()
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config()
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to main_c]::MX_USART1_UART_Init()
 </UL>
 <BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
@@ -1913,52 +2090,33 @@ Global Symbols
 <P><STRONG><a name="[65]"></a>JAE::Vector&lang;void(*)()&rang;::~Vector()</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, jae.o(t._ZN3JAE6VectorIPFvvEED1Ev))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = JAE::Vector&lang;void(*)()&rang;::~Vector() &rArr; operator delete[] (void*) &rArr; operator delete (void*) &rArr; free
 </UL>
-<BR>[Calls]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
+<BR>[Calls]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
 </UL>
-<BR>[Address Reference Count : 1]<UL><LI> jae.o(i.__sti___7_JAE_cpp_22c424ef)
+<BR>[Address Reference Count : 1]<UL><LI> jae.o(i.__sti___7_JAE_cpp_d31525d9)
 </UL>
-<P><STRONG><a name="[15c]"></a>JAE::Vector&lang;void(*)()&rang;::~Vector__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, jae.o(t._ZN3JAE6VectorIPFvvEED1Ev), UNUSED)
-
-<P><STRONG><a name="[107]"></a>JAE::Vector&lang;float&rang;::~Vector()</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sm_main_main.o(t._ZN3JAE6VectorIfED1Ev))
-<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = JAE::Vector&lang;float&rang;::~Vector() &rArr; operator delete[] (void*) &rArr; operator delete (void*) &rArr; free
-</UL>
-<BR>[Calls]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
-</UL>
-<BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init()
-</UL>
-
-<P><STRONG><a name="[15d]"></a>JAE::Vector&lang;float&rang;::~Vector__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, sm_main_main.o(t._ZN3JAE6VectorIfED1Ev), UNUSED)
+<P><STRONG><a name="[167]"></a>JAE::Vector&lang;void(*)()&rang;::~Vector__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, jae.o(t._ZN3JAE6VectorIPFvvEED1Ev), UNUSED)
 
 <P><STRONG><a name="[66]"></a>JAE::Vector&lang;long&rang;::~Vector()</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, jae.o(t._ZN3JAE6VectorIlED1Ev))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = JAE::Vector&lang;long&rang;::~Vector() &rArr; operator delete[] (void*) &rArr; operator delete (void*) &rArr; free
 </UL>
-<BR>[Calls]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
+<BR>[Calls]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
 </UL>
-<BR>[Address Reference Count : 1]<UL><LI> jae.o(i.__sti___7_JAE_cpp_22c424ef)
+<BR>[Address Reference Count : 1]<UL><LI> jae.o(i.__sti___7_JAE_cpp_d31525d9)
 </UL>
-<P><STRONG><a name="[15e]"></a>JAE::Vector&lang;long&rang;::~Vector__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, jae.o(t._ZN3JAE6VectorIlED1Ev), UNUSED)
+<P><STRONG><a name="[168]"></a>JAE::Vector&lang;long&rang;::~Vector__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, jae.o(t._ZN3JAE6VectorIlED1Ev), UNUSED)
 
 <P><STRONG><a name="[73]"></a>_fp_init</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, fpinit.o(x$fpl$fpinit))
 <BR><BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init_fp_1
 </UL>
 
-<P><STRONG><a name="[15f]"></a>__fplib_config_fpu_vfp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
+<P><STRONG><a name="[169]"></a>__fplib_config_fpu_vfp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
 
-<P><STRONG><a name="[160]"></a>__fplib_config_pureend_doubles</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
+<P><STRONG><a name="[16a]"></a>__fplib_config_pureend_doubles</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, fpinit.o(x$fpl$fpinit), UNUSED)
 <P>
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[10a]"></a>[local to main_c]::MX_GPIO_Init()</STRONG> (Thumb, 94 bytes, Stack size 40 bytes, main_1.o(i._ZN23_INTERNAL_6_main_c_main12MX_GPIO_InitEv))
-<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = [local to main_c]::MX_GPIO_Init() &rArr; HAL_GPIO_Init
-</UL>
-<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-</UL>
-<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-</UL>
-
-<P><STRONG><a name="[10b]"></a>[local to main_c]::MX_USART1_UART_Init()</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, main_1.o(i._ZN23_INTERNAL_6_main_c_main19MX_USART1_UART_InitEv))
+<P><STRONG><a name="[10d]"></a>[local to main_c]::MX_USART1_UART_Init()</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, main_1.o(i._ZN23_INTERNAL_6_main_c_main19MX_USART1_UART_InitEv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = [local to main_c]::MX_USART1_UART_Init() &rArr; HAL_UART_Init &rArr; HAL_UART_MspInit &rArr; HAL_GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
@@ -1979,8 +2137,8 @@ Local Symbols
 <P><STRONG><a name="[d1]"></a>[local to stm32f4xx_hal_uart_c]::UART_SetConfig(UART_HandleTypeDef*)</STRONG> (Thumb, 686 bytes, Stack size 24 bytes, stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f14UART_SetConfigEP18UART_HandleTypeDef))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = [local to stm32f4xx_hal_uart_c]::UART_SetConfig(UART_HandleTypeDef*)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK2Freq
-<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK1Freq
+<BR>[Calls]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK2Freq
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK1Freq
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MultiProcessor_Init
 <LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_LIN_Init
@@ -1991,7 +2149,7 @@ Local Symbols
 <P><STRONG><a name="[e6]"></a>[local to stm32f4xx_hal_uart_c]::UART_Receive_IT(UART_HandleTypeDef*)</STRONG> (Thumb, 140 bytes, Stack size 8 bytes, stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f15UART_Receive_ITEP18UART_HandleTypeDef))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = [local to stm32f4xx_hal_uart_c]::UART_Receive_IT(UART_HandleTypeDef*)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_RxCpltCallback
+<BR>[Calls]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_RxCpltCallback
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_IRQHandler
 </UL>
@@ -2003,14 +2161,14 @@ Local Symbols
 <P><STRONG><a name="[5c]"></a>[local to stm32f4xx_hal_uart_c]::UART_DMARxHalfCplt(__DMA_HandleTypeDef*)</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f18UART_DMARxHalfCpltEP19__DMA_HandleTypeDef))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = [local to stm32f4xx_hal_uart_c]::UART_DMARxHalfCplt(__DMA_HandleTypeDef*)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_RxHalfCpltCallback
+<BR>[Calls]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_RxHalfCpltCallback
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> stm32f4xx_hal_uart.o(i.HAL_UART_Receive_DMA)
 </UL>
 <P><STRONG><a name="[5f]"></a>[local to stm32f4xx_hal_uart_c]::UART_DMATxHalfCplt(__DMA_HandleTypeDef*)</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f18UART_DMATxHalfCpltEP19__DMA_HandleTypeDef))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = [local to stm32f4xx_hal_uart_c]::UART_DMATxHalfCplt(__DMA_HandleTypeDef*)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_TxHalfCpltCallback
+<BR>[Calls]<UL><LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_TxHalfCpltCallback
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> stm32f4xx_hal_uart.o(i.HAL_UART_Transmit_DMA)
 </UL>
@@ -2028,7 +2186,7 @@ Local Symbols
 <P><STRONG><a name="[5b]"></a>[local to stm32f4xx_hal_uart_c]::UART_DMAReceiveCplt(__DMA_HandleTypeDef*)</STRONG> (Thumb, 60 bytes, Stack size 8 bytes, stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f19UART_DMAReceiveCpltEP19__DMA_HandleTypeDef))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = [local to stm32f4xx_hal_uart_c]::UART_DMAReceiveCplt(__DMA_HandleTypeDef*)
 </UL>
-<BR>[Calls]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_RxCpltCallback
+<BR>[Calls]<UL><LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_RxCpltCallback
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> stm32f4xx_hal_uart.o(i.HAL_UART_Receive_DMA)
 </UL>
@@ -2068,14 +2226,14 @@ Local Symbols
 <P><STRONG><a name="[6a]"></a>__sti___11_St_main_cpp_board</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, st_main.o(i.__sti___11_St_main_cpp_board))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = __sti___11_St_main_cpp_board &rArr; Board::getBoard() &rArr; operator new(unsigned) &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
 </UL>
-<BR>[Calls]<UL><LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
+<BR>[Calls]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> st_main.o(.init_array)
 </UL>
-<P><STRONG><a name="[6b]"></a>__sti___7_JAE_cpp_22c424ef</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, jae.o(i.__sti___7_JAE_cpp_22c424ef))
-<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = __sti___7_JAE_cpp_22c424ef &rArr; __aeabi_atexit &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
+<P><STRONG><a name="[6b]"></a>__sti___7_JAE_cpp_d31525d9</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, jae.o(i.__sti___7_JAE_cpp_d31525d9))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = __sti___7_JAE_cpp_d31525d9 &rArr; __aeabi_atexit &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
 </UL>
-<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new[] (unsigned)
+<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new[] (unsigned)
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_atexit
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> jae.o(.init_array)
@@ -2105,44 +2263,44 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> rtti.o(i.__dynamic_cast)
 </UL>
-<P><STRONG><a name="[10c]"></a>[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)</STRONG> (Thumb, 156 bytes, Stack size 24 bytes, rtti.o(i._ZN27_INTERNAL_6_rtti_c_066a44b021traverse_base_classesEPvPKSt9type_infoP28a_base_class_traversal_blockPN10__cxxabiv122__base_class_type_infoE), UNUSED)
+<P><STRONG><a name="[10e]"></a>[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)</STRONG> (Thumb, 156 bytes, Stack size 24 bytes, rtti.o(i._ZN27_INTERNAL_6_rtti_c_066a44b021traverse_base_classesEPvPKSt9type_infoP28a_base_class_traversal_blockPN10__cxxabiv122__base_class_type_infoE), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::type_info::operator ==(const std::type_info&) const
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::get_virtual_base_pointer(void*, __cxxabiv1::__base_class_type_info*)
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::get_virtual_base_pointer(void*, __cxxabiv1::__base_class_type_info*)
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
 <LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_get_typeid
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__dynamic_cast
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
+<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__dynamic_cast
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
 </UL>
 
-<P><STRONG><a name="[10e]"></a>[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)</STRONG> (Thumb, 182 bytes, Stack size 56 bytes, rtti.o(i._ZN27_INTERNAL_6_rtti_c_066a44b023find_base_class_at_addrEPvS0_PKSt9type_infoS3_Pi), UNUSED)
+<P><STRONG><a name="[110]"></a>[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)</STRONG> (Thumb, 182 bytes, Stack size 56 bytes, rtti.o(i._ZN27_INTERNAL_6_rtti_c_066a44b023find_base_class_at_addrEPvS0_PKSt9type_infoS3_Pi), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::type_info::operator ==(const std::type_info&) const
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::get_virtual_base_pointer(void*, __cxxabiv1::__base_class_type_info*)
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::get_virtual_base_pointer(void*, __cxxabiv1::__base_class_type_info*)
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
 <LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_get_typeid
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__dynamic_cast
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
+<BR>[Called By]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__dynamic_cast
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
 </UL>
 
-<P><STRONG><a name="[10d]"></a>[local to rtti_c]::get_virtual_base_pointer(void*, __cxxabiv1::__base_class_type_info*)</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, rtti.o(i._ZN27_INTERNAL_6_rtti_c_066a44b024get_virtual_base_pointerEPvPN10__cxxabiv122__base_class_type_infoE))
-<BR><BR>[Called By]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
-<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
+<P><STRONG><a name="[10f]"></a>[local to rtti_c]::get_virtual_base_pointer(void*, __cxxabiv1::__base_class_type_info*)</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, rtti.o(i._ZN27_INTERNAL_6_rtti_c_066a44b024get_virtual_base_pointerEPvPN10__cxxabiv122__base_class_type_infoE))
+<BR><BR>[Called By]<UL><LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::find_base_class_at_addr(void*, void*, const std::type_info*, const std::type_info*, int*)
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::traverse_base_classes(void*, const std::type_info*, a_base_class_traversal_block*, __cxxabiv1::__base_class_type_info*)
 </UL>
 
-<P><STRONG><a name="[10f]"></a>[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)</STRONG> (Thumb, 476 bytes, Stack size 96 bytes, rtti.o(i._ZN27_INTERNAL_6_rtti_c_066a44b028derived_to_base_conversion_rEPvPS0_PKSt9type_infoS4_jPiiPS4_P19a_result_virtualityS5_))
+<P><STRONG><a name="[111]"></a>[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)</STRONG> (Thumb, 476 bytes, Stack size 96 bytes, rtti.o(i._ZN27_INTERNAL_6_rtti_c_066a44b028derived_to_base_conversion_rEPvPS0_PKSt9type_infoS4_jPiiPS4_P19a_result_virtualityS5_))
 <BR><BR>[Stack]<UL><LI>Max Depth = 544 + Unknown Stack Size
  + In Cycle
 <LI>Call Chain = [local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*) &rArr;  [local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*) (Cycle)
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;std::type_info::operator ==(const std::type_info&) const
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
-<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::get_virtual_base_pointer(void*, __cxxabiv1::__base_class_type_info*)
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::get_virtual_base_pointer(void*, __cxxabiv1::__base_class_type_info*)
 <LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM_common_get_typeid
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__derived_to_base_conversion
-<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;[local to rtti_c]::derived_to_base_conversion_r(void*, void**, const std::type_info*, const std::type_info*, unsigned, int*, int, const std::type_info**, a_result_virtuality*, int*)
 </UL>
 
 <P><STRONG><a name="[56]"></a>[local to arm_exceptions_c]::__default_terminate_handler()</STRONG> (Thumb, 6 bytes, Stack size 8 bytes, arm_exceptions_globs.o(.text))

@@ -21,6 +21,7 @@ class Board{
 	
 		void setDebugLine(UART_HandleTypeDef* uartDebugLine);
 		void printDebug(char message[]);
+		void printDebug(int);
 
 		long int getCycleMillis(void); //gets the time from start to the start of the current cycle in millis
 		long int getMillis(void); //get the tome from start to now
