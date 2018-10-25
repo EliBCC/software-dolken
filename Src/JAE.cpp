@@ -6,7 +6,7 @@
 static JAE::Vector<void (*)()> CallbackFunctionVector;
 static JAE::Vector<long int> CallbackTimeVector;
 
-int getPinName(uint8_t pin){
+int getPinName(const uint8_t& pin){
 	
 	if(pin == 0){
 		return GPIO_PIN_0;
@@ -61,7 +61,7 @@ int getPinName(uint8_t pin){
 	
 }
 
-GPIO_TypeDef* getPinGroup(uint8_t pin){
+GPIO_TypeDef* getPinGroup(const uint8_t& pin){
 	
 	uint8_t groupNum = (pin >> 4);
 
@@ -118,7 +118,7 @@ void JAE::update(void)	{
 
 }
 
-void JAE::SET_PIN_INPUT_DIGITAL(uint8_t pin){
+void JAE::SET_PIN_INPUT_DIGITAL(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);
@@ -151,7 +151,7 @@ void JAE::SET_PIN_INPUT_DIGITAL(uint8_t pin){
 	
 }
 
-void JAE::SET_PIN_INPUT_ANALOG(uint8_t pin){
+void JAE::SET_PIN_INPUT_ANALOG(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);
@@ -184,7 +184,7 @@ void JAE::SET_PIN_INPUT_ANALOG(uint8_t pin){
 	
 }
 
-void JAE::SET_PIN_INPUT_DIGITAL_PULLUP(uint8_t pin){
+void JAE::SET_PIN_INPUT_DIGITAL_PULLUP(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);
@@ -217,7 +217,7 @@ void JAE::SET_PIN_INPUT_DIGITAL_PULLUP(uint8_t pin){
 	
 }
 
-void JAE::SET_PIN_INPUT_ANALOG_PULLUP(uint8_t pin){
+void JAE::SET_PIN_INPUT_ANALOG_PULLUP(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);
@@ -250,7 +250,7 @@ void JAE::SET_PIN_INPUT_ANALOG_PULLUP(uint8_t pin){
 	
 }
 
-void JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(uint8_t pin){
+void JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);
@@ -283,7 +283,7 @@ void JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(uint8_t pin){
 	
 }
 
-void JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(uint8_t pin){
+void JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);
@@ -317,7 +317,7 @@ void JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(uint8_t pin){
 }
 
 
-void JAE::SET_PIN_OUTPUT(uint8_t pin){
+void JAE::SET_PIN_OUTPUT(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);
@@ -351,7 +351,7 @@ void JAE::SET_PIN_OUTPUT(uint8_t pin){
 	
 }
 
-void JAE::SET_PIN_HIGH(uint8_t pin){
+void JAE::SET_PIN_HIGH(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);
@@ -361,7 +361,7 @@ void JAE::SET_PIN_HIGH(uint8_t pin){
 	HAL_GPIO_WritePin(g, PIN_NAME, GPIO_PIN_SET);
 }
 
-void JAE::SET_PIN_LOW(uint8_t pin){
+void JAE::SET_PIN_LOW(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);
@@ -371,7 +371,7 @@ void JAE::SET_PIN_LOW(uint8_t pin){
 	HAL_GPIO_WritePin(g, PIN_NAME, GPIO_PIN_RESET);
 }
 
-void JAE::TOGGLE_PIN(uint8_t pin){
+void JAE::TOGGLE_PIN(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);
@@ -382,7 +382,7 @@ void JAE::TOGGLE_PIN(uint8_t pin){
 }
 
 
-bool JAE::READ_PIN_DIGITAL(uint8_t pin){
+bool JAE::READ_PIN_DIGITAL(const uint8_t& pin){
 	
 	uint8_t number =  (pin & (uint8_t)15);
 	GPIO_TypeDef* g = getPinGroup(pin);

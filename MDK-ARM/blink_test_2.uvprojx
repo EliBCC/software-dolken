@@ -500,7 +500,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>StateMachines</GroupName>
+          <GroupName>User</GroupName>
           <Files>
             <File>
               <FileName>Config.h</FileName>
@@ -545,7 +545,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>New Group</GroupName>
+          <GroupName>SM_group</GroupName>
           <Files>
             <File>
               <FileName>SM_Test.h</FileName>

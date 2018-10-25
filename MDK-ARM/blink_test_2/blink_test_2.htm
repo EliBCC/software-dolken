@@ -3,7 +3,7 @@
 <title>Static Call Graph - [blink_test_2\blink_test_2.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image blink_test_2\blink_test_2.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Oct 23 18:59:47 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Thu Oct 25 15:00:23 2018
 <BR><P>
 <H3>Maximum Stack Usage =        760 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -100,8 +100,8 @@ Function Pointers
  <LI><a href="#[57]">[local to unwinder_c]::EIT_comparator(const void*, const void*)</a> from unwinder.o(.text) referenced from unwinder.o(.text)
  <LI><a href="#[56]">[local to arm_exceptions_c]::__default_terminate_handler()</a> from arm_exceptions_globs.o(.text) referenced from arm_exceptions_globs.o(.text)
  <LI><a href="#[52]">[local to arm_exceptions_c]::armcpp_exception_cleanup(_Unwind_Reason_Code, _Unwind_Control_Block*)</a> from arm_exceptions_throw.o(.text) referenced from arm_exceptions_throw.o(.text)
- <LI><a href="#[65]">JAE::Vector&lang;void(*)()&rang;::~Vector()</a> from jae.o(t._ZN3JAE6VectorIPFvvEED1Ev) referenced from jae.o(i.__sti___7_JAE_cpp_d31525d9)
- <LI><a href="#[66]">JAE::Vector&lang;long&rang;::~Vector()</a> from jae.o(t._ZN3JAE6VectorIlED1Ev) referenced from jae.o(i.__sti___7_JAE_cpp_d31525d9)
+ <LI><a href="#[65]">JAE::Vector&lang;void(*)()&rang;::~Vector()</a> from jae.o(t._ZN3JAE6VectorIPFvvEED1Ev) referenced from jae.o(i.__sti___7_JAE_cpp_233f7419)
+ <LI><a href="#[66]">JAE::Vector&lang;long&rang;::~Vector()</a> from jae.o(t._ZN3JAE6VectorIlED1Ev) referenced from jae.o(i.__sti___7_JAE_cpp_233f7419)
  <LI><a href="#[5d]">[local to stm32f4xx_hal_uart_c]::UART_DMAError(__DMA_HandleTypeDef*)</a> from stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f13UART_DMAErrorEP19__DMA_HandleTypeDef) referenced from stm32f4xx_hal_uart.o(i.HAL_UART_Receive_DMA)
  <LI><a href="#[5d]">[local to stm32f4xx_hal_uart_c]::UART_DMAError(__DMA_HandleTypeDef*)</a> from stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f13UART_DMAErrorEP19__DMA_HandleTypeDef) referenced from stm32f4xx_hal_uart.o(i.HAL_UART_Transmit_DMA)
  <LI><a href="#[5c]">[local to stm32f4xx_hal_uart_c]::UART_DMARxHalfCplt(__DMA_HandleTypeDef*)</a> from stm32f4xx_hal_uart.o(i._ZN42_INTERNAL_20_stm32f4xx_hal_uart_c_d497114f18UART_DMARxHalfCpltEP19__DMA_HandleTypeDef) referenced from stm32f4xx_hal_uart.o(i.HAL_UART_Receive_DMA)
@@ -123,7 +123,7 @@ Function Pointers
  <LI><a href="#[59]">__cxa_call_unexpected</a> from arm_exceptions_callunex.o(.text) referenced from unwind_prcommon.o(.text)
  <LI><a href="#[6c]">__main</a> from __main.o(!!!main) referenced from startup_stm32f410rx.o(.text)
  <LI><a href="#[6a]">__sti___11_St_main_cpp_board</a> from st_main.o(i.__sti___11_St_main_cpp_board) referenced from st_main.o(.init_array)
- <LI><a href="#[6b]">__sti___7_JAE_cpp_d31525d9</a> from jae.o(i.__sti___7_JAE_cpp_d31525d9) referenced from jae.o(.init_array)
+ <LI><a href="#[6b]">__sti___7_JAE_cpp_233f7419</a> from jae.o(i.__sti___7_JAE_cpp_233f7419) referenced from jae.o(.init_array)
 </UL>
 <P>
 <H3>
@@ -264,7 +264,7 @@ Global Symbols
 
 <P><STRONG><a name="[7d]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
 <BR><BR>[Stack]<UL><LI>Max Depth = 544 + Unknown Stack Size
-<LI>Call Chain = __rt_entry_main &rArr; main &rArr; InitStMain(UART_HandleTypeDef*) &rArr; Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; InitStMain(UART_HandleTypeDef*) &rArr; Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
@@ -508,7 +508,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
 <LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_ddtor_pointer_addr
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___7_JAE_cpp_d31525d9
+<BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___7_JAE_cpp_233f7419
 </UL>
 
 <P><STRONG><a name="[123]"></a>strlen</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, strlen.o(.text))
@@ -553,8 +553,8 @@ Global Symbols
 <LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;malloc
 <LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::call_terminate_handler(_Unwind_Control_Block*)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 <LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::setDebugLine(UART_HandleTypeDef*)
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
 <LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__ARM::get_foreign_intermediary(__cxa_exception*, _Unwind_Control_Block*)
@@ -648,8 +648,8 @@ Global Symbols
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_get_globals
 <LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_call_terminate
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<BR>[Called By]<UL><LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 <LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::setDebugLine(UART_HandleTypeDef*)
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
 <LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_bad_typeid
@@ -1191,27 +1191,27 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
 <LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)
-<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(unsigned char)
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(unsigned char)
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(const unsigned char&)
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(const unsigned char&)
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(const unsigned char&)
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(const unsigned char&)
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&)
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(const unsigned char&)
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(const unsigned char&)
 </UL>
 
 <P><STRONG><a name="[118]"></a>HAL_GPIO_ReadPin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_ReadPin))
-<BR><BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(unsigned char)
+<BR><BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(const unsigned char&)
 </UL>
 
 <P><STRONG><a name="[112]"></a>HAL_GPIO_TogglePin</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_TogglePin))
-<BR><BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(unsigned char)
+<BR><BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(const unsigned char&)
 </UL>
 
 <P><STRONG><a name="[113]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin))
 <BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(unsigned char)
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(unsigned char)
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(const unsigned char&)
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(const unsigned char&)
 </UL>
 
 <P><STRONG><a name="[c9]"></a>HAL_GetTick</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_hal.o(i.HAL_GetTick))
@@ -1506,7 +1506,7 @@ Global Symbols
 </UL>
 <P><STRONG><a name="[f4]"></a>InitStMain(UART_HandleTypeDef*)</STRONG> (Thumb, 150 bytes, Stack size 16 bytes, st_main.o(i._Z10InitStMainP18UART_HandleTypeDef))
 <BR><BR>[Stack]<UL><LI>Max Depth = 504 + Unknown Stack Size
-<LI>Call Chain = InitStMain(UART_HandleTypeDef*) &rArr; Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = InitStMain(UART_HandleTypeDef*) &rArr; Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::boardInit()
 <LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::setDebugLine(UART_HandleTypeDef*)
@@ -1520,61 +1520,61 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[fb]"></a>getPinName(unsigned char)</STRONG> (Thumb, 162 bytes, Stack size 8 bytes, jae.o(i._Z10getPinNameh))
+<P><STRONG><a name="[fb]"></a>getPinName(const unsigned char&)</STRONG> (Thumb, 164 bytes, Stack size 8 bytes, jae.o(i._Z10getPinNameRKh))
 <BR><BR>[Stack]<UL><LI>Max Depth = 432 + Unknown Stack Size
-<LI>Call Chain = getPinName(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = getPinName(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_throw
 <LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_allocate_exception
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)
-<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(unsigned char)
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(unsigned char)
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(unsigned char)
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(unsigned char)
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(unsigned char)
-<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(unsigned char)
+<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(const unsigned char&)
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(const unsigned char&)
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(const unsigned char&)
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(const unsigned char&)
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&)
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(const unsigned char&)
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(const unsigned char&)
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(const unsigned char&)
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(const unsigned char&)
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(const unsigned char&)
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(const unsigned char&)
 </UL>
 
 <P><STRONG><a name="[61]"></a>ToggleBlink()</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, sm_main_main.o(i._Z11ToggleBlinkv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 456 + Unknown Stack Size
-<LI>Call Chain = ToggleBlink() &rArr; JAE::TOGGLE_PIN(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = ToggleBlink() &rArr; JAE::TOGGLE_PIN(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
-<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(unsigned char)
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(const unsigned char&)
 </UL>
 <BR>[Address Reference Count : 2]<UL><LI> sm_main_main.o(i._Z11ToggleBlinkv)
 <LI> sm_main_main.o(i._Z4Initv)
 </UL>
-<P><STRONG><a name="[fe]"></a>getPinGroup(unsigned char)</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, jae.o(i._Z11getPinGrouph))
+<P><STRONG><a name="[fe]"></a>getPinGroup(const unsigned char&)</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, jae.o(i._Z11getPinGroupRKh))
 <BR><BR>[Stack]<UL><LI>Max Depth = 432 + Unknown Stack Size
-<LI>Call Chain = getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 <LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_throw
 <LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__cxa_allocate_exception
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)
-<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(unsigned char)
-<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(unsigned char)
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(unsigned char)
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(unsigned char)
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(unsigned char)
-<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(unsigned char)
+<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(const unsigned char&)
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(const unsigned char&)
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(const unsigned char&)
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(const unsigned char&)
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&)
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(const unsigned char&)
+<LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(const unsigned char&)
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(const unsigned char&)
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(const unsigned char&)
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(const unsigned char&)
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(const unsigned char&)
 </UL>
 
 <P><STRONG><a name="[100]"></a>UpdateStMain()</STRONG> (Thumb, 132 bytes, Stack size 16 bytes, st_main.o(i._Z12UpdateStMainv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 472 + Unknown Stack Size
-<LI>Call Chain = UpdateStMain() &rArr; Update() &rArr; JAE::SET_PIN_HIGH(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = UpdateStMain() &rArr; Update() &rArr; JAE::SET_PIN_HIGH(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::boardUpdate()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
@@ -1623,56 +1623,56 @@ Global Symbols
 </UL>
 <P><STRONG><a name="[f9]"></a>Init()</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, sm_main_main.o(i._Z4Initv))
 <BR><BR>[Stack]<UL><LI>Max Depth = 488 + Unknown Stack Size
-<LI>Call Chain = Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
+<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&)
 <LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
-<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(unsigned char)
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::TOGGLE_PIN(const unsigned char&)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
 </UL>
 
-<P><STRONG><a name="[103]"></a>Update()</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, sm_main_main.o(i._Z6Updatev))
+<P><STRONG><a name="[103]"></a>Update()</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, sm_main_main.o(i._Z6Updatev))
 <BR><BR>[Stack]<UL><LI>Max Depth = 456 + Unknown Stack Size
-<LI>Call Chain = Update() &rArr; JAE::SET_PIN_HIGH(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = Update() &rArr; JAE::SET_PIN_HIGH(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
-<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(unsigned char)
-<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(unsigned char)
-<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(unsigned char)
+<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::READ_PIN_DIGITAL(const unsigned char&)
+<LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_HIGH(const unsigned char&)
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_LOW(const unsigned char&)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 </UL>
 
-<P><STRONG><a name="[fc]"></a>JAE::TOGGLE_PIN(unsigned char)</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, jae.o(i._ZN3JAE10TOGGLE_PINEh))
+<P><STRONG><a name="[fc]"></a>JAE::TOGGLE_PIN(const unsigned char&)</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, jae.o(i._ZN3JAE10TOGGLE_PINERKh))
 <BR><BR>[Stack]<UL><LI>Max Depth = 448 + Unknown Stack Size
-<LI>Call Chain = JAE::TOGGLE_PIN(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = JAE::TOGGLE_PIN(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_TogglePin
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ToggleBlink()
 <LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init()
 </UL>
 
-<P><STRONG><a name="[10b]"></a>JAE::SET_PIN_LOW(unsigned char)</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, jae.o(i._ZN3JAE11SET_PIN_LOWEh))
+<P><STRONG><a name="[10b]"></a>JAE::SET_PIN_LOW(const unsigned char&)</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, jae.o(i._ZN3JAE11SET_PIN_LOWERKh))
 <BR><BR>[Stack]<UL><LI>Max Depth = 448 + Unknown Stack Size
-<LI>Call Chain = JAE::SET_PIN_LOW(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = JAE::SET_PIN_LOW(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
 </UL>
 
-<P><STRONG><a name="[10c]"></a>JAE::SET_PIN_HIGH(unsigned char)</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, jae.o(i._ZN3JAE12SET_PIN_HIGHEh))
+<P><STRONG><a name="[10c]"></a>JAE::SET_PIN_HIGH(const unsigned char&)</STRONG> (Thumb, 36 bytes, Stack size 16 bytes, jae.o(i._ZN3JAE12SET_PIN_HIGHERKh))
 <BR><BR>[Stack]<UL><LI>Max Depth = 448 + Unknown Stack Size
-<LI>Call Chain = JAE::SET_PIN_HIGH(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = JAE::SET_PIN_HIGH(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
 </UL>
@@ -1690,74 +1690,74 @@ Global Symbols
 <LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init()
 </UL>
 
-<P><STRONG><a name="[117]"></a>JAE::SET_PIN_OUTPUT(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE14SET_PIN_OUTPUTEh), UNUSED)
+<P><STRONG><a name="[117]"></a>JAE::SET_PIN_OUTPUT(const unsigned char&)</STRONG> (Thumb, 180 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE14SET_PIN_OUTPUTERKh), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 </UL>
 
-<P><STRONG><a name="[10a]"></a>JAE::READ_PIN_DIGITAL(unsigned char)</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, jae.o(i._ZN3JAE16READ_PIN_DIGITALEh))
+<P><STRONG><a name="[10a]"></a>JAE::READ_PIN_DIGITAL(const unsigned char&)</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, jae.o(i._ZN3JAE16READ_PIN_DIGITALERKh))
 <BR><BR>[Stack]<UL><LI>Max Depth = 440 + Unknown Stack Size
-<LI>Call Chain = JAE::READ_PIN_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = JAE::READ_PIN_DIGITAL(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Update()
 </UL>
 
-<P><STRONG><a name="[119]"></a>JAE::SET_PIN_INPUT_ANALOG(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE20SET_PIN_INPUT_ANALOGEh), UNUSED)
+<P><STRONG><a name="[119]"></a>JAE::SET_PIN_INPUT_ANALOG(const unsigned char&)</STRONG> (Thumb, 180 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE20SET_PIN_INPUT_ANALOGERKh), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 </UL>
 
-<P><STRONG><a name="[109]"></a>JAE::SET_PIN_INPUT_DIGITAL(unsigned char)</STRONG> (Thumb, 172 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE21SET_PIN_INPUT_DIGITALEh))
+<P><STRONG><a name="[109]"></a>JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&)</STRONG> (Thumb, 178 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE21SET_PIN_INPUT_DIGITALERKh))
 <BR><BR>[Stack]<UL><LI>Max Depth = 480 + Unknown Stack Size
-<LI>Call Chain = JAE::SET_PIN_INPUT_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init()
 </UL>
 
-<P><STRONG><a name="[11a]"></a>JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 40 bytes, jae.o(i._ZN3JAE27SET_PIN_INPUT_ANALOG_PULLUPEh), UNUSED)
+<P><STRONG><a name="[11a]"></a>JAE::SET_PIN_INPUT_ANALOG_PULLUP(const unsigned char&)</STRONG> (Thumb, 180 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE27SET_PIN_INPUT_ANALOG_PULLUPERKh), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 </UL>
 
-<P><STRONG><a name="[11b]"></a>JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE28SET_PIN_INPUT_DIGITAL_PULLUPEh), UNUSED)
+<P><STRONG><a name="[11b]"></a>JAE::SET_PIN_INPUT_DIGITAL_PULLUP(const unsigned char&)</STRONG> (Thumb, 180 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE28SET_PIN_INPUT_DIGITAL_PULLUPERKh), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 </UL>
 
-<P><STRONG><a name="[11c]"></a>JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 40 bytes, jae.o(i._ZN3JAE29SET_PIN_INPUT_ANALOG_PULLDOWNEh), UNUSED)
+<P><STRONG><a name="[11c]"></a>JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(const unsigned char&)</STRONG> (Thumb, 180 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE29SET_PIN_INPUT_ANALOG_PULLDOWNERKh), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 </UL>
 
-<P><STRONG><a name="[11d]"></a>JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)</STRONG> (Thumb, 174 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE30SET_PIN_INPUT_DIGITAL_PULLDOWNEh), UNUSED)
+<P><STRONG><a name="[11d]"></a>JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(const unsigned char&)</STRONG> (Thumb, 180 bytes, Stack size 48 bytes, jae.o(i._ZN3JAE30SET_PIN_INPUT_DIGITAL_PULLDOWNERKh), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinName(const unsigned char&)
 <LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::getBoard()
 <LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Board::printDebug(char*)
 </UL>
@@ -1787,14 +1787,14 @@ Global Symbols
 </UL>
 <BR>[Called By]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
-<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)
-<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(unsigned char)
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(unsigned char)
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(const unsigned char&)
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(const unsigned char&)
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(const unsigned char&)
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(const unsigned char&)
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&)
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(const unsigned char&)
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(const unsigned char&)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
 <LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;checkErrorType(int)
 </UL>
 
@@ -1826,15 +1826,15 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new(unsigned)
 </UL>
-<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(unsigned char)
-<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(unsigned char)
-<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(unsigned char)
-<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(unsigned char)
-<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(unsigned char)
-<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(unsigned char)
-<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(unsigned char)
+<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLDOWN(const unsigned char&)
+<LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLDOWN(const unsigned char&)
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL_PULLUP(const unsigned char&)
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG_PULLUP(const unsigned char&)
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&)
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_INPUT_ANALOG(const unsigned char&)
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::SET_PIN_OUTPUT(const unsigned char&)
 <LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
-<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(unsigned char)
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getPinGroup(const unsigned char&)
 <LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::update()
 <LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___11_St_main_cpp_board
 </UL>
@@ -2027,7 +2027,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new(unsigned)
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;JAE::Callback_Delay(long, void(*)())
-<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___7_JAE_cpp_d31525d9
+<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___7_JAE_cpp_233f7419
 </UL>
 
 <P><STRONG><a name="[124]"></a>operator new(unsigned)</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, new.o(i._Znwj))
@@ -2074,7 +2074,7 @@ Global Symbols
 
 <P><STRONG><a name="[7e]"></a>main</STRONG> (Thumb, 98 bytes, Stack size 40 bytes, main_1.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 544 + Unknown Stack Size
-<LI>Call Chain = main &rArr; InitStMain(UART_HandleTypeDef*) &rArr; Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(unsigned char) &rArr; getPinGroup(unsigned char) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
+<LI>Call Chain = main &rArr; InitStMain(UART_HandleTypeDef*) &rArr; Init() &rArr; JAE::SET_PIN_INPUT_DIGITAL(const unsigned char&) &rArr; getPinGroup(const unsigned char&) &rArr; __cxa_throw &rArr; _Unwind_RaiseException &rArr; __ARM_Unwind_RaiseException &rArr; __ARM_unwind_next_frame &rArr; [local to unwinder_c]::find_and_expand_eit_entry(_Unwind_Control_Block*, unsigned) &rArr; bsearch
 </UL>
 <BR>[Calls]<UL><LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpdateStMain()
 <LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;InitStMain(UART_HandleTypeDef*)
@@ -2092,7 +2092,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
 </UL>
-<BR>[Address Reference Count : 1]<UL><LI> jae.o(i.__sti___7_JAE_cpp_d31525d9)
+<BR>[Address Reference Count : 1]<UL><LI> jae.o(i.__sti___7_JAE_cpp_233f7419)
 </UL>
 <P><STRONG><a name="[167]"></a>JAE::Vector&lang;void(*)()&rang;::~Vector__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, jae.o(t._ZN3JAE6VectorIPFvvEED1Ev), UNUSED)
 
@@ -2101,7 +2101,7 @@ Global Symbols
 </UL>
 <BR>[Calls]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator delete[] (void*)
 </UL>
-<BR>[Address Reference Count : 1]<UL><LI> jae.o(i.__sti___7_JAE_cpp_d31525d9)
+<BR>[Address Reference Count : 1]<UL><LI> jae.o(i.__sti___7_JAE_cpp_233f7419)
 </UL>
 <P><STRONG><a name="[168]"></a>JAE::Vector&lang;long&rang;::~Vector__sub_object()</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, jae.o(t._ZN3JAE6VectorIlED1Ev), UNUSED)
 
@@ -2230,8 +2230,8 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> st_main.o(.init_array)
 </UL>
-<P><STRONG><a name="[6b]"></a>__sti___7_JAE_cpp_d31525d9</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, jae.o(i.__sti___7_JAE_cpp_d31525d9))
-<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = __sti___7_JAE_cpp_d31525d9 &rArr; __aeabi_atexit &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
+<P><STRONG><a name="[6b]"></a>__sti___7_JAE_cpp_233f7419</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, jae.o(i.__sti___7_JAE_cpp_233f7419))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = __sti___7_JAE_cpp_233f7419 &rArr; __aeabi_atexit &rArr; malloc &rArr; __Heap_Full &rArr; __Heap_ProvideMemory &rArr; free
 </UL>
 <BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;operator new[] (unsigned)
 <LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_atexit
