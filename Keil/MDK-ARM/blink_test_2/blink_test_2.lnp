@@ -3,6 +3,7 @@
 "blink_test_2\main_1.o"
 "blink_test_2\stm32f4xx_it.o"
 "blink_test_2\stm32f4xx_hal_msp.o"
+"blink_test_2\stm32f4xx_hal_spi.o"
 "blink_test_2\stm32f4xx_hal_tim.o"
 "blink_test_2\stm32f4xx_hal_tim_ex.o"
 "blink_test_2\stm32f4xx_hal_uart.o"

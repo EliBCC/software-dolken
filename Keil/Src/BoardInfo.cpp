@@ -1,6 +1,6 @@
 #include "BoardInfo.h"
 #include "JAE_include.h" 
-#include <string.h>
+#include <stdlib.h>
 
 static Board* board;
 
@@ -30,7 +30,10 @@ void Board::printDebug(char message[]){
 
 void Board::printDebug(int message){
 	
-	HAL_UART_Transmit(uartDebugLine, (uint8_t *) message, sizeof(message), 10); 
+	char buffer[10];
+	itoa(message, buffer, 10);
+	
+	HAL_UART_Transmit(uartDebugLine, (uint8_t *)(message), sizeof(message), 10); 
 }
 
 long int Board::getCycleMillis(void){

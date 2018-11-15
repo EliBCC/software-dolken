@@ -43,7 +43,7 @@ void checkErrorType(int e){
 	
 }
 
-void InitStMain(UART_HandleTypeDef* uartDebugLine){
+void InitStMain(UART_HandleTypeDef* uartDebugLine, SPI_HandleTypeDef* hspi1){
 	//test function by jae
 	
 		try{
@@ -63,6 +63,7 @@ void InitStMain(UART_HandleTypeDef* uartDebugLine){
 		
 		try{
 			JAE::init();
+			JAE::SET_SPI_HANDEL(hspi1);
 		}catch(int e){
 			
 			board.printDebug("failed to init JAE lib\n");

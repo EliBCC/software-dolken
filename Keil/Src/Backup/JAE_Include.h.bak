@@ -72,20 +72,20 @@ static uint8_t PIN_PH_1 = 65;
 	void init(void);
 	void update(void);
 	
-	void SET_PIN_INPUT_DIGITAL(uint8_t pin);
-	void SET_PIN_INPUT_ANALOG(uint8_t pin);
-	void SET_PIN_INPUT_DIGITAL_PULLUP(uint8_t pin);
-	void SET_PIN_INPUT_ANALOG_PULLUP(uint8_t pin);
-	void SET_PIN_INPUT_DIGITAL_PULLDOWN(uint8_t pin);
-	void SET_PIN_INPUT_ANALOG_PULLDOWN(uint8_t pin);
-	void SET_PIN_OUTPUT(uint8_t pin);
+	void SET_PIN_INPUT_DIGITAL(const uint8_t& pin);
+	void SET_PIN_INPUT_ANALOG(const uint8_t& pin);
+	void SET_PIN_INPUT_DIGITAL_PULLUP(const uint8_t& pin);
+	void SET_PIN_INPUT_ANALOG_PULLUP(const uint8_t& pin);
+	void SET_PIN_INPUT_DIGITAL_PULLDOWN(const uint8_t& pin);
+	void SET_PIN_INPUT_ANALOG_PULLDOWN(const uint8_t& pin);
+	void SET_PIN_OUTPUT(const uint8_t& pin);
 	
-	void SET_PIN_HIGH(uint8_t pin);
-	void SET_PIN_LOW(uint8_t pin);
-	void TOGGLE_PIN(uint8_t pin);
+	void SET_PIN_HIGH(const uint8_t& pin);
+	void SET_PIN_LOW(const uint8_t& pin);
+	void TOGGLE_PIN(const uint8_t& pin);
 	
-	bool READ_PIN_DIGITAL(uint8_t pin);
-	bool READ_PIN_ANALOG(uint8_t pin);
+	bool READ_PIN_DIGITAL(const uint8_t& pin);
+	bool READ_PIN_ANALOG(const uint8_t& pin);
 	
 	template <class T>
 	class Vector{

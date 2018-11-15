@@ -10,59 +10,59 @@ namespace JAE {
 	
 //----PIN_DEFINITIONS----//
 
-static uint8_t PIN_PA_0 = 0;
-static uint8_t PIN_PA_1 = 1;
-static uint8_t PIN_PA_2 = 2;
-static uint8_t PIN_PA_3 = 3;
-static uint8_t PIN_PA_4 = 4;
-static uint8_t PIN_PA_5 = 5;
-static uint8_t PIN_PA_6 = 6;
-static uint8_t PIN_PA_7 = 7;
-static uint8_t PIN_PA_8 = 8;
-static uint8_t PIN_PA_9 = 9;
-static uint8_t PIN_PA_10 = 10;
-static uint8_t PIN_PA_11 = 11;
-static uint8_t PIN_PA_12 = 12;
-static uint8_t PIN_PA_13 = 13;
-static uint8_t PIN_PA_14 = 14;
-static uint8_t PIN_PA_15 = 15;
+const uint8_t PIN_PA_0 = 0;
+const uint8_t PIN_PA_1 = 1;
+const uint8_t PIN_PA_2 = 2;
+const uint8_t PIN_PA_3 = 3;
+const uint8_t PIN_PA_4 = 4;
+const uint8_t PIN_PA_5 = 5;
+const uint8_t PIN_PA_6 = 6;
+const uint8_t PIN_PA_7 = 7;
+const uint8_t PIN_PA_8 = 8;
+const uint8_t PIN_PA_9 = 9;
+const uint8_t PIN_PA_10 = 10;
+const uint8_t PIN_PA_11 = 11;
+const uint8_t PIN_PA_12 = 12;
+const uint8_t PIN_PA_13 = 13;
+const uint8_t PIN_PA_14 = 14;
+const uint8_t PIN_PA_15 = 15;
 
 
-static uint8_t PIN_PB_0 = 16;
-static uint8_t PIN_PB_1 = 17;
-static uint8_t PIN_PB_2 = 18;
-static uint8_t PIN_PB_3 = 19;
-static uint8_t PIN_PB_4 = 20;
-static uint8_t PIN_PB_5 = 21;
-static uint8_t PIN_PB_7 = 22;
-static uint8_t PIN_PB_8 = 23;
-static uint8_t PIN_PB_9 = 24;
-static uint8_t PIN_PB_10 = 25;
-static uint8_t PIN_PB_11 = 26;
-static uint8_t PIN_PB_12 = 27;
-static uint8_t PIN_PB_13 = 28;
-static uint8_t PIN_PB_14 = 29;
-static uint8_t PIN_PB_15 = 30;
+const uint8_t PIN_PB_0 = 16;
+const uint8_t PIN_PB_1 = 17;
+const uint8_t PIN_PB_2 = 18;
+const uint8_t PIN_PB_3 = 19;
+const uint8_t PIN_PB_4 = 20;
+const uint8_t PIN_PB_5 = 21;
+const uint8_t PIN_PB_7 = 22;
+const uint8_t PIN_PB_8 = 23;
+const uint8_t PIN_PB_9 = 24;
+const uint8_t PIN_PB_10 = 25;
+const uint8_t PIN_PB_11 = 26;
+const uint8_t PIN_PB_12 = 27;
+const uint8_t PIN_PB_13 = 28;
+const uint8_t PIN_PB_14 = 29;
+const uint8_t PIN_PB_15 = 30;
 
 
-static uint8_t PIN_PC_0 = 32;
-static uint8_t PIN_PC_1 = 33;
-static uint8_t PIN_PC_2 = 34;
-static uint8_t PIN_PC_3 = 35;
-static uint8_t PIN_PC_4 = 36;
-static uint8_t PIN_PC_5 = 37;
-static uint8_t PIN_PC_7 = 38;
-static uint8_t PIN_PC_8 = 39;
-static uint8_t PIN_PC_9 = 40;
-static uint8_t PIN_PC_10 = 41;
-static uint8_t PIN_PC_11 = 42;
-static uint8_t PIN_PC_12 = 43;
-static uint8_t PIN_PC_13 = 44;
-static uint8_t PIN_PC_14 = 45;
-static uint8_t PIN_PC_15 = 46;
+const uint8_t PIN_PC_0 = 32;
+const uint8_t PIN_PC_1 = 33;
+const uint8_t PIN_PC_2 = 34;
+const uint8_t PIN_PC_3 = 35;
+const uint8_t PIN_PC_4 = 36;
+const uint8_t PIN_PC_5 = 37;
+const uint8_t PIN_PC_7 = 38;
+const uint8_t PIN_PC_8 = 39;
+const uint8_t PIN_PC_9 = 40;
+const uint8_t PIN_PC_10 = 41;
+const uint8_t PIN_PC_11 = 42;
+const uint8_t PIN_PC_12 = 43;
+const uint8_t PIN_PC_13 = 44;
+const uint8_t PIN_PC_14 = 45;
+const uint8_t PIN_PC_15 = 46;
 
-static uint8_t PIN_PH_0 = 64;
-static uint8_t PIN_PH_1 = 65;
+const uint8_t PIN_PH_0 = 64;
+const uint8_t PIN_PH_1 = 65;
 
 //--pin def end--//
 
@@ -79,6 +79,12 @@ static uint8_t PIN_PH_1 = 65;
 	void SET_PIN_INPUT_DIGITAL_PULLDOWN(const uint8_t& pin);
 	void SET_PIN_INPUT_ANALOG_PULLDOWN(const uint8_t& pin);
 	void SET_PIN_OUTPUT(const uint8_t& pin);
+	
+	void SET_SPI_HANDEL(SPI_HandleTypeDef* handel);
+	
+	void DEACTIVATE_MPU();
+	void ACTIVATE_MPU();
+	uint8_t READ_MPU(uint8_t& address);
 	
 	void SET_PIN_HIGH(const uint8_t& pin);
 	void SET_PIN_LOW(const uint8_t& pin);

@@ -6,6 +6,8 @@
 static JAE::Vector<void (*)()> CallbackFunctionVector;
 static JAE::Vector<long int> CallbackTimeVector;
 
+static SPI_HandleTypeDef* hspi1;
+
 int getPinName(const uint8_t& pin){
 	
 	if(pin == 0){
@@ -97,8 +99,38 @@ void JAE::Callback_Delay(long int delayMillis, void (*function)()){
 
 void JAE::init(void){
 	
-	
+	DEACTIVATE_MPU();
 }
+
+void JAE::ACTIVATE_MPU(void){
+	
+	JAE::SET_PIN_LOW(PIN_PC_3);
+}
+
+void JAE::DEACTIVATE_MPU(void){
+	
+	JAE::SET_PIN_HIGH(PIN_PC_3);
+}
+
+
+void JAE::SET_SPI_HANDEL(SPI_HandleTypeDef* handel){
+	
+	hspi1 = handel;
+}
+
+
+uint8_t JAE::READ_MPU(uint8_t& address){
+	
+	uint8_t returnBuffer[2];
+	
+	ACTIVATE_MPU();
+	HAL_SPI_Transmit(hspi1, &address, 1, 5);
+	HAL_SPI_Receive(hspi1, &returnBuffer[0], 2, 5);
+	DEACTIVATE_MPU();
+	
+	return returnBuffer[0];
+}
+
 
 void JAE::update(void)	{
 	

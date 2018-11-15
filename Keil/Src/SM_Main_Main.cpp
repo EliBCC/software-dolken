@@ -9,6 +9,11 @@ void Init(void){
 	
 	JAE::TOGGLE_PIN(JAE::PIN_PA_5);
 	JAE::Callback_Delay(1000, ToggleBlink);
+	
+	
+	uint8_t t = 19;
+	uint8_t r = JAE::READ_MPU(t);
+	Board::getBoard().printDebug(r);
 }
 
 void Update(void){
@@ -16,6 +21,9 @@ void Update(void){
 	
 	if(!JAE::READ_PIN_DIGITAL(JAE::PIN_PC_13)){
 		JAE::SET_PIN_HIGH(JAE::PIN_PA_7);
+		uint8_t t = 19;
+		uint8_t r = JAE::READ_MPU(t);
+		Board::getBoard().printDebug();
 	}else{
 		JAE::SET_PIN_LOW(JAE::PIN_PA_7);
 	}
