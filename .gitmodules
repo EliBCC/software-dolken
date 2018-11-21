@@ -1,0 +1,5 @@
+[submodule "modm-repo"]
+	path = modm-repo
+	url = https://github.com/fb39ca4/modm
+	branch = fix/cmake-windows
+	fetchRecurseSubmodules = true
