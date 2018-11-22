@@ -17,6 +17,5 @@
 		<module>:platform:clock</module>
 		<module>:platform:core</module>
 		<module>:platform:gpio</module>
-		<module>:build:cmake</module>
 	</modules>
 </library>
