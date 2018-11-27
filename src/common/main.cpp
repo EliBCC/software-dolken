@@ -12,40 +12,25 @@
 // ----------------------------------------------------------------------------
 
 
-#include "Common/Board.hpp"
-#include "Common/Config.hpp"
+#include <common/board.hpp>
+#include <common/config.hpp>
 #include <modm/debug/logger.hpp>
 
 using namespace modm::platform;
 
-modm::IODeviceWrapper< Usart2, modm::IOBuffer::BlockIfFull > loggerDevice;
+modm::IODeviceWrapper<Usart2, modm::IOBuffer::BlockIfFull> loggerDevice;
 modm::log::Logger modm::log::info(loggerDevice);
 
 // Set the log level
 #undef	MODM_LOG_LEVEL
 #define	MODM_LOG_LEVEL modm::log::INFO
 
-//checks what board to compile for (and includes that boards init and update func)
-#if BOARD_COMPILE_STATE == BOARD_MAIN
-	#include "MainBoard/Main.hpp"
-#elif BOARD_COMPILE_STATE == BOARD_ACTUATOR
-	#include "MainBoard/Main.hpp"
-#elif BOARD_COMPILE_STATE == BOARD_MEASUREMENT
-	#include "MainBoard/Main.hpp"
-#elif BOARD_COMPILE_STATE == BOARD_TELEMETRY
-	#include "MainBoard/Main.hpp"
-#elif BOARD_COMPILE_STATE == BOARD_TEST
-	#include "MainBoard/Main.hpp"
-#endif
-
 int main(void) {
 	Board::initialize();
 
-	Init();
 
 	while (1)
 	{
-		Update();
 	}
 
 	while (true) {}

@@ -11,11 +11,15 @@
 		<option name=":docs:generate_module_docs">True</option>
 	</options>
 	<modules>
-		<module>:platform:can:1</module>
-		<module>:platform:can:2</module>
-		<module>:platform:uart:2</module>
-		<module>:platform:clock</module>
 		<module>:platform:core</module>
+		<module>:platform:clock</module>
 		<module>:platform:gpio</module>
+		<module>:platform:can:1</module>
+		<module>:platform:uart:1</module>
+		<module>:platform:uart:2</module>
+		<module>:platform:spi:1</module>
+		<module>:platform:spi:2</module>
+		<module>:platform:i2c:1</module>
+		<module>:platform:i2c:2</module>
 	</modules>
 </library>

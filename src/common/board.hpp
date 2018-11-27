@@ -11,16 +11,12 @@
  */
 // ----------------------------------------------------------------------------
 
-#ifndef MODM_STM32_NUCLEO_F446_HPP
-#define MODM_STM32_NUCLEO_F446_HPP
+#ifndef COMMON_BOARD_HPP
+#define COMMON_BOARD_HPP
 
 #include <modm/platform.hpp>
 #include <modm/architecture/interface/clock.hpp>
 
-/// @ingroup modm_board_disco_f469ni
-#define MODM_BOARD_HAS_LOGGER
-
-/// @ingroup modm_board_disco_f469ni
 namespace Board
 {
 
@@ -80,4 +76,4 @@ namespace Board
 
 }
 
-#endif	// MODM_STM32_F469_DISCOVERY_HPP
+#endif	// COMMON_BOARD_HPP
