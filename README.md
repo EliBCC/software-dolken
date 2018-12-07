@@ -45,9 +45,9 @@ Next, just right click on the `windows_install.ps1` script in this repository an
 
 ## Building
 
-From a terminal in the root of this repository, run `make build-debug` and if all the tools are installed and available, the modm libraries will be generated, and code compiled.
+From a terminal in the root of this repository, run `make build-mainboard-debug` and if all the tools are installed and available, the modm libraries will be generated, and code compiled.
 
-To upload a debug binary run `make upload-debug` and OpenOCD will be used to upload binaries to the device, but first the binaries will be rebuilt if necessary.
+To upload a debug binary run `make upload-mainboard-debug` and OpenOCD will be used to upload binaries to the device, but first the binaries will be rebuilt if necessary.
 
 To see other make subcommands for this project run `make help`.
 
