@@ -25,9 +25,19 @@ modm::log::Logger modm::log::info(loggerDevice);
 #undef	MODM_LOG_LEVEL
 #define	MODM_LOG_LEVEL modm::log::INFO
 
+
 int main(void) {
 	Board::initialize();
 
+	for (int i = 0; i < 10; i++) {
+		Board::LedOrange0::set();
+		Board::LedOrange1::reset();
+		modm::delayMilliseconds(50);
+
+		Board::LedOrange0::reset();
+		Board::LedOrange1::set();
+		modm::delayMilliseconds(50);
+	}
 
 	while (1)
 	{
