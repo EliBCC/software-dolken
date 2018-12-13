@@ -1,5 +1,3 @@
 build/*
 modm/*
-CMakeLists.txt
-Makefile
 *.log
