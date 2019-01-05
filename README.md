@@ -43,6 +43,10 @@ If you have never used PowerShell scripts before, you will need to open up a new
 
 Next, just right click on the `windows_install.ps1` script in this repository and everything will be installed, if not already detected on your computer. If you want to know what the script is doing, open it in a text editor and look at the comments.
 
+If the above does not run, try to install Scoop manually by writing in the PowerShell command prompt:
+
+    iex (new-object net.webclient).downloadstring('https://get.scoop.sh')  
+
 ## Building
 
 From a terminal in the root of this repository, run `make build-mainboard-debug` and if all the tools are installed and available, the modm libraries will be generated, and code compiled.
