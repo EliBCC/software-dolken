@@ -45,7 +45,9 @@ Next, just right click on the `windows_install.ps1` script in this repository an
 
 If the above does not run, try to install Scoop manually by writing in the PowerShell command prompt:
 
-    iex (new-object net.webclient).downloadstring('https://get.scoop.sh')  
+    iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+    
+Then run `windows_install.ps1` again.
 
 ## Building
 
