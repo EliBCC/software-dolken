@@ -51,7 +51,8 @@ Then run `windows_install.ps1` again.
 
 ## Building
 
-Before building make sure that your python script folder is added to the eviroment PATH. In order to do this, you need to figure out where the path is for your python folder, then you search for 'Edit eviromental veriables for your account' and edit the 'Path' to add the path for python. For example, my path for python is: `C:\Users\fadib\AppData\Roaming\Python\Python36\Scripts`. Your might be different.  
+Before building make sure that your python script folder is added to the eviroment PATH. In order to do this, you need to figure out where the path is for your python folder, then you search for 'Edit eviromental veriables for your account' and edit the 'Path' to add the path for python. For example, my path for python is: `C:\Users\fadib\AppData\Roaming\Python\Python36\Scripts`.
+Yours might be different.  
 
 From a terminal in the root of this repository, run `make build-mainboard-debug` and if all the tools are installed and available, the modm libraries will be generated, and code compiled.
 
