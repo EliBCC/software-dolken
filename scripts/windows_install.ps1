@@ -45,7 +45,7 @@ function Install-Necessary {
 
 # Install software if not present
 Install-Necessary git "git"
-Install-Necessary gcc-arm-none-eabi "arm-none-eabi-gcc -dumpversion" extras
+Install-Necessary gcc7-arm-none-eabi "arm-none-eabi-gcc -dumpversion" fb39ca4
 Install-Necessary touch "touch ~/scoop"
 Install-Necessary make "make --version"
 Install-Necessary cmake "cmake --version"
