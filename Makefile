@@ -39,3 +39,6 @@ build-%-release: $(BUILD_DIR)/%/stamp
 
 upload-%-release: build-%-release
 	@openocd -f scripts/openocd.cfg -c "program_file build/$*-release/$*.elf"
+
+clean-%:
+	@cmake --build $(BUILD_DIR)/$*-debug --target clean

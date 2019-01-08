@@ -23,6 +23,8 @@
 namespace Board
 {
 
+using namespace modm::platform;
+
 /// STM32F469 running at 180MHz from the external 8MHz crystal
 struct systemClock
 {
@@ -75,7 +77,6 @@ struct systemClock
 	static bool inline
 	enable()
 	{
-		using namespace modm::platform;
 		//ClockControl::enableExternalCrystal(); // 26 MHz
 		ClockControl::enableInternalClock(); //16 MHz
 		ClockControl::enablePll(
@@ -103,10 +104,7 @@ struct systemClock
 
 using Button = modm::platform::GpioInputC13;
 
-using LedOrange0 = modm::platform::GpioOutputC8;
-using LedOrange1 = modm::platform::GpioOutputC8;
-
-using Leds = modm::platform::SoftwareGpioPort<LedOrange0, LedOrange1>;
+using LedGreen = modm::platform::GpioOutputA5;
 
 inline void
 initialize()
@@ -114,10 +112,18 @@ initialize()
 	systemClock::enable();
 	modm::cortex::SysTickTimer::initialize<systemClock>();
 
-	LedOrange0::setOutput(modm::Gpio::Low);
-	LedOrange1::setOutput(modm::Gpio::High);
+	LedGreen::setOutput(modm::Gpio::Low);
 
-	Button::setInput();
+	Button::setInput(Gpio::InputType::PullDown);
+
+	// Initialize Usart
+	Usart2::connect<GpioA2::Tx>();
+	Usart2::initialize<Board::systemClock, 115200>();
+
+	Can1::connect<GpioB8::Rx, GpioB9::Tx>(Gpio::InputType::PullUp);
+	Can1::initialize<Board::systemClock, Can1::Bitrate::kBps125>(12);
+	Can1::setAutomaticRetransmission(true);
+	Can1::setMode(Can1::Mode::Normal);
 }
 
 }
