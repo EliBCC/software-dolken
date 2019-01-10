@@ -118,8 +118,7 @@ initialize()
 
 	// Initialize Usart
 	Usart2::connect<GpioA2::Tx>();
-	Usart2::initialize<Board::systemClock, 115200>();
-	//modm::IODeviceWrapper<Usart2, modm::IOBuffer::DiscardIfFull> device;		
+	Usart2::initialize<Board::systemClock, 115200>();	
 }
 
 }
