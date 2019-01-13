@@ -1,5 +1,5 @@
 
-//variables// -should not me altered 
+//variables// -should not be altered 
 #define BOARD_MAIN 0
 #define BOARD_ACTUATOR 1
 #define BOARD_MEASUREMENT 2

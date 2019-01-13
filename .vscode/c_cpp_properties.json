@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "STM32win",
+            "includePath": [ "${workspaceFolder}/modm/ext/**", "${workspaceFolder}/modm/src/**", "${workspaceFolder}/src/**" ],
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "browse": {
+                "path": [ "${workspaceFolder}/modm/ext", "${workspaceFolder}/modm/src", "${workspaceFolder}/src"  ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceFolder}/.vscode/browse.VC.db"
+            }
+        }
+    ],
+    "version": 4
+}
