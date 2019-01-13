@@ -2,3 +2,4 @@ build/*
 modm/*
 docs/modm.html
 *.log
+.vscode/BROWSE.*
