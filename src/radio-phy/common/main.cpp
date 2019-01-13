@@ -30,7 +30,7 @@ using namespace modm::platform;
  * PA6 - MISO
  * PA7 - MOSI
  * PB6 - CSN
- * PC7 - CE
+ * PA8 - CE
  * 
  * STM32  USB2UART
  * ---------------
@@ -50,7 +50,7 @@ modm::log::Logger modm::log::warning(loggerDevice);
 modm::log::Logger modm::log::error(loggerDevice);
 
 typedef GpioOutputB6 Csn;
-typedef GpioOutputC7  Ce;
+typedef GpioOutputA8  Ce;
 
 typedef modm::Nrf24Phy<SpiMaster1, Csn, Ce> nrf24phy;
 
