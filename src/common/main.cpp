@@ -75,13 +75,14 @@ int main(void) {
 	MODM_LOG_INFO << "1" << modm::endl;
 	Can1::connect<GpioA11::Rx, GpioA12::Tx>(Gpio::InputType::PullUp);
 	MODM_LOG_INFO << "2" << modm::endl;
-	Can1::initialize<Board::systemClock, Can1::Bitrate::kBps125>(12);
+	Can1::initialize<Board::systemClock, Can1::Bitrate::MBps1>(9);
 	MODM_LOG_INFO << "3" << modm::endl;
 	Can1::setAutomaticRetransmission(false);
 	MODM_LOG_INFO << "4" << modm::endl;
 
 	// Set up to receive every message
 	MODM_LOG_INFO << "Setting up Filter for Can1 ..." << modm::endl;
+	//CanFilter::setStartFilterBankForCan2(14);
 	CanFilter::setFilter(0, CanFilter::FIFO0,
 		CanFilter::ExtendedIdentifier(0),
 		CanFilter::ExtendedFilterMask(0));
@@ -93,32 +94,18 @@ int main(void) {
 	// msg1.data[0] = 0x11;
 	// Can1::sendMessage(msg1);
 
-	modm::ShortPeriodicTimer pTimer(1000);
-
 	while (1) {
 		if (Can1::isMessageAvailable()) {
-			// MODM_LOG_INFO << "Can1: Message is available..." << modm::endl;
-			// modm::can::Message message;
-			// Can1::getMessage(message);
-			// displayMessage(message);
+			MODM_LOG_INFO << "Can1: Message is available..." << modm::endl;
+			modm::can::Message message;
+			Can1::getMessage(message);
+			displayMessage(message);
 			Board::LedOrangeD2::toggle();
-			modm::delayMilliseconds(125);
+			modm::delayMilliseconds(50);
 			Board::LedOrangeD2::toggle();
-		}
-
-		if (pTimer.execute()) {
-			printCanStatus();
+			modm::delayMilliseconds(50);
 			MODM_LOG_INFO << "Can1: Sending message..." << modm::endl;
-			static uint8_t idx = 0;
-			modm::can::Message msg1(1, 2);
-			msg1.setExtended(true);
-			msg1.data[0] = 'N';
-			msg1.data[1] = idx;
-			Can1::sendMessage(msg1);
-			++idx;
-			Board::LedOrangeD2::toggle();
-			modm::delayMilliseconds(125);
-			Board::LedOrangeD2::toggle();
+			Can1::sendMessage(message);
 		}
 	}
 	return 0;
