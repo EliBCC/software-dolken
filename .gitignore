@@ -1,4 +1,5 @@
 build/*
 modm/*
 docs/modm.html
+.vscode/*
 *.log
