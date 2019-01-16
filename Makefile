@@ -1,22 +1,72 @@
 CMAKE_GENERATOR = Unix Makefiles
 BUILD_DIR = ./build
-J = 1
+
+ECHO = cmake -E echo
+RMDIR = cmake -E remove_directory
+TOUCH = cmake -E touch
 
 .DEFAULT_GOAL := help
 
 help:
-	@echo "Current shell: $(SHELL)"
-	@echo "Look at the Makefile"
+	@$(ECHO) "DanSTAR RICHARD build system"
+	@$(ECHO) "Current shell: $(SHELL)"
+	@$(ECHO) "Usage: make <target>"
+	@$(ECHO) "Target can be any of the following:"
+	@$(ECHO) "modm"
+	@$(ECHO) "    Generates modm code from repository."
+	@$(ECHO) "    Dependencies:"
+	@$(ECHO) "        File project.xml"
+	@$(ECHO) ""
+	@$(ECHO) "modm-docs"
+	@$(ECHO) "    Generates HTML of modm documentation, can be found in docs directory."
+	@$(ECHO) "    Dependencies:"
+	@$(ECHO) "        File project.xml"
+	@$(ECHO) ""
+	@$(ECHO) "build-<boardname>-debug"
+	@$(ECHO) "    Builds firmware with the code in src/<boardname>"
+	@$(ECHO) "    Dependencies:"
+	@$(ECHO) "        Target modm"
+	@$(ECHO) "        Files in src/common/*"
+	@$(ECHO) "        Files in src/<boardname>/*"
+	@$(ECHO) ""
+	@$(ECHO) "build-<boardname>-release"
+	@$(ECHO) "    Builds firmware with the code in src/<boardname> with optimizations enabled"
+	@$(ECHO) "    Dependencies:"
+	@$(ECHO) "        Target modm"
+	@$(ECHO) "        Files in src/common/*"
+	@$(ECHO) "        Files in src/<boardname>/*"
+	@$(ECHO) ""
+	@$(ECHO) "upload-<boardname>-debug"
+	@$(ECHO) "    Uploads debug firmware to microcontroller"
+	@$(ECHO) "    Dependencies:"
+	@$(ECHO) "        Target build-<boardname>-debug"
+	@$(ECHO) ""
+	@$(ECHO) "upload-<boardname>-debug"
+	@$(ECHO) "    Uploads release firmware to microcontroller"
+	@$(ECHO) "    Dependencies:"
+	@$(ECHO) "        Target build-<boardname>-release"
+	@$(ECHO) ""
+	@$(ECHO) "clean"
+	@$(ECHO) "    Deletes the build folder"
+	@$(ECHO) ""
+	@$(ECHO) "Dependencies are automatically built or rebuilt as necessary. Example:"
+	@$(ECHO) "Running 'make upload-mainboard-debug' from a clean repository will build modm, build the firmware, and upload it."
+
+
+clean:
+	@$(RMDIR) build
 
 modm/stamp: project.xml
+	@$(RMDIR) modm
 	@lbuild build
-	@touch modm/stamp
+	@$(TOUCH) modm/stamp
 
 modm: modm/stamp
 
 modm/docs/stamp: modm/stamp
 	@lbuild build -m ":docs"
-	@touch modm/docs/stamp
+	@$(TOUCH) modm/docs/stamp
+	@cmake -E create_symlink ../modm/docs/html/index.html docs/modm.html
 
 modm-docs: modm/docs/stamp
 

@@ -1,3 +1,4 @@
 build/*
 modm/*
+docs/modm.html
 *.log
