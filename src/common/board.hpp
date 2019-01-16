@@ -85,11 +85,11 @@ namespace Board {
 		static constexpr uint32_t Timer14 = Apb1Timer;
 
 		static bool inline enable() {
-			ClockControl::enableExternalCrystal(); // 26 MHz
-			// ClockControl::enableInternalClock(); //16 MHz
+			// ClockControl::enableExternalCrystal(); // 26 MHz
+			ClockControl::enableInternalClock(); //16 MHz
 			ClockControl::enablePll(
-				ClockControl::PllSource::ExternalCrystal,
-				26,      // 26MHz / M=26 -> 1MHz   !!! Must be 1 MHz for PLLSAI !!!
+				ClockControl::PllSource::InternalClock,
+				16,      // 26MHz / M=26 -> 1MHz   !!! Must be 1 MHz for PLLSAI !!!
 				336,    // 1MHz * N=336 -> 336MHz
 				2,      // 168MHz / P=2 -> 168MHz = F_cpu
 				7       // 48MHz / Q=7 -> 48MHz (value ignored! PLLSAI generates 48MHz for F_usb)

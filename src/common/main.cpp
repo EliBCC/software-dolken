@@ -48,7 +48,7 @@ static void displayMessage(const modm::can::Message& message) {
 
 static void blinkTest() {
 	Board::LedOrangeD2::toggle();
-	
+
 	for (int i = 0; i < 10; i++) {
 		Board::LedOrangeD2::toggle();
 		Board::LedOrangeD3::toggle();
@@ -59,11 +59,12 @@ static void blinkTest() {
 }
 
 static void printCanStatus() {
-	MODM_LOG_INFO << "Can1 state: " << Can1::getBusState() << modm::endl;
-	MODM_LOG_INFO << "Can1 message available: " << Can1::isMessageAvailable() << modm::endl;
-	MODM_LOG_INFO << "Can1 ready to send: " << Can1::isReadyToSend() << modm::endl;
-	MODM_LOG_INFO << "Can1 receive errors: " << Can1::getReceiveErrorCounter() << modm::endl;
-	MODM_LOG_INFO << "Can1 transmit errors: " << Can1::getTransmitErrorCounter() << modm::endl;
+	// MODM_LOG_INFO << "Can1 state: " << Can1::getBusState() << modm::endl;
+	// MODM_LOG_INFO << "Can1 message available: " << Can1::isMessageAvailable() << modm::endl;
+	// MODM_LOG_INFO << "Can1 ready to send: " << Can1::isReadyToSend() << modm::endl;
+	// MODM_LOG_INFO << "Can1 receive errors: " << Can1::getReceiveErrorCounter() << modm::endl;
+	// MODM_LOG_INFO << "Can1 transmit errors: " << Can1::getTransmitErrorCounter() << modm::endl;
+	MODM_LOG_INFO << Can1::getBusState() << ' ' << Can1::isMessageAvailable() << ' ' << Can1::isReadyToSend() << ' ' << Can1::getReceiveErrorCounter() << ' ' << Can1::getTransmitErrorCounter() << modm::endl;
 }
 
 int main(void) {
@@ -80,10 +81,12 @@ int main(void) {
 	MODM_LOG_INFO << "1" << modm::endl;
 	Can1::connect<GpioA11::Rx, GpioA12::Tx>(Gpio::InputType::PullUp);
 	MODM_LOG_INFO << "2" << modm::endl;
-	Can1::initialize<Board::systemClock, Can1::Bitrate::kBps125>(9);
+	Can1::initialize<Board::systemClock, Can1::Bitrate::MBps1>(9);
 	MODM_LOG_INFO << "3" << modm::endl;
-	Can1::setAutomaticRetransmission(false);
 	MODM_LOG_INFO << "4" << modm::endl;
+
+	Can1::setMode(Can1::Mode::Normal);
+	Can1::setAutomaticRetransmission(false);
 
 	// Set up to receive every message
 	MODM_LOG_INFO << "Setting up Filter for Can1 ..." << modm::endl;
@@ -91,38 +94,33 @@ int main(void) {
 		CanFilter::ExtendedIdentifier(0),
 		CanFilter::ExtendedFilterMask(0));
 
-	// // Send a message
-	// MODM_LOG_INFO << "Sending message on Can ..." << modm::endl;
-	// modm::can::Message msg1(1, 1);
-	// msg1.setExtended(true);
-	// msg1.data[0] = 0x11;
-	// Can1::sendMessage(msg1);
+	// Send a message
+	MODM_LOG_INFO << "Sending message on Can1 ..." << modm::endl;
+	modm::can::Message txMessage(1, 1);
+	txMessage.setExtended(true);
+	txMessage.data[0] = 0x00;
 
-	modm::ShortPeriodicTimer pTimer(1000);
+	modm::PeriodicTimer txTimer(1000);
 
 	while (1) {
+		//printCanStatus();
+		if (txTimer.execute()) {
+			MODM_LOG_INFO << "Sending message";
+			printCanStatus();
+			Can1::sendMessage(txMessage);
+			txMessage.data[0]++;
+		}
 		if (Can1::isMessageAvailable()) {
 			MODM_LOG_INFO << "Can1: Message is available..." << modm::endl;
 			modm::can::Message message;
 			Can1::getMessage(message);
 			displayMessage(message);
 			Board::LedOrangeD2::toggle();
-			modm::delayMilliseconds(125);
+			modm::delayMilliseconds(50);
 			Board::LedOrangeD2::toggle();
-		}
-
-		if (pTimer.execute()) {
-			printCanStatus();
-			// MODM_LOG_INFO << "Can1: Sending message..." << modm::endl;
-			// static uint8_t idx = 0;
-			// modm::can::Message msg1(2, 1);
-			// msg1.setExtended(true);
-			// msg1.data[0] = idx;
-			// Can1::sendMessage(msg1);
-			// ++idx;
-			Board::LedOrangeD3::toggle();
-			modm::delayMilliseconds(125);
-			Board::LedOrangeD3::toggle();
+			modm::delayMilliseconds(50);
+			//MODM_LOG_INFO << "Can1: Sending message..." << modm::endl;
+			//Can1::sendMessage(message);
 		}
 	}
 	return 0;
