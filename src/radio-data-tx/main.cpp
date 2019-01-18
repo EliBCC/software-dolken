@@ -82,14 +82,17 @@ int main(){
 	Usart2::connect<GpioA2::Tx>();
 	Usart2::initialize<Board::systemClock, 115200>();
 
-	MODM_LOG_INFO << "Hello from nrf24-data-tx example" << modm::endl;
+	MODM_LOG_DEBUG << "Hello from nrf24-data-tx example (debug)" << modm::endl;
+	MODM_LOG_INFO << "Hello from nrf24-data-tx example (info)" << modm::endl;
+	MODM_LOG_WARNING << "Hello from nrf24-data-tx example (warning)" << modm::endl;
+	MODM_LOG_ERROR << "Hello from nrf24-data-tx example (error)" << modm::endl;
 
 	// Send a packet every 500ms
 	modm::PeriodicTimer sendTimer(500);
 
 	// Initialize physical layer with payload size of 6 bytes, this gives us
 	// a payload size of 4 bytes in the data layer, as the header takes 2 bytes.
-	nrf24phy::initialize(6);
+	nrf24phy::initialize(34);
 
 	// This is the base address of our network, imagine this as an IP subnet
 	// like 192.168.1.0/24. Coincidentally, our the network also has 256
@@ -125,9 +128,9 @@ int main(){
 	{
 		if(sendTimer.execute())
 		{
-			MODM_LOG_INFO << "Send packet\r" << modm::endl;
-			nrf24data::sendPacket(packet);
-
+			if (nrf24data::sendPacket(packet)) {
+				MODM_LOG_INFO << "Send packet" << modm::endl;
+			}
 			*data += 1;
 		}
 

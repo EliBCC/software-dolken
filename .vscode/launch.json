@@ -13,6 +13,19 @@
                 "${workspaceRoot}/scripts/openocd.cfg"
             ],
             "preLaunchTask": "Build mainboard (Debug)"
+        },
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/radio-data-tx-debug/radio-data-tx.elf",
+            "name": "Debug radio-data-t x",
+            "device": "STM32F446RE",
+            "configFiles": [
+                "${workspaceRoot}/scripts/openocd.cfg"
+            ],
+            "preLaunchTask": "Build radio-data-tx (Debug)"
         }
     ]
 }
