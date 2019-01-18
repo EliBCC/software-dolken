@@ -92,6 +92,7 @@ int main(){
 
 	// Initialize physical layer with payload size of 6 bytes, this gives us
 	// a payload size of 4 bytes in the data layer, as the header takes 2 bytes.
+
 	nrf24phy::initialize(34);
 
 	// This is the base address of our network, imagine this as an IP subnet
