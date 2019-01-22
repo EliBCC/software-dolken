@@ -37,6 +37,8 @@ bool ClockConfiguration::enable() {
 }
 
 void initCommon() {
+	using namespace modm::platform;
+
 	ClockConfiguration::enable();
 	modm::cortex::SysTickTimer::initialize<ClockConfiguration>();
 
@@ -46,6 +48,6 @@ void initCommon() {
 	SerialDebug::connect<modm::platform::GpioA9::Tx>();
 	SerialDebug::initialize<ClockConfiguration, 115200>();
 
-	modm::platform::I2cMaster1::connect<modm::platform::GpioB7::Sda, modm::platform::GpioB6::Scl>();
-	modm::platform::I2cMaster1::initialize<ClockConfiguration, modm::platform::I2cMaster1::Baudrate::Standard>();
+	I2cMaster1::connect<GpioB7::Sda, GpioB6::Scl>(I2cMaster1::PullUps::Internal);
+	I2cMaster1::initialize<ClockConfiguration, I2cMaster1::Baudrate::Standard>();
 }
