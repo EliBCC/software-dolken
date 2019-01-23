@@ -6,7 +6,7 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
 INCLUDE(scripts/toolchain.cmake)
 
 IF(NOT BOARD_NAME)
-	MESSAGE(FATAL_ERROR "Board name must be defined")
+    MESSAGE(FATAL_ERROR "Board name must be defined")
 ENDIF()
 
 PROJECT(${BOARD_NAME})

@@ -12,37 +12,39 @@
 // ----------------------------------------------------------------------------
 
 
-#include <common/board.hpp>
-#include <common/config.hpp>
+#include <modm/architecture/interface/delay.hpp>
 #include <modm/debug/logger.hpp>
 
-using namespace modm::platform;
-
-modm::IODeviceWrapper<Usart2, modm::IOBuffer::BlockIfFull> loggerDevice;
-modm::log::Logger modm::log::info(loggerDevice);
+#include <common/blink_thread.hpp>
+#include <common/board.hpp>
 
 // Set the log level
 #undef	MODM_LOG_LEVEL
 #define	MODM_LOG_LEVEL modm::log::INFO
 
-
 int main(void) {
-	Board::initialize();
+	initCommon();
+
+	MODM_LOG_DEBUG << "debug logging enabled" << modm::endl;
+	MODM_LOG_INFO << "info logging enabled" << modm::endl;
+	MODM_LOG_WARNING << "warning logging enabled" << modm::endl;
+	MODM_LOG_ERROR << "error logging enabled" << modm::endl;
 
 	for (int i = 0; i < 10; i++) {
-		Board::LedOrange0::set();
-		Board::LedOrange1::reset();
+		LedD2::set();
+		LedD3::reset();
 		modm::delayMilliseconds(50);
 
-		Board::LedOrange0::reset();
-		Board::LedOrange1::set();
+		LedD2::reset();
+		LedD3::set();
 		modm::delayMilliseconds(50);
 	}
+	LedD2::set();
+	LedD3::set();
 
-	while (1)
-	{
+	BlinkThread blinkThread;
+	while (1) {
+		blinkThread.run();
 	}
-
-	while (true) {}
 	return 0;
 }
