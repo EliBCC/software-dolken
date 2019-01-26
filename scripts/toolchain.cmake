@@ -71,7 +71,6 @@ SET(CCFLAGS "\
 
 SET(CCFLAGS_RELEASE "\
     -O3 \
-    -flto \
 ")
 
 SET(CCFLAGS_DEBUG "\
