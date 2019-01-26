@@ -1,5 +1,7 @@
 CMAKE_GENERATOR = Unix Makefiles
-BUILD_DIR = ./build
+BUILD_DIR=./build
+BUILD_TYPE=Debug
+J=1
 
 ECHO = cmake -E echo
 RMDIR = cmake -E remove_directory
@@ -10,82 +12,60 @@ TOUCH = cmake -E touch
 help:
 	@$(ECHO) "DanSTAR RICHARD build system"
 	@$(ECHO) "Current shell: $(SHELL)"
-	@$(ECHO) "Usage: make <target>"
+	@$(ECHO) "Usage: make <target> [J=<cpu_cores>] [BUILD_TYPE={Debug|Release}]"
+	@$(ECHO) ""
+	@$(ECHO) "Option J: Number of CPU cores to use while building."
+	@$(ECHO) ""
+	@$(ECHO) "Option BUILD_TYPE: Choose a Debug or Release build. Must capitalize exactly."
+	@$(ECHO) "    Debug: No optimizations, fast compile, slow execution"
+	@$(ECHO) "    Release: With optimizations, slow compile, fast execution"
+	@$(ECHO) ""
 	@$(ECHO) "Target can be any of the following:"
-	@$(ECHO) "modm"
-	@$(ECHO) "    Generates modm code from repository."
-	@$(ECHO) "    Dependencies:"
-	@$(ECHO) "        File project.xml"
 	@$(ECHO) ""
 	@$(ECHO) "modm-docs"
 	@$(ECHO) "    Generates HTML of modm documentation, can be found in docs directory."
 	@$(ECHO) "    Dependencies:"
 	@$(ECHO) "        File project.xml"
 	@$(ECHO) ""
-	@$(ECHO) "build-<boardname>-debug"
-	@$(ECHO) "    Builds firmware with the code in src/<boardname>"
-	@$(ECHO) "    Dependencies:"
-	@$(ECHO) "        Target modm"
-	@$(ECHO) "        Files in src/common/*"
-	@$(ECHO) "        Files in src/<boardname>/*"
+	@$(ECHO) "build"
+	@$(ECHO) "    Builds firmware for all boards in src/boards."
 	@$(ECHO) ""
-	@$(ECHO) "build-<boardname>-release"
-	@$(ECHO) "    Builds firmware with the code in src/<boardname> with optimizations enabled"
-	@$(ECHO) "    Dependencies:"
-	@$(ECHO) "        Target modm"
-	@$(ECHO) "        Files in src/common/*"
-	@$(ECHO) "        Files in src/<boardname>/*"
+	@$(ECHO) "build-<boardname>"
+	@$(ECHO) "    Builds firmware for a single board in src/boards/<boardname>."
 	@$(ECHO) ""
-	@$(ECHO) "upload-<boardname>-debug"
-	@$(ECHO) "    Uploads debug firmware to microcontroller"
-	@$(ECHO) "    Dependencies:"
-	@$(ECHO) "        Target build-<boardname>-debug"
-	@$(ECHO) ""
-	@$(ECHO) "upload-<boardname>-debug"
-	@$(ECHO) "    Uploads release firmware to microcontroller"
-	@$(ECHO) "    Dependencies:"
-	@$(ECHO) "        Target build-<boardname>-release"
+	@$(ECHO) "upload-<boardname>"
+	@$(ECHO) "    Builds and uploads firmware for <boardname> to microcontroller."
+	@$(ECHO) "    Firmware is automatically built if necessary."
 	@$(ECHO) ""
 	@$(ECHO) "clean"
-	@$(ECHO) "    Deletes the build folder"
+	@$(ECHO) "    Deletes the build folder."
 	@$(ECHO) ""
-	@$(ECHO) "Dependencies are automatically built or rebuilt as necessary. Example:"
-	@$(ECHO) "Running 'make upload-mainboard-debug' from a clean repository will build modm, build the firmware, and upload it."
+	@$(ECHO) "Example: Running 'make upload-mainboard J=4 BUILD_TYPE=Release' from a clean"
+	@$(ECHO) "repository will build the firmware for the main board in release mode using"
+	@$(ECHO) "4 CPU cores and upload it to the microcontroller."
 
 
 clean:
 	@$(RMDIR) build
 
-modm/stamp: project.xml
-	@$(RMDIR) modm
-	@lbuild build
-	@$(TOUCH) modm/stamp
-
-modm: modm/stamp
-
-modm/docs/stamp: modm/stamp
+modm-docs: modm/docs/stamp
 	@lbuild build -m ":docs"
 	@$(TOUCH) modm/docs/stamp
 	@cmake -E create_symlink ../modm/docs/html/index.html docs/modm.html
 
-modm-docs: modm/docs/stamp
+$(BUILD_DIR)/Debug/stamp: CMakeLists.txt scripts/toolchain.cmake
+	@cmake -E make_directory $(BUILD_DIR)/Debug
+	@cd $(BUILD_DIR)/Debug && cmake $(CMAKE_FLAGS) -DCMAKE_BUILD_TYPE=Debug -G "$(CMAKE_GENERATOR)" ../..
 
-$(BUILD_DIR)/%-debug/stamp: modm/stamp
-	@cmake -E make_directory $(BUILD_DIR)/$*-debug
-	@cd $(BUILD_DIR)/$*-debug && cmake $(CMAKE_FLAGS) -DCMAKE_BUILD_TYPE=Debug -DBOARD_NAME=$* -G "$(CMAKE_GENERATOR)" ../..
+$(BUILD_DIR)/Release/stamp: CMakeLists.txt scripts/toolchain.cmake
+	@cmake -E make_directory $(BUILD_DIR)/Release
+	@cd $(BUILD_DIR)/Release && cmake $(CMAKE_FLAGS) -DCMAKE_BUILD_TYPE=Release -G "$(CMAKE_GENERATOR)" ../..
 
-build-%-debug: $(BUILD_DIR)/%-debug/stamp
-	@cmake --build $(BUILD_DIR)/$*-debug --parallel $J
+build: $(BUILD_DIR)/$(BUILD_TYPE)/stamp
+	@cmake --build $(BUILD_DIR)/$(BUILD_TYPE)
 
-upload-%-debug: build-%-debug
-	@openocd -f scripts/openocd.cfg -c "program_file build/$*-debug/$*.elf"
+build-%: $(BUILD_DIR)/$(BUILD_TYPE)/stamp
+	@cmake --build $(BUILD_DIR)/$(BUILD_TYPE) --target $*
 
-$(BUILD_DIR)/%/stamp: modm/stamp
-	@cmake -E make_directory $(BUILD_DIR)/$*-release
-	@cd $(BUILD_DIR)/$*-release && cmake $(CMAKE_FLAGS) -DCMAKE_BUILD_TYPE=Release -DBOARD_NAME=$* -G "$(CMAKE_GENERATOR)" ../..
-
-build-%-release: $(BUILD_DIR)/%/stamp
-	@cmake --build $(BUILD_DIR)/$*-release --parallel $J
-
-upload-%-release: build-%-release
-	@openocd -f scripts/openocd.cfg -c "program_file build/$*-release/$*.elf"
+upload-%: $(BUILD_DIR)/$(BUILD_TYPE)/stamp
+	@cmake --build $(BUILD_DIR)/$(BUILD_TYPE) --target upload-$*

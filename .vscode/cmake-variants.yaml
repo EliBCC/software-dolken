@@ -1,0 +1,12 @@
+buildType:
+  default: debug
+  description: The build type
+  choices:
+    debug:
+      short: Debug
+      long: No optimizations, fast to compile, slow to run, easy to debug
+      buildType: Debug
+    release:
+      short: Release
+      long: With optimizations, slow to compile, fast to run, hard to debug
+      buildType: Release

@@ -16,8 +16,7 @@
 #include <modm/debug/logger.hpp>
 
 #include <common/board.hpp>
-
-#include <blink/blink_thread.hpp>
+#include <common/blink_thread.hpp>
 
 // Set the log level
 #undef	MODM_LOG_LEVEL

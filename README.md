@@ -10,13 +10,29 @@ so that modm is downloaded from its separate repository.
 
 ## Prerequisites
 
-To build and upload code, and generate documentation, you will need the following packages and tools installed on your system:
+To build and upload code, and generate documentation, you will need some tools installed on your system. On Windows, there is an installation script that will obtain everything through the Scoop package manager, and on Linux, you should rely on your system's package manager or other usual means of installing software.
+
+### Windows
+
+Scoop is a Windows package manager that makes it easy to install most dependencies. There is a Powershell script which will download and install Scoop, and all the required packages listed above.
+
+If you have never used PowerShell scripts before, you will need to open up a new PowerShell terminal and copy and paste in the following command to enable scripts, which will ask you for a confirmation:
+
+    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+
+Next, just run the `windows_install.ps1` script in this repository and everything will be installed, if not already detected on your computer. If you want to know what the script is doing, open it in a text editor and look at the comments. If your antivirus complains, turn it off temporarily, as it doesn't like the idea of scripts downloading and running code from the internet.
+
+### Linux
+
+You should be able to get everything through your system package manager and pip. Just watch out for arm-none-eabi-gcc being too old, in which case you can download binaries from [ARM](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads), extract, and add to your path.
+
+Don't forget to add the Python scripts directory to your path so you have access to the `lbuild` command.
+
+Things needed:
 
  * Python 3
  * CMake
- * ninja
  * make
- * touch
  * arm-none-eabi-gcc, version 7 or later
  * OpenOCD
  * Doxygen
@@ -27,45 +43,46 @@ As well as these Python packages through pip:
  * lbuild
  * graphviz (Python interface)
 
-### Linux
+## Drivers
 
-You should be able to get everything through your system package manager and pip. Just watch out for arm-none-eabi-gcc being too old, in which case you can download binaries from [ARM](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads), extract, and add to your path.
-
-Don't forget to add the Python scripts directory to your path so you have access to the `lbuild` command.
+In most cases, driver installation for the STLink is not needed. However, if you run into any trouble:
 
 ### Windows
 
-Scoop is a Windows package manager that makes it easy to install most dependencies. There is a Powershell script which will download and install Scoop, and all the required packages listed above.
+First, try different USB ports. Some USB3 ports seem to not work properly. If you are still having trouble the correct drivers might not be selected. Download and run (Zadig)[https://zadig.akeo.ie/], select the STLink device, and change its driver to libusb-win32.
 
-If you have never used PowerShell scripts before, you will need to open up a new PowerShell terminal and copy and paste in the following command, which will ask you for a confirmation:
+### Linux
 
-    Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-
-Next, just right click on the `windows_install.ps1` script in this repository and everything will be installed, if not already detected on your computer. If you want to know what the script is doing, open it in a text editor and look at the comments.
-
-If the above does not run, try to install Scoop manually by writing in the PowerShell command prompt:
-
-    iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
-    
-Then run `windows_install.ps1` again.
+If you have libusb installed, the STLink should work. However, you may need to add udev rules to allow your user account access to the device. Some rules can be found [here](https://github.com/texane/stlink/tree/master/etc/udev/rules.d), and you will need to figure out where they go depending on your distribution.
 
 ## Building
 
-Before building, make sure that your python script folder is added to the eviroment PATH. In order to do this, you need to figure out where the path is for your python folder, then you search for 'Edit eviromental veriables for your account' in windows to open the program, then edit the 'Path' to add the path for python. For example, my path for python is: `C:\Users\fadib\AppData\Roaming\Python\Python36\Scripts`.
-Yours might be different.  
+Before building, you need to make sure the `lbuild` command can be run from a terminal. If the command cannot be found, you will have to add your Python Scripts folder to the PATH variable.
 
-From a terminal in the root of this repository, run `make build-mainboard-debug` and if all the tools are installed and available, the modm libraries will be generated, and code compiled.
+[Instructions for Windows](https://projects.raspberrypi.org/en/projects/using-pip-on-windows/5) (It is written for the pip command, but the process is exactly the same for lbuild.)
 
-To upload a debug binary run `make upload-mainboard-debug` and OpenOCD will be used to upload binaries to the device, but first the binaries will be rebuilt if necessary.
+### Visual Studio Code
 
-To see other make subcommands for this project run `make help`.
-
-## Editing and Debugging
-
-If you do not already have a preferred text editor, Visual Studio code works well and provides debugging and C++ autocompletion with a couple of extensions:
+If you do not already have a preferred text editor, Visual Studio code works well and provides CMake build support, C++ autocompletion, and debugging with a few extensions you should install:
 
  * The [Microsoft C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) provides autocompletion and error detection.
 
+ * The [CMake Tools extension](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug) provides an interface to build CMake projects.
+
  * The [Cortex-Debug extension](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug) provides graphical debugging support for ARM microcontrollers.
 
-This repository already has a debug launch configuration, so just open the repository folder in VS code, go to the debug tab and press the play button to start debugging. (Make sure to build and upload the debug firmware using `make upload-debug` first!)
+It is important to open up the top-level directory of this repository so that settings get loaded correctly.
+
+CMake runs in two stages, configuration, where it gathers information about tools and files, and building, which actually compiles code. It is important to run configure when source files are added or removed, or when modm's project.xml is changed. This also includes when pulling or switching branches on git. Clicking *CMake: ___: Ready* in the bottom toolbar will run configuration, and ask you to choose between debug or release settings. The first time, you will also be asked to choose a compiler, but for that select [Unspecified], as the correct one should later be selected automatically.
+
+After CMake configuration runs, you can select which board to build for. In the bottom toolbar is some buttons. Clicking *⚙ Build* will build code, and just to the right is where you can select which target to build. Selecting an *upload-<boardname>* target will build and flash code to the microcontroller, while selecting a target without *upload-* in the name will only build it. Clicking *CMake: ___: Ready* will allow you to change build types by reconfiguring.
+
+After CMake runs, there will also be debug launch configurations automatically generated. Click on the debugger icon in the left side of the screen, choose which file to debug, and hit the ▶️ button to start debugging. (Make sure to build and upload the correct firmware first! If you try to debug code that is different from what is on the microcontroller, you will end up very confused.)
+
+### Command Line
+
+If you know how to use CMake already, then you are good to go. The default target builds all boards, and *upload-<boardname>* will build code for a specific board and upload it.
+
+Alternatively, there is a makefile wrapper around the CMake command syntax. Run `make help` in the terminal to see the available options.
+
+Debugging can be done through Visual Studio Code in the same way while building from the command line.
