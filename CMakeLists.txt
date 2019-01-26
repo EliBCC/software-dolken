@@ -71,8 +71,6 @@ FOREACH(BOARD_NAME ${BOARD_NAMES})
 
 	ADD_CUSTOM_TARGET(upload-${BOARD_NAME} openocd -f "${PROJECT_SOURCE_DIR}/scripts/openocd.cfg" -c "program_file ${PROJECT_BINARY_DIR}/${BOARD_NAME}.elf" DEPENDS ${BOARD_NAME})
 
-	ADD_CUSTOM_TARGET(build-type ALL cmake -E echo "Build type: ${CMAKE_BUILD_TYPE}")
-
 	MESSAGE(STATUS "added ${BOARD_NAME}")
 
 	LIST(APPEND LAUNCH_JSON_ENTRIES "        {\n\
@@ -88,6 +86,7 @@ FOREACH(BOARD_NAME ${BOARD_NAMES})
 ENDFOREACH()
 
 ADD_CUSTOM_TARGET(modm-docs lbuild build -m ":docs" WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+ADD_CUSTOM_TARGET(build-type ALL cmake -E echo "Build type: ${CMAKE_BUILD_TYPE}")
 
 SET(LAUNCH_JSON "{\n    \"version\": \"0.2.0\",\n    \"configurations\": [\n")
 LIST(JOIN LAUNCH_JSON_ENTRIES ",\n" LAUNCH_JSON_ENTRIES_JOINED)
