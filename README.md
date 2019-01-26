@@ -71,9 +71,11 @@ If you do not already have a preferred text editor, Visual Studio code works wel
 
  * The [Cortex-Debug extension](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug) provides graphical debugging support for ARM microcontrollers.
 
-It is important to open up the top-level directory of this repository so that settings get loaded correctly. The first time, CMake Tools will ask if you want to configure the project. Say yes, and it will ask to choose a compiler, but for that select [Unspecified], as the correct one should later be selected automatically.
+It is important to open up the top-level directory of this repository so that settings get loaded correctly.
 
-After the first time CMake configuration runs, you can select which board to build for. In the bottom toolbar is some buttons. Clicking *⚙ Build* will build code, and just to the right is where you can select which target to build. Selecting an *upload-<boardname>* target will build and flash code to the microcontroller, while selecting a target without *upload-* in the name will only build it. Clicking *CMake: ___: Ready* will allow you to choose between debug or release settings.
+CMake runs in two stages, configuration, where it gathers information about tools and files, and building, which actually compiles code. It is important to run configure when source files are added or removed, or when modm's project.xml is changed. This also includes when pulling or switching branches on git. Clicking *CMake: ___: Ready* in the bottom toolbar will run configuration, and ask you to choose between debug or release settings. The first time, you will also be asked to choose a compiler, but for that select [Unspecified], as the correct one should later be selected automatically.
+
+After CMake configuration runs, you can select which board to build for. In the bottom toolbar is some buttons. Clicking *⚙ Build* will build code, and just to the right is where you can select which target to build. Selecting an *upload-<boardname>* target will build and flash code to the microcontroller, while selecting a target without *upload-* in the name will only build it. Clicking *CMake: ___: Ready* will allow you to change build types by reconfiguring.
 
 After CMake runs, there will also be debug launch configurations automatically generated. Click on the debugger icon in the left side of the screen, choose which file to debug, and hit the ▶️ button to start debugging. (Make sure to build and upload the correct firmware first! If you try to debug code that is different from what is on the microcontroller, you will end up very confused.)
 
