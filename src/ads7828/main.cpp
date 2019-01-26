@@ -16,8 +16,9 @@
 #include <modm/debug/logger.hpp>
 
 #include <common/board.hpp>
+#include <common/blink_thread.hpp>
 
-#include <blink/blink_thread.hpp>
+#include "ads7828_example.hpp"
 
 // Set the log level
 #undef	MODM_LOG_LEVEL
@@ -26,6 +27,7 @@
 int main(void) {
 	initCommon();
 
+	MODM_LOG_INFO << "======ADS7828 test======" << modm::endl;
 	MODM_LOG_DEBUG << "main: debug logging here" << modm::endl;
 	MODM_LOG_INFO << "main: info logging here" << modm::endl;
 	MODM_LOG_WARNING << "main: warning logging here" << modm::endl;
@@ -44,8 +46,10 @@ int main(void) {
 	LedD3::set();
 
 	BlinkThread blinkThread;
+	Ads7828ExampleThread ads7828ExampleThread;
 	while (1) {
 		blinkThread.run();
+		ads7828ExampleThread.run();
 	}
 	return 0;
 }
