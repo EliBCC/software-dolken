@@ -7,6 +7,10 @@
 #include <modm/processing/protothread.hpp>
 #include <modm/processing/resumable.hpp>
 #include <modm/debug/logger.hpp>
+/*
+* Written by Nicolai Dynweber Bruhn
+*/
+
 
 // Set the log level
 #undef	MODM_LOG_LEVEL
@@ -24,14 +28,24 @@
 #define _UART_RX_ modm::platform::GpioA3::Rx
 #define _UART_DIR_ modm::platform::GpioA15
 #define _UART_BAUD_ 115200
+
+/*
+* @brief Namespace for rs485 protocol
+*/
 namespace rs485
-{
+{   
+    /**
+    * @brief Enum for output on Analog pin for direction
+    */
     enum class Direction : uint8_t
     {
         Receive = (uint8_t)modm::platform::Gpio::InputType::PullDown,
         Transmit = (uint8_t)modm::platform::Gpio::InputType::PullUp,
     };
 
+    /**
+    * @brief Enum for sensor commands
+    */
     enum class SensorCMD : uint8_t
     {
         LOAD = 0x0,
@@ -55,6 +69,10 @@ namespace rs485
         T_IPA = 0x18,
     };
 
+
+    /**
+    * @brief Enum for Valve commands
+    */
     enum class ValveCMD : uint8_t
     {
         SN_N2O_FILL = 0x2,
@@ -65,12 +83,20 @@ namespace rs485
         MV_N2O = 0x7,
     };
 
+
+    /**
+    * @brief Enum for system commands
+    */
     enum class SystemCMD : uint8_t
     {
         STA = 0xC8,
         TIME = 0xC9,
     };
 
+
+    /**
+    * @brief struct for command contains cmd id, data and amount of data.
+    */
     struct Command_t
     {
         uint8_t id;
@@ -78,16 +104,26 @@ namespace rs485
         uint8_t count;
     };
 
+    /**
+    * brief a ringbuffer of type T and any size
+    */
+    template<typename T, size_t SIZE>
     class RingBuffer
     {
     private:
-        uint16_t buffer_size = 1024;
-        int8_t buffer[1024];
+        uint16_t buffer_size = SIZE;
+        T buffer[SIZE];
         uint16_t count = 0;
         uint16_t front = 0;
         
     public:
-        bool insert(uint8_t byte)
+
+        /**
+        * @brief inserts element into ringbuffer if it is not full
+        * @param element to insert
+        * @returns true if element is inserted
+        */
+        bool insert(T byte)
         {   
             if(count < buffer_size)
             {
@@ -100,27 +136,54 @@ namespace rs485
                 return false;
         }
 
+        /**
+        * @brief checks if ringbuffer is empty
+        * @returns true if ringbuffer is empty
+        */
         bool IsEmpty(){
             return count == 0;
         }
 
+
+        /**
+        * @brief checks if ringbuffer is full
+        * @param element to insert
+        * @returns true if full
+        */
         bool IsFull()
         {
-            return count == 1024;
+            return count == buffer_size;
         }
 
-        uint8_t Pop()
+
+        /**
+        * @brief pops element from ringbuffer
+        * @returns front element and removes it from buffer
+        */
+        T Pop()
         {
-            uint8_t front = buffer[front];
+            T t = buffer[front];
             front = (front+1) % buffer_size;
             count--;
-            return front;
+            return t;
         }
-        uint8_t Peek(uint8_t pos = 0)
+
+
+        /**
+        * @brief peeks at an element in the ringbuffer
+        * @param position to peek at
+        * @returns returns element at position
+        */
+        T Peek(uint16_t pos = 0)
         {
             return buffer[(front+pos) % buffer_size];
         }
 
+
+        /**
+        * @brief checks elements in ringbuffer
+        * @returns elements in the buffer
+        */
         uint16_t GetCount()
         {
             return count;
@@ -128,11 +191,20 @@ namespace rs485
     };
 
 
+    /**
+    * @brief rs485 protocol class
+    */
     class Rs485 : protected modm::NestedResumable<1>
     {
     private:
-        RingBuffer input_buffer;
+        RingBuffer<uint8_t, 1024> input_buffer;
         uint8_t get_cmd_size;
+
+
+        /**
+        * @brief validates if a valid cmd is in the buffer
+        * @returns true if valid command id is in the buffer
+        */
         bool ValidateCommand()
         {
             uint8_t cmd = input_buffer.Peek(2);
@@ -141,6 +213,12 @@ namespace rs485
             return false;
         }
 
+
+        /**
+        * @brief Pops command from ringbuffer
+        * @param amount of data bytes
+        * @returns command
+        */
         Command_t PopCommand(uint8_t size)
         {
             input_buffer.Pop();
@@ -158,16 +236,24 @@ namespace rs485
         }
 
     public:
+
+        /**
+        * @brief initialises uart communication
+        */
         Rs485()
         {
 
             MODM_LOG_INFO.printf("rs485: Setting up uart\n");
             _UART_::connect<_UART_TX_, _UART_RX_>();
             _UART_::initialize<ClockConfiguration, _UART_BAUD_>(); 
-            _UART_DIR_::setInput(modm::platform::Gpio::InputType::PullUp);
+            _UART_DIR_::setInput((modm::platform::Gpio::InputType) Direction::Receive);
         }
 
 
+        /**
+        * @brief reads all available bytes to the ringbuffer
+        * @returns true if no more bytes can be read from uart connection
+        */
         modm::ResumableResult<bool> ReadToBuffer()
         {
             RF_BEGIN();
@@ -184,8 +270,10 @@ namespace rs485
             RF_END_RETURN(!input_buffer.IsFull());
         }
 
-        /*
-        *
+        /**
+        * @brief gets a command from ringbuffer
+        * @param reference to object to put the found command
+        * @returns true if a valid command is found
         */
         modm::ResumableResult<bool> GetCommand(Command_t& ref)
         {
@@ -242,6 +330,10 @@ namespace rs485
             RF_END_RETURN(true);
         }
 
+        /**
+        * @brief writes a command over uart
+        * @param command to write
+        */
         modm::ResumableResult<bool> WriteCommand(Command_t cmd)
         {
             RF_BEGIN();
