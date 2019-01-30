@@ -28,8 +28,8 @@ namespace rs485
 {
     enum class Direction : uint8_t
     {
-        Receive = (uint8_t)modm::platform::Gpio::InputType::PullUp,
-        Transmit = (uint8_t)modm::platform::Gpio::InputType::PullDown,
+        Receive = (uint8_t)modm::platform::Gpio::InputType::PullDown,
+        Transmit = (uint8_t)modm::platform::Gpio::InputType::PullUp,
     };
 
     enum class SensorCMD : uint8_t
