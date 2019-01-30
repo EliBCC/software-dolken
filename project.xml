@@ -1,0 +1,28 @@
+<library>
+	<repositories>
+		<repository><path>./modm-repo/repo.lb</path></repository>
+	</repositories>
+	<options>
+		<option name=":target">stm32f446ret</option>
+		<option name=":build:build.path">./build</option>
+		<option name=":build:project.name">can_test</option>
+		<option name=":build:openocd.cfg">./openocd_board.cfg</option>
+		<option name=":build:cmake:include_makefile">False</option>
+		<option name=":docs:generate_module_docs">True</option>
+	</options>
+	<modules>
+		<module>:platform:core</module>
+		<module>:platform:clock</module>
+		<module>:platform:gpio</module>
+		<module>:platform:can:1</module>
+		<module>:platform:uart:1</module>
+		<module>:platform:uart:2</module>
+		<module>:platform:spi:1</module>
+		<module>:platform:spi:2</module>
+		<module>:platform:i2c:1</module>
+		<module>:platform:i2c:2</module>
+		<module>:architecture:i2c.device</module>
+		<module>:processing:protothread</module>
+		<module>:processing:resumable</module>
+	</modules>
+</library>
