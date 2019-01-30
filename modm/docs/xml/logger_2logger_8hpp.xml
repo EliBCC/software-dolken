@@ -8,13 +8,25 @@
     <includes refid="style_8hpp" local="yes">style.hpp</includes>
     <includes refid="style__wrapper_8hpp" local="yes">style_wrapper.hpp</includes>
     <includes refid="prefix_8hpp" local="yes">style/prefix.hpp</includes>
-    <includedby refid="logger_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger.hpp</includedby>
+    <includedby refid="logger_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger.hpp</includedby>
     <incdepgraph>
       <node id="1143">
         <label>stdarg.h</label>
       </node>
+      <node id="1144">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
       <node id="1146">
         <label>stdint.h</label>
+      </node>
+      <node id="1150">
+        <label>style_wrapper.hpp</label>
+        <link refid="style__wrapper_8hpp"/>
+        <childnode refid="1144" relation="include">
+        </childnode>
+        <childnode refid="1148" relation="include">
+        </childnode>
       </node>
       <node id="1148">
         <label>style.hpp</label>
@@ -24,19 +36,18 @@
         <childnode refid="1149" relation="include">
         </childnode>
       </node>
-      <node id="1151">
-        <label>style/prefix.hpp</label>
-        <link refid="prefix_8hpp"/>
-        <childnode refid="1152" relation="include">
-        </childnode>
-        <childnode refid="1148" relation="include">
-        </childnode>
-        <childnode refid="1153" relation="include">
-        </childnode>
-      </node>
       <node id="1147">
         <label>level.hpp</label>
         <link refid="level_8hpp"/>
+      </node>
+      <node id="1149">
+        <label>style_impl.hpp</label>
+      </node>
+      <node id="1139">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="1140" relation="include">
+        </childnode>
       </node>
       <node id="1141">
         <label>modm/io/iostream.hpp</label>
@@ -54,50 +65,24 @@
         <childnode refid="1145" relation="include">
         </childnode>
       </node>
-      <node id="1149">
-        <label>style_impl.hpp</label>
-      </node>
-      <node id="1140">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
-      </node>
       <node id="1153">
         <label>prefix_impl.hpp</label>
       </node>
-      <node id="1144">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
-      <node id="1150">
-        <label>style_wrapper.hpp</label>
-        <link refid="style__wrapper_8hpp"/>
-        <childnode refid="1144" relation="include">
+      <node id="1151">
+        <label>style/prefix.hpp</label>
+        <link refid="prefix_8hpp"/>
+        <childnode refid="1152" relation="include">
         </childnode>
         <childnode refid="1148" relation="include">
+        </childnode>
+        <childnode refid="1153" relation="include">
         </childnode>
       </node>
       <node id="1142">
         <label>cstddef</label>
       </node>
-      <node id="1139">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="1140" relation="include">
-        </childnode>
-      </node>
-      <node id="1145">
-        <label>iodevice_wrapper.hpp</label>
-        <link refid="iodevice__wrapper_8hpp"/>
-        <childnode refid="1146" relation="include">
-        </childnode>
-        <childnode refid="1144" relation="include">
-        </childnode>
-      </node>
-      <node id="1152">
-        <label>cstring</label>
-      </node>
       <node id="1138">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp</label>
         <link refid="logger_2logger_8hpp"/>
         <childnode refid="1139" relation="include">
         </childnode>
@@ -112,34 +97,49 @@
         <childnode refid="1151" relation="include">
         </childnode>
       </node>
+      <node id="1145">
+        <label>iodevice_wrapper.hpp</label>
+        <link refid="iodevice__wrapper_8hpp"/>
+        <childnode refid="1146" relation="include">
+        </childnode>
+        <childnode refid="1144" relation="include">
+        </childnode>
+      </node>
+      <node id="1152">
+        <label>cstring</label>
+      </node>
+      <node id="1140">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1158">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug.hpp</label>
         <link refid="debug_8hpp"/>
       </node>
       <node id="1157">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/imp/std.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/imp/std.hpp</label>
         <link refid="std_8hpp"/>
       </node>
+      <node id="1154">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp</label>
+        <link refid="logger_2logger_8hpp"/>
+        <childnode refid="1155" relation="include">
+        </childnode>
+      </node>
+      <node id="1156">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/debug.hpp</label>
+        <link refid="debug_2debug_8hpp"/>
+      </node>
       <node id="1155">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger.hpp</label>
         <link refid="logger_8hpp"/>
         <childnode refid="1156" relation="include">
         </childnode>
         <childnode refid="1157" relation="include">
         </childnode>
         <childnode refid="1158" relation="include">
-        </childnode>
-      </node>
-      <node id="1156">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/debug.hpp</label>
-        <link refid="debug_2debug_8hpp"/>
-      </node>
-      <node id="1154">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp</label>
-        <link refid="logger_2logger_8hpp"/>
-        <childnode refid="1155" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" line="120" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="120" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" line="120" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="120" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__modm__debug_1ga31bd6931a8999d2c639cc8c4f0c6b3d0" prot="public" static="no">
         <name>MODM_LOG_DEBUG</name>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" line="128" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="128" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" line="128" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="128" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__modm__debug_1gaa818d31e0c2792328f81da25f256b79e" prot="public" static="no">
         <name>MODM_LOG_INFO</name>
@@ -181,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" line="136" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="136" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" line="136" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="136" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__modm__debug_1ga52f16607e67579b1edfe50c9a411f916" prot="public" static="no">
         <name>MODM_LOG_WARNING</name>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" line="144" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="144" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" line="144" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="144" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__modm__debug_1gadf3ebf7b7d086653da99e9a5db3e72f2" prot="public" static="no">
         <name>MODM_LOG_ERROR</name>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" line="152" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="152" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" line="152" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__modm__debug_1ga8de29f7c8bbf1a81cc6e71ac602032d3" prot="public" static="no">
         <name>FILENAME</name>
@@ -215,7 +215,7 @@
 <para>In contrast to <computeroutput><bold>FILE</bold></computeroutput> the path to the file is omitted (if this feature is available, otherwise this macro will resolve to <computeroutput><bold>FILE</bold></computeroutput>). </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" line="166" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="166" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" line="166" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="166" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__modm__debug_1gaea53f8d30480950a86190379561a688b" prot="public" static="no">
         <name>MODM_FILE_INFO</name>
@@ -230,13 +230,13 @@
 </programlisting> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" line="190" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="190" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" line="190" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp" bodystart="190" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp"/>
   </compounddef>
 </doxygen>

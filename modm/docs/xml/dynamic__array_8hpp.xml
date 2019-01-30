@@ -7,10 +7,10 @@
     <includes local="no">initializer_list</includes>
     <includes local="yes">dynamic_array_impl.hpp</includes>
     <includes local="yes">dynamic_array_iterator_impl.hpp</includes>
-    <includedby refid="container_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container.hpp</includedby>
+    <includedby refid="container_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container.hpp</includedby>
     <incdepgraph>
       <node id="1017">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/dynamic_array.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/dynamic_array.hpp</label>
         <link refid="dynamic__array_8hpp"/>
         <childnode refid="1018" relation="include">
         </childnode>
@@ -23,10 +23,12 @@
         <childnode refid="1027" relation="include">
         </childnode>
       </node>
-      <node id="1023">
-        <label>allocator/static.hpp</label>
-        <link refid="static_8hpp"/>
-        <childnode refid="1021" relation="include">
+      <node id="1021">
+        <label>allocator_base.hpp</label>
+        <link refid="allocator__base_8hpp"/>
+        <childnode refid="1018" relation="include">
+        </childnode>
+        <childnode refid="1022" relation="include">
         </childnode>
       </node>
       <node id="1026">
@@ -38,19 +40,26 @@
         <childnode refid="1021" relation="include">
         </childnode>
       </node>
-      <node id="1021">
-        <label>allocator_base.hpp</label>
-        <link refid="allocator__base_8hpp"/>
-        <childnode refid="1018" relation="include">
+      <node id="1023">
+        <label>allocator/static.hpp</label>
+        <link refid="static_8hpp"/>
+        <childnode refid="1021" relation="include">
         </childnode>
-        <childnode refid="1022" relation="include">
-        </childnode>
+      </node>
+      <node id="1022">
+        <label>new</label>
       </node>
       <node id="1020">
         <label>allocator/dynamic.hpp</label>
         <link refid="dynamic_8hpp"/>
         <childnode refid="1021" relation="include">
         </childnode>
+      </node>
+      <node id="1018">
+        <label>cstddef</label>
+      </node>
+      <node id="1027">
+        <label>dynamic_array_iterator_impl.hpp</label>
       </node>
       <node id="1019">
         <label>modm/utils/allocator.hpp</label>
@@ -62,28 +71,19 @@
         <childnode refid="1024" relation="include">
         </childnode>
       </node>
-      <node id="1022">
-        <label>new</label>
-      </node>
-      <node id="1018">
-        <label>cstddef</label>
-      </node>
-      <node id="1027">
-        <label>dynamic_array_iterator_impl.hpp</label>
-      </node>
       <node id="1025">
         <label>initializer_list</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1028">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/dynamic_array.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/dynamic_array.hpp</label>
         <link refid="dynamic__array_8hpp"/>
         <childnode refid="1029" relation="include">
         </childnode>
       </node>
       <node id="1029">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container.hpp</label>
         <link refid="container_8hpp"/>
       </node>
     </invincdepgraph>
@@ -95,6 +95,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/dynamic_array.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/dynamic_array.hpp"/>
   </compounddef>
 </doxygen>

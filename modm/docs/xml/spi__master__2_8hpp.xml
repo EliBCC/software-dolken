@@ -5,57 +5,19 @@
     <includes refid="spi__master_8hpp" local="no">modm/architecture/interface/spi_master.hpp</includes>
     <includes refid="connector_8hpp" local="no">modm/platform/gpio/connector.hpp</includes>
     <includes refid="spi__hal__2_8hpp" local="yes">spi_hal_2.hpp</includes>
-    <includedby refid="platform_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</includedby>
+    <includedby refid="platform_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</includedby>
     <incdepgraph>
-      <node id="3032">
-        <label>../device.hpp</label>
-        <link refid="device_8hpp"/>
-        <childnode refid="3013" relation="include">
-        </childnode>
-        <childnode refid="3014" relation="include">
-        </childnode>
-        <childnode refid="3033" relation="include">
-        </childnode>
-        <childnode refid="3034" relation="include">
-        </childnode>
-      </node>
-      <node id="3035">
-        <label>modm/architecture/interface/gpio.hpp</label>
-        <link refid="gpio_8hpp"/>
-        <childnode refid="3013" relation="include">
-        </childnode>
-        <childnode refid="3014" relation="include">
-        </childnode>
-      </node>
       <node id="3022">
         <label>stdarg.h</label>
       </node>
-      <node id="3039">
-        <label>unused.hpp</label>
-        <link refid="unused_8hpp"/>
-        <childnode refid="3031" relation="include">
+      <node id="3007">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <link refid="spi__master__2_8hpp"/>
+        <childnode refid="3008" relation="include">
         </childnode>
-        <childnode refid="3035" relation="include">
+        <childnode refid="3030" relation="include">
         </childnode>
-      </node>
-      <node id="3043">
-        <label>modm/architecture/interface/register.hpp</label>
-        <link refid="register_8hpp"/>
-        <childnode refid="3013" relation="include">
-        </childnode>
-        <childnode refid="3016" relation="include">
-        </childnode>
-        <childnode refid="3015" relation="include">
-        </childnode>
-        <childnode refid="3021" relation="include">
-        </childnode>
-      </node>
-      <node id="3041">
-        <label>spi_hal_2.hpp</label>
-        <link refid="spi__hal__2_8hpp"/>
-        <childnode refid="3042" relation="include">
-        </childnode>
-        <childnode refid="3044" relation="include">
+        <childnode refid="3041" relation="include">
         </childnode>
       </node>
       <node id="3038">
@@ -66,48 +28,22 @@
         <childnode refid="3040" relation="include">
         </childnode>
       </node>
-      <node id="3030">
-        <label>modm/platform/gpio/connector.hpp</label>
-        <link refid="connector_8hpp"/>
-        <childnode refid="3031" relation="include">
-        </childnode>
-        <childnode refid="3038" relation="include">
-        </childnode>
-      </node>
-      <node id="3027">
-        <label>spi.hpp</label>
-        <link refid="spi_8hpp"/>
-        <childnode refid="3028" relation="include">
-        </childnode>
-      </node>
       <node id="3034">
         <label>system_stm32f4xx.h</label>
       </node>
-      <node id="3012">
-        <label>modm/architecture/interface/assert.hpp</label>
-        <link refid="assert_8hpp"/>
+      <node id="3028">
+        <label>modm/architecture/interface/peripheral.hpp</label>
+        <link refid="peripheral_8hpp"/>
         <childnode refid="3013" relation="include">
         </childnode>
-        <childnode refid="3014" relation="include">
+        <childnode refid="3019" relation="include">
         </childnode>
-        <childnode refid="3016" relation="include">
-        </childnode>
-        <childnode refid="3017" relation="include">
+        <childnode refid="3029" relation="include">
         </childnode>
       </node>
-      <node id="3013">
-        <label>stdint.h</label>
-      </node>
-      <node id="3011">
-        <label>macros.hpp</label>
-        <link refid="resumable_2macros_8hpp"/>
-        <childnode refid="3012" relation="include">
-        </childnode>
-        <childnode refid="3014" relation="include">
-        </childnode>
-      </node>
-      <node id="3044">
-        <label>spi_hal_2_impl.hpp</label>
+      <node id="3023">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
       </node>
       <node id="3010">
         <label>resumable/resumable.hpp</label>
@@ -121,8 +57,136 @@
         <childnode refid="3025" relation="include">
         </childnode>
       </node>
+      <node id="3013">
+        <label>stdint.h</label>
+      </node>
+      <node id="3043">
+        <label>modm/architecture/interface/register.hpp</label>
+        <link refid="register_8hpp"/>
+        <childnode refid="3013" relation="include">
+        </childnode>
+        <childnode refid="3016" relation="include">
+        </childnode>
+        <childnode refid="3015" relation="include">
+        </childnode>
+        <childnode refid="3021" relation="include">
+        </childnode>
+      </node>
+      <node id="3044">
+        <label>spi_hal_2_impl.hpp</label>
+      </node>
+      <node id="3011">
+        <label>macros.hpp</label>
+        <link refid="resumable_2macros_8hpp"/>
+        <childnode refid="3012" relation="include">
+        </childnode>
+        <childnode refid="3014" relation="include">
+        </childnode>
+      </node>
+      <node id="3031">
+        <label>base.hpp</label>
+        <link refid="base_8hpp"/>
+        <childnode refid="3032" relation="include">
+        </childnode>
+        <childnode refid="3035" relation="include">
+        </childnode>
+        <childnode refid="3036" relation="include">
+        </childnode>
+      </node>
       <node id="3037">
         <label>cmath</label>
+      </node>
+      <node id="3036">
+        <label>modm/math/utils/bit_operation.hpp</label>
+        <link refid="bit__operation_8hpp"/>
+        <childnode refid="3019" relation="include">
+        </childnode>
+        <childnode refid="3037" relation="include">
+        </childnode>
+        <childnode refid="3013" relation="include">
+        </childnode>
+        <childnode refid="3015" relation="include">
+        </childnode>
+        <childnode refid="3014" relation="include">
+        </childnode>
+      </node>
+      <node id="3009">
+        <label>modm/processing/resumable.hpp</label>
+        <link refid="resumable_8hpp"/>
+        <childnode refid="3010" relation="include">
+        </childnode>
+        <childnode refid="3026" relation="include">
+        </childnode>
+      </node>
+      <node id="3016">
+        <label>modm/utils/bit_constants.hpp</label>
+        <link refid="bit__constants_8hpp"/>
+        <childnode refid="3013" relation="include">
+        </childnode>
+      </node>
+      <node id="3032">
+        <label>../device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="3013" relation="include">
+        </childnode>
+        <childnode refid="3014" relation="include">
+        </childnode>
+        <childnode refid="3033" relation="include">
+        </childnode>
+        <childnode refid="3034" relation="include">
+        </childnode>
+      </node>
+      <node id="3017">
+        <label>modm/architecture/interface/accessor.hpp</label>
+        <link refid="accessor_8hpp"/>
+        <childnode refid="3018" relation="include">
+        </childnode>
+        <childnode refid="3020" relation="include">
+        </childnode>
+      </node>
+      <node id="3029">
+        <label>modm/math/tolerance.hpp</label>
+        <link refid="tolerance_8hpp"/>
+        <childnode refid="3013" relation="include">
+        </childnode>
+      </node>
+      <node id="3018">
+        <label>modm/architecture/interface/accessor_ram.hpp</label>
+        <link refid="accessor__ram_8hpp"/>
+        <childnode refid="3019" relation="include">
+        </childnode>
+        <childnode refid="3014" relation="include">
+        </childnode>
+      </node>
+      <node id="3020">
+        <label>modm/architecture/interface/accessor_flash.hpp</label>
+        <link refid="accessor__flash_8hpp"/>
+        <childnode refid="3014" relation="include">
+        </childnode>
+        <childnode refid="3021" relation="include">
+        </childnode>
+      </node>
+      <node id="3027">
+        <label>spi.hpp</label>
+        <link refid="spi_8hpp"/>
+        <childnode refid="3028" relation="include">
+        </childnode>
+      </node>
+      <node id="3042">
+        <label>spi_base.hpp</label>
+        <link refid="spi__base_8hpp"/>
+        <childnode refid="3013" relation="include">
+        </childnode>
+        <childnode refid="3032" relation="include">
+        </childnode>
+        <childnode refid="3043" relation="include">
+        </childnode>
+      </node>
+      <node id="3014">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="3015" relation="include">
+        </childnode>
       </node>
       <node id="3021">
         <label>modm/io/iostream.hpp</label>
@@ -140,45 +204,25 @@
         <childnode refid="3024" relation="include">
         </childnode>
       </node>
-      <node id="3031">
-        <label>base.hpp</label>
-        <link refid="base_8hpp"/>
-        <childnode refid="3032" relation="include">
+      <node id="3012">
+        <label>modm/architecture/interface/assert.hpp</label>
+        <link refid="assert_8hpp"/>
+        <childnode refid="3013" relation="include">
         </childnode>
-        <childnode refid="3035" relation="include">
+        <childnode refid="3014" relation="include">
         </childnode>
-        <childnode refid="3036" relation="include">
+        <childnode refid="3016" relation="include">
         </childnode>
-      </node>
-      <node id="3008">
-        <label>modm/architecture/interface/spi_master.hpp</label>
-        <link refid="spi__master_8hpp"/>
-        <childnode refid="3009" relation="include">
-        </childnode>
-        <childnode refid="3027" relation="include">
+        <childnode refid="3017" relation="include">
         </childnode>
       </node>
-      <node id="3007">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
-        <link refid="spi__master__2_8hpp"/>
-        <childnode refid="3008" relation="include">
+      <node id="3041">
+        <label>spi_hal_2.hpp</label>
+        <link refid="spi__hal__2_8hpp"/>
+        <childnode refid="3042" relation="include">
         </childnode>
-        <childnode refid="3030" relation="include">
+        <childnode refid="3044" relation="include">
         </childnode>
-        <childnode refid="3041" relation="include">
-        </childnode>
-      </node>
-      <node id="3009">
-        <label>modm/processing/resumable.hpp</label>
-        <link refid="resumable_8hpp"/>
-        <childnode refid="3010" relation="include">
-        </childnode>
-        <childnode refid="3026" relation="include">
-        </childnode>
-      </node>
-      <node id="3015">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
       </node>
       <node id="3026">
         <label>resumable/nested_resumable.hpp</label>
@@ -190,64 +234,32 @@
         <childnode refid="3013" relation="include">
         </childnode>
       </node>
-      <node id="3020">
-        <label>modm/architecture/interface/accessor_flash.hpp</label>
-        <link refid="accessor__flash_8hpp"/>
-        <childnode refid="3014" relation="include">
+      <node id="3008">
+        <label>modm/architecture/interface/spi_master.hpp</label>
+        <link refid="spi__master_8hpp"/>
+        <childnode refid="3009" relation="include">
         </childnode>
-        <childnode refid="3021" relation="include">
-        </childnode>
-      </node>
-      <node id="3028">
-        <label>modm/architecture/interface/peripheral.hpp</label>
-        <link refid="peripheral_8hpp"/>
-        <childnode refid="3013" relation="include">
-        </childnode>
-        <childnode refid="3019" relation="include">
-        </childnode>
-        <childnode refid="3029" relation="include">
-        </childnode>
-      </node>
-      <node id="3023">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
-      <node id="3016">
-        <label>modm/utils/bit_constants.hpp</label>
-        <link refid="bit__constants_8hpp"/>
-        <childnode refid="3013" relation="include">
+        <childnode refid="3027" relation="include">
         </childnode>
       </node>
       <node id="3019">
         <label>cstddef</label>
       </node>
-      <node id="3029">
-        <label>modm/math/tolerance.hpp</label>
-        <link refid="tolerance_8hpp"/>
+      <node id="3030">
+        <label>modm/platform/gpio/connector.hpp</label>
+        <link refid="connector_8hpp"/>
+        <childnode refid="3031" relation="include">
+        </childnode>
+        <childnode refid="3038" relation="include">
+        </childnode>
+      </node>
+      <node id="3035">
+        <label>modm/architecture/interface/gpio.hpp</label>
+        <link refid="gpio_8hpp"/>
         <childnode refid="3013" relation="include">
         </childnode>
-      </node>
-      <node id="3014">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="3015" relation="include">
+        <childnode refid="3014" relation="include">
         </childnode>
-      </node>
-      <node id="3042">
-        <label>spi_base.hpp</label>
-        <link refid="spi__base_8hpp"/>
-        <childnode refid="3013" relation="include">
-        </childnode>
-        <childnode refid="3032" relation="include">
-        </childnode>
-        <childnode refid="3043" relation="include">
-        </childnode>
-      </node>
-      <node id="3040">
-        <label>type_traits</label>
-      </node>
-      <node id="3033">
-        <label>stm32f446xx.h</label>
       </node>
       <node id="3024">
         <label>iodevice_wrapper.hpp</label>
@@ -257,49 +269,37 @@
         <childnode refid="3023" relation="include">
         </childnode>
       </node>
-      <node id="3018">
-        <label>modm/architecture/interface/accessor_ram.hpp</label>
-        <link refid="accessor__ram_8hpp"/>
-        <childnode refid="3019" relation="include">
-        </childnode>
-        <childnode refid="3014" relation="include">
-        </childnode>
+      <node id="3040">
+        <label>type_traits</label>
       </node>
-      <node id="3036">
-        <label>modm/math/utils/bit_operation.hpp</label>
-        <link refid="bit__operation_8hpp"/>
-        <childnode refid="3019" relation="include">
-        </childnode>
-        <childnode refid="3037" relation="include">
-        </childnode>
-        <childnode refid="3013" relation="include">
-        </childnode>
-        <childnode refid="3015" relation="include">
-        </childnode>
-        <childnode refid="3014" relation="include">
-        </childnode>
-      </node>
-      <node id="3017">
-        <label>modm/architecture/interface/accessor.hpp</label>
-        <link refid="accessor_8hpp"/>
-        <childnode refid="3018" relation="include">
-        </childnode>
-        <childnode refid="3020" relation="include">
-        </childnode>
+      <node id="3033">
+        <label>stm32f446xx.h</label>
       </node>
       <node id="3025">
         <label>initializer_list</label>
       </node>
+      <node id="3015">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
+      <node id="3039">
+        <label>unused.hpp</label>
+        <link refid="unused_8hpp"/>
+        <childnode refid="3031" relation="include">
+        </childnode>
+        <childnode refid="3035" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="3045">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
         <link refid="spi__master__2_8hpp"/>
         <childnode refid="3046" relation="include">
         </childnode>
       </node>
       <node id="3046">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
         <link refid="platform_8hpp"/>
       </node>
     </invincdepgraph>
@@ -310,6 +310,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp"/>
   </compounddef>
 </doxygen>

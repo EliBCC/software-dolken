@@ -2,14 +2,14 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="task_8hpp" kind="file" language="C++">
     <compoundname>task.hpp</compoundname>
-    <includedby refid="processing_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</includedby>
+    <includedby refid="processing_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing.hpp</includedby>
     <invincdepgraph>
       <node id="3374">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing.hpp</label>
         <link refid="processing_8hpp"/>
       </node>
       <node id="3373">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/task.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/task.hpp</label>
         <link refid="task_8hpp"/>
         <childnode refid="3374" relation="include">
         </childnode>
@@ -21,6 +21,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/task.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/task.hpp"/>
   </compounddef>
 </doxygen>

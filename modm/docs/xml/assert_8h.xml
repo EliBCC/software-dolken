@@ -12,8 +12,14 @@
       <node id="432">
         <label>stdint.h</label>
       </node>
+      <node id="434">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="435" relation="include">
+        </childnode>
+      </node>
       <node id="431">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.h</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.h</label>
         <link refid="assert_8h"/>
         <childnode refid="432" relation="include">
         </childnode>
@@ -26,17 +32,11 @@
         <label>detect.hpp</label>
         <link refid="detect_8hpp"/>
       </node>
-      <node id="434">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="435" relation="include">
-        </childnode>
-      </node>
     </incdepgraph>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.h"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.h"/>
   </compounddef>
 </doxygen>

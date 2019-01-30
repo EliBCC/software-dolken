@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_77ee7293d278d423e07820c877d0e1b4" kind="dir">
-    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math</compoundname>
-    <innerdir refid="dir_bde41730d9b79a359bd74ac2207b6115">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils</innerdir>
+    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math</compoundname>
+    <innerdir refid="dir_bde41730d9b79a359bd74ac2207b6115">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils</innerdir>
     <innerfile refid="tolerance_8hpp">tolerance.hpp</innerfile>
     <innerfile refid="math_2utils_8hpp">utils.hpp</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/"/>
   </compounddef>
 </doxygen>

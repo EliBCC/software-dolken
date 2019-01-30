@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
-    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src</compoundname>
-    <innerdir refid="dir_8a48607f40774c82a4d4fc5560386f89">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm</innerdir>
+    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src</compoundname>
+    <innerdir refid="dir_8a48607f40774c82a4d4fc5560386f89">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/"/>
   </compounddef>
 </doxygen>

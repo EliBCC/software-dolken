@@ -46,7 +46,7 @@
         <link refid="classmodm_1_1_stack"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/stack.hpp" line="106" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/stack.hpp" bodystart="105" bodyend="107"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/stack.hpp" line="106" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/stack.hpp" bodystart="105" bodyend="107"/>
     <listofallmembers>
       <member refid="classmodm_1_1_stack_1aba2f1e88f5be68215509f72226721b6e" prot="protected" virt="non-virtual"><scope>modm::BoundedStack</scope><name>c</name></member>
       <member refid="classmodm_1_1_stack_1af0ed90ffbe21423970d61e9e53376a12" prot="public" virt="non-virtual"><scope>modm::BoundedStack</scope><name>get</name></member>

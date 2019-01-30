@@ -4,19 +4,11 @@
     <compoundname>protothread.hpp</compoundname>
     <includes local="no">stdint.h</includes>
     <includes refid="protothread_2macros_8hpp" local="yes">macros.hpp</includes>
-    <includedby refid="protothread_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/protothread.hpp</includedby>
-    <includedby refid="processing_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</includedby>
+    <includedby refid="protothread_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/protothread.hpp</includedby>
+    <includedby refid="processing_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing.hpp</includedby>
     <incdepgraph>
       <node id="3276">
         <label>stdint.h</label>
-      </node>
-      <node id="3275">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/protothread/protothread.hpp</label>
-        <link refid="protothread_2protothread_8hpp"/>
-        <childnode refid="3276" relation="include">
-        </childnode>
-        <childnode refid="3277" relation="include">
-        </childnode>
       </node>
       <node id="3277">
         <label>macros.hpp</label>
@@ -24,9 +16,13 @@
         <childnode refid="3278" relation="include">
         </childnode>
       </node>
-      <node id="3279">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
+      <node id="3275">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/protothread/protothread.hpp</label>
+        <link refid="protothread_2protothread_8hpp"/>
+        <childnode refid="3276" relation="include">
+        </childnode>
+        <childnode refid="3277" relation="include">
+        </childnode>
       </node>
       <node id="3278">
         <label>modm/architecture/utils.hpp</label>
@@ -34,16 +30,20 @@
         <childnode refid="3279" relation="include">
         </childnode>
       </node>
+      <node id="3279">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="3281">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/protothread.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/protothread.hpp</label>
         <link refid="protothread_8hpp"/>
         <childnode refid="3282" relation="include">
         </childnode>
       </node>
       <node id="3280">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/protothread/protothread.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/protothread/protothread.hpp</label>
         <link refid="protothread_2protothread_8hpp"/>
         <childnode refid="3281" relation="include">
         </childnode>
@@ -51,7 +51,7 @@
         </childnode>
       </node>
       <node id="3282">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing.hpp</label>
         <link refid="processing_8hpp"/>
       </node>
     </invincdepgraph>
@@ -62,6 +62,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/protothread/protothread.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/protothread/protothread.hpp"/>
   </compounddef>
 </doxygen>

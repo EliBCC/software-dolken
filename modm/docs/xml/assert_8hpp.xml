@@ -6,25 +6,53 @@
     <includes refid="architecture_2utils_8hpp" local="no">modm/architecture/utils.hpp</includes>
     <includes refid="bit__constants_8hpp" local="no">modm/utils/bit_constants.hpp</includes>
     <includes refid="accessor_8hpp" local="no">modm/architecture/interface/accessor.hpp</includes>
-    <includedby refid="resumable_2macros_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/macros.hpp</includedby>
+    <includedby refid="resumable_2macros_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable/macros.hpp</includedby>
     <incdepgraph>
       <node id="447">
         <label>stdarg.h</label>
       </node>
-      <node id="437">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp</label>
-        <link refid="assert_8hpp"/>
-        <childnode refid="438" relation="include">
-        </childnode>
-        <childnode refid="439" relation="include">
-        </childnode>
-        <childnode refid="441" relation="include">
-        </childnode>
-        <childnode refid="442" relation="include">
-        </childnode>
+      <node id="448">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
       </node>
       <node id="438">
         <label>stdint.h</label>
+      </node>
+      <node id="441">
+        <label>modm/utils/bit_constants.hpp</label>
+        <link refid="bit__constants_8hpp"/>
+        <childnode refid="438" relation="include">
+        </childnode>
+      </node>
+      <node id="442">
+        <label>modm/architecture/interface/accessor.hpp</label>
+        <link refid="accessor_8hpp"/>
+        <childnode refid="443" relation="include">
+        </childnode>
+        <childnode refid="445" relation="include">
+        </childnode>
+      </node>
+      <node id="443">
+        <label>modm/architecture/interface/accessor_ram.hpp</label>
+        <link refid="accessor__ram_8hpp"/>
+        <childnode refid="444" relation="include">
+        </childnode>
+        <childnode refid="439" relation="include">
+        </childnode>
+      </node>
+      <node id="445">
+        <label>modm/architecture/interface/accessor_flash.hpp</label>
+        <link refid="accessor__flash_8hpp"/>
+        <childnode refid="439" relation="include">
+        </childnode>
+        <childnode refid="446" relation="include">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="440" relation="include">
+        </childnode>
       </node>
       <node id="446">
         <label>modm/io/iostream.hpp</label>
@@ -42,36 +70,20 @@
         <childnode refid="449" relation="include">
         </childnode>
       </node>
-      <node id="440">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
-      </node>
-      <node id="445">
-        <label>modm/architecture/interface/accessor_flash.hpp</label>
-        <link refid="accessor__flash_8hpp"/>
+      <node id="437">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp</label>
+        <link refid="assert_8hpp"/>
+        <childnode refid="438" relation="include">
+        </childnode>
         <childnode refid="439" relation="include">
         </childnode>
-        <childnode refid="446" relation="include">
+        <childnode refid="441" relation="include">
         </childnode>
-      </node>
-      <node id="448">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
-      <node id="441">
-        <label>modm/utils/bit_constants.hpp</label>
-        <link refid="bit__constants_8hpp"/>
-        <childnode refid="438" relation="include">
+        <childnode refid="442" relation="include">
         </childnode>
       </node>
       <node id="444">
         <label>cstddef</label>
-      </node>
-      <node id="439">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="440" relation="include">
-        </childnode>
       </node>
       <node id="449">
         <label>iodevice_wrapper.hpp</label>
@@ -81,32 +93,28 @@
         <childnode refid="448" relation="include">
         </childnode>
       </node>
-      <node id="443">
-        <label>modm/architecture/interface/accessor_ram.hpp</label>
-        <link refid="accessor__ram_8hpp"/>
-        <childnode refid="444" relation="include">
-        </childnode>
-        <childnode refid="439" relation="include">
-        </childnode>
-      </node>
-      <node id="442">
-        <label>modm/architecture/interface/accessor.hpp</label>
-        <link refid="accessor_8hpp"/>
-        <childnode refid="443" relation="include">
-        </childnode>
-        <childnode refid="445" relation="include">
-        </childnode>
+      <node id="440">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="450">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp</label>
-        <link refid="assert_8hpp"/>
-        <childnode refid="451" relation="include">
+      <node id="458">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <link refid="spi__master__2_8hpp"/>
+        <childnode refid="457" relation="include">
+        </childnode>
+      </node>
+      <node id="460">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable/resumable.hpp</label>
+        <link refid="resumable_2resumable_8hpp"/>
+        <childnode refid="453" relation="include">
+        </childnode>
+        <childnode refid="459" relation="include">
         </childnode>
       </node>
       <node id="451">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/macros.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable/macros.hpp</label>
         <link refid="resumable_2macros_8hpp"/>
         <childnode refid="452" relation="include">
         </childnode>
@@ -115,34 +123,8 @@
         <childnode refid="459" relation="include">
         </childnode>
       </node>
-      <node id="460">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/resumable.hpp</label>
-        <link refid="resumable_2resumable_8hpp"/>
-        <childnode refid="453" relation="include">
-        </childnode>
-        <childnode refid="459" relation="include">
-        </childnode>
-      </node>
-      <node id="459">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</label>
-        <link refid="processing_8hpp"/>
-      </node>
-      <node id="455">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi_master.hpp</label>
-        <link refid="spi__master_8hpp"/>
-        <childnode refid="456" relation="include">
-        </childnode>
-        <childnode refid="458" relation="include">
-        </childnode>
-      </node>
-      <node id="458">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
-        <link refid="spi__master__2_8hpp"/>
-        <childnode refid="457" relation="include">
-        </childnode>
-      </node>
       <node id="453">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable.hpp</label>
         <link refid="resumable_8hpp"/>
         <childnode refid="454" relation="include">
         </childnode>
@@ -151,27 +133,45 @@
         <childnode refid="459" relation="include">
         </childnode>
       </node>
+      <node id="456">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
+        <link refid="spi__master__1_8hpp"/>
+        <childnode refid="457" relation="include">
+        </childnode>
+      </node>
+      <node id="454">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
+        <link refid="i2c__device_8hpp"/>
+      </node>
+      <node id="450">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp</label>
+        <link refid="assert_8hpp"/>
+        <childnode refid="451" relation="include">
+        </childnode>
+      </node>
       <node id="452">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp</label>
         <link refid="nested__resumable_8hpp"/>
         <childnode refid="453" relation="include">
         </childnode>
         <childnode refid="459" relation="include">
         </childnode>
       </node>
-      <node id="454">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
-        <link refid="i2c__device_8hpp"/>
+      <node id="459">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing.hpp</label>
+        <link refid="processing_8hpp"/>
+      </node>
+      <node id="455">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi_master.hpp</label>
+        <link refid="spi__master_8hpp"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="458" relation="include">
+        </childnode>
       </node>
       <node id="457">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
         <link refid="platform_8hpp"/>
-      </node>
-      <node id="456">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
-        <link refid="spi__master__1_8hpp"/>
-        <childnode refid="457" relation="include">
-        </childnode>
       </node>
     </invincdepgraph>
     <innernamespace refid="namespacemodm">modm</innernamespace>
@@ -194,7 +194,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="57" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp" bodystart="57" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="57" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp" bodystart="57" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -227,7 +227,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="69" column="1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="69" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__architecture__assert_1ga30f972d5576059fc223eb1103fe410d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -262,7 +262,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="81" column="1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="81" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__architecture__assert_1ga5550f5d2d8e1c93ea54dab9b3ceece0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -293,7 +293,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="93" column="1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="93" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__architecture__assert_1gafc6fdce377db677c250069879e8b54d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -328,7 +328,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="105" column="1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="105" column="1"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__architecture__assert_1ga167476628ef21d7f3c88a79d7a90b7a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -357,13 +357,13 @@
 <para>Overwriteable abandonment handler for all targets.</para><para>You should overwrite this handler for custom failure behaviour like blinking LEDs and outputting the failure string via a serial connection. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="116" column="1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp" line="116" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp"/>
   </compounddef>
 </doxygen>

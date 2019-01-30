@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_d8f0a95f41d4a72e3ea644113ce792ee" kind="dir">
-    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can</compoundname>
+    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can</compoundname>
     <innerfile refid="can__1_8hpp">can_1.hpp</innerfile>
     <innerfile refid="can__bit__timings_8hpp">can_bit_timings.hpp</innerfile>
     <innerfile refid="can__filter_8hpp">can_filter.hpp</innerfile>
@@ -10,6 +10,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/"/>
   </compounddef>
 </doxygen>

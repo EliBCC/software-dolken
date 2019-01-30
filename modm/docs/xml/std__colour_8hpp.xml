@@ -5,6 +5,10 @@
     <includes refid="style_8hpp" local="yes">../style.hpp</includes>
     <includes local="yes">std_colour_impl.hpp</includes>
     <incdepgraph>
+      <node id="1206">
+        <label>modm/io/iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
       <node id="1205">
         <label>../style.hpp</label>
         <link refid="style_8hpp"/>
@@ -13,20 +17,16 @@
         <childnode refid="1207" relation="include">
         </childnode>
       </node>
+      <node id="1207">
+        <label>style_impl.hpp</label>
+      </node>
       <node id="1204">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style/std_colour.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style/std_colour.hpp</label>
         <link refid="std__colour_8hpp"/>
         <childnode refid="1205" relation="include">
         </childnode>
         <childnode refid="1208" relation="include">
         </childnode>
-      </node>
-      <node id="1207">
-        <label>style_impl.hpp</label>
-      </node>
-      <node id="1206">
-        <label>modm/io/iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
       </node>
       <node id="1208">
         <label>std_colour_impl.hpp</label>
@@ -39,6 +39,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style/std_colour.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style/std_colour.hpp"/>
   </compounddef>
 </doxygen>

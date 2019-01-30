@@ -4,45 +4,14 @@
     <compoundname>unused.hpp</compoundname>
     <includes refid="base_8hpp" local="yes">base.hpp</includes>
     <includes refid="gpio_8hpp" local="no">modm/architecture/interface/gpio.hpp</includes>
-    <includedby refid="connector__detail_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/connector_detail.hpp</includedby>
-    <includedby refid="platform_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</includedby>
+    <includedby refid="connector__detail_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/connector_detail.hpp</includedby>
+    <includedby refid="platform_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</includedby>
     <incdepgraph>
-      <node id="2832">
-        <label>../device.hpp</label>
-        <link refid="device_8hpp"/>
-        <childnode refid="2833" relation="include">
-        </childnode>
-        <childnode refid="2834" relation="include">
-        </childnode>
-        <childnode refid="2836" relation="include">
-        </childnode>
-        <childnode refid="2837" relation="include">
-        </childnode>
-      </node>
-      <node id="2838">
-        <label>modm/architecture/interface/gpio.hpp</label>
-        <link refid="gpio_8hpp"/>
-        <childnode refid="2833" relation="include">
-        </childnode>
-        <childnode refid="2834" relation="include">
-        </childnode>
-      </node>
-      <node id="2830">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/unused.hpp</label>
-        <link refid="unused_8hpp"/>
-        <childnode refid="2831" relation="include">
-        </childnode>
-        <childnode refid="2838" relation="include">
-        </childnode>
-      </node>
       <node id="2837">
         <label>system_stm32f4xx.h</label>
       </node>
       <node id="2833">
         <label>stdint.h</label>
-      </node>
-      <node id="2841">
-        <label>cmath</label>
       </node>
       <node id="2831">
         <label>base.hpp</label>
@@ -54,21 +23,8 @@
         <childnode refid="2839" relation="include">
         </childnode>
       </node>
-      <node id="2835">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
-      </node>
-      <node id="2840">
-        <label>cstddef</label>
-      </node>
-      <node id="2834">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="2835" relation="include">
-        </childnode>
-      </node>
-      <node id="2836">
-        <label>stm32f446xx.h</label>
+      <node id="2841">
+        <label>cmath</label>
       </node>
       <node id="2839">
         <label>modm/math/utils/bit_operation.hpp</label>
@@ -84,38 +40,92 @@
         <childnode refid="2834" relation="include">
         </childnode>
       </node>
+      <node id="2832">
+        <label>../device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="2833" relation="include">
+        </childnode>
+        <childnode refid="2834" relation="include">
+        </childnode>
+        <childnode refid="2836" relation="include">
+        </childnode>
+        <childnode refid="2837" relation="include">
+        </childnode>
+      </node>
+      <node id="2834">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="2835" relation="include">
+        </childnode>
+      </node>
+      <node id="2840">
+        <label>cstddef</label>
+      </node>
+      <node id="2838">
+        <label>modm/architecture/interface/gpio.hpp</label>
+        <link refid="gpio_8hpp"/>
+        <childnode refid="2833" relation="include">
+        </childnode>
+        <childnode refid="2834" relation="include">
+        </childnode>
+      </node>
+      <node id="2836">
+        <label>stm32f446xx.h</label>
+      </node>
+      <node id="2835">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
+      <node id="2830">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/unused.hpp</label>
+        <link refid="unused_8hpp"/>
+        <childnode refid="2831" relation="include">
+        </childnode>
+        <childnode refid="2838" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2848">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</label>
-        <link refid="i2c__master__2_8hpp"/>
-        <childnode refid="2846" relation="include">
-        </childnode>
-      </node>
-      <node id="2842">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/unused.hpp</label>
-        <link refid="unused_8hpp"/>
-        <childnode refid="2843" relation="include">
-        </childnode>
-        <childnode refid="2846" relation="include">
-        </childnode>
-      </node>
-      <node id="2847">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</label>
-        <link refid="i2c__master__1_8hpp"/>
+      <node id="2850">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <link refid="spi__master__2_8hpp"/>
         <childnode refid="2846" relation="include">
         </childnode>
       </node>
       <node id="2843">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/connector_detail.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/connector_detail.hpp</label>
         <link refid="connector__detail_8hpp"/>
         <childnode refid="2844" relation="include">
         </childnode>
         <childnode refid="2846" relation="include">
         </childnode>
       </node>
+      <node id="2845">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_1.hpp</label>
+        <link refid="can__1_8hpp"/>
+        <childnode refid="2846" relation="include">
+        </childnode>
+      </node>
+      <node id="2851">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
+        <link refid="uart__1_8hpp"/>
+        <childnode refid="2846" relation="include">
+        </childnode>
+      </node>
+      <node id="2849">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
+        <link refid="spi__master__1_8hpp"/>
+        <childnode refid="2846" relation="include">
+        </childnode>
+      </node>
+      <node id="2852">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
+        <link refid="uart__2_8hpp"/>
+        <childnode refid="2846" relation="include">
+        </childnode>
+      </node>
       <node id="2844">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/connector.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/connector.hpp</label>
         <link refid="connector_8hpp"/>
         <childnode refid="2845" relation="include">
         </childnode>
@@ -134,37 +144,27 @@
         <childnode refid="2846" relation="include">
         </childnode>
       </node>
-      <node id="2851">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
-        <link refid="uart__1_8hpp"/>
+      <node id="2848">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</label>
+        <link refid="i2c__master__2_8hpp"/>
         <childnode refid="2846" relation="include">
         </childnode>
       </node>
-      <node id="2850">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
-        <link refid="spi__master__2_8hpp"/>
-        <childnode refid="2846" relation="include">
-        </childnode>
-      </node>
-      <node id="2845">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.hpp</label>
-        <link refid="can__1_8hpp"/>
-        <childnode refid="2846" relation="include">
-        </childnode>
-      </node>
-      <node id="2852">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
-        <link refid="uart__2_8hpp"/>
+      <node id="2847">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</label>
+        <link refid="i2c__master__1_8hpp"/>
         <childnode refid="2846" relation="include">
         </childnode>
       </node>
       <node id="2846">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
         <link refid="platform_8hpp"/>
       </node>
-      <node id="2849">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
-        <link refid="spi__master__1_8hpp"/>
+      <node id="2842">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/unused.hpp</label>
+        <link refid="unused_8hpp"/>
+        <childnode refid="2843" relation="include">
+        </childnode>
         <childnode refid="2846" relation="include">
         </childnode>
       </node>
@@ -176,6 +176,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/unused.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/unused.hpp"/>
   </compounddef>
 </doxygen>

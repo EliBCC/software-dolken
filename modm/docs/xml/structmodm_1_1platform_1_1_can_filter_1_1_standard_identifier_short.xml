@@ -25,7 +25,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp" line="223" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp" bodystart="223" bodyend="226"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.hpp" line="223" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.hpp" bodystart="223" bodyend="226"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -54,7 +54,7 @@
         <label>modm::platform::CanFilter::IdentifierShort</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp" line="221" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp" bodystart="220" bodyend="227"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.hpp" line="221" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.hpp" bodystart="220" bodyend="227"/>
     <listofallmembers>
       <member refid="structmodm_1_1platform_1_1_can_filter_1_1_identifier_short_1a9c9d64674d4620c1c9a8bdf7bdcdfb8c" prot="protected" virt="non-virtual"><scope>modm::platform::CanFilter::StandardIdentifierShort</scope><name>IdentifierShort</name></member>
       <member refid="structmodm_1_1platform_1_1_can_filter_1_1_identifier_short_1a972e0df59d0f4495a282a0141ba96998" prot="public" virt="non-virtual"><scope>modm::platform::CanFilter::StandardIdentifierShort</scope><name>operator uint16_t</name></member>

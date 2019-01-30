@@ -5,26 +5,34 @@
     <includes refid="uart__base_8hpp" local="yes">uart_base.hpp</includes>
     <includes refid="peripheral_8hpp" local="no">modm/architecture/interface/peripheral.hpp</includes>
     <includes local="no">cmath</includes>
-    <includedby refid="uart__1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.hpp</includedby>
-    <includedby refid="uart__hal__1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</includedby>
-    <includedby refid="uart__2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.hpp</includedby>
-    <includedby refid="uart__hal__2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</includedby>
-    <includedby refid="platform_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</includedby>
+    <includedby refid="uart__1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.hpp</includedby>
+    <includedby refid="uart__hal__1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</includedby>
+    <includedby refid="uart__2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.hpp</includedby>
+    <includedby refid="uart__hal__2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</includedby>
+    <includedby refid="platform_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</includedby>
     <incdepgraph>
-      <node id="3136">
-        <label>../device.hpp</label>
-        <link refid="device_8hpp"/>
-        <childnode refid="3135" relation="include">
-        </childnode>
-        <childnode refid="3137" relation="include">
-        </childnode>
-        <childnode refid="3139" relation="include">
-        </childnode>
-        <childnode refid="3140" relation="include">
-        </childnode>
-      </node>
       <node id="3145">
         <label>stdarg.h</label>
+      </node>
+      <node id="3140">
+        <label>system_stm32f4xx.h</label>
+      </node>
+      <node id="3149">
+        <label>modm/architecture/interface/peripheral.hpp</label>
+        <link refid="peripheral_8hpp"/>
+        <childnode refid="3135" relation="include">
+        </childnode>
+        <childnode refid="3144" relation="include">
+        </childnode>
+        <childnode refid="3150" relation="include">
+        </childnode>
+      </node>
+      <node id="3146">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
+      <node id="3135">
+        <label>stdint.h</label>
       </node>
       <node id="3141">
         <label>modm/architecture/interface/register.hpp</label>
@@ -38,14 +46,38 @@
         <childnode refid="3143" relation="include">
         </childnode>
       </node>
-      <node id="3140">
-        <label>system_stm32f4xx.h</label>
-      </node>
-      <node id="3135">
-        <label>stdint.h</label>
-      </node>
       <node id="3151">
         <label>cmath</label>
+      </node>
+      <node id="3142">
+        <label>modm/utils/bit_constants.hpp</label>
+        <link refid="bit__constants_8hpp"/>
+        <childnode refid="3135" relation="include">
+        </childnode>
+      </node>
+      <node id="3136">
+        <label>../device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="3135" relation="include">
+        </childnode>
+        <childnode refid="3137" relation="include">
+        </childnode>
+        <childnode refid="3139" relation="include">
+        </childnode>
+        <childnode refid="3140" relation="include">
+        </childnode>
+      </node>
+      <node id="3150">
+        <label>modm/math/tolerance.hpp</label>
+        <link refid="tolerance_8hpp"/>
+        <childnode refid="3135" relation="include">
+        </childnode>
+      </node>
+      <node id="3137">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="3138" relation="include">
+        </childnode>
       </node>
       <node id="3143">
         <label>modm/io/iostream.hpp</label>
@@ -63,8 +95,30 @@
         <childnode refid="3147" relation="include">
         </childnode>
       </node>
+      <node id="3144">
+        <label>cstddef</label>
+      </node>
+      <node id="3147">
+        <label>iodevice_wrapper.hpp</label>
+        <link refid="iodevice__wrapper_8hpp"/>
+        <childnode refid="3135" relation="include">
+        </childnode>
+        <childnode refid="3146" relation="include">
+        </childnode>
+      </node>
+      <node id="3148">
+        <label>modm/architecture/interface/interrupt.hpp</label>
+        <link refid="interrupt_8hpp"/>
+        <childnode refid="3135" relation="include">
+        </childnode>
+        <childnode refid="3137" relation="include">
+        </childnode>
+      </node>
+      <node id="3139">
+        <label>stm32f446xx.h</label>
+      </node>
       <node id="3133">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
         <link refid="uart__baudrate_8hpp"/>
         <childnode refid="3134" relation="include">
         </childnode>
@@ -85,90 +139,34 @@
         <childnode refid="3148" relation="include">
         </childnode>
       </node>
-      <node id="3148">
-        <label>modm/architecture/interface/interrupt.hpp</label>
-        <link refid="interrupt_8hpp"/>
-        <childnode refid="3135" relation="include">
-        </childnode>
-        <childnode refid="3137" relation="include">
-        </childnode>
-      </node>
       <node id="3138">
         <label>detect.hpp</label>
         <link refid="detect_8hpp"/>
       </node>
-      <node id="3149">
-        <label>modm/architecture/interface/peripheral.hpp</label>
-        <link refid="peripheral_8hpp"/>
-        <childnode refid="3135" relation="include">
-        </childnode>
-        <childnode refid="3144" relation="include">
-        </childnode>
-        <childnode refid="3150" relation="include">
-        </childnode>
-      </node>
-      <node id="3146">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
-      <node id="3142">
-        <label>modm/utils/bit_constants.hpp</label>
-        <link refid="bit__constants_8hpp"/>
-        <childnode refid="3135" relation="include">
-        </childnode>
-      </node>
-      <node id="3144">
-        <label>cstddef</label>
-      </node>
-      <node id="3150">
-        <label>modm/math/tolerance.hpp</label>
-        <link refid="tolerance_8hpp"/>
-        <childnode refid="3135" relation="include">
-        </childnode>
-      </node>
-      <node id="3137">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="3138" relation="include">
-        </childnode>
-      </node>
-      <node id="3139">
-        <label>stm32f446xx.h</label>
-      </node>
-      <node id="3147">
-        <label>iodevice_wrapper.hpp</label>
-        <link refid="iodevice__wrapper_8hpp"/>
-        <childnode refid="3135" relation="include">
-        </childnode>
-        <childnode refid="3146" relation="include">
-        </childnode>
-      </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="3155">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</label>
         <link refid="uart__hal__1_8hpp"/>
         <childnode refid="3153" relation="include">
         </childnode>
         <childnode refid="3154" relation="include">
         </childnode>
       </node>
-      <node id="3157">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</label>
-        <link refid="uart__hal__2_8hpp"/>
-        <childnode refid="3156" relation="include">
-        </childnode>
-        <childnode refid="3154" relation="include">
-        </childnode>
-      </node>
       <node id="3153">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
         <link refid="uart__1_8hpp"/>
         <childnode refid="3154" relation="include">
         </childnode>
       </node>
+      <node id="3156">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
+        <link refid="uart__2_8hpp"/>
+        <childnode refid="3154" relation="include">
+        </childnode>
+      </node>
       <node id="3152">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
         <link refid="uart__baudrate_8hpp"/>
         <childnode refid="3153" relation="include">
         </childnode>
@@ -181,15 +179,17 @@
         <childnode refid="3154" relation="include">
         </childnode>
       </node>
-      <node id="3156">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
-        <link refid="uart__2_8hpp"/>
+      <node id="3154">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
+        <link refid="platform_8hpp"/>
+      </node>
+      <node id="3157">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</label>
+        <link refid="uart__hal__2_8hpp"/>
+        <childnode refid="3156" relation="include">
+        </childnode>
         <childnode refid="3154" relation="include">
         </childnode>
-      </node>
-      <node id="3154">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
-        <link refid="platform_8hpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classmodm_1_1platform_1_1_uart_baudrate" prot="public">modm::platform::UartBaudrate</innerclass>
@@ -199,6 +199,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp"/>
   </compounddef>
 </doxygen>

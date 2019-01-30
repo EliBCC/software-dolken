@@ -5,23 +5,15 @@
     <includes refid="resumable_2macros_8hpp" local="yes">macros.hpp</includes>
     <includes refid="architecture_2utils_8hpp" local="no">modm/architecture/utils.hpp</includes>
     <includes local="no">stdint.h</includes>
-    <includedby refid="resumable_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable.hpp</includedby>
-    <includedby refid="processing_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</includedby>
+    <includedby refid="resumable_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable.hpp</includedby>
+    <includedby refid="processing_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing.hpp</includedby>
     <incdepgraph>
       <node id="3312">
         <label>stdarg.h</label>
       </node>
-      <node id="3302">
-        <label>modm/architecture/interface/assert.hpp</label>
-        <link refid="assert_8hpp"/>
-        <childnode refid="3303" relation="include">
-        </childnode>
-        <childnode refid="3304" relation="include">
-        </childnode>
-        <childnode refid="3306" relation="include">
-        </childnode>
-        <childnode refid="3307" relation="include">
-        </childnode>
+      <node id="3313">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
       </node>
       <node id="3303">
         <label>stdint.h</label>
@@ -32,6 +24,42 @@
         <childnode refid="3302" relation="include">
         </childnode>
         <childnode refid="3304" relation="include">
+        </childnode>
+      </node>
+      <node id="3306">
+        <label>modm/utils/bit_constants.hpp</label>
+        <link refid="bit__constants_8hpp"/>
+        <childnode refid="3303" relation="include">
+        </childnode>
+      </node>
+      <node id="3307">
+        <label>modm/architecture/interface/accessor.hpp</label>
+        <link refid="accessor_8hpp"/>
+        <childnode refid="3308" relation="include">
+        </childnode>
+        <childnode refid="3310" relation="include">
+        </childnode>
+      </node>
+      <node id="3308">
+        <label>modm/architecture/interface/accessor_ram.hpp</label>
+        <link refid="accessor__ram_8hpp"/>
+        <childnode refid="3309" relation="include">
+        </childnode>
+        <childnode refid="3304" relation="include">
+        </childnode>
+      </node>
+      <node id="3310">
+        <label>modm/architecture/interface/accessor_flash.hpp</label>
+        <link refid="accessor__flash_8hpp"/>
+        <childnode refid="3304" relation="include">
+        </childnode>
+        <childnode refid="3311" relation="include">
+        </childnode>
+      </node>
+      <node id="3304">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="3305" relation="include">
         </childnode>
       </node>
       <node id="3311">
@@ -50,12 +78,20 @@
         <childnode refid="3314" relation="include">
         </childnode>
       </node>
-      <node id="3305">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
+      <node id="3302">
+        <label>modm/architecture/interface/assert.hpp</label>
+        <link refid="assert_8hpp"/>
+        <childnode refid="3303" relation="include">
+        </childnode>
+        <childnode refid="3304" relation="include">
+        </childnode>
+        <childnode refid="3306" relation="include">
+        </childnode>
+        <childnode refid="3307" relation="include">
+        </childnode>
       </node>
       <node id="3300">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp</label>
         <link refid="nested__resumable_8hpp"/>
         <childnode refid="3301" relation="include">
         </childnode>
@@ -64,32 +100,8 @@
         <childnode refid="3303" relation="include">
         </childnode>
       </node>
-      <node id="3310">
-        <label>modm/architecture/interface/accessor_flash.hpp</label>
-        <link refid="accessor__flash_8hpp"/>
-        <childnode refid="3304" relation="include">
-        </childnode>
-        <childnode refid="3311" relation="include">
-        </childnode>
-      </node>
-      <node id="3313">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
-      <node id="3306">
-        <label>modm/utils/bit_constants.hpp</label>
-        <link refid="bit__constants_8hpp"/>
-        <childnode refid="3303" relation="include">
-        </childnode>
-      </node>
       <node id="3309">
         <label>cstddef</label>
-      </node>
-      <node id="3304">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="3305" relation="include">
-        </childnode>
       </node>
       <node id="3314">
         <label>iodevice_wrapper.hpp</label>
@@ -99,44 +111,20 @@
         <childnode refid="3313" relation="include">
         </childnode>
       </node>
-      <node id="3308">
-        <label>modm/architecture/interface/accessor_ram.hpp</label>
-        <link refid="accessor__ram_8hpp"/>
-        <childnode refid="3309" relation="include">
-        </childnode>
-        <childnode refid="3304" relation="include">
-        </childnode>
-      </node>
-      <node id="3307">
-        <label>modm/architecture/interface/accessor.hpp</label>
-        <link refid="accessor_8hpp"/>
-        <childnode refid="3308" relation="include">
-        </childnode>
-        <childnode refid="3310" relation="include">
-        </childnode>
+      <node id="3305">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3322">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</label>
-        <link refid="processing_8hpp"/>
-      </node>
-      <node id="3318">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi_master.hpp</label>
-        <link refid="spi__master_8hpp"/>
-        <childnode refid="3319" relation="include">
-        </childnode>
-        <childnode refid="3321" relation="include">
-        </childnode>
-      </node>
       <node id="3321">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
         <link refid="spi__master__2_8hpp"/>
         <childnode refid="3320" relation="include">
         </childnode>
       </node>
       <node id="3316">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable.hpp</label>
         <link refid="resumable_8hpp"/>
         <childnode refid="3317" relation="include">
         </childnode>
@@ -145,27 +133,39 @@
         <childnode refid="3322" relation="include">
         </childnode>
       </node>
+      <node id="3319">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
+        <link refid="spi__master__1_8hpp"/>
+        <childnode refid="3320" relation="include">
+        </childnode>
+      </node>
+      <node id="3317">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
+        <link refid="i2c__device_8hpp"/>
+      </node>
       <node id="3315">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp</label>
         <link refid="nested__resumable_8hpp"/>
         <childnode refid="3316" relation="include">
         </childnode>
         <childnode refid="3322" relation="include">
         </childnode>
       </node>
-      <node id="3317">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
-        <link refid="i2c__device_8hpp"/>
+      <node id="3322">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing.hpp</label>
+        <link refid="processing_8hpp"/>
+      </node>
+      <node id="3318">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi_master.hpp</label>
+        <link refid="spi__master_8hpp"/>
+        <childnode refid="3319" relation="include">
+        </childnode>
+        <childnode refid="3321" relation="include">
+        </childnode>
       </node>
       <node id="3320">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
         <link refid="platform_8hpp"/>
-      </node>
-      <node id="3319">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
-        <link refid="spi__master__1_8hpp"/>
-        <childnode refid="3320" relation="include">
-        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classmodm_1_1_nested_resumable" prot="public">modm::NestedResumable</innerclass>
@@ -174,6 +174,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp"/>
   </compounddef>
 </doxygen>

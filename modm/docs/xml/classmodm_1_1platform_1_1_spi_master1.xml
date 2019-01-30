@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="48" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="46" bodyend="54"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="48" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="46" bodyend="54"/>
       </memberdef>
       <memberdef kind="enum" id="classmodm_1_1platform_1_1_spi_master1_1afe8175ef346e9cf268c5bc0dde84e9d8" prot="public" static="no" strong="yes">
         <type>uint32_t</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="59" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="57" bodyend="62"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="59" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="57" bodyend="62"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-attrib">
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="40" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="40" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="40" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmodm_1_1platform_1_1_spi_master1_1a72141f9a51aa7d509025b1895f8e6cc8" prot="private" static="yes" mutable="no">
         <type>uint8_t</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="41" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="41" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="41" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmodm_1_1platform_1_1_spi_master1_1a4ecc35a13c8b1d12fbfb4bc0e1507df7" prot="private" static="yes" mutable="no">
         <type>void *</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="42" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="42" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="42" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classmodm_1_1platform_1_1_spi_master1_1acad029f69c0b01071f81cca39a919fe6" prot="private" static="yes" mutable="no">
         <type><ref refid="structmodm_1_1_spi_1a0d609550a29c439aa83e5999f584447d" kindref="member">ConfigurationHandler</ref></type>
@@ -127,7 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="43" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="43" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="43" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="43" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="67" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="67" bodyend="83"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="67" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="67" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1platform_1_1_spi_master1_1aa580e7721f6b8d7c2ef04a8911b101ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="89" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="89" bodyend="125"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="89" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="89" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1platform_1_1_spi_master1_1a6b5026f8ef01f283135fa7b0778513f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="128" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="128" bodyend="131"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="128" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="128" bodyend="131"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1platform_1_1_spi_master1_1af1b49c42a9cc311ee8239a28d3635177" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="134" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="134" bodyend="137"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="134" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="134" bodyend="137"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1platform_1_1_spi_master1_1abc3447b6539deedc5d36640f07ff689d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="141" column="1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="141" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1platform_1_1_spi_master1_1a1579ca92e613cce6e69bb15af7fb1153" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>uint8_t</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="144" column="1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="144" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1platform_1_1_spi_master1_1a6f34d9323d85aa36299672aba24a750a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>uint8_t</type>
@@ -268,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="148" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="148" bodyend="151"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="148" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="148" bodyend="151"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1platform_1_1_spi_master1_1aa70bf04eeb9f648a5485dd2bbab089b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -293,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="154" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="154" bodyend="157"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="154" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="154" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1platform_1_1_spi_master1_1a39e08ca4f937f81e9d9c310e297d7265" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structmodm_1_1_resumable_result" kindref="compound">modm::ResumableResult</ref>&lt; uint8_t &gt;</type>
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="161" column="1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="161" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1platform_1_1_spi_master1_1af5ad0518cccc493a473fe56ad6df188e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="structmodm_1_1_resumable_result" kindref="compound">modm::ResumableResult</ref>&lt; void &gt;</type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="164" column="1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="164" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -391,7 +391,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="39" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="38" bodyend="166"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" line="39" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp" bodystart="38" bodyend="166"/>
     <listofallmembers>
       <member refid="classmodm_1_1platform_1_1_spi_master1_1abc3447b6539deedc5d36640f07ff689d" prot="public" virt="non-virtual"><scope>modm::platform::SpiMaster1</scope><name>acquire</name></member>
       <member refid="classmodm_1_1_peripheral_driver_1a5c336ff9889c347e7eadb810bf984ebd" prot="public" virt="non-virtual"><scope>modm::platform::SpiMaster1</scope><name>assertBaudrateInTolerance</name></member>

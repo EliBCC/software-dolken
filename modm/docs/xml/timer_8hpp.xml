@@ -5,22 +5,74 @@
     <includes refid="timestamp_8hpp" local="yes">timer/timestamp.hpp</includes>
     <includes refid="timeout_8hpp" local="yes">timer/timeout.hpp</includes>
     <includes refid="periodic__timer_8hpp" local="yes">timer/periodic_timer.hpp</includes>
-    <includedby refid="processing_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</includedby>
+    <includedby refid="processing_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing.hpp</includedby>
     <incdepgraph>
       <node id="3382">
         <label>stdarg.h</label>
       </node>
+      <node id="3393">
+        <label>timer/periodic_timer.hpp</label>
+        <link refid="periodic__timer_8hpp"/>
+        <childnode refid="3390" relation="include">
+        </childnode>
+        <childnode refid="3394" relation="include">
+        </childnode>
+      </node>
+      <node id="3390">
+        <label>timer/timeout.hpp</label>
+        <link refid="timeout_8hpp"/>
+        <childnode refid="3391" relation="include">
+        </childnode>
+        <childnode refid="3376" relation="include">
+        </childnode>
+        <childnode refid="3392" relation="include">
+        </childnode>
+      </node>
       <node id="3387">
         <label>limits</label>
       </node>
+      <node id="3383">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
+      <node id="3375">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/timer.hpp</label>
+        <link refid="timer_8hpp"/>
+        <childnode refid="3376" relation="include">
+        </childnode>
+        <childnode refid="3390" relation="include">
+        </childnode>
+        <childnode refid="3393" relation="include">
+        </childnode>
+      </node>
       <node id="3386">
         <label>cstdint</label>
+      </node>
+      <node id="3391">
+        <label>modm/architecture/interface/clock.hpp</label>
+        <link refid="architecture_2interface_2clock_8hpp"/>
+        <childnode refid="3381" relation="include">
+        </childnode>
+        <childnode refid="3376" relation="include">
+        </childnode>
       </node>
       <node id="3377">
         <label>stdint.h</label>
       </node>
       <node id="3389">
         <label>cmath</label>
+      </node>
+      <node id="3392">
+        <label>timeout_impl.hpp</label>
+      </node>
+      <node id="3394">
+        <label>periodic_timer_impl.hpp</label>
+      </node>
+      <node id="3381">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="3380" relation="include">
+        </childnode>
       </node>
       <node id="3378">
         <label>modm/io/iostream.hpp</label>
@@ -38,11 +90,16 @@
         <childnode refid="3384" relation="include">
         </childnode>
       </node>
-      <node id="3392">
-        <label>timeout_impl.hpp</label>
+      <node id="3379">
+        <label>cstddef</label>
       </node>
-      <node id="3394">
-        <label>periodic_timer_impl.hpp</label>
+      <node id="3384">
+        <label>iodevice_wrapper.hpp</label>
+        <link refid="iodevice__wrapper_8hpp"/>
+        <childnode refid="3377" relation="include">
+        </childnode>
+        <childnode refid="3383" relation="include">
+        </childnode>
       </node>
       <node id="3376">
         <label>timer/timestamp.hpp</label>
@@ -54,61 +111,12 @@
         <childnode refid="3385" relation="include">
         </childnode>
       </node>
-      <node id="3390">
-        <label>timer/timeout.hpp</label>
-        <link refid="timeout_8hpp"/>
-        <childnode refid="3391" relation="include">
-        </childnode>
-        <childnode refid="3376" relation="include">
-        </childnode>
-        <childnode refid="3392" relation="include">
-        </childnode>
-      </node>
-      <node id="3391">
-        <label>modm/architecture/interface/clock.hpp</label>
-        <link refid="architecture_2interface_2clock_8hpp"/>
-        <childnode refid="3381" relation="include">
-        </childnode>
-        <childnode refid="3376" relation="include">
-        </childnode>
+      <node id="3388">
+        <label>type_traits</label>
       </node>
       <node id="3380">
         <label>modm/architecture/detect.hpp</label>
         <link refid="detect_8hpp"/>
-      </node>
-      <node id="3375">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/timer.hpp</label>
-        <link refid="timer_8hpp"/>
-        <childnode refid="3376" relation="include">
-        </childnode>
-        <childnode refid="3390" relation="include">
-        </childnode>
-        <childnode refid="3393" relation="include">
-        </childnode>
-      </node>
-      <node id="3393">
-        <label>timer/periodic_timer.hpp</label>
-        <link refid="periodic__timer_8hpp"/>
-        <childnode refid="3390" relation="include">
-        </childnode>
-        <childnode refid="3394" relation="include">
-        </childnode>
-      </node>
-      <node id="3383">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
-      <node id="3379">
-        <label>cstddef</label>
-      </node>
-      <node id="3381">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="3380" relation="include">
-        </childnode>
-      </node>
-      <node id="3388">
-        <label>type_traits</label>
       </node>
       <node id="3385">
         <label>modm/utils/arithmetic_traits.hpp</label>
@@ -122,31 +130,23 @@
         <childnode refid="3389" relation="include">
         </childnode>
       </node>
-      <node id="3384">
-        <label>iodevice_wrapper.hpp</label>
-        <link refid="iodevice__wrapper_8hpp"/>
-        <childnode refid="3377" relation="include">
-        </childnode>
-        <childnode refid="3383" relation="include">
-        </childnode>
-      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="3396">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</label>
-        <link refid="processing_8hpp"/>
-      </node>
       <node id="3395">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/timer.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/timer.hpp</label>
         <link refid="timer_8hpp"/>
         <childnode refid="3396" relation="include">
         </childnode>
+      </node>
+      <node id="3396">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing.hpp</label>
+        <link refid="processing_8hpp"/>
       </node>
     </invincdepgraph>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/timer.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/timer.hpp"/>
   </compounddef>
 </doxygen>

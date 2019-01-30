@@ -11,8 +11,26 @@
       <node id="348">
         <label>limits</label>
       </node>
+      <node id="347">
+        <label>cstdint</label>
+      </node>
+      <node id="342">
+        <label>stdint.h</label>
+      </node>
+      <node id="350">
+        <label>cmath</label>
+      </node>
+      <node id="344">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="345" relation="include">
+        </childnode>
+      </node>
+      <node id="351">
+        <label>block_allocator_impl.hpp</label>
+      </node>
       <node id="341">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/heap/block_allocator.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver/heap/block_allocator.hpp</label>
         <link refid="block__allocator_8hpp"/>
         <childnode refid="342" relation="include">
         </childnode>
@@ -25,33 +43,15 @@
         <childnode refid="351" relation="include">
         </childnode>
       </node>
-      <node id="347">
-        <label>cstdint</label>
+      <node id="343">
+        <label>cstddef</label>
       </node>
-      <node id="342">
-        <label>stdint.h</label>
-      </node>
-      <node id="350">
-        <label>cmath</label>
+      <node id="349">
+        <label>type_traits</label>
       </node>
       <node id="345">
         <label>detect.hpp</label>
         <link refid="detect_8hpp"/>
-      </node>
-      <node id="351">
-        <label>block_allocator_impl.hpp</label>
-      </node>
-      <node id="343">
-        <label>cstddef</label>
-      </node>
-      <node id="344">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="345" relation="include">
-        </childnode>
-      </node>
-      <node id="349">
-        <label>type_traits</label>
       </node>
       <node id="346">
         <label>modm/utils/arithmetic_traits.hpp</label>
@@ -72,6 +72,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/heap/block_allocator.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver/heap/block_allocator.hpp"/>
   </compounddef>
 </doxygen>

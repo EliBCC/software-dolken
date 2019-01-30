@@ -5,8 +5,12 @@
     <includes local="no">cstring</includes>
     <includes refid="style_8hpp" local="yes">../style.hpp</includes>
     <includes local="yes">prefix_impl.hpp</includes>
-    <includedby refid="logger_2logger_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp</includedby>
+    <includedby refid="logger_2logger_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp</includedby>
     <incdepgraph>
+      <node id="1195">
+        <label>modm/io/iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
       <node id="1194">
         <label>../style.hpp</label>
         <link refid="style_8hpp"/>
@@ -15,8 +19,14 @@
         <childnode refid="1196" relation="include">
         </childnode>
       </node>
+      <node id="1196">
+        <label>style_impl.hpp</label>
+      </node>
+      <node id="1197">
+        <label>prefix_impl.hpp</label>
+      </node>
       <node id="1192">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style/prefix.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style/prefix.hpp</label>
         <link refid="prefix_8hpp"/>
         <childnode refid="1193" relation="include">
         </childnode>
@@ -25,53 +35,43 @@
         <childnode refid="1197" relation="include">
         </childnode>
       </node>
-      <node id="1196">
-        <label>style_impl.hpp</label>
-      </node>
-      <node id="1197">
-        <label>prefix_impl.hpp</label>
-      </node>
-      <node id="1195">
-        <label>modm/io/iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
       <node id="1193">
         <label>cstring</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1203">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug.hpp</label>
         <link refid="debug_8hpp"/>
       </node>
+      <node id="1202">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/imp/std.hpp</label>
+        <link refid="std_8hpp"/>
+      </node>
       <node id="1198">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style/prefix.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style/prefix.hpp</label>
         <link refid="prefix_8hpp"/>
         <childnode refid="1199" relation="include">
         </childnode>
       </node>
-      <node id="1202">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/imp/std.hpp</label>
-        <link refid="std_8hpp"/>
+      <node id="1199">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp</label>
+        <link refid="logger_2logger_8hpp"/>
+        <childnode refid="1200" relation="include">
+        </childnode>
+      </node>
+      <node id="1201">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/debug.hpp</label>
+        <link refid="debug_2debug_8hpp"/>
       </node>
       <node id="1200">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger.hpp</label>
         <link refid="logger_8hpp"/>
         <childnode refid="1201" relation="include">
         </childnode>
         <childnode refid="1202" relation="include">
         </childnode>
         <childnode refid="1203" relation="include">
-        </childnode>
-      </node>
-      <node id="1201">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/debug.hpp</label>
-        <link refid="debug_2debug_8hpp"/>
-      </node>
-      <node id="1199">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp</label>
-        <link refid="logger_2logger_8hpp"/>
-        <childnode refid="1200" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -82,6 +82,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style/prefix.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style/prefix.hpp"/>
   </compounddef>
 </doxygen>

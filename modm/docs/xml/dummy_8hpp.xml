@@ -2,17 +2,17 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dummy_8hpp" kind="file" language="C++">
     <compoundname>dummy.hpp</compoundname>
-    <includedby refid="utils_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils.hpp</includedby>
+    <includedby refid="utils_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils.hpp</includedby>
     <invincdepgraph>
-      <node id="3567">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils.hpp</label>
-        <link refid="utils_8hpp"/>
-      </node>
       <node id="3566">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/dummy.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/dummy.hpp</label>
         <link refid="dummy_8hpp"/>
         <childnode refid="3567" relation="include">
         </childnode>
+      </node>
+      <node id="3567">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils.hpp</label>
+        <link refid="utils_8hpp"/>
       </node>
     </invincdepgraph>
     <innernamespace refid="namespacemodm">modm</innernamespace>
@@ -20,6 +20,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/dummy.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/dummy.hpp"/>
   </compounddef>
 </doxygen>

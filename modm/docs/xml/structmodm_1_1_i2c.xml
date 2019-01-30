@@ -48,7 +48,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="51" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="49" bodyend="56"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="51" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="49" bodyend="56"/>
       </memberdef>
       <memberdef kind="enum" id="structmodm_1_1_i2c_1ae92dc2a408c98192b77d0702fd18350d" prot="public" static="no" strong="yes">
         <type>uint8_t</type>
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="61" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="59" bodyend="65"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="61" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="59" bodyend="65"/>
       </memberdef>
       <memberdef kind="enum" id="structmodm_1_1_i2c_1aec4012822851f4abbe0ed0dc03c24cbb" prot="public" static="no" strong="yes">
         <type>uint8_t</type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="70" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="68" bodyend="74"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="70" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="68" bodyend="74"/>
       </memberdef>
       <memberdef kind="enum" id="structmodm_1_1_i2c_1a9b3a80feb3a8f179706ee1d5afe8bb31" prot="public" static="no" strong="yes">
         <type>uint8_t</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="79" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="77" bodyend="82"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="79" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="77" bodyend="82"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-type">
@@ -180,7 +180,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="38" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="36" bodyend="42"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="38" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="36" bodyend="42"/>
       </memberdef>
       <memberdef kind="enum" id="structmodm_1_1_i2c_1a0ba607aa36d2c6c1e5f3ddd9a969c713" prot="public" static="no" strong="yes">
         <type>uint8_t</type>
@@ -212,7 +212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="88" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="86" bodyend="92"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="88" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="86" bodyend="92"/>
       </memberdef>
       <memberdef kind="typedef" id="structmodm_1_1_i2c_1acc3232e086891a4564399117a4e0e450" prot="public" static="no">
         <type>void(*)()</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="32" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="32" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="32" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="32" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-attrib">
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="28" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="28" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="28" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structmodm_1_1_i2c_1af314fb0ec2e32a25c17cf9f0a54447ee" prot="public" static="yes" mutable="no">
         <type>constexpr uint8_t</type>
@@ -255,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="29" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="29" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="29" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -291,7 +291,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="117" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="117" bodyend="128"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="117" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="117" bodyend="128"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -346,7 +346,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="27" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="26" bodyend="130"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" line="27" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp" bodystart="26" bodyend="130"/>
     <listofallmembers>
       <member refid="structmodm_1_1_i2c_1acc3232e086891a4564399117a4e0e450" prot="public" virt="non-virtual"><scope>modm::I2c</scope><name>ConfigurationHandler</name></member>
       <member refid="structmodm_1_1_i2c_1a0406997126d064926cdb512911a17dcd" prot="public" virt="non-virtual"><scope>modm::I2c</scope><name>DetachCause</name></member>

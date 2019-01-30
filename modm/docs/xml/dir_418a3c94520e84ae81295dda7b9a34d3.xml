@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_418a3c94520e84ae81295dda7b9a34d3" kind="dir">
-    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/timer</compoundname>
+    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/timer</compoundname>
     <innerfile refid="periodic__timer_8hpp">periodic_timer.hpp</innerfile>
     <innerfile refid="timeout_8hpp">timeout.hpp</innerfile>
     <innerfile refid="timestamp_8hpp">timestamp.hpp</innerfile>
@@ -9,6 +9,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/timer/"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/timer/"/>
   </compounddef>
 </doxygen>

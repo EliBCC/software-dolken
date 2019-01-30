@@ -8,8 +8,26 @@
       <node id="1074">
         <label>stdarg.h</label>
       </node>
+      <node id="1075">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
       <node id="1077">
         <label>stdint.h</label>
+      </node>
+      <node id="1081">
+        <label>style_wrapper.hpp</label>
+        <link refid="style__wrapper_8hpp"/>
+        <childnode refid="1075" relation="include">
+        </childnode>
+        <childnode refid="1079" relation="include">
+        </childnode>
+      </node>
+      <node id="1085">
+        <label>debug/error_report.hpp</label>
+        <link refid="error__report_8hpp"/>
+        <childnode refid="1077" relation="include">
+        </childnode>
       </node>
       <node id="1079">
         <label>style.hpp</label>
@@ -19,19 +37,18 @@
         <childnode refid="1080" relation="include">
         </childnode>
       </node>
-      <node id="1082">
-        <label>style/prefix.hpp</label>
-        <link refid="prefix_8hpp"/>
-        <childnode refid="1083" relation="include">
-        </childnode>
-        <childnode refid="1079" relation="include">
-        </childnode>
-        <childnode refid="1084" relation="include">
-        </childnode>
-      </node>
       <node id="1078">
         <label>level.hpp</label>
         <link refid="level_8hpp"/>
+      </node>
+      <node id="1080">
+        <label>style_impl.hpp</label>
+      </node>
+      <node id="1070">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="1071" relation="include">
+        </childnode>
       </node>
       <node id="1072">
         <label>modm/io/iostream.hpp</label>
@@ -49,69 +66,21 @@
         <childnode refid="1076" relation="include">
         </childnode>
       </node>
-      <node id="1068">
-        <label>debug/logger.hpp</label>
-        <link refid="logger_8hpp"/>
-        <childnode refid="1069" relation="include">
-        </childnode>
-        <childnode refid="1079" relation="include">
-        </childnode>
-      </node>
-      <node id="1080">
-        <label>style_impl.hpp</label>
-      </node>
-      <node id="1071">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
-      </node>
       <node id="1084">
         <label>prefix_impl.hpp</label>
       </node>
-      <node id="1075">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
-      <node id="1081">
-        <label>style_wrapper.hpp</label>
-        <link refid="style__wrapper_8hpp"/>
-        <childnode refid="1075" relation="include">
+      <node id="1082">
+        <label>style/prefix.hpp</label>
+        <link refid="prefix_8hpp"/>
+        <childnode refid="1083" relation="include">
         </childnode>
         <childnode refid="1079" relation="include">
+        </childnode>
+        <childnode refid="1084" relation="include">
         </childnode>
       </node>
       <node id="1073">
         <label>cstddef</label>
-      </node>
-      <node id="1067">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/debug.hpp</label>
-        <link refid="debug_2debug_8hpp"/>
-        <childnode refid="1068" relation="include">
-        </childnode>
-        <childnode refid="1085" relation="include">
-        </childnode>
-      </node>
-      <node id="1070">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="1071" relation="include">
-        </childnode>
-      </node>
-      <node id="1085">
-        <label>debug/error_report.hpp</label>
-        <link refid="error__report_8hpp"/>
-        <childnode refid="1077" relation="include">
-        </childnode>
-      </node>
-      <node id="1076">
-        <label>iodevice_wrapper.hpp</label>
-        <link refid="iodevice__wrapper_8hpp"/>
-        <childnode refid="1077" relation="include">
-        </childnode>
-        <childnode refid="1075" relation="include">
-        </childnode>
-      </node>
-      <node id="1083">
-        <label>cstring</label>
       </node>
       <node id="1069">
         <label>logger/logger.hpp</label>
@@ -129,11 +98,42 @@
         <childnode refid="1082" relation="include">
         </childnode>
       </node>
+      <node id="1067">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/debug.hpp</label>
+        <link refid="debug_2debug_8hpp"/>
+        <childnode refid="1068" relation="include">
+        </childnode>
+        <childnode refid="1085" relation="include">
+        </childnode>
+      </node>
+      <node id="1076">
+        <label>iodevice_wrapper.hpp</label>
+        <link refid="iodevice__wrapper_8hpp"/>
+        <childnode refid="1077" relation="include">
+        </childnode>
+        <childnode refid="1075" relation="include">
+        </childnode>
+      </node>
+      <node id="1068">
+        <label>debug/logger.hpp</label>
+        <link refid="logger_8hpp"/>
+        <childnode refid="1069" relation="include">
+        </childnode>
+        <childnode refid="1079" relation="include">
+        </childnode>
+      </node>
+      <node id="1083">
+        <label>cstring</label>
+      </node>
+      <node id="1071">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
     </incdepgraph>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/debug.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/debug.hpp"/>
   </compounddef>
 </doxygen>

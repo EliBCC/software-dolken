@@ -2,44 +2,112 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="iodevice_8hpp" kind="file" language="C++">
     <compoundname>iodevice.hpp</compoundname>
-    <includedby refid="style_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style.hpp</includedby>
-    <includedby refid="style__wrapper_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style_wrapper.hpp</includedby>
-    <includedby refid="iodevice__wrapper_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iodevice_wrapper.hpp</includedby>
-    <includedby refid="iostream_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp</includedby>
-    <includedby refid="io_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io.hpp</includedby>
+    <includedby refid="style_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style.hpp</includedby>
+    <includedby refid="style__wrapper_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style_wrapper.hpp</includedby>
+    <includedby refid="iodevice__wrapper_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iodevice_wrapper.hpp</includedby>
+    <includedby refid="iostream_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp</includedby>
+    <includedby refid="io_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io.hpp</includedby>
     <invincdepgraph>
-      <node id="1237">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug.hpp</label>
-        <link refid="debug_8hpp"/>
+      <node id="1286">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/timer/periodic_timer.hpp</label>
+        <link refid="periodic__timer_8hpp"/>
+        <childnode refid="1287" relation="include">
+        </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
       </node>
-      <node id="1266">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</label>
-        <link refid="i2c__master__2_8hpp"/>
+      <node id="1285">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/timer/timeout.hpp</label>
+        <link refid="timeout_8hpp"/>
+        <childnode refid="1286" relation="include">
+        </childnode>
+        <childnode refid="1287" relation="include">
+        </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
+      </node>
+      <node id="1269">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/memory.hpp</label>
+        <link refid="memory_8hpp"/>
+      </node>
+      <node id="1262">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.hpp</label>
+        <link refid="can__filter_8hpp"/>
+        <childnode refid="1261" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+      <node id="1256">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <link refid="spi__master__2_8hpp"/>
         <childnode refid="1255" relation="include">
         </childnode>
       </node>
       <node id="1279">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/smart_pointer.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/smart_pointer.hpp</label>
         <link refid="smart__pointer_8hpp"/>
         <childnode refid="1280" relation="include">
         </childnode>
       </node>
-      <node id="1271">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_hal_1.hpp</label>
-        <link refid="spi__hal__1_8hpp"/>
-        <childnode refid="1254" relation="include">
+      <node id="1231">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+        <childnode refid="1232" relation="include">
+        </childnode>
+        <childnode refid="1238" relation="include">
+        </childnode>
+        <childnode refid="1241" relation="include">
+        </childnode>
+        <childnode refid="1242" relation="include">
+        </childnode>
+        <childnode refid="1281" relation="include">
+        </childnode>
+      </node>
+      <node id="1237">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug.hpp</label>
+        <link refid="debug_8hpp"/>
+      </node>
+      <node id="1287">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/timer.hpp</label>
+        <link refid="timer_8hpp"/>
+        <childnode refid="1257" relation="include">
+        </childnode>
+      </node>
+      <node id="1258">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable/resumable.hpp</label>
+        <link refid="resumable_2resumable_8hpp"/>
+        <childnode refid="1251" relation="include">
+        </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
+      </node>
+      <node id="1283">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/clock.hpp</label>
+        <link refid="architecture_2interface_2clock_8hpp"/>
+        <childnode refid="1284" relation="include">
+        </childnode>
+        <childnode refid="1285" relation="include">
+        </childnode>
+      </node>
+      <node id="1280">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container.hpp</label>
+        <link refid="container_8hpp"/>
+      </node>
+      <node id="1276">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</label>
+        <link refid="uart__hal__1_8hpp"/>
+        <childnode refid="1274" relation="include">
         </childnode>
         <childnode refid="1255" relation="include">
         </childnode>
       </node>
-      <node id="1265">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</label>
-        <link refid="i2c__master__1_8hpp"/>
-        <childnode refid="1255" relation="include">
-        </childnode>
+      <node id="1236">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/imp/std.hpp</label>
+        <link refid="std_8hpp"/>
       </node>
       <node id="1268">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/register.hpp</label>
         <link refid="register_8hpp"/>
         <childnode refid="1269" relation="include">
         </childnode>
@@ -48,34 +116,8 @@
         <childnode refid="1273" relation="include">
         </childnode>
       </node>
-      <node id="1272">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_hal_2.hpp</label>
-        <link refid="spi__hal__2_8hpp"/>
-        <childnode refid="1256" relation="include">
-        </childnode>
-        <childnode refid="1255" relation="include">
-        </childnode>
-      </node>
-      <node id="1245">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/atomic/container.hpp</label>
-        <link refid="architecture_2driver_2atomic_2container_8hpp"/>
-        <childnode refid="1246" relation="include">
-        </childnode>
-      </node>
-      <node id="1248">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp</label>
-        <link refid="assert_8hpp"/>
-        <childnode refid="1249" relation="include">
-        </childnode>
-      </node>
-      <node id="1259">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can_message.hpp</label>
-        <link refid="can__message_8hpp"/>
-        <childnode refid="1260" relation="include">
-        </childnode>
-      </node>
       <node id="1249">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/macros.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable/macros.hpp</label>
         <link refid="resumable_2macros_8hpp"/>
         <childnode refid="1250" relation="include">
         </childnode>
@@ -84,18 +126,72 @@
         <childnode refid="1257" relation="include">
         </childnode>
       </node>
-      <node id="1264">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp</label>
-        <link refid="i2c__master_8hpp"/>
+      <node id="1251">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable.hpp</label>
+        <link refid="resumable_8hpp"/>
         <childnode refid="1252" relation="include">
         </childnode>
-        <childnode refid="1265" relation="include">
+        <childnode refid="1253" relation="include">
         </childnode>
-        <childnode refid="1266" relation="include">
+        <childnode refid="1257" relation="include">
         </childnode>
       </node>
+      <node id="1261">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_1.hpp</label>
+        <link refid="can__1_8hpp"/>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+      <node id="1245">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver/atomic/container.hpp</label>
+        <link refid="architecture_2driver_2atomic_2container_8hpp"/>
+        <childnode refid="1246" relation="include">
+        </childnode>
+      </node>
+      <node id="1238">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style_wrapper.hpp</label>
+        <link refid="style__wrapper_8hpp"/>
+        <childnode refid="1233" relation="include">
+        </childnode>
+      </node>
+      <node id="1274">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
+        <link refid="uart__1_8hpp"/>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+      <node id="1244">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/accessor.hpp</label>
+        <link refid="accessor_8hpp"/>
+        <childnode refid="1245" relation="include">
+        </childnode>
+        <childnode refid="1247" relation="include">
+        </childnode>
+        <childnode refid="1248" relation="include">
+        </childnode>
+      </node>
+      <node id="1263">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.hpp</label>
+        <link refid="i2c_8hpp"/>
+        <childnode refid="1252" relation="include">
+        </childnode>
+        <childnode refid="1264" relation="include">
+        </childnode>
+        <childnode refid="1267" relation="include">
+        </childnode>
+      </node>
+      <node id="1254">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
+        <link refid="spi__master__1_8hpp"/>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+      <node id="1252">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
+        <link refid="i2c__device_8hpp"/>
+      </node>
       <node id="1232">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style.hpp</label>
         <link refid="style_8hpp"/>
         <childnode refid="1233" relation="include">
         </childnode>
@@ -108,52 +204,28 @@
         <childnode refid="1234" relation="include">
         </childnode>
       </node>
-      <node id="1239">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style/prefix.hpp</label>
-        <link refid="prefix_8hpp"/>
-        <childnode refid="1233" relation="include">
+      <node id="1243">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp</label>
+        <link refid="accessor__flash_8hpp"/>
+        <childnode refid="1244" relation="include">
         </childnode>
-      </node>
-      <node id="1276">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</label>
-        <link refid="uart__hal__1_8hpp"/>
-        <childnode refid="1274" relation="include">
-        </childnode>
-        <childnode refid="1255" relation="include">
-        </childnode>
-      </node>
-      <node id="1258">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/resumable.hpp</label>
-        <link refid="resumable_2resumable_8hpp"/>
-        <childnode refid="1251" relation="include">
-        </childnode>
-        <childnode refid="1257" relation="include">
-        </childnode>
-      </node>
-      <node id="1280">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container.hpp</label>
-        <link refid="container_8hpp"/>
       </node>
       <node id="1240">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style/std_colour.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style/std_colour.hpp</label>
         <link refid="std__colour_8hpp"/>
       </node>
-      <node id="1278">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</label>
-        <link refid="uart__hal__2_8hpp"/>
-        <childnode refid="1277" relation="include">
+      <node id="1270">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_base.hpp</label>
+        <link refid="spi__base_8hpp"/>
+        <childnode refid="1271" relation="include">
         </childnode>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1272" relation="include">
         </childnode>
-      </node>
-      <node id="1274">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
-        <link refid="uart__1_8hpp"/>
         <childnode refid="1255" relation="include">
         </childnode>
       </node>
       <node id="1242">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp</label>
         <link refid="iostream_8hpp"/>
         <childnode refid="1243" relation="include">
         </childnode>
@@ -172,28 +244,156 @@
         <childnode refid="1282" relation="include">
         </childnode>
       </node>
+      <node id="1246">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver/atomic.hpp</label>
+        <link refid="atomic_8hpp"/>
+      </node>
+      <node id="1271">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_hal_1.hpp</label>
+        <link refid="spi__hal__1_8hpp"/>
+        <childnode refid="1254" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+      <node id="1284">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_bit_timings.hpp</label>
+        <link refid="can__bit__timings_8hpp"/>
+        <childnode refid="1261" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/assert.hpp</label>
+        <link refid="assert_8hpp"/>
+        <childnode refid="1249" relation="include">
+        </childnode>
+      </node>
+      <node id="1272">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_hal_2.hpp</label>
+        <link refid="spi__hal__2_8hpp"/>
+        <childnode refid="1256" relation="include">
+        </childnode>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+      <node id="1239">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style/prefix.hpp</label>
+        <link refid="prefix_8hpp"/>
+        <childnode refid="1233" relation="include">
+        </childnode>
+      </node>
+      <node id="1250">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp</label>
+        <link refid="nested__resumable_8hpp"/>
+        <childnode refid="1251" relation="include">
+        </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
+      </node>
       <node id="1257">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing.hpp</label>
         <link refid="processing_8hpp"/>
       </node>
-      <node id="1236">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/imp/std.hpp</label>
-        <link refid="std_8hpp"/>
-      </node>
-      <node id="1267">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_transaction.hpp</label>
-        <link refid="i2c__transaction_8hpp"/>
-        <childnode refid="1264" relation="include">
-        </childnode>
+      <node id="1264">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp</label>
+        <link refid="i2c__master_8hpp"/>
         <childnode refid="1252" relation="include">
         </childnode>
+        <childnode refid="1265" relation="include">
+        </childnode>
+        <childnode refid="1266" relation="include">
+        </childnode>
       </node>
-      <node id="1281">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io.hpp</label>
-        <link refid="io_8hpp"/>
+      <node id="1253">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi_master.hpp</label>
+        <link refid="spi__master_8hpp"/>
+        <childnode refid="1254" relation="include">
+        </childnode>
+        <childnode refid="1256" relation="include">
+        </childnode>
+      </node>
+      <node id="1277">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
+        <link refid="uart__2_8hpp"/>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+      <node id="1259">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can_message.hpp</label>
+        <link refid="can__message_8hpp"/>
+        <childnode refid="1260" relation="include">
+        </childnode>
+      </node>
+      <node id="1247">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver/atomic/queue.hpp</label>
+        <link refid="architecture_2driver_2atomic_2queue_8hpp"/>
+        <childnode refid="1246" relation="include">
+        </childnode>
+      </node>
+      <node id="1233">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/logger.hpp</label>
+        <link refid="logger_2logger_8hpp"/>
+        <childnode refid="1234" relation="include">
+        </childnode>
+      </node>
+      <node id="1235">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/debug.hpp</label>
+        <link refid="debug_2debug_8hpp"/>
+      </node>
+      <node id="1266">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</label>
+        <link refid="i2c__master__2_8hpp"/>
+        <childnode refid="1255" relation="include">
+        </childnode>
+      </node>
+      <node id="1241">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iodevice_wrapper.hpp</label>
+        <link refid="iodevice__wrapper_8hpp"/>
+        <childnode refid="1242" relation="include">
+        </childnode>
+        <childnode refid="1281" relation="include">
+        </childnode>
+      </node>
+      <node id="1260">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can.hpp</label>
+        <link refid="can_8hpp"/>
+        <childnode refid="1261" relation="include">
+        </childnode>
+        <childnode refid="1262" relation="include">
+        </childnode>
+      </node>
+      <node id="1234">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger.hpp</label>
+        <link refid="logger_8hpp"/>
+        <childnode refid="1235" relation="include">
+        </childnode>
+        <childnode refid="1236" relation="include">
+        </childnode>
+        <childnode refid="1237" relation="include">
+        </childnode>
+      </node>
+      <node id="1282">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/timer/timestamp.hpp</label>
+        <link refid="timestamp_8hpp"/>
+        <childnode refid="1283" relation="include">
+        </childnode>
+        <childnode refid="1285" relation="include">
+        </childnode>
+        <childnode refid="1287" relation="include">
+        </childnode>
+        <childnode refid="1257" relation="include">
+        </childnode>
+      </node>
+      <node id="1265">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</label>
+        <link refid="i2c__master__1_8hpp"/>
+        <childnode refid="1255" relation="include">
+        </childnode>
       </node>
       <node id="1275">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
         <link refid="uart__baudrate_8hpp"/>
         <childnode refid="1274" relation="include">
         </childnode>
@@ -206,36 +406,20 @@
         <childnode refid="1255" relation="include">
         </childnode>
       </node>
-      <node id="1234">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger.hpp</label>
-        <link refid="logger_8hpp"/>
-        <childnode refid="1235" relation="include">
+      <node id="1267">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_transaction.hpp</label>
+        <link refid="i2c__transaction_8hpp"/>
+        <childnode refid="1264" relation="include">
         </childnode>
-        <childnode refid="1236" relation="include">
-        </childnode>
-        <childnode refid="1237" relation="include">
+        <childnode refid="1252" relation="include">
         </childnode>
       </node>
-      <node id="1282">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/timer/timestamp.hpp</label>
-        <link refid="timestamp_8hpp"/>
-        <childnode refid="1283" relation="include">
-        </childnode>
-        <childnode refid="1285" relation="include">
-        </childnode>
-        <childnode refid="1287" relation="include">
-        </childnode>
-        <childnode refid="1257" relation="include">
-        </childnode>
-      </node>
-      <node id="1247">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/atomic/queue.hpp</label>
-        <link refid="architecture_2driver_2atomic_2queue_8hpp"/>
-        <childnode refid="1246" relation="include">
-        </childnode>
+      <node id="1255">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
+        <link refid="platform_8hpp"/>
       </node>
       <node id="1273">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_base.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_base.hpp</label>
         <link refid="uart__base_8hpp"/>
         <childnode refid="1274" relation="include">
         </childnode>
@@ -250,201 +434,17 @@
         <childnode refid="1255" relation="include">
         </childnode>
       </node>
-      <node id="1253">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi_master.hpp</label>
-        <link refid="spi__master_8hpp"/>
-        <childnode refid="1254" relation="include">
-        </childnode>
-        <childnode refid="1256" relation="include">
-        </childnode>
-      </node>
-      <node id="1246">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/atomic.hpp</label>
-        <link refid="atomic_8hpp"/>
-      </node>
-      <node id="1285">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/timer/timeout.hpp</label>
-        <link refid="timeout_8hpp"/>
-        <childnode refid="1286" relation="include">
-        </childnode>
-        <childnode refid="1287" relation="include">
-        </childnode>
-        <childnode refid="1257" relation="include">
-        </childnode>
-      </node>
-      <node id="1283">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp</label>
-        <link refid="architecture_2interface_2clock_8hpp"/>
-        <childnode refid="1284" relation="include">
-        </childnode>
-        <childnode refid="1285" relation="include">
-        </childnode>
-      </node>
-      <node id="1256">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
-        <link refid="spi__master__2_8hpp"/>
-        <childnode refid="1255" relation="include">
-        </childnode>
-      </node>
-      <node id="1261">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.hpp</label>
-        <link refid="can__1_8hpp"/>
-        <childnode refid="1255" relation="include">
-        </childnode>
-      </node>
-      <node id="1284">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_bit_timings.hpp</label>
-        <link refid="can__bit__timings_8hpp"/>
-        <childnode refid="1261" relation="include">
+      <node id="1278">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</label>
+        <link refid="uart__hal__2_8hpp"/>
+        <childnode refid="1277" relation="include">
         </childnode>
         <childnode refid="1255" relation="include">
         </childnode>
       </node>
-      <node id="1251">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable.hpp</label>
-        <link refid="resumable_8hpp"/>
-        <childnode refid="1252" relation="include">
-        </childnode>
-        <childnode refid="1253" relation="include">
-        </childnode>
-        <childnode refid="1257" relation="include">
-        </childnode>
-      </node>
-      <node id="1277">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
-        <link refid="uart__2_8hpp"/>
-        <childnode refid="1255" relation="include">
-        </childnode>
-      </node>
-      <node id="1250">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp</label>
-        <link refid="nested__resumable_8hpp"/>
-        <childnode refid="1251" relation="include">
-        </childnode>
-        <childnode refid="1257" relation="include">
-        </childnode>
-      </node>
-      <node id="1287">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/timer.hpp</label>
-        <link refid="timer_8hpp"/>
-        <childnode refid="1257" relation="include">
-        </childnode>
-      </node>
-      <node id="1243">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp</label>
-        <link refid="accessor__flash_8hpp"/>
-        <childnode refid="1244" relation="include">
-        </childnode>
-      </node>
-      <node id="1252">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
-        <link refid="i2c__device_8hpp"/>
-      </node>
-      <node id="1286">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/timer/periodic_timer.hpp</label>
-        <link refid="periodic__timer_8hpp"/>
-        <childnode refid="1287" relation="include">
-        </childnode>
-        <childnode refid="1257" relation="include">
-        </childnode>
-      </node>
-      <node id="1231">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-        <childnode refid="1232" relation="include">
-        </childnode>
-        <childnode refid="1238" relation="include">
-        </childnode>
-        <childnode refid="1241" relation="include">
-        </childnode>
-        <childnode refid="1242" relation="include">
-        </childnode>
-        <childnode refid="1281" relation="include">
-        </childnode>
-      </node>
-      <node id="1238">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style_wrapper.hpp</label>
-        <link refid="style__wrapper_8hpp"/>
-        <childnode refid="1233" relation="include">
-        </childnode>
-      </node>
-      <node id="1269">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/memory.hpp</label>
-        <link refid="memory_8hpp"/>
-      </node>
-      <node id="1263">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.hpp</label>
-        <link refid="i2c_8hpp"/>
-        <childnode refid="1252" relation="include">
-        </childnode>
-        <childnode refid="1264" relation="include">
-        </childnode>
-        <childnode refid="1267" relation="include">
-        </childnode>
-      </node>
-      <node id="1260">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can.hpp</label>
-        <link refid="can_8hpp"/>
-        <childnode refid="1261" relation="include">
-        </childnode>
-        <childnode refid="1262" relation="include">
-        </childnode>
-      </node>
-      <node id="1235">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/debug.hpp</label>
-        <link refid="debug_2debug_8hpp"/>
-      </node>
-      <node id="1262">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp</label>
-        <link refid="can__filter_8hpp"/>
-        <childnode refid="1261" relation="include">
-        </childnode>
-        <childnode refid="1255" relation="include">
-        </childnode>
-      </node>
-      <node id="1270">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_base.hpp</label>
-        <link refid="spi__base_8hpp"/>
-        <childnode refid="1271" relation="include">
-        </childnode>
-        <childnode refid="1272" relation="include">
-        </childnode>
-        <childnode refid="1255" relation="include">
-        </childnode>
-      </node>
-      <node id="1255">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
-        <link refid="platform_8hpp"/>
-      </node>
-      <node id="1241">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iodevice_wrapper.hpp</label>
-        <link refid="iodevice__wrapper_8hpp"/>
-        <childnode refid="1242" relation="include">
-        </childnode>
-        <childnode refid="1281" relation="include">
-        </childnode>
-      </node>
-      <node id="1254">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
-        <link refid="spi__master__1_8hpp"/>
-        <childnode refid="1255" relation="include">
-        </childnode>
-      </node>
-      <node id="1233">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/logger.hpp</label>
-        <link refid="logger_2logger_8hpp"/>
-        <childnode refid="1234" relation="include">
-        </childnode>
-      </node>
-      <node id="1244">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor.hpp</label>
-        <link refid="accessor_8hpp"/>
-        <childnode refid="1245" relation="include">
-        </childnode>
-        <childnode refid="1247" relation="include">
-        </childnode>
-        <childnode refid="1248" relation="include">
-        </childnode>
+      <node id="1281">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io.hpp</label>
+        <link refid="io_8hpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classmodm_1_1_i_o_device" prot="public">modm::IODevice</innerclass>
@@ -453,6 +453,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iodevice.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iodevice.hpp"/>
   </compounddef>
 </doxygen>

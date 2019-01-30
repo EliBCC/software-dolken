@@ -5,20 +5,45 @@
     <includes refid="i2c_8hpp" local="yes">i2c.hpp</includes>
     <includes refid="i2c__transaction_8hpp" local="yes">i2c_transaction.hpp</includes>
     <includes refid="peripheral_8hpp" local="yes">peripheral.hpp</includes>
-    <includedby refid="i2c__device_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</includedby>
-    <includedby refid="i2c__master__1_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</includedby>
-    <includedby refid="i2c__master__2_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</includedby>
+    <includedby refid="i2c__device_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</includedby>
+    <includedby refid="i2c__master__1_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</includedby>
+    <includedby refid="i2c__master__2_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</includedby>
     <incdepgraph>
-      <node id="670">
-        <label>modm/architecture/interface/gpio.hpp</label>
-        <link refid="gpio_8hpp"/>
-        <childnode refid="671" relation="include">
-        </childnode>
-        <childnode refid="672" relation="include">
-        </childnode>
-      </node>
       <node id="677">
         <label>stdarg.h</label>
+      </node>
+      <node id="681">
+        <label>peripheral.hpp</label>
+        <link refid="peripheral_8hpp"/>
+        <childnode refid="671" relation="include">
+        </childnode>
+        <childnode refid="676" relation="include">
+        </childnode>
+        <childnode refid="682" relation="include">
+        </childnode>
+      </node>
+      <node id="678">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
+      <node id="671">
+        <label>stdint.h</label>
+      </node>
+      <node id="669">
+        <label>i2c.hpp</label>
+        <link refid="i2c_8hpp"/>
+        <childnode refid="670" relation="include">
+        </childnode>
+        <childnode refid="674" relation="include">
+        </childnode>
+        <childnode refid="675" relation="include">
+        </childnode>
+      </node>
+      <node id="682">
+        <label>modm/math/tolerance.hpp</label>
+        <link refid="tolerance_8hpp"/>
+        <childnode refid="671" relation="include">
+        </childnode>
       </node>
       <node id="674">
         <label>modm/architecture/interface/delay.hpp</label>
@@ -26,17 +51,10 @@
         <childnode refid="671" relation="include">
         </childnode>
       </node>
-      <node id="671">
-        <label>stdint.h</label>
-      </node>
-      <node id="668">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp</label>
-        <link refid="i2c__master_8hpp"/>
-        <childnode refid="669" relation="include">
-        </childnode>
-        <childnode refid="680" relation="include">
-        </childnode>
-        <childnode refid="681" relation="include">
+      <node id="672">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="673" relation="include">
         </childnode>
       </node>
       <node id="675">
@@ -55,53 +73,25 @@
         <childnode refid="679" relation="include">
         </childnode>
       </node>
-      <node id="680">
-        <label>i2c_transaction.hpp</label>
-        <link refid="i2c__transaction_8hpp"/>
+      <node id="668">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp</label>
+        <link refid="i2c__master_8hpp"/>
         <childnode refid="669" relation="include">
         </childnode>
-      </node>
-      <node id="673">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
-      </node>
-      <node id="681">
-        <label>peripheral.hpp</label>
-        <link refid="peripheral_8hpp"/>
-        <childnode refid="671" relation="include">
+        <childnode refid="680" relation="include">
         </childnode>
-        <childnode refid="676" relation="include">
-        </childnode>
-        <childnode refid="682" relation="include">
-        </childnode>
-      </node>
-      <node id="678">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
-      <node id="669">
-        <label>i2c.hpp</label>
-        <link refid="i2c_8hpp"/>
-        <childnode refid="670" relation="include">
-        </childnode>
-        <childnode refid="674" relation="include">
-        </childnode>
-        <childnode refid="675" relation="include">
+        <childnode refid="681" relation="include">
         </childnode>
       </node>
       <node id="676">
         <label>cstddef</label>
       </node>
-      <node id="682">
-        <label>modm/math/tolerance.hpp</label>
-        <link refid="tolerance_8hpp"/>
+      <node id="670">
+        <label>modm/architecture/interface/gpio.hpp</label>
+        <link refid="gpio_8hpp"/>
         <childnode refid="671" relation="include">
         </childnode>
-      </node>
-      <node id="672">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="673" relation="include">
+        <childnode refid="672" relation="include">
         </childnode>
       </node>
       <node id="679">
@@ -112,22 +102,24 @@
         <childnode refid="678" relation="include">
         </childnode>
       </node>
+      <node id="680">
+        <label>i2c_transaction.hpp</label>
+        <link refid="i2c__transaction_8hpp"/>
+        <childnode refid="669" relation="include">
+        </childnode>
+      </node>
+      <node id="673">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="687">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</label>
-        <link refid="i2c__master__2_8hpp"/>
-        <childnode refid="686" relation="include">
-        </childnode>
-      </node>
-      <node id="685">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</label>
-        <link refid="i2c__master__1_8hpp"/>
-        <childnode refid="686" relation="include">
-        </childnode>
+      <node id="684">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
+        <link refid="i2c__device_8hpp"/>
       </node>
       <node id="683">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp</label>
         <link refid="i2c__master_8hpp"/>
         <childnode refid="684" relation="include">
         </childnode>
@@ -136,12 +128,20 @@
         <childnode refid="687" relation="include">
         </childnode>
       </node>
-      <node id="684">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
-        <link refid="i2c__device_8hpp"/>
+      <node id="687">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</label>
+        <link refid="i2c__master__2_8hpp"/>
+        <childnode refid="686" relation="include">
+        </childnode>
+      </node>
+      <node id="685">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</label>
+        <link refid="i2c__master__1_8hpp"/>
+        <childnode refid="686" relation="include">
+        </childnode>
       </node>
       <node id="686">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
         <link refid="platform_8hpp"/>
       </node>
     </invincdepgraph>
@@ -151,6 +151,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp"/>
   </compounddef>
 </doxygen>

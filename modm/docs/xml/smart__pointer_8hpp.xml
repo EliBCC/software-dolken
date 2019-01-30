@@ -6,13 +6,13 @@
     <includes local="no">stdint.h</includes>
     <includes refid="architecture_2utils_8hpp" local="no">modm/architecture/utils.hpp</includes>
     <includes refid="iostream_8hpp" local="no">modm/io/iostream.hpp</includes>
-    <includedby refid="container_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container.hpp</includedby>
+    <includedby refid="container_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container.hpp</includedby>
     <incdepgraph>
       <node id="1053">
         <label>stdarg.h</label>
       </node>
       <node id="1046">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/smart_pointer.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/smart_pointer.hpp</label>
         <link refid="smart__pointer_8hpp"/>
         <childnode refid="1047" relation="include">
         </childnode>
@@ -23,8 +23,18 @@
         <childnode refid="1051" relation="include">
         </childnode>
       </node>
+      <node id="1054">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
       <node id="1048">
         <label>stdint.h</label>
+      </node>
+      <node id="1049">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="1050" relation="include">
+        </childnode>
       </node>
       <node id="1051">
         <label>modm/io/iostream.hpp</label>
@@ -42,22 +52,8 @@
         <childnode refid="1055" relation="include">
         </childnode>
       </node>
-      <node id="1050">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
-      </node>
-      <node id="1054">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
       <node id="1052">
         <label>cstddef</label>
-      </node>
-      <node id="1049">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="1050" relation="include">
-        </childnode>
       </node>
       <node id="1055">
         <label>iodevice_wrapper.hpp</label>
@@ -70,16 +66,20 @@
       <node id="1047">
         <label>cstring</label>
       </node>
+      <node id="1050">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1056">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/smart_pointer.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/smart_pointer.hpp</label>
         <link refid="smart__pointer_8hpp"/>
         <childnode refid="1057" relation="include">
         </childnode>
       </node>
       <node id="1057">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container.hpp</label>
         <link refid="container_8hpp"/>
       </node>
     </invincdepgraph>
@@ -89,6 +89,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/smart_pointer.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/smart_pointer.hpp"/>
   </compounddef>
 </doxygen>

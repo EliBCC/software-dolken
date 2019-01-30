@@ -4,24 +4,40 @@
     <compoundname>can.hpp</compoundname>
     <includes refid="peripheral_8hpp" local="no">modm/architecture/interface/peripheral.hpp</includes>
     <includes refid="can__message_8hpp" local="yes">can_message.hpp</includes>
-    <includedby refid="can__1_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.hpp</includedby>
-    <includedby refid="can__filter_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp</includedby>
+    <includedby refid="can__1_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_1.hpp</includedby>
+    <includedby refid="can__filter_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.hpp</includedby>
     <incdepgraph>
       <node id="478">
         <label>stdarg.h</label>
       </node>
-      <node id="474">
-        <label>can_message.hpp</label>
-        <link refid="can__message_8hpp"/>
+      <node id="479">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
+      <node id="470">
+        <label>modm/architecture/interface/peripheral.hpp</label>
+        <link refid="peripheral_8hpp"/>
         <childnode refid="471" relation="include">
         </childnode>
-        <childnode refid="475" relation="include">
+        <childnode refid="472" relation="include">
         </childnode>
-        <childnode refid="477" relation="include">
+        <childnode refid="473" relation="include">
         </childnode>
       </node>
       <node id="471">
         <label>stdint.h</label>
+      </node>
+      <node id="473">
+        <label>modm/math/tolerance.hpp</label>
+        <link refid="tolerance_8hpp"/>
+        <childnode refid="471" relation="include">
+        </childnode>
+      </node>
+      <node id="477">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="476" relation="include">
+        </childnode>
       </node>
       <node id="475">
         <label>modm/io/iostream.hpp</label>
@@ -39,46 +55,18 @@
         <childnode refid="480" relation="include">
         </childnode>
       </node>
-      <node id="476">
-        <label>modm/architecture/detect.hpp</label>
-        <link refid="detect_8hpp"/>
-      </node>
-      <node id="470">
-        <label>modm/architecture/interface/peripheral.hpp</label>
-        <link refid="peripheral_8hpp"/>
+      <node id="474">
+        <label>can_message.hpp</label>
+        <link refid="can__message_8hpp"/>
         <childnode refid="471" relation="include">
         </childnode>
-        <childnode refid="472" relation="include">
+        <childnode refid="475" relation="include">
         </childnode>
-        <childnode refid="473" relation="include">
-        </childnode>
-      </node>
-      <node id="479">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
-      <node id="469">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can.hpp</label>
-        <link refid="can_8hpp"/>
-        <childnode refid="470" relation="include">
-        </childnode>
-        <childnode refid="474" relation="include">
+        <childnode refid="477" relation="include">
         </childnode>
       </node>
       <node id="472">
         <label>cstddef</label>
-      </node>
-      <node id="473">
-        <label>modm/math/tolerance.hpp</label>
-        <link refid="tolerance_8hpp"/>
-        <childnode refid="471" relation="include">
-        </childnode>
-      </node>
-      <node id="477">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="476" relation="include">
-        </childnode>
       </node>
       <node id="480">
         <label>iodevice_wrapper.hpp</label>
@@ -88,32 +76,44 @@
         <childnode refid="479" relation="include">
         </childnode>
       </node>
+      <node id="469">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can.hpp</label>
+        <link refid="can_8hpp"/>
+        <childnode refid="470" relation="include">
+        </childnode>
+        <childnode refid="474" relation="include">
+        </childnode>
+      </node>
+      <node id="476">
+        <label>modm/architecture/detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="482">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.hpp</label>
-        <link refid="can__1_8hpp"/>
-        <childnode refid="483" relation="include">
-        </childnode>
-      </node>
-      <node id="481">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can.hpp</label>
-        <link refid="can_8hpp"/>
-        <childnode refid="482" relation="include">
-        </childnode>
-        <childnode refid="484" relation="include">
-        </childnode>
-      </node>
       <node id="484">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.hpp</label>
         <link refid="can__filter_8hpp"/>
         <childnode refid="482" relation="include">
         </childnode>
         <childnode refid="483" relation="include">
         </childnode>
       </node>
+      <node id="482">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_1.hpp</label>
+        <link refid="can__1_8hpp"/>
+        <childnode refid="483" relation="include">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can.hpp</label>
+        <link refid="can_8hpp"/>
+        <childnode refid="482" relation="include">
+        </childnode>
+        <childnode refid="484" relation="include">
+        </childnode>
+      </node>
       <node id="483">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
         <link refid="platform_8hpp"/>
       </node>
     </invincdepgraph>
@@ -123,6 +123,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can.hpp"/>
   </compounddef>
 </doxygen>

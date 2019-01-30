@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
   <compounddef id="dir_cade65d2ff05216884d5a4a604fac9c3" kind="dir">
-    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug</compoundname>
-    <innerdir refid="dir_f8969be9240bd4cb9b1715ce837249d8">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger</innerdir>
+    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug</compoundname>
+    <innerdir refid="dir_f8969be9240bd4cb9b1715ce837249d8">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger</innerdir>
     <innerfile refid="debug_2debug_8hpp">debug.hpp</innerfile>
     <innerfile refid="error__report_8hpp">error_report.hpp</innerfile>
     <innerfile refid="logger_8hpp">logger.hpp</innerfile>
@@ -10,6 +10,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/"/>
   </compounddef>
 </doxygen>

@@ -22,7 +22,7 @@
 <para>Flushes the output stream. This manipulator simply calls the stream&apos;s <ref refid="group__modm__io_1gabe969be1dd7e086eae347fff42a13903" kindref="member">flush()</ref> member function. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="474" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="474" bodyend="477"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="474" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="474" bodyend="477"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1ga25d1ec416bcd6a8b8d1d280c99fd2d55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="481" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="481" bodyend="484"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="481" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="481" bodyend="484"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1gaa3870b0cd1e55a28adf436bdd45d7eaf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="488" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="488" bodyend="491"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="488" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="488" bodyend="491"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1gaf61485290089e35ac0a897af1c37d4f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="495" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="495" bodyend="498"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="495" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="495" bodyend="498"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1ga684e638463534cfdac4cb3f31faa35a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="502" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="502" bodyend="505"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="502" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="502" bodyend="505"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1ga95e54d2dc105f141b3319157b70e3648" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="509" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="509" bodyend="517"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="509" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="509" bodyend="517"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1gace81ca5d67327501c5d10daff12bccf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -124,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="520" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="520" bodyend="528"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="520" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="520" bodyend="528"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1gaf1149fc714213a39df7fe1d7e82184dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -141,7 +141,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="531" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="531" bodyend="539"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="531" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="531" bodyend="539"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1ga0ba66e273e02afe2b580a77315924c1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="542" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="542" bodyend="550"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="542" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="542" bodyend="550"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1gae6f479911a2706520d6355834b2fa7c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="553" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="553" bodyend="561"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="553" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="553" bodyend="561"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1ga3438c4139324e0ce05430b371995f885" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="564" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="564" bodyend="572"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="564" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="564" bodyend="572"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1ga42c49cf650c6bba34cfd712dcea739c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="575" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="575" bodyend="583"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="575" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="575" bodyend="583"/>
       </memberdef>
       <memberdef kind="function" id="group__modm__io_1ga1c7fa6a962b858dd5760b3c9e0a9edeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IOStream &amp;</type>
@@ -226,7 +226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" line="586" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.hpp" bodystart="586" bodyend="594"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" line="586" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.hpp" bodystart="586" bodyend="594"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="enum">
@@ -253,7 +253,7 @@
 <para>The preferred behavior when the <ref refid="classmodm_1_1_i_o_device" kindref="compound">IODevice</ref> buffer is full </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iodevice_wrapper.hpp" line="29" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iodevice_wrapper.hpp" bodystart="27" bodyend="32"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iodevice_wrapper.hpp" line="29" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iodevice_wrapper.hpp" bodystart="27" bodyend="32"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

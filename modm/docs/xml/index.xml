@@ -5650,63 +5650,63 @@
   </compound>
   <compound refid="bug" kind="page"><name>bug</name>
   </compound>
-  <compound refid="dir_950f61fe10323b4b6d7a075744db6885" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator</name>
+  <compound refid="dir_950f61fe10323b4b6d7a075744db6885" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator</name>
   </compound>
-  <compound refid="dir_a92a5815b93acd5da051ab9f12278b5f" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture</name>
+  <compound refid="dir_a92a5815b93acd5da051ab9f12278b5f" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture</name>
   </compound>
-  <compound refid="dir_b1987c2f9aaf2ef7c47431031e532890" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/atomic</name>
+  <compound refid="dir_b1987c2f9aaf2ef7c47431031e532890" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver/atomic</name>
   </compound>
-  <compound refid="dir_d8f0a95f41d4a72e3ea644113ce792ee" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can</name>
+  <compound refid="dir_d8f0a95f41d4a72e3ea644113ce792ee" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can</name>
   </compound>
-  <compound refid="dir_e957c3dce7b2168f7223f3531514ff20" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock</name>
+  <compound refid="dir_e957c3dce7b2168f7223f3531514ff20" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock</name>
   </compound>
-  <compound refid="dir_0710a2e1f6a75afa65329b9f687ea1e7" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container</name>
+  <compound refid="dir_0710a2e1f6a75afa65329b9f687ea1e7" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container</name>
   </compound>
-  <compound refid="dir_2d38556a0f7c7d07404778aab73d9574" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core</name>
+  <compound refid="dir_2d38556a0f7c7d07404778aab73d9574" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core</name>
   </compound>
-  <compound refid="dir_cade65d2ff05216884d5a4a604fac9c3" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug</name>
+  <compound refid="dir_cade65d2ff05216884d5a4a604fac9c3" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug</name>
   </compound>
-  <compound refid="dir_1e6bf357bf9089acee2727792522d1a4" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver</name>
+  <compound refid="dir_1e6bf357bf9089acee2727792522d1a4" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver</name>
   </compound>
-  <compound refid="dir_67aac43696f40d80973333444e9660ae" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio</name>
+  <compound refid="dir_67aac43696f40d80973333444e9660ae" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio</name>
   </compound>
-  <compound refid="dir_ef9f93f92fea83b620936b26a651d34c" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/heap</name>
+  <compound refid="dir_ef9f93f92fea83b620936b26a651d34c" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver/heap</name>
   </compound>
-  <compound refid="dir_eec840c4aeabbca33859fe897b399a0e" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c</name>
+  <compound refid="dir_eec840c4aeabbca33859fe897b399a0e" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c</name>
   </compound>
-  <compound refid="dir_e5305a87848a4f2cac771e1f64a3636a" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/imp</name>
+  <compound refid="dir_e5305a87848a4f2cac771e1f64a3636a" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/imp</name>
   </compound>
-  <compound refid="dir_df1d2cf967d0fa09a2b8785420459712" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface</name>
+  <compound refid="dir_df1d2cf967d0fa09a2b8785420459712" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface</name>
   </compound>
-  <compound refid="dir_1bb2f6244fff8462e1b8b903685d9c5b" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io</name>
+  <compound refid="dir_1bb2f6244fff8462e1b8b903685d9c5b" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io</name>
   </compound>
-  <compound refid="dir_f8969be9240bd4cb9b1715ce837249d8" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger</name>
+  <compound refid="dir_f8969be9240bd4cb9b1715ce837249d8" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger</name>
   </compound>
-  <compound refid="dir_77ee7293d278d423e07820c877d0e1b4" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math</name>
+  <compound refid="dir_77ee7293d278d423e07820c877d0e1b4" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math</name>
   </compound>
-  <compound refid="dir_8a48607f40774c82a4d4fc5560386f89" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm</name>
+  <compound refid="dir_8a48607f40774c82a4d4fc5560386f89" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm</name>
   </compound>
-  <compound refid="dir_b37f9af6e752ee950a93bbcf6abf9065" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform</name>
+  <compound refid="dir_b37f9af6e752ee950a93bbcf6abf9065" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform</name>
   </compound>
-  <compound refid="dir_a00668fa6c213e555d4267bf9cc9a946" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing</name>
+  <compound refid="dir_a00668fa6c213e555d4267bf9cc9a946" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing</name>
   </compound>
-  <compound refid="dir_1aeeeab3acd468ff789512d12cb323fb" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/protothread</name>
+  <compound refid="dir_1aeeeab3acd468ff789512d12cb323fb" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/protothread</name>
   </compound>
-  <compound refid="dir_f96c44ffb614e16ffe4bb15d0b48602a" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable</name>
+  <compound refid="dir_f96c44ffb614e16ffe4bb15d0b48602a" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/resumable</name>
   </compound>
-  <compound refid="dir_b2d1ae71ef267dde258e99663ebfc9dc" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi</name>
+  <compound refid="dir_b2d1ae71ef267dde258e99663ebfc9dc" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src</name>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src</name>
   </compound>
-  <compound refid="dir_fa857bb8b509b904ac284538c637123d" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/logger/style</name>
+  <compound refid="dir_fa857bb8b509b904ac284538c637123d" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/logger/style</name>
   </compound>
-  <compound refid="dir_418a3c94520e84ae81295dda7b9a34d3" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/timer</name>
+  <compound refid="dir_418a3c94520e84ae81295dda7b9a34d3" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/processing/timer</name>
   </compound>
-  <compound refid="dir_3e14cdd6aeecccffc4d4117097500622" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart</name>
+  <compound refid="dir_3e14cdd6aeecccffc4d4117097500622" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart</name>
   </compound>
-  <compound refid="dir_a03e4cce18256d22bfbc509c49c95e45" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils</name>
+  <compound refid="dir_a03e4cce18256d22bfbc509c49c95e45" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils</name>
   </compound>
-  <compound refid="dir_bde41730d9b79a359bd74ac2207b6115" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils</name>
+  <compound refid="dir_bde41730d9b79a359bd74ac2207b6115" kind="dir"><name>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils</name>
   </compound>
   <compound refid="indexpage" kind="page"><name>index</name>
   </compound>

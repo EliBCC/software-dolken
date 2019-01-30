@@ -86,14 +86,63 @@
     <includes refid="uart__hal__1_8hpp" local="yes">platform\uart\uart_hal_1.hpp</includes>
     <includes refid="uart__hal__2_8hpp" local="yes">platform\uart\uart_hal_2.hpp</includes>
     <incdepgraph>
-      <node id="1623">
-        <label>platform\gpio\gpio_C14.hpp</label>
-        <link refid="gpio___c14_8hpp"/>
+      <node id="1613">
+        <label>platform\gpio\gpio_B6.hpp</label>
+        <link refid="gpio___b6_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
         <childnode refid="1560" relation="include">
         </childnode>
         <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1589">
+        <label>platform\gpio\gpio_A11.hpp</label>
+        <link refid="gpio___a11_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1594">
+        <label>platform\gpio\gpio_A2.hpp</label>
+        <link refid="gpio___a2_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1556">
+        <label>stdarg.h</label>
+      </node>
+      <node id="1577">
+        <label>can_filter.hpp</label>
+        <link refid="can__filter_8hpp"/>
+        <childnode refid="1549" relation="include">
+        </childnode>
+        <childnode refid="1561" relation="include">
+        </childnode>
+      </node>
+      <node id="1579">
+        <label>common_clock.hpp</label>
+        <link refid="common__clock_8hpp"/>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
+        </childnode>
+      </node>
+      <node id="1664">
+        <label>platform\spi\spi_master_2.hpp</label>
+        <link refid="spi__master__2_8hpp"/>
+        <childnode refid="1653" relation="include">
+        </childnode>
+        <childnode refid="1559" relation="include">
+        </childnode>
+        <childnode refid="1650" relation="include">
         </childnode>
       </node>
       <node id="1616">
@@ -106,38 +155,18 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1561">
-        <label>../device.hpp</label>
-        <link refid="device_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1546" relation="include">
-        </childnode>
-        <childnode refid="1562" relation="include">
-        </childnode>
-        <childnode refid="1563" relation="include">
-        </childnode>
+      <node id="1575">
+        <label>limits</label>
       </node>
-      <node id="1644">
-        <label>platform\i2c\i2c_master_2.hpp</label>
-        <link refid="i2c__master__2_8hpp"/>
+      <node id="1588">
+        <label>platform\gpio\gpio_A10.hpp</label>
+        <link refid="gpio___a10_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
-        <childnode refid="1559" relation="include">
+        <childnode refid="1560" relation="include">
         </childnode>
-        <childnode refid="1640" relation="include">
+        <childnode refid="1586" relation="include">
         </childnode>
-      </node>
-      <node id="1564">
-        <label>modm/architecture/interface/gpio.hpp</label>
-        <link refid="gpio_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1546" relation="include">
-        </childnode>
-      </node>
-      <node id="1556">
-        <label>stdarg.h</label>
       </node>
       <node id="1597">
         <label>platform\gpio\gpio_A5.hpp</label>
@@ -147,48 +176,6 @@
         <childnode refid="1560" relation="include">
         </childnode>
         <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1590">
-        <label>platform\gpio\gpio_A12.hpp</label>
-        <link refid="gpio___a12_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1648">
-        <label>platform\spi\spi_hal_1.hpp</label>
-        <link refid="spi__hal__1_8hpp"/>
-        <childnode refid="1645" relation="include">
-        </childnode>
-        <childnode refid="1649" relation="include">
-        </childnode>
-      </node>
-      <node id="1642">
-        <label>modm/architecture/interface/delay.hpp</label>
-        <link refid="architecture_2interface_2delay_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-      </node>
-      <node id="1578">
-        <label>platform\clock\clock.hpp</label>
-        <link refid="platform_2clock_2clock_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1579" relation="include">
-        </childnode>
-      </node>
-      <node id="1579">
-        <label>common_clock.hpp</label>
-        <link refid="common__clock_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1546" relation="include">
         </childnode>
       </node>
       <node id="1615">
@@ -201,25 +188,41 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1575">
-        <label>limits</label>
-      </node>
-      <node id="1568">
-        <label>unused.hpp</label>
-        <link refid="unused_8hpp"/>
-        <childnode refid="1560" relation="include">
+      <node id="1567">
+        <label>connector_detail.hpp</label>
+        <link refid="connector__detail_8hpp"/>
+        <childnode refid="1568" relation="include">
         </childnode>
-        <childnode refid="1564" relation="include">
+        <childnode refid="1569" relation="include">
         </childnode>
       </node>
-      <node id="1639">
-        <label>platform\i2c\i2c_master_1.hpp</label>
-        <link refid="i2c__master__1_8hpp"/>
-        <childnode refid="1561" relation="include">
+      <node id="1563">
+        <label>system_stm32f4xx.h</label>
+      </node>
+      <node id="1557">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
+      <node id="1550">
+        <label>modm/architecture/interface/peripheral.hpp</label>
+        <link refid="peripheral_8hpp"/>
+        <childnode refid="1551" relation="include">
         </childnode>
-        <childnode refid="1559" relation="include">
+        <childnode refid="1552" relation="include">
         </childnode>
-        <childnode refid="1640" relation="include">
+        <childnode refid="1553" relation="include">
+        </childnode>
+      </node>
+      <node id="1655">
+        <label>resumable/resumable.hpp</label>
+        <link refid="resumable_2resumable_8hpp"/>
+        <childnode refid="1656" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1661" relation="include">
         </childnode>
       </node>
       <node id="1596">
@@ -232,172 +235,15 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1646">
-        <label>modm/architecture/interface/register.hpp</label>
-        <link refid="register_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1647" relation="include">
-        </childnode>
-        <childnode refid="1547" relation="include">
-        </childnode>
-        <childnode refid="1555" relation="include">
-        </childnode>
-      </node>
-      <node id="1593">
-        <label>platform\gpio\gpio_A15.hpp</label>
-        <link refid="gpio___a15_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1650">
-        <label>platform\spi\spi_hal_2.hpp</label>
-        <link refid="spi__hal__2_8hpp"/>
-        <childnode refid="1645" relation="include">
-        </childnode>
-        <childnode refid="1651" relation="include">
-        </childnode>
-      </node>
-      <node id="1567">
-        <label>connector_detail.hpp</label>
-        <link refid="connector__detail_8hpp"/>
-        <childnode refid="1568" relation="include">
-        </childnode>
-        <childnode refid="1569" relation="include">
-        </childnode>
-      </node>
-      <node id="1559">
-        <label>modm/platform/gpio/connector.hpp</label>
-        <link refid="connector_8hpp"/>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1567" relation="include">
-        </childnode>
-      </node>
-      <node id="1663">
-        <label>spi.hpp</label>
-        <link refid="spi_8hpp"/>
-        <childnode refid="1550" relation="include">
-        </childnode>
-      </node>
-      <node id="1563">
-        <label>system_stm32f4xx.h</label>
-      </node>
-      <node id="1657">
-        <label>modm/architecture/interface/assert.hpp</label>
-        <link refid="assert_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1546" relation="include">
-        </childnode>
-        <childnode refid="1647" relation="include">
-        </childnode>
-        <childnode refid="1658" relation="include">
-        </childnode>
-      </node>
       <node id="1574">
         <label>cstdint</label>
       </node>
-      <node id="1599">
-        <label>platform\gpio\gpio_A7.hpp</label>
-        <link refid="gpio___a7_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1592">
-        <label>platform\gpio\gpio_A14.hpp</label>
-        <link refid="gpio___a14_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1554">
-        <label>can_message.hpp</label>
-        <link refid="can__message_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1555" relation="include">
-        </childnode>
+      <node id="1571">
+        <label>modm/architecture/interface/clock.hpp</label>
+        <link refid="architecture_2interface_2clock_8hpp"/>
         <childnode refid="1546" relation="include">
         </childnode>
-      </node>
-      <node id="1620">
-        <label>platform\gpio\gpio_C11.hpp</label>
-        <link refid="gpio___c11_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1581">
-        <label>platform\clock\systick_timer.hpp</label>
-        <link refid="systick__timer_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1566" relation="include">
-        </childnode>
-        <childnode refid="1550" relation="include">
-        </childnode>
-      </node>
-      <node id="1551">
-        <label>stdint.h</label>
-      </node>
-      <node id="1656">
-        <label>macros.hpp</label>
-        <link refid="resumable_2macros_8hpp"/>
-        <childnode refid="1657" relation="include">
-        </childnode>
-        <childnode refid="1546" relation="include">
-        </childnode>
-      </node>
-      <node id="1598">
-        <label>platform\gpio\gpio_A6.hpp</label>
-        <link refid="gpio___a6_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1582">
-        <label>platform\core\atomic_lock.hpp</label>
-        <link refid="platform_2core_2atomic__lock_8hpp"/>
-      </node>
-      <node id="1640">
-        <label>modm/architecture/interface/i2c_master.hpp</label>
-        <link refid="i2c__master_8hpp"/>
-        <childnode refid="1641" relation="include">
-        </childnode>
-        <childnode refid="1643" relation="include">
-        </childnode>
-        <childnode refid="1550" relation="include">
-        </childnode>
-      </node>
-      <node id="1651">
-        <label>spi_hal_2_impl.hpp</label>
-      </node>
-      <node id="1619">
-        <label>platform\gpio\gpio_C10.hpp</label>
-        <link refid="gpio___c10_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
+        <childnode refid="1572" relation="include">
         </childnode>
       </node>
       <node id="1670">
@@ -414,20 +260,145 @@
         <childnode refid="1671" relation="include">
         </childnode>
       </node>
-      <node id="1655">
-        <label>resumable/resumable.hpp</label>
-        <link refid="resumable_2resumable_8hpp"/>
-        <childnode refid="1656" relation="include">
+      <node id="1551">
+        <label>stdint.h</label>
+      </node>
+      <node id="1606">
+        <label>platform\gpio\gpio_B13.hpp</label>
+        <link refid="gpio___b13_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1578">
+        <label>platform\clock\clock.hpp</label>
+        <link refid="platform_2clock_2clock_8hpp"/>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1579" relation="include">
+        </childnode>
+      </node>
+      <node id="1646">
+        <label>modm/architecture/interface/register.hpp</label>
+        <link refid="register_8hpp"/>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1647" relation="include">
+        </childnode>
+        <childnode refid="1547" relation="include">
+        </childnode>
+        <childnode refid="1555" relation="include">
+        </childnode>
+      </node>
+      <node id="1599">
+        <label>platform\gpio\gpio_A7.hpp</label>
+        <link refid="gpio___a7_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1651">
+        <label>spi_hal_2_impl.hpp</label>
+      </node>
+      <node id="1637">
+        <label>platform\gpio\port.hpp</label>
+        <link refid="port_8hpp"/>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+        <childnode refid="1569" relation="include">
+        </childnode>
+        <childnode refid="1565" relation="include">
+        </childnode>
+      </node>
+      <node id="1656">
+        <label>macros.hpp</label>
+        <link refid="resumable_2macros_8hpp"/>
+        <childnode refid="1657" relation="include">
         </childnode>
         <childnode refid="1546" relation="include">
         </childnode>
-        <childnode refid="1551" relation="include">
+      </node>
+      <node id="1605">
+        <label>platform\gpio\gpio_B12.hpp</label>
+        <link refid="gpio___b12_8hpp"/>
+        <childnode refid="1561" relation="include">
         </childnode>
-        <childnode refid="1661" relation="include">
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1560">
+        <label>base.hpp</label>
+        <link refid="base_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1564" relation="include">
+        </childnode>
+        <childnode refid="1565" relation="include">
+        </childnode>
+      </node>
+      <node id="1598">
+        <label>platform\gpio\gpio_A6.hpp</label>
+        <link refid="gpio___a6_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
         </childnode>
       </node>
       <node id="1566">
         <label>cmath</label>
+      </node>
+      <node id="1584">
+        <label>platform\core\unaligned.hpp</label>
+        <link refid="platform_2core_2unaligned_8hpp"/>
+      </node>
+      <node id="1565">
+        <label>modm/math/utils/bit_operation.hpp</label>
+        <link refid="bit__operation_8hpp"/>
+        <childnode refid="1552" relation="include">
+        </childnode>
+        <childnode refid="1566" relation="include">
+        </childnode>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1547" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
+        </childnode>
+      </node>
+      <node id="1649">
+        <label>spi_hal_1_impl.hpp</label>
+      </node>
+      <node id="1608">
+        <label>platform\gpio\gpio_B15.hpp</label>
+        <link refid="gpio___b15_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1654">
+        <label>modm/processing/resumable.hpp</label>
+        <link refid="resumable_8hpp"/>
+        <childnode refid="1655" relation="include">
+        </childnode>
+        <childnode refid="1662" relation="include">
+        </childnode>
       </node>
       <node id="1601">
         <label>platform\gpio\gpio_A9.hpp</label>
@@ -439,25 +410,36 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1583">
-        <label>platform\core\flash_reader.hpp</label>
-        <link refid="flash__reader_8hpp"/>
-      </node>
-      <node id="1649">
-        <label>spi_hal_1_impl.hpp</label>
-      </node>
-      <node id="1673">
-        <label>uart_hal_2.hpp</label>
-        <link refid="uart__hal__2_8hpp"/>
+      <node id="1647">
+        <label>modm/utils/bit_constants.hpp</label>
+        <link refid="bit__constants_8hpp"/>
         <childnode refid="1551" relation="include">
+        </childnode>
+      </node>
+      <node id="1548">
+        <label>platform\can\can_1.hpp</label>
+        <link refid="can__1_8hpp"/>
+        <childnode refid="1549" relation="include">
+        </childnode>
+        <childnode refid="1559" relation="include">
         </childnode>
         <childnode refid="1561" relation="include">
         </childnode>
-        <childnode refid="1667" relation="include">
+        <childnode refid="1570" relation="include">
         </childnode>
-        <childnode refid="1669" relation="include">
+        <childnode refid="1576" relation="include">
         </childnode>
-        <childnode refid="1674" relation="include">
+        <childnode refid="1577" relation="include">
+        </childnode>
+      </node>
+      <node id="1607">
+        <label>platform\gpio\gpio_B14.hpp</label>
+        <link refid="gpio___b14_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
         </childnode>
       </node>
       <node id="1600">
@@ -480,44 +462,16 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1589">
-        <label>platform\gpio\gpio_A11.hpp</label>
-        <link refid="gpio___a11_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1665">
-        <label>platform\uart\uart_1.hpp</label>
-        <link refid="uart__1_8hpp"/>
-        <childnode refid="1666" relation="include">
-        </childnode>
-        <childnode refid="1559" relation="include">
-        </childnode>
-        <childnode refid="1667" relation="include">
-        </childnode>
-        <childnode refid="1669" relation="include">
-        </childnode>
-        <childnode refid="1670" relation="include">
-        </childnode>
-      </node>
-      <node id="1555">
-        <label>modm/io/iostream.hpp</label>
-        <link refid="iostream_8hpp"/>
-        <childnode refid="1552" relation="include">
-        </childnode>
-        <childnode refid="1547" relation="include">
+      <node id="1561">
+        <label>../device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="1551" relation="include">
         </childnode>
         <childnode refid="1546" relation="include">
         </childnode>
-        <childnode refid="1556" relation="include">
+        <childnode refid="1562" relation="include">
         </childnode>
-        <childnode refid="1557" relation="include">
-        </childnode>
-        <childnode refid="1558" relation="include">
+        <childnode refid="1563" relation="include">
         </childnode>
       </node>
       <node id="1633">
@@ -540,26 +494,56 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1588">
-        <label>platform\gpio\gpio_A10.hpp</label>
-        <link refid="gpio___a10_8hpp"/>
-        <childnode refid="1561" relation="include">
+      <node id="1581">
+        <label>platform\clock\systick_timer.hpp</label>
+        <link refid="systick__timer_8hpp"/>
+        <childnode refid="1551" relation="include">
         </childnode>
-        <childnode refid="1560" relation="include">
+        <childnode refid="1566" relation="include">
         </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1666">
-        <label>modm/architecture/interface/uart.hpp</label>
-        <link refid="uart_8hpp"/>
         <childnode refid="1550" relation="include">
         </childnode>
       </node>
-      <node id="1643">
-        <label>i2c_transaction.hpp</label>
-        <link refid="i2c__transaction_8hpp"/>
-        <childnode refid="1641" relation="include">
+      <node id="1665">
+        <label>platform\uart\uart_1.hpp</label>
+        <link refid="uart__1_8hpp"/>
+        <childnode refid="1666" relation="include">
+        </childnode>
+        <childnode refid="1559" relation="include">
+        </childnode>
+        <childnode refid="1667" relation="include">
+        </childnode>
+        <childnode refid="1669" relation="include">
+        </childnode>
+        <childnode refid="1670" relation="include">
+        </childnode>
+      </node>
+      <node id="1658">
+        <label>modm/architecture/interface/accessor.hpp</label>
+        <link refid="accessor_8hpp"/>
+        <childnode refid="1659" relation="include">
+        </childnode>
+        <childnode refid="1660" relation="include">
+        </childnode>
+      </node>
+      <node id="1652">
+        <label>platform\spi\spi_master_1.hpp</label>
+        <link refid="spi__master__1_8hpp"/>
+        <childnode refid="1653" relation="include">
+        </childnode>
+        <childnode refid="1559" relation="include">
+        </childnode>
+        <childnode refid="1648" relation="include">
+        </childnode>
+      </node>
+      <node id="1641">
+        <label>i2c.hpp</label>
+        <link refid="i2c_8hpp"/>
+        <childnode refid="1564" relation="include">
+        </childnode>
+        <childnode refid="1642" relation="include">
+        </childnode>
+        <childnode refid="1555" relation="include">
         </childnode>
       </node>
       <node id="1618">
@@ -572,50 +556,16 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1576">
-        <label>error_code.hpp</label>
-        <link refid="error__code_8hpp"/>
-      </node>
-      <node id="1637">
-        <label>platform\gpio\port.hpp</label>
-        <link refid="port_8hpp"/>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-        <childnode refid="1569" relation="include">
-        </childnode>
-        <childnode refid="1565" relation="include">
+      <node id="1553">
+        <label>modm/math/tolerance.hpp</label>
+        <link refid="tolerance_8hpp"/>
+        <childnode refid="1551" relation="include">
         </childnode>
       </node>
-      <node id="1669">
-        <label>uart_baudrate.hpp</label>
-        <link refid="uart__baudrate_8hpp"/>
-        <childnode refid="1667" relation="include">
-        </childnode>
-        <childnode refid="1550" relation="include">
-        </childnode>
-        <childnode refid="1566" relation="include">
-        </childnode>
-      </node>
-      <node id="1560">
-        <label>base.hpp</label>
-        <link refid="base_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
+      <node id="1636">
+        <label>platform\gpio\inverted.hpp</label>
+        <link refid="inverted_8hpp"/>
         <childnode refid="1564" relation="include">
-        </childnode>
-        <childnode refid="1565" relation="include">
-        </childnode>
-      </node>
-      <node id="1606">
-        <label>platform\gpio\gpio_B13.hpp</label>
-        <link refid="gpio___b13_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
         </childnode>
       </node>
       <node id="1617">
@@ -628,19 +578,17 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1572">
-        <label>modm/processing/timer/timestamp.hpp</label>
-        <link refid="timestamp_8hpp"/>
-        <childnode refid="1551" relation="include">
+      <node id="1659">
+        <label>modm/architecture/interface/accessor_ram.hpp</label>
+        <link refid="accessor__ram_8hpp"/>
+        <childnode refid="1552" relation="include">
         </childnode>
-        <childnode refid="1555" relation="include">
-        </childnode>
-        <childnode refid="1573" relation="include">
+        <childnode refid="1546" relation="include">
         </childnode>
       </node>
-      <node id="1605">
-        <label>platform\gpio\gpio_B12.hpp</label>
-        <link refid="gpio___b12_8hpp"/>
+      <node id="1604">
+        <label>platform\gpio\gpio_B10.hpp</label>
+        <link refid="gpio___b10_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
         <childnode refid="1560" relation="include">
@@ -648,24 +596,18 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1638">
-        <label>platform\gpio\software_port.hpp</label>
-        <link refid="software__port_8hpp"/>
-        <childnode refid="1586" relation="include">
+      <node id="1660">
+        <label>modm/architecture/interface/accessor_flash.hpp</label>
+        <link refid="accessor__flash_8hpp"/>
+        <childnode refid="1546" relation="include">
         </childnode>
-        <childnode refid="1569" relation="include">
+        <childnode refid="1555" relation="include">
         </childnode>
       </node>
-      <node id="1667">
-        <label>uart_base.hpp</label>
-        <link refid="uart__base_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1646" relation="include">
-        </childnode>
-        <childnode refid="1668" relation="include">
+      <node id="1663">
+        <label>spi.hpp</label>
+        <link refid="spi_8hpp"/>
+        <childnode refid="1550" relation="include">
         </childnode>
       </node>
       <node id="1626">
@@ -678,30 +620,20 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1653">
-        <label>modm/architecture/interface/spi_master.hpp</label>
-        <link refid="spi__master_8hpp"/>
-        <childnode refid="1654" relation="include">
+      <node id="1645">
+        <label>platform\spi\spi_base.hpp</label>
+        <link refid="spi__base_8hpp"/>
+        <childnode refid="1551" relation="include">
         </childnode>
-        <childnode refid="1663" relation="include">
-        </childnode>
-      </node>
-      <node id="1586">
-        <label>set.hpp</label>
-        <link refid="set_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
-        <childnode refid="1560" relation="include">
+        <childnode refid="1646" relation="include">
         </childnode>
       </node>
-      <node id="1608">
-        <label>platform\gpio\gpio_B15.hpp</label>
-        <link refid="gpio___b15_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
+      <node id="1642">
+        <label>modm/architecture/interface/delay.hpp</label>
+        <link refid="architecture_2interface_2delay_8hpp"/>
+        <childnode refid="1551" relation="include">
         </childnode>
       </node>
       <node id="1625">
@@ -714,17 +646,23 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1668">
-        <label>modm/architecture/interface/interrupt.hpp</label>
-        <link refid="interrupt_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1546" relation="include">
+      <node id="1546">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="1547" relation="include">
         </childnode>
       </node>
-      <node id="1607">
-        <label>platform\gpio\gpio_B14.hpp</label>
-        <link refid="gpio___b14_8hpp"/>
+      <node id="1586">
+        <label>set.hpp</label>
+        <link refid="set_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+      </node>
+      <node id="1622">
+        <label>platform\gpio\gpio_C13.hpp</label>
+        <link refid="gpio___c13_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
         <childnode refid="1560" relation="include">
@@ -732,12 +670,28 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1571">
-        <label>modm/architecture/interface/clock.hpp</label>
-        <link refid="architecture_2interface_2clock_8hpp"/>
+      <node id="1555">
+        <label>modm/io/iostream.hpp</label>
+        <link refid="iostream_8hpp"/>
+        <childnode refid="1552" relation="include">
+        </childnode>
+        <childnode refid="1547" relation="include">
+        </childnode>
         <childnode refid="1546" relation="include">
         </childnode>
-        <childnode refid="1572" relation="include">
+        <childnode refid="1556" relation="include">
+        </childnode>
+        <childnode refid="1557" relation="include">
+        </childnode>
+        <childnode refid="1558" relation="include">
+        </childnode>
+      </node>
+      <node id="1648">
+        <label>platform\spi\spi_hal_1.hpp</label>
+        <link refid="spi__hal__1_8hpp"/>
+        <childnode refid="1645" relation="include">
+        </childnode>
+        <childnode refid="1649" relation="include">
         </childnode>
       </node>
       <node id="1628">
@@ -750,38 +704,14 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1664">
-        <label>platform\spi\spi_master_2.hpp</label>
-        <link refid="spi__master__2_8hpp"/>
-        <childnode refid="1653" relation="include">
-        </childnode>
-        <childnode refid="1559" relation="include">
-        </childnode>
-        <childnode refid="1650" relation="include">
-        </childnode>
-      </node>
-      <node id="1548">
-        <label>platform\can\can_1.hpp</label>
-        <link refid="can__1_8hpp"/>
-        <childnode refid="1549" relation="include">
-        </childnode>
-        <childnode refid="1559" relation="include">
-        </childnode>
+      <node id="1621">
+        <label>platform\gpio\gpio_C12.hpp</label>
+        <link refid="gpio___c12_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
-        <childnode refid="1570" relation="include">
+        <childnode refid="1560" relation="include">
         </childnode>
-        <childnode refid="1576" relation="include">
-        </childnode>
-        <childnode refid="1577" relation="include">
-        </childnode>
-      </node>
-      <node id="1654">
-        <label>modm/processing/resumable.hpp</label>
-        <link refid="resumable_8hpp"/>
-        <childnode refid="1655" relation="include">
-        </childnode>
-        <childnode refid="1662" relation="include">
+        <childnode refid="1586" relation="include">
         </childnode>
       </node>
       <node id="1570">
@@ -790,6 +720,18 @@
         <childnode refid="1571" relation="include">
         </childnode>
         <childnode refid="1566" relation="include">
+        </childnode>
+      </node>
+      <node id="1657">
+        <label>modm/architecture/interface/assert.hpp</label>
+        <link refid="assert_8hpp"/>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1647" relation="include">
+        </childnode>
+        <childnode refid="1658" relation="include">
         </childnode>
       </node>
       <node id="1603">
@@ -802,41 +744,17 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1672">
-        <label>platform\uart\uart_2.hpp</label>
-        <link refid="uart__2_8hpp"/>
-        <childnode refid="1666" relation="include">
+      <node id="1650">
+        <label>platform\spi\spi_hal_2.hpp</label>
+        <link refid="spi__hal__2_8hpp"/>
+        <childnode refid="1645" relation="include">
         </childnode>
-        <childnode refid="1559" relation="include">
-        </childnode>
-        <childnode refid="1667" relation="include">
-        </childnode>
-        <childnode refid="1669" relation="include">
-        </childnode>
-        <childnode refid="1673" relation="include">
+        <childnode refid="1651" relation="include">
         </childnode>
       </node>
       <node id="1627">
         <label>platform\gpio\gpio_C4.hpp</label>
         <link refid="gpio___c4_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1547">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
-      </node>
-      <node id="1584">
-        <label>platform\core\unaligned.hpp</label>
-        <link refid="platform_2core_2unaligned_8hpp"/>
-      </node>
-      <node id="1602">
-        <label>platform\gpio\gpio_B0.hpp</label>
-        <link refid="gpio___b0_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
         <childnode refid="1560" relation="include">
@@ -854,6 +772,62 @@
         <childnode refid="1551" relation="include">
         </childnode>
       </node>
+      <node id="1583">
+        <label>platform\core\flash_reader.hpp</label>
+        <link refid="flash__reader_8hpp"/>
+      </node>
+      <node id="1624">
+        <label>platform\gpio\gpio_C15.hpp</label>
+        <link refid="gpio___c15_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1602">
+        <label>platform\gpio\gpio_B0.hpp</label>
+        <link refid="gpio___b0_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1640">
+        <label>modm/architecture/interface/i2c_master.hpp</label>
+        <link refid="i2c__master_8hpp"/>
+        <childnode refid="1641" relation="include">
+        </childnode>
+        <childnode refid="1643" relation="include">
+        </childnode>
+        <childnode refid="1550" relation="include">
+        </childnode>
+      </node>
+      <node id="1653">
+        <label>modm/architecture/interface/spi_master.hpp</label>
+        <link refid="spi__master_8hpp"/>
+        <childnode refid="1654" relation="include">
+        </childnode>
+        <childnode refid="1663" relation="include">
+        </childnode>
+      </node>
+      <node id="1672">
+        <label>platform\uart\uart_2.hpp</label>
+        <link refid="uart__2_8hpp"/>
+        <childnode refid="1666" relation="include">
+        </childnode>
+        <childnode refid="1559" relation="include">
+        </childnode>
+        <childnode refid="1667" relation="include">
+        </childnode>
+        <childnode refid="1669" relation="include">
+        </childnode>
+        <childnode refid="1673" relation="include">
+        </childnode>
+      </node>
       <node id="1630">
         <label>platform\gpio\gpio_C7.hpp</label>
         <link refid="gpio___c7_8hpp"/>
@@ -864,27 +838,47 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1660">
-        <label>modm/architecture/interface/accessor_flash.hpp</label>
-        <link refid="accessor__flash_8hpp"/>
-        <childnode refid="1546" relation="include">
+      <node id="1591">
+        <label>platform\gpio\gpio_A13.hpp</label>
+        <link refid="gpio___a13_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1554">
+        <label>can_message.hpp</label>
+        <link refid="can__message_8hpp"/>
+        <childnode refid="1551" relation="include">
         </childnode>
         <childnode refid="1555" relation="include">
         </childnode>
-      </node>
-      <node id="1550">
-        <label>modm/architecture/interface/peripheral.hpp</label>
-        <link refid="peripheral_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1552" relation="include">
-        </childnode>
-        <childnode refid="1553" relation="include">
+        <childnode refid="1546" relation="include">
         </childnode>
       </node>
-      <node id="1557">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
+      <node id="1638">
+        <label>platform\gpio\software_port.hpp</label>
+        <link refid="software__port_8hpp"/>
+        <childnode refid="1586" relation="include">
+        </childnode>
+        <childnode refid="1569" relation="include">
+        </childnode>
+      </node>
+      <node id="1623">
+        <label>platform\gpio\gpio_C14.hpp</label>
+        <link refid="gpio___c14_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1582">
+        <label>platform\core\atomic_lock.hpp</label>
+        <link refid="platform_2core_2atomic__lock_8hpp"/>
       </node>
       <node id="1610">
         <label>platform\gpio\gpio_B3.hpp</label>
@@ -896,25 +890,119 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1636">
-        <label>platform\gpio\inverted.hpp</label>
-        <link refid="inverted_8hpp"/>
-        <childnode refid="1564" relation="include">
-        </childnode>
+      <node id="1552">
+        <label>cstddef</label>
       </node>
-      <node id="1641">
-        <label>i2c.hpp</label>
-        <link refid="i2c_8hpp"/>
-        <childnode refid="1564" relation="include">
-        </childnode>
-        <childnode refid="1642" relation="include">
-        </childnode>
-        <childnode refid="1555" relation="include">
+      <node id="1666">
+        <label>modm/architecture/interface/uart.hpp</label>
+        <link refid="uart_8hpp"/>
+        <childnode refid="1550" relation="include">
         </childnode>
       </node>
       <node id="1629">
         <label>platform\gpio\gpio_C6.hpp</label>
         <link refid="gpio___c6_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1559">
+        <label>modm/platform/gpio/connector.hpp</label>
+        <link refid="connector_8hpp"/>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1567" relation="include">
+        </childnode>
+      </node>
+      <node id="1590">
+        <label>platform\gpio\gpio_A12.hpp</label>
+        <link refid="gpio___a12_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1609">
+        <label>platform\gpio\gpio_B2.hpp</label>
+        <link refid="gpio___b2_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1564">
+        <label>modm/architecture/interface/gpio.hpp</label>
+        <link refid="gpio_8hpp"/>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
+        </childnode>
+      </node>
+      <node id="1632">
+        <label>platform\gpio\gpio_C9.hpp</label>
+        <link refid="gpio___c9_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1593">
+        <label>platform\gpio\gpio_A15.hpp</label>
+        <link refid="gpio___a15_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1671">
+        <label>uart_hal_1_impl.hpp</label>
+      </node>
+      <node id="1576">
+        <label>error_code.hpp</label>
+        <link refid="error__code_8hpp"/>
+      </node>
+      <node id="1644">
+        <label>platform\i2c\i2c_master_2.hpp</label>
+        <link refid="i2c__master__2_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1559" relation="include">
+        </childnode>
+        <childnode refid="1640" relation="include">
+        </childnode>
+      </node>
+      <node id="1612">
+        <label>platform\gpio\gpio_B5.hpp</label>
+        <link refid="gpio___b5_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1558">
+        <label>iodevice_wrapper.hpp</label>
+        <link refid="iodevice__wrapper_8hpp"/>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1557" relation="include">
+        </childnode>
+      </node>
+      <node id="1631">
+        <label>platform\gpio\gpio_C8.hpp</label>
+        <link refid="gpio___c8_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
         <childnode refid="1560" relation="include">
@@ -930,73 +1018,33 @@
         <childnode refid="1554" relation="include">
         </childnode>
       </node>
-      <node id="1609">
-        <label>platform\gpio\gpio_B2.hpp</label>
-        <link refid="gpio___b2_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1604">
-        <label>platform\gpio\gpio_B10.hpp</label>
-        <link refid="gpio___b10_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1647">
-        <label>modm/utils/bit_constants.hpp</label>
-        <link refid="bit__constants_8hpp"/>
+      <node id="1580">
+        <label>platform\clock\delay.hpp</label>
+        <link refid="platform_2clock_2delay_8hpp"/>
         <childnode refid="1551" relation="include">
         </childnode>
-      </node>
-      <node id="1552">
-        <label>cstddef</label>
-      </node>
-      <node id="1632">
-        <label>platform\gpio\gpio_C9.hpp</label>
-        <link refid="gpio___c9_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
+        <childnode refid="1546" relation="include">
         </childnode>
       </node>
-      <node id="1553">
-        <label>modm/math/tolerance.hpp</label>
-        <link refid="tolerance_8hpp"/>
+      <node id="1572">
+        <label>modm/processing/timer/timestamp.hpp</label>
+        <link refid="timestamp_8hpp"/>
         <childnode refid="1551" relation="include">
         </childnode>
+        <childnode refid="1555" relation="include">
+        </childnode>
+        <childnode refid="1573" relation="include">
+        </childnode>
       </node>
-      <node id="1612">
-        <label>platform\gpio\gpio_B5.hpp</label>
-        <link refid="gpio___b5_8hpp"/>
+      <node id="1592">
+        <label>platform\gpio\gpio_A14.hpp</label>
+        <link refid="gpio___a14_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
         <childnode refid="1560" relation="include">
         </childnode>
         <childnode refid="1586" relation="include">
         </childnode>
-      </node>
-      <node id="1631">
-        <label>platform\gpio\gpio_C8.hpp</label>
-        <link refid="gpio___c8_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1671">
-        <label>uart_hal_1_impl.hpp</label>
       </node>
       <node id="1587">
         <label>platform\gpio\gpio_A1.hpp</label>
@@ -1008,20 +1056,41 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1546">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="1547" relation="include">
+      <node id="1668">
+        <label>modm/architecture/interface/interrupt.hpp</label>
+        <link refid="interrupt_8hpp"/>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
         </childnode>
       </node>
-      <node id="1622">
-        <label>platform\gpio\gpio_C13.hpp</label>
-        <link refid="gpio___c13_8hpp"/>
+      <node id="1569">
+        <label>type_traits</label>
+      </node>
+      <node id="1562">
+        <label>stm32f446xx.h</label>
+      </node>
+      <node id="1620">
+        <label>platform\gpio\gpio_C11.hpp</label>
+        <link refid="gpio___c11_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
         <childnode refid="1560" relation="include">
         </childnode>
         <childnode refid="1586" relation="include">
+        </childnode>
+      </node>
+      <node id="1674">
+        <label>uart_hal_2_impl.hpp</label>
+      </node>
+      <node id="1639">
+        <label>platform\i2c\i2c_master_1.hpp</label>
+        <link refid="i2c__master__1_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1559" relation="include">
+        </childnode>
+        <childnode refid="1640" relation="include">
         </childnode>
       </node>
       <node id="1611">
@@ -1034,22 +1103,14 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1577">
-        <label>can_filter.hpp</label>
-        <link refid="can__filter_8hpp"/>
-        <childnode refid="1549" relation="include">
+      <node id="1669">
+        <label>uart_baudrate.hpp</label>
+        <link refid="uart__baudrate_8hpp"/>
+        <childnode refid="1667" relation="include">
         </childnode>
-        <childnode refid="1561" relation="include">
+        <childnode refid="1550" relation="include">
         </childnode>
-      </node>
-      <node id="1645">
-        <label>platform\spi\spi_base.hpp</label>
-        <link refid="spi__base_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1646" relation="include">
+        <childnode refid="1566" relation="include">
         </childnode>
       </node>
       <node id="1585">
@@ -1062,17 +1123,34 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1569">
-        <label>type_traits</label>
+      <node id="1619">
+        <label>platform\gpio\gpio_C10.hpp</label>
+        <link refid="gpio___c10_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
       </node>
-      <node id="1562">
-        <label>stm32f446xx.h</label>
+      <node id="1614">
+        <label>platform\gpio\gpio_B7.hpp</label>
+        <link refid="gpio___b7_8hpp"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
       </node>
-      <node id="1674">
-        <label>uart_hal_2_impl.hpp</label>
+      <node id="1643">
+        <label>i2c_transaction.hpp</label>
+        <link refid="i2c__transaction_8hpp"/>
+        <childnode refid="1641" relation="include">
+        </childnode>
       </node>
       <node id="1545">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
         <link refid="platform_8hpp"/>
         <childnode refid="1546" relation="include">
         </childnode>
@@ -1241,15 +1319,24 @@
         <childnode refid="1673" relation="include">
         </childnode>
       </node>
-      <node id="1621">
-        <label>platform\gpio\gpio_C12.hpp</label>
-        <link refid="gpio___c12_8hpp"/>
+      <node id="1667">
+        <label>uart_base.hpp</label>
+        <link refid="uart__base_8hpp"/>
+        <childnode refid="1551" relation="include">
+        </childnode>
         <childnode refid="1561" relation="include">
         </childnode>
-        <childnode refid="1560" relation="include">
+        <childnode refid="1646" relation="include">
         </childnode>
-        <childnode refid="1586" relation="include">
+        <childnode refid="1668" relation="include">
         </childnode>
+      </node>
+      <node id="1661">
+        <label>initializer_list</label>
+      </node>
+      <node id="1547">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
       </node>
       <node id="1573">
         <label>modm/utils/arithmetic_traits.hpp</label>
@@ -1263,42 +1350,6 @@
         <childnode refid="1566" relation="include">
         </childnode>
       </node>
-      <node id="1558">
-        <label>iodevice_wrapper.hpp</label>
-        <link refid="iodevice__wrapper_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1557" relation="include">
-        </childnode>
-      </node>
-      <node id="1614">
-        <label>platform\gpio\gpio_B7.hpp</label>
-        <link refid="gpio___b7_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1659">
-        <label>modm/architecture/interface/accessor_ram.hpp</label>
-        <link refid="accessor__ram_8hpp"/>
-        <childnode refid="1552" relation="include">
-        </childnode>
-        <childnode refid="1546" relation="include">
-        </childnode>
-      </node>
-      <node id="1652">
-        <label>platform\spi\spi_master_1.hpp</label>
-        <link refid="spi__master__1_8hpp"/>
-        <childnode refid="1653" relation="include">
-        </childnode>
-        <childnode refid="1559" relation="include">
-        </childnode>
-        <childnode refid="1648" relation="include">
-        </childnode>
-      </node>
       <node id="1595">
         <label>platform\gpio\gpio_A3.hpp</label>
         <link refid="gpio___a3_8hpp"/>
@@ -1309,77 +1360,26 @@
         <childnode refid="1586" relation="include">
         </childnode>
       </node>
-      <node id="1565">
-        <label>modm/math/utils/bit_operation.hpp</label>
-        <link refid="bit__operation_8hpp"/>
-        <childnode refid="1552" relation="include">
-        </childnode>
-        <childnode refid="1566" relation="include">
-        </childnode>
+      <node id="1673">
+        <label>uart_hal_2.hpp</label>
+        <link refid="uart__hal__2_8hpp"/>
         <childnode refid="1551" relation="include">
         </childnode>
-        <childnode refid="1547" relation="include">
-        </childnode>
-        <childnode refid="1546" relation="include">
-        </childnode>
-      </node>
-      <node id="1624">
-        <label>platform\gpio\gpio_C15.hpp</label>
-        <link refid="gpio___c15_8hpp"/>
         <childnode refid="1561" relation="include">
         </childnode>
+        <childnode refid="1667" relation="include">
+        </childnode>
+        <childnode refid="1669" relation="include">
+        </childnode>
+        <childnode refid="1674" relation="include">
+        </childnode>
+      </node>
+      <node id="1568">
+        <label>unused.hpp</label>
+        <link refid="unused_8hpp"/>
         <childnode refid="1560" relation="include">
         </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1613">
-        <label>platform\gpio\gpio_B6.hpp</label>
-        <link refid="gpio___b6_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1580">
-        <label>platform\clock\delay.hpp</label>
-        <link refid="platform_2clock_2delay_8hpp"/>
-        <childnode refid="1551" relation="include">
-        </childnode>
-        <childnode refid="1546" relation="include">
-        </childnode>
-      </node>
-      <node id="1658">
-        <label>modm/architecture/interface/accessor.hpp</label>
-        <link refid="accessor_8hpp"/>
-        <childnode refid="1659" relation="include">
-        </childnode>
-        <childnode refid="1660" relation="include">
-        </childnode>
-      </node>
-      <node id="1661">
-        <label>initializer_list</label>
-      </node>
-      <node id="1594">
-        <label>platform\gpio\gpio_A2.hpp</label>
-        <link refid="gpio___a2_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
-        </childnode>
-      </node>
-      <node id="1591">
-        <label>platform\gpio\gpio_A13.hpp</label>
-        <link refid="gpio___a13_8hpp"/>
-        <childnode refid="1561" relation="include">
-        </childnode>
-        <childnode refid="1560" relation="include">
-        </childnode>
-        <childnode refid="1586" relation="include">
+        <childnode refid="1564" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -1387,6 +1387,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp"/>
   </compounddef>
 </doxygen>

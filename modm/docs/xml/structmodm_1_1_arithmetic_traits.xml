@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="192" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="192" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="192" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="192" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structmodm_1_1_arithmetic_traits_1ad252fe67d8aa357ad5772407a0f619cd" prot="public" static="no">
         <type>typename detail::MakeSigned&lt; T &gt;::type</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="194" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="194" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="194" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="194" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structmodm_1_1_arithmetic_traits_1adeb71958dd2b340f1a6ddcd2edea288a" prot="public" static="no">
         <type>typename detail::MakeUnsigned&lt; T &gt;::type</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="195" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="195" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="195" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="195" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-attrib">
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="188" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="188" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="188" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="188" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structmodm_1_1_arithmetic_traits_1abe13c91baaaf2122a2cd8d75fc5db362" prot="public" static="yes" mutable="no">
         <type>constexpr bool</type>
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="189" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="189" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="189" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="189" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structmodm_1_1_arithmetic_traits_1ab918d0f589b3eff171243e15e341ff8e" prot="public" static="yes" mutable="no">
         <type>constexpr unsigned char</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="197" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="197" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="197" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="197" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structmodm_1_1_arithmetic_traits_1ac252df4678f29ce955fe37fa06230e10" prot="public" static="yes" mutable="no">
         <type>constexpr T</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="200" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="200" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="200" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="200" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structmodm_1_1_arithmetic_traits_1a1d3d6f641c87278b6a55aa4501d21d89" prot="public" static="yes" mutable="no">
         <type>constexpr T</type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="201" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="201" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="201" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="201" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structmodm_1_1_arithmetic_traits_1ac744d4557cb07a1dd5a96c8b4d55632a" prot="public" static="yes" mutable="no">
         <type>constexpr T</type>
@@ -136,14 +136,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="202" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="202" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="202" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="202" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="187" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="186" bodyend="203"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" line="187" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/arithmetic_traits.hpp" bodystart="186" bodyend="203"/>
     <listofallmembers>
       <member refid="structmodm_1_1_arithmetic_traits_1ab918d0f589b3eff171243e15e341ff8e" prot="public" virt="non-virtual"><scope>modm::ArithmeticTraits</scope><name>decimalDigits</name></member>
       <member refid="structmodm_1_1_arithmetic_traits_1ac744d4557cb07a1dd5a96c8b4d55632a" prot="public" virt="non-virtual"><scope>modm::ArithmeticTraits</scope><name>epsilon</name></member>

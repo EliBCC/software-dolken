@@ -4,13 +4,19 @@
     <compoundname>interrupt.hpp</compoundname>
     <includes local="no">stdint.h</includes>
     <includes refid="architecture_2utils_8hpp" local="no">modm/architecture/utils.hpp</includes>
-    <includedby refid="uart__base_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_base.hpp</includedby>
+    <includedby refid="uart__base_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_base.hpp</includedby>
     <incdepgraph>
       <node id="707">
         <label>stdint.h</label>
       </node>
+      <node id="708">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="709" relation="include">
+        </childnode>
+      </node>
       <node id="706">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp</label>
         <link refid="interrupt_8hpp"/>
         <childnode refid="707" relation="include">
         </childnode>
@@ -21,38 +27,36 @@
         <label>detect.hpp</label>
         <link refid="detect_8hpp"/>
       </node>
-      <node id="708">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="709" relation="include">
-        </childnode>
-      </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="715">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</label>
         <link refid="uart__hal__1_8hpp"/>
         <childnode refid="712" relation="include">
         </childnode>
         <childnode refid="713" relation="include">
         </childnode>
       </node>
-      <node id="717">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</label>
-        <link refid="uart__hal__2_8hpp"/>
-        <childnode refid="716" relation="include">
-        </childnode>
-        <childnode refid="713" relation="include">
-        </childnode>
-      </node>
       <node id="712">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
         <link refid="uart__1_8hpp"/>
         <childnode refid="713" relation="include">
         </childnode>
       </node>
+      <node id="716">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
+        <link refid="uart__2_8hpp"/>
+        <childnode refid="713" relation="include">
+        </childnode>
+      </node>
+      <node id="710">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp</label>
+        <link refid="interrupt_8hpp"/>
+        <childnode refid="711" relation="include">
+        </childnode>
+      </node>
       <node id="714">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
         <link refid="uart__baudrate_8hpp"/>
         <childnode refid="712" relation="include">
         </childnode>
@@ -65,8 +69,12 @@
         <childnode refid="713" relation="include">
         </childnode>
       </node>
+      <node id="713">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
+        <link refid="platform_8hpp"/>
+      </node>
       <node id="711">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_base.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_base.hpp</label>
         <link refid="uart__base_8hpp"/>
         <childnode refid="712" relation="include">
         </childnode>
@@ -81,21 +89,13 @@
         <childnode refid="713" relation="include">
         </childnode>
       </node>
-      <node id="710">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp</label>
-        <link refid="interrupt_8hpp"/>
-        <childnode refid="711" relation="include">
+      <node id="717">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</label>
+        <link refid="uart__hal__2_8hpp"/>
+        <childnode refid="716" relation="include">
         </childnode>
-      </node>
-      <node id="716">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
-        <link refid="uart__2_8hpp"/>
         <childnode refid="713" relation="include">
         </childnode>
-      </node>
-      <node id="713">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
-        <link refid="platform_8hpp"/>
       </node>
     </invincdepgraph>
       <sectiondef kind="define">
@@ -121,7 +121,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" line="44" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" bodystart="44" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" line="44" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__modm__architecture__interrupt_1gab02617ca00c48a96f22183259ddd2056" prot="public" static="no">
         <name>MODM_ISR_DECL</name>
@@ -140,7 +140,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" line="57" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" bodystart="57" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" line="57" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__modm__architecture__interrupt_1ga25ac8549c414665d552f94a5db17d702" prot="public" static="no">
         <name>MODM_ISR_CALL</name>
@@ -160,7 +160,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" line="70" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" bodystart="70" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" line="70" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="group__modm__architecture__interrupt_1ga19738f4b356780cd9dc590e90c2481c7" prot="public" static="no">
         <name>MODM_ISR</name>
@@ -187,13 +187,13 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" line="89" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" bodystart="89" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" line="89" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp" bodystart="89" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/interrupt.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/interrupt.hpp"/>
   </compounddef>
 </doxygen>

@@ -6,8 +6,8 @@
     <includes local="no">cmath</includes>
     <includes local="no">stdint.h</includes>
     <includes refid="architecture_2utils_8hpp" local="no">modm/architecture/utils.hpp</includes>
-    <includedby refid="math_2utils_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils.hpp</includedby>
-    <includedby refid="math_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math.hpp</includedby>
+    <includedby refid="math_2utils_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils.hpp</includedby>
+    <includedby refid="math_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math.hpp</includedby>
     <incdepgraph>
       <node id="1530">
         <label>stdint.h</label>
@@ -15,15 +15,14 @@
       <node id="1529">
         <label>cmath</label>
       </node>
-      <node id="1532">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
-      </node>
-      <node id="1528">
-        <label>cstddef</label>
+      <node id="1531">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="1532" relation="include">
+        </childnode>
       </node>
       <node id="1527">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils/misc.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils/misc.hpp</label>
         <link refid="misc_8hpp"/>
         <childnode refid="1528" relation="include">
         </childnode>
@@ -34,31 +33,32 @@
         <childnode refid="1531" relation="include">
         </childnode>
       </node>
-      <node id="1531">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="1532" relation="include">
-        </childnode>
+      <node id="1528">
+        <label>cstddef</label>
+      </node>
+      <node id="1532">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
       </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1534">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils.hpp</label>
         <link refid="math_2utils_8hpp"/>
         <childnode refid="1535" relation="include">
         </childnode>
       </node>
-      <node id="1535">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math.hpp</label>
-        <link refid="math_8hpp"/>
-      </node>
       <node id="1533">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils/misc.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils/misc.hpp</label>
         <link refid="misc_8hpp"/>
         <childnode refid="1534" relation="include">
         </childnode>
         <childnode refid="1535" relation="include">
         </childnode>
+      </node>
+      <node id="1535">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math.hpp</label>
+        <link refid="math_8hpp"/>
       </node>
     </invincdepgraph>
     <innernamespace refid="namespacemodm">modm</innernamespace>
@@ -66,6 +66,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils/misc.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils/misc.hpp"/>
   </compounddef>
 </doxygen>

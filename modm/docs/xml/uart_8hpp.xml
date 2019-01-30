@@ -3,18 +3,9 @@
   <compounddef id="uart_8hpp" kind="file" language="C++">
     <compoundname>uart.hpp</compoundname>
     <includes refid="peripheral_8hpp" local="no">modm/architecture/interface/peripheral.hpp</includes>
-    <includedby refid="uart__1_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.hpp</includedby>
-    <includedby refid="uart__2_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.hpp</includedby>
+    <includedby refid="uart__1_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.hpp</includedby>
+    <includedby refid="uart__2_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.hpp</includedby>
     <incdepgraph>
-      <node id="818">
-        <label>stdint.h</label>
-      </node>
-      <node id="816">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/uart.hpp</label>
-        <link refid="uart_8hpp"/>
-        <childnode refid="817" relation="include">
-        </childnode>
-      </node>
       <node id="817">
         <label>modm/architecture/interface/peripheral.hpp</label>
         <link refid="peripheral_8hpp"/>
@@ -25,8 +16,8 @@
         <childnode refid="820" relation="include">
         </childnode>
       </node>
-      <node id="819">
-        <label>cstddef</label>
+      <node id="818">
+        <label>stdint.h</label>
       </node>
       <node id="820">
         <label>modm/math/tolerance.hpp</label>
@@ -34,30 +25,39 @@
         <childnode refid="818" relation="include">
         </childnode>
       </node>
+      <node id="819">
+        <label>cstddef</label>
+      </node>
+      <node id="816">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/uart.hpp</label>
+        <link refid="uart_8hpp"/>
+        <childnode refid="817" relation="include">
+        </childnode>
+      </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="822">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
         <link refid="uart__1_8hpp"/>
         <childnode refid="823" relation="include">
         </childnode>
       </node>
+      <node id="824">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
+        <link refid="uart__2_8hpp"/>
+        <childnode refid="823" relation="include">
+        </childnode>
+      </node>
       <node id="821">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/uart.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/uart.hpp</label>
         <link refid="uart_8hpp"/>
         <childnode refid="822" relation="include">
         </childnode>
         <childnode refid="824" relation="include">
         </childnode>
       </node>
-      <node id="824">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
-        <link refid="uart__2_8hpp"/>
-        <childnode refid="823" relation="include">
-        </childnode>
-      </node>
       <node id="823">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
         <link refid="platform_8hpp"/>
       </node>
     </invincdepgraph>
@@ -67,6 +67,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/uart.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/uart.hpp"/>
   </compounddef>
 </doxygen>

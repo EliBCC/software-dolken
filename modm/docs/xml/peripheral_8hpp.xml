@@ -5,19 +5,16 @@
     <includes local="no">stdint.h</includes>
     <includes local="no">cstddef</includes>
     <includes refid="tolerance_8hpp" local="no">modm/math/tolerance.hpp</includes>
-    <includedby refid="can_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can.hpp</includedby>
-    <includedby refid="i2c__master_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp</includedby>
-    <includedby refid="spi_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi.hpp</includedby>
-    <includedby refid="uart_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/uart.hpp</includedby>
-    <includedby refid="interface_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface.hpp</includedby>
-    <includedby refid="systick__timer_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/systick_timer.hpp</includedby>
-    <includedby refid="uart__baudrate_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</includedby>
+    <includedby refid="can_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can.hpp</includedby>
+    <includedby refid="i2c__master_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp</includedby>
+    <includedby refid="spi_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi.hpp</includedby>
+    <includedby refid="uart_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/uart.hpp</includedby>
+    <includedby refid="interface_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface.hpp</includedby>
+    <includedby refid="systick__timer_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/systick_timer.hpp</includedby>
+    <includedby refid="uart__baudrate_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</includedby>
     <incdepgraph>
-      <node id="731">
-        <label>stdint.h</label>
-      </node>
       <node id="730">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/peripheral.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/peripheral.hpp</label>
         <link refid="peripheral_8hpp"/>
         <childnode refid="731" relation="include">
         </childnode>
@@ -26,8 +23,8 @@
         <childnode refid="733" relation="include">
         </childnode>
       </node>
-      <node id="732">
-        <label>cstddef</label>
+      <node id="731">
+        <label>stdint.h</label>
       </node>
       <node id="733">
         <label>modm/math/tolerance.hpp</label>
@@ -35,124 +32,27 @@
         <childnode refid="731" relation="include">
         </childnode>
       </node>
+      <node id="732">
+        <label>cstddef</label>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="742">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</label>
-        <link refid="i2c__master__2_8hpp"/>
-        <childnode refid="737" relation="include">
-        </childnode>
-      </node>
-      <node id="741">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</label>
-        <link refid="i2c__master__1_8hpp"/>
-        <childnode refid="737" relation="include">
-        </childnode>
-      </node>
-      <node id="743">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi.hpp</label>
-        <link refid="spi_8hpp"/>
-        <childnode refid="744" relation="include">
-        </childnode>
-      </node>
-      <node id="752">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/systick_timer.hpp</label>
-        <link refid="systick__timer_8hpp"/>
-        <childnode refid="737" relation="include">
-        </childnode>
-      </node>
-      <node id="739">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp</label>
-        <link refid="i2c__master_8hpp"/>
-        <childnode refid="740" relation="include">
-        </childnode>
-        <childnode refid="741" relation="include">
-        </childnode>
-        <childnode refid="742" relation="include">
-        </childnode>
-      </node>
-      <node id="754">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</label>
-        <link refid="uart__hal__1_8hpp"/>
-        <childnode refid="748" relation="include">
+      <node id="738">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.hpp</label>
+        <link refid="can__filter_8hpp"/>
+        <childnode refid="736" relation="include">
         </childnode>
         <childnode refid="737" relation="include">
-        </childnode>
-      </node>
-      <node id="755">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</label>
-        <link refid="uart__hal__2_8hpp"/>
-        <childnode refid="749" relation="include">
-        </childnode>
-        <childnode refid="737" relation="include">
-        </childnode>
-      </node>
-      <node id="748">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
-        <link refid="uart__1_8hpp"/>
-        <childnode refid="737" relation="include">
-        </childnode>
-      </node>
-      <node id="747">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/uart.hpp</label>
-        <link refid="uart_8hpp"/>
-        <childnode refid="748" relation="include">
-        </childnode>
-        <childnode refid="749" relation="include">
-        </childnode>
-      </node>
-      <node id="750">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface.hpp</label>
-        <link refid="interface_8hpp"/>
-        <childnode refid="751" relation="include">
-        </childnode>
-      </node>
-      <node id="753">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
-        <link refid="uart__baudrate_8hpp"/>
-        <childnode refid="748" relation="include">
-        </childnode>
-        <childnode refid="754" relation="include">
-        </childnode>
-        <childnode refid="749" relation="include">
-        </childnode>
-        <childnode refid="755" relation="include">
-        </childnode>
-        <childnode refid="737" relation="include">
-        </childnode>
-      </node>
-      <node id="744">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi_master.hpp</label>
-        <link refid="spi__master_8hpp"/>
-        <childnode refid="745" relation="include">
-        </childnode>
-        <childnode refid="746" relation="include">
         </childnode>
       </node>
       <node id="746">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
         <link refid="spi__master__2_8hpp"/>
         <childnode refid="737" relation="include">
         </childnode>
       </node>
-      <node id="736">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.hpp</label>
-        <link refid="can__1_8hpp"/>
-        <childnode refid="737" relation="include">
-        </childnode>
-      </node>
-      <node id="749">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
-        <link refid="uart__2_8hpp"/>
-        <childnode refid="737" relation="include">
-        </childnode>
-      </node>
-      <node id="740">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
-        <link refid="i2c__device_8hpp"/>
-      </node>
       <node id="734">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/peripheral.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/peripheral.hpp</label>
         <link refid="peripheral_8hpp"/>
         <childnode refid="735" relation="include">
         </childnode>
@@ -169,35 +69,135 @@
         <childnode refid="753" relation="include">
         </childnode>
       </node>
+      <node id="754">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</label>
+        <link refid="uart__hal__1_8hpp"/>
+        <childnode refid="748" relation="include">
+        </childnode>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="736">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_1.hpp</label>
+        <link refid="can__1_8hpp"/>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="752">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/systick_timer.hpp</label>
+        <link refid="systick__timer_8hpp"/>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="748">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
+        <link refid="uart__1_8hpp"/>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="745">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
+        <link refid="spi__master__1_8hpp"/>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="740">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
+        <link refid="i2c__device_8hpp"/>
+      </node>
+      <node id="743">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi.hpp</label>
+        <link refid="spi_8hpp"/>
+        <childnode refid="744" relation="include">
+        </childnode>
+      </node>
+      <node id="751">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture.hpp</label>
+        <link refid="architecture_8hpp"/>
+      </node>
+      <node id="739">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c_master.hpp</label>
+        <link refid="i2c__master_8hpp"/>
+        <childnode refid="740" relation="include">
+        </childnode>
+        <childnode refid="741" relation="include">
+        </childnode>
+        <childnode refid="742" relation="include">
+        </childnode>
+      </node>
+      <node id="744">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi_master.hpp</label>
+        <link refid="spi__master_8hpp"/>
+        <childnode refid="745" relation="include">
+        </childnode>
+        <childnode refid="746" relation="include">
+        </childnode>
+      </node>
+      <node id="749">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
+        <link refid="uart__2_8hpp"/>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="747">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/uart.hpp</label>
+        <link refid="uart_8hpp"/>
+        <childnode refid="748" relation="include">
+        </childnode>
+        <childnode refid="749" relation="include">
+        </childnode>
+      </node>
+      <node id="742">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</label>
+        <link refid="i2c__master__2_8hpp"/>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="750">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface.hpp</label>
+        <link refid="interface_8hpp"/>
+        <childnode refid="751" relation="include">
+        </childnode>
+      </node>
       <node id="735">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can.hpp</label>
         <link refid="can_8hpp"/>
         <childnode refid="736" relation="include">
         </childnode>
         <childnode refid="738" relation="include">
         </childnode>
       </node>
-      <node id="738">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp</label>
-        <link refid="can__filter_8hpp"/>
-        <childnode refid="736" relation="include">
+      <node id="741">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</label>
+        <link refid="i2c__master__1_8hpp"/>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="753">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
+        <link refid="uart__baudrate_8hpp"/>
+        <childnode refid="748" relation="include">
+        </childnode>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="749" relation="include">
+        </childnode>
+        <childnode refid="755" relation="include">
         </childnode>
         <childnode refid="737" relation="include">
         </childnode>
       </node>
       <node id="737">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
         <link refid="platform_8hpp"/>
       </node>
-      <node id="745">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
-        <link refid="spi__master__1_8hpp"/>
+      <node id="755">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</label>
+        <link refid="uart__hal__2_8hpp"/>
+        <childnode refid="749" relation="include">
+        </childnode>
         <childnode refid="737" relation="include">
         </childnode>
-      </node>
-      <node id="751">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture.hpp</label>
-        <link refid="architecture_8hpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classmodm_1_1_peripheral_driver" prot="public">modm::PeripheralDriver</innerclass>
@@ -206,6 +206,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/peripheral.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/peripheral.hpp"/>
   </compounddef>
 </doxygen>

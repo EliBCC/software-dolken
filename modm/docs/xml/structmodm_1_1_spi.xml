@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi.hpp" line="32" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi.hpp" bodystart="30" bodyend="37"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi.hpp" line="32" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi.hpp" bodystart="30" bodyend="37"/>
       </memberdef>
       <memberdef kind="enum" id="structmodm_1_1_spi_1a738c2058b5a1778735b4c78df0bb6839" prot="public" static="no" strong="yes">
         <type>uint8_t</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi.hpp" line="42" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi.hpp" bodystart="40" bodyend="45"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi.hpp" line="42" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi.hpp" bodystart="40" bodyend="45"/>
       </memberdef>
       <memberdef kind="typedef" id="structmodm_1_1_spi_1a0d609550a29c439aa83e5999f584447d" prot="public" static="no">
         <type>void(*)()</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi.hpp" line="27" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi.hpp" bodystart="27" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi.hpp" line="27" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi.hpp" bodystart="27" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -117,7 +117,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi.hpp" line="25" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi.hpp" bodystart="24" bodyend="46"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi.hpp" line="25" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/spi.hpp" bodystart="24" bodyend="46"/>
     <listofallmembers>
       <member refid="structmodm_1_1_spi_1a0d609550a29c439aa83e5999f584447d" prot="public" virt="non-virtual"><scope>modm::Spi</scope><name>ConfigurationHandler</name></member>
       <member refid="structmodm_1_1_spi_1a00c4c03fc5d3c23c677740fb804ae820" prot="public" virt="non-virtual"><scope>modm::Spi</scope><name>DataMode</name></member>

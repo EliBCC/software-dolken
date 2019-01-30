@@ -10,2016 +10,2016 @@
     <module>modm:architecture</module>
     <source>modm-repo\src\modm\architecture\architecture.hpp</source>
     <destination>modm\src\modm\architecture.hpp</destination>
-    <time>0.000 ms</time>
+    <time>2.093 ms</time>
   </operation>
   <operation>
     <module>modm:architecture</module>
     <source>modm-repo\src\modm\architecture\detect.hpp</source>
     <destination>modm\src\modm\architecture\detect.hpp</destination>
-    <time>10.000 ms</time>
+    <time>2.675 ms</time>
   </operation>
   <operation>
     <module>modm:architecture</module>
     <source>modm-repo\src\modm\architecture\interface\peripheral.hpp</source>
     <destination>modm\src\modm\architecture\interface\peripheral.hpp</destination>
-    <time>10.000 ms</time>
+    <time>4.352 ms</time>
   </operation>
   <operation>
     <module>modm:architecture</module>
     <source>modm-repo\src\modm\architecture\src\modm\architecture\interface.hpp.in</source>
     <destination>modm\src\modm\architecture\interface.hpp</destination>
-    <time>0.000 ms</time>
+    <time>5.757 ms</time>
   </operation>
   <operation>
     <module>modm:architecture</module>
     <source>modm-repo\src\modm\architecture\utils.hpp</source>
     <destination>modm\src\modm\architecture\utils.hpp</destination>
-    <time>0.000 ms</time>
+    <time>2.273 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:accessor</module>
     <source>modm-repo\src\modm\architecture\interface\accessor.hpp</source>
     <destination>modm\src\modm\architecture\interface\accessor.hpp</destination>
-    <time>0.000 ms</time>
+    <time>3.196 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:accessor</module>
     <source>modm-repo\src\modm\architecture\interface\accessor_flash.hpp</source>
     <destination>modm\src\modm\architecture\interface\accessor_flash.hpp</destination>
-    <time>0.000 ms</time>
+    <time>2.643 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:accessor</module>
     <source>modm-repo\src\modm\architecture\interface\accessor_ram.hpp</source>
     <destination>modm\src\modm\architecture\interface\accessor_ram.hpp</destination>
-    <time>20.000 ms</time>
+    <time>2.384 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:assert</module>
     <source>modm-repo\src\modm\architecture\interface\assert.h</source>
     <destination>modm\src\modm\architecture\interface\assert.h</destination>
-    <time>10.001 ms</time>
+    <time>2.420 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:assert</module>
     <source>modm-repo\src\modm\architecture\interface\assert.hpp</source>
     <destination>modm\src\modm\architecture\interface\assert.hpp</destination>
-    <time>4.175 ms</time>
+    <time>2.282 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:atomic</module>
     <source>modm-repo\src\modm\architecture\driver\atomic.hpp</source>
     <destination>modm\src\modm\architecture\driver\atomic.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.532 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:atomic</module>
     <source>modm-repo\src\modm\architecture\driver\atomic\container.hpp</source>
     <destination>modm\src\modm\architecture\driver\atomic\container.hpp</destination>
-    <time>10.000 ms</time>
+    <time>3.514 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:atomic</module>
     <source>modm-repo\src\modm\architecture\driver\atomic\flag.cpp</source>
     <destination>modm\src\modm\architecture\driver\atomic\flag.cpp</destination>
-    <time>10.000 ms</time>
+    <time>3.442 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:atomic</module>
     <source>modm-repo\src\modm\architecture\driver\atomic\flag.hpp</source>
     <destination>modm\src\modm\architecture\driver\atomic\flag.hpp</destination>
-    <time>0.000 ms</time>
+    <time>3.230 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:atomic</module>
     <source>modm-repo\src\modm\architecture\driver\atomic\queue.hpp</source>
     <destination>modm\src\modm\architecture\driver\atomic\queue.hpp</destination>
-    <time>10.000 ms</time>
+    <time>3.021 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:atomic</module>
     <source>modm-repo\src\modm\architecture\driver\atomic\queue_impl.hpp</source>
     <destination>modm\src\modm\architecture\driver\atomic\queue_impl.hpp</destination>
-    <time>10.000 ms</time>
+    <time>11.831 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:atomic</module>
     <source>modm-repo\src\modm\architecture\interface\atomic_lock.hpp</source>
     <destination>modm\src\modm\architecture\interface\atomic_lock.hpp</destination>
-    <time>10.000 ms</time>
+    <time>4.328 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:can</module>
     <source>modm-repo\src\modm\architecture\interface\can.cpp</source>
     <destination>modm\src\modm\architecture\interface\can.cpp</destination>
-    <time>0.000 ms</time>
+    <time>3.024 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:can</module>
     <source>modm-repo\src\modm\architecture\interface\can.hpp</source>
     <destination>modm\src\modm\architecture\interface\can.hpp</destination>
-    <time>10.001 ms</time>
+    <time>11.539 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:can</module>
     <source>modm-repo\src\modm\architecture\interface\can_message.cpp</source>
     <destination>modm\src\modm\architecture\interface\can_message.cpp</destination>
-    <time>10.001 ms</time>
+    <time>2.781 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:can</module>
     <source>modm-repo\src\modm\architecture\interface\can_message.hpp</source>
     <destination>modm\src\modm\architecture\interface\can_message.hpp</destination>
-    <time>9.999 ms</time>
+    <time>2.457 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:clock</module>
     <source>modm-repo\src\modm\architecture\interface\clock.hpp</source>
     <destination>modm\src\modm\architecture\interface\clock.hpp</destination>
-    <time>9.999 ms</time>
+    <time>4.166 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:delay</module>
     <source>modm-repo\src\modm\architecture\interface\delay.hpp</source>
     <destination>modm\src\modm\architecture\interface\delay.hpp</destination>
-    <time>0.000 ms</time>
+    <time>3.277 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:gpio</module>
     <source>modm-repo\src\modm\architecture\interface\gpio.hpp</source>
     <destination>modm\src\modm\architecture\interface\gpio.hpp</destination>
-    <time>10.000 ms</time>
+    <time>2.036 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:heap</module>
     <source>modm-repo\src\modm\architecture\driver\heap\block_allocator.hpp</source>
     <destination>modm\src\modm\architecture\driver\heap\block_allocator.hpp</destination>
-    <time>0.000 ms</time>
+    <time>2.867 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:heap</module>
     <source>modm-repo\src\modm\architecture\driver\heap\block_allocator_impl.hpp</source>
     <destination>modm\src\modm\architecture\driver\heap\block_allocator_impl.hpp</destination>
-    <time>0.000 ms</time>
+    <time>3.422 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:i2c</module>
     <source>modm-repo\src\modm\architecture\interface\i2c.cpp</source>
     <destination>modm\src\modm\architecture\interface\i2c.cpp</destination>
-    <time>10.001 ms</time>
+    <time>2.093 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:i2c</module>
     <source>modm-repo\src\modm\architecture\interface\i2c.hpp</source>
     <destination>modm\src\modm\architecture\interface\i2c.hpp</destination>
-    <time>9.999 ms</time>
+    <time>6.600 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:i2c</module>
     <source>modm-repo\src\modm\architecture\interface\i2c_master.hpp</source>
     <destination>modm\src\modm\architecture\interface\i2c_master.hpp</destination>
-    <time>10.000 ms</time>
+    <time>3.270 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:i2c</module>
     <source>modm-repo\src\modm\architecture\interface\i2c_transaction.hpp</source>
     <destination>modm\src\modm\architecture\interface\i2c_transaction.hpp</destination>
-    <time>0.000 ms</time>
+    <time>15.874 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:i2c.device</module>
     <source>modm-repo\src\modm\architecture\interface\i2c_device.hpp</source>
     <destination>modm\src\modm\architecture\interface\i2c_device.hpp</destination>
-    <time>0.000 ms</time>
+    <time>2.863 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:interrupt</module>
     <source>modm-repo\src\modm\architecture\interface\interrupt.hpp</source>
     <destination>modm\src\modm\architecture\interface\interrupt.hpp</destination>
-    <time>10.001 ms</time>
+    <time>3.225 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:memory</module>
     <source>modm-repo\src\modm\architecture\interface\memory.hpp</source>
     <destination>modm\src\modm\architecture\interface\memory.hpp</destination>
-    <time>10.000 ms</time>
+    <time>1.977 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:register</module>
     <source>modm-repo\src\modm\architecture\interface\register.hpp</source>
     <destination>modm\src\modm\architecture\interface\register.hpp</destination>
-    <time>10.000 ms</time>
+    <time>9.672 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:spi</module>
     <source>modm-repo\src\modm\architecture\interface\spi.hpp</source>
     <destination>modm\src\modm\architecture\interface\spi.hpp</destination>
-    <time>10.000 ms</time>
+    <time>2.299 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:spi</module>
     <source>modm-repo\src\modm\architecture\interface\spi_master.hpp</source>
     <destination>modm\src\modm\architecture\interface\spi_master.hpp</destination>
-    <time>10.001 ms</time>
+    <time>2.963 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:uart</module>
     <source>modm-repo\src\modm\architecture\interface\uart.hpp</source>
     <destination>modm\src\modm\architecture\interface\uart.hpp</destination>
-    <time>0.000 ms</time>
+    <time>6.364 ms</time>
   </operation>
   <operation>
     <module>modm:architecture:unaligned</module>
     <source>modm-repo\src\modm\architecture\interface\unaligned.hpp</source>
     <destination>modm\src\modm\architecture\interface\unaligned.hpp</destination>
-    <time>0.000 ms</time>
+    <time>2.616 ms</time>
   </operation>
   <operation>
     <module>modm:cmsis:core</module>
     <source>modm-repo\ext\arm\cmsis\CMSIS\Core\Include\cmsis_compiler.h</source>
     <destination>modm\ext\cmsis\core\cmsis_compiler.h</destination>
-    <time>8.976 ms</time>
+    <time>14.122 ms</time>
   </operation>
   <operation>
     <module>modm:cmsis:core</module>
     <source>modm-repo\ext\arm\cmsis\CMSIS\Core\Include\cmsis_gcc.h</source>
     <destination>modm\ext\cmsis\core\cmsis_gcc.h</destination>
-    <time>8.976 ms</time>
+    <time>14.609 ms</time>
   </operation>
   <operation>
     <module>modm:cmsis:core</module>
     <source>modm-repo\ext\arm\cmsis\CMSIS\Core\Include\cmsis_version.h</source>
     <destination>modm\ext\cmsis\core\cmsis_version.h</destination>
-    <time>8.976 ms</time>
+    <time>3.270 ms</time>
   </operation>
   <operation>
     <module>modm:cmsis:core</module>
     <source>modm-repo\ext\arm\cmsis\CMSIS\Core\Include\core_cm4.h</source>
     <destination>modm\ext\cmsis\core\core_cm4.h</destination>
-    <time>18.781 ms</time>
+    <time>11.489 ms</time>
   </operation>
   <operation>
     <module>modm:cmsis:core</module>
     <source>modm-repo\ext\arm\cmsis\CMSIS\Core\Include\mpu_armv7.h</source>
     <destination>modm\ext\cmsis\core\mpu_armv7.h</destination>
-    <time>8.976 ms</time>
+    <time>11.143 ms</time>
   </operation>
   <operation>
     <module>modm:cmsis:device</module>
     <source>modm-repo\ext\st\ext\st\device.hpp.in</source>
     <destination>modm\src\modm\platform\device.hpp</destination>
-    <time>9.999 ms</time>
+    <time>8.213 ms</time>
   </operation>
   <operation>
     <module>modm:cmsis:device</module>
     <source>modm-repo\ext\st\stm32\stm32f4xx\Include\stm32f446xx.h</source>
     <destination>modm\ext\cmsis\device\stm32f446xx.h</destination>
-    <time>20.000 ms</time>
+    <time>44.749 ms</time>
   </operation>
   <operation>
     <module>modm:cmsis:device</module>
     <source>modm-repo\ext\st\stm32\stm32f4xx\Include\system_stm32f4xx.h</source>
     <destination>modm\ext\cmsis\device\system_stm32f4xx.h</destination>
-    <time>10.001 ms</time>
+    <time>4.951 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\container.hpp</source>
     <destination>modm\src\modm\container.hpp</destination>
-    <time>10.000 ms</time>
+    <time>4.380 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\deque.hpp</source>
     <destination>modm\src\modm\container\deque.hpp</destination>
-    <time>10.000 ms</time>
+    <time>8.749 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\deque_impl.hpp</source>
     <destination>modm\src\modm\container\deque_impl.hpp</destination>
-    <time>10.000 ms</time>
+    <time>12.898 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\doubly_linked_list.hpp</source>
     <destination>modm\src\modm\container\doubly_linked_list.hpp</destination>
-    <time>10.000 ms</time>
+    <time>12.632 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\doubly_linked_list_impl.hpp</source>
     <destination>modm\src\modm\container\doubly_linked_list_impl.hpp</destination>
-    <time>9.999 ms</time>
+    <time>4.144 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\doubly_linked_list_iterator_impl.hpp</source>
     <destination>modm\src\modm\container\doubly_linked_list_iterator_impl.hpp</destination>
-    <time>10.001 ms</time>
+    <time>3.971 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\dynamic_array.hpp</source>
     <destination>modm\src\modm\container\dynamic_array.hpp</destination>
-    <time>10.000 ms</time>
+    <time>15.279 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\dynamic_array_impl.hpp</source>
     <destination>modm\src\modm\container\dynamic_array_impl.hpp</destination>
-    <time>15.707 ms</time>
+    <time>4.915 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\dynamic_array_iterator_impl.hpp</source>
     <destination>modm\src\modm\container\dynamic_array_iterator_impl.hpp</destination>
-    <time>9.973 ms</time>
+    <time>3.475 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\linked_list.hpp</source>
     <destination>modm\src\modm\container\linked_list.hpp</destination>
-    <time>8.976 ms</time>
+    <time>4.086 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\linked_list_impl.hpp</source>
     <destination>modm\src\modm\container\linked_list_impl.hpp</destination>
-    <time>9.973 ms</time>
+    <time>13.098 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\linked_list_iterator_impl.hpp</source>
     <destination>modm\src\modm\container\linked_list_iterator_impl.hpp</destination>
-    <time>8.295 ms</time>
+    <time>4.158 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\module.md</source>
     <destination>modm\src\modm\container\module.md</destination>
-    <time>0.000 ms</time>
+    <time>3.306 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\pair.hpp</source>
     <destination>modm\src\modm\container\pair.hpp</destination>
-    <time>10.000 ms</time>
+    <time>13.475 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\queue.hpp</source>
     <destination>modm\src\modm\container\queue.hpp</destination>
-    <time>10.001 ms</time>
+    <time>3.762 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\smart_pointer.cpp</source>
     <destination>modm\src\modm\container\smart_pointer.cpp</destination>
-    <time>10.000 ms</time>
+    <time>3.238 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\smart_pointer.hpp</source>
     <destination>modm\src\modm\container\smart_pointer.hpp</destination>
-    <time>9.999 ms</time>
+    <time>3.408 ms</time>
   </operation>
   <operation>
     <module>modm:container</module>
     <source>modm-repo\src\modm\container\stack.hpp</source>
     <destination>modm\src\modm\container\stack.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.215 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\debug.hpp</source>
     <destination>modm\src\modm\debug.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.166 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\debug.hpp</source>
     <destination>modm\src\modm\debug\debug.hpp</destination>
-    <time>0.000 ms</time>
+    <time>2.555 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\error_report.cpp</source>
     <destination>modm\src\modm\debug\error_report.cpp</destination>
-    <time>9.999 ms</time>
+    <time>2.174 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\error_report.hpp</source>
     <destination>modm\src\modm\debug\error_report.hpp</destination>
-    <time>10.001 ms</time>
+    <time>2.262 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger.hpp</source>
     <destination>modm\src\modm\debug\logger.hpp</destination>
-    <time>10.000 ms</time>
+    <time>9.638 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger\imp\std.hpp</source>
     <destination>modm\src\modm\debug\logger\imp\std.hpp</destination>
-    <time>0.000 ms</time>
+    <time>11.574 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger\level.hpp</source>
     <destination>modm\src\modm\debug\logger\level.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.747 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger\logger.hpp</source>
     <destination>modm\src\modm\debug\logger\logger.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.024 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger\style.hpp</source>
     <destination>modm\src\modm\debug\logger\style.hpp</destination>
-    <time>9.994 ms</time>
+    <time>6.054 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger\style\prefix.hpp</source>
     <destination>modm\src\modm\debug\logger\style\prefix.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.190 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger\style\prefix_impl.hpp</source>
     <destination>modm\src\modm\debug\logger\style\prefix_impl.hpp</destination>
-    <time>20.000 ms</time>
+    <time>5.094 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger\style\std_colour.hpp</source>
     <destination>modm\src\modm\debug\logger\style\std_colour.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.161 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger\style\std_colour_impl.hpp</source>
     <destination>modm\src\modm\debug\logger\style\std_colour_impl.hpp</destination>
-    <time>10.007 ms</time>
+    <time>23.534 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger\style_impl.hpp</source>
     <destination>modm\src\modm\debug\logger\style_impl.hpp</destination>
-    <time>9.999 ms</time>
+    <time>23.729 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\logger\style_wrapper.hpp</source>
     <destination>modm\src\modm\debug\logger\style_wrapper.hpp</destination>
-    <time>10.001 ms</time>
+    <time>5.344 ms</time>
   </operation>
   <operation>
     <module>modm:debug</module>
     <source>modm-repo\src\modm\debug\module.md</source>
     <destination>modm\src\modm\debug\module.md</destination>
-    <time>0.000 ms</time>
+    <time>15.998 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\README.md</source>
     <destination>modm\docs\README.md</destination>
-    <time>6.166 ms</time>
+    <time>21.096 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\doxyfile.cfg.in</source>
     <destination>modm\docs\doxyfile.cfg</destination>
-    <time>13.964 ms</time>
+    <time>21.141 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-accessor.dox</destination>
-    <time>9.996 ms</time>
+    <time>10.877 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-assert.dox</destination>
-    <time>10.001 ms</time>
+    <time>6.480 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-atomic.dox</destination>
-    <time>10.000 ms</time>
+    <time>14.734 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-can.dox</destination>
-    <time>10.000 ms</time>
+    <time>11.460 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-clock.dox</destination>
-    <time>10.000 ms</time>
+    <time>9.476 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-delay.dox</destination>
-    <time>10.001 ms</time>
+    <time>9.821 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-gpio.dox</destination>
-    <time>10.010 ms</time>
+    <time>9.741 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-heap.dox</destination>
-    <time>9.989 ms</time>
+    <time>9.813 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-i2c-device.dox</destination>
-    <time>0.000 ms</time>
+    <time>9.350 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-i2c.dox</destination>
-    <time>9.999 ms</time>
+    <time>8.541 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-interrupt.dox</destination>
-    <time>10.001 ms</time>
+    <time>9.502 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-memory.dox</destination>
-    <time>10.000 ms</time>
+    <time>7.502 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-register.dox</destination>
-    <time>10.000 ms</time>
+    <time>11.092 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-spi.dox</destination>
-    <time>10.000 ms</time>
+    <time>9.848 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-uart.dox</destination>
-    <time>0.000 ms</time>
+    <time>39.137 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture-unaligned.dox</destination>
-    <time>9.999 ms</time>
+    <time>12.935 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-architecture.dox</destination>
-    <time>10.003 ms</time>
+    <time>13.259 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-cmsis-core.dox</destination>
-    <time>10.000 ms</time>
+    <time>9.390 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-cmsis-device.dox</destination>
-    <time>10.000 ms</time>
+    <time>8.632 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-cmsis.dox</destination>
-    <time>10.000 ms</time>
+    <time>6.836 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-container.dox</destination>
-    <time>0.000 ms</time>
+    <time>11.960 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-debug.dox</destination>
-    <time>10.000 ms</time>
+    <time>9.693 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-docs.dox</destination>
-    <time>10.000 ms</time>
+    <time>5.989 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-io.dox</destination>
-    <time>10.001 ms</time>
+    <time>9.569 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-math-utils.dox</destination>
-    <time>12.703 ms</time>
+    <time>9.502 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-math.dox</destination>
-    <time>9.999 ms</time>
+    <time>17.342 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-can-1.dox</destination>
-    <time>2.990 ms</time>
+    <time>11.949 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-can-common.dox</destination>
-    <time>7.980 ms</time>
+    <time>12.137 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-can.dox</destination>
-    <time>10.971 ms</time>
+    <time>12.606 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-clock-cortex.dox</destination>
-    <time>8.381 ms</time>
+    <time>11.304 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-clock.dox</destination>
-    <time>7.978 ms</time>
+    <time>9.980 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-core.dox</destination>
-    <time>0.000 ms</time>
+    <time>11.081 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-gpio-common.dox</destination>
-    <time>10.000 ms</time>
+    <time>8.409 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-gpio.dox</destination>
-    <time>10.000 ms</time>
+    <time>7.295 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-i2c-1.dox</destination>
-    <time>10.001 ms</time>
+    <time>10.757 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-i2c-2.dox</destination>
-    <time>10.012 ms</time>
+    <time>10.058 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-i2c.dox</destination>
-    <time>10.000 ms</time>
+    <time>9.260 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-spi-1.dox</destination>
-    <time>0.000 ms</time>
+    <time>11.075 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-spi-2.dox</destination>
-    <time>10.012 ms</time>
+    <time>9.847 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-spi.dox</destination>
-    <time>9.988 ms</time>
+    <time>9.686 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-uart-1.dox</destination>
-    <time>9.995 ms</time>
+    <time>7.987 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-uart-2.dox</destination>
-    <time>9.999 ms</time>
+    <time>10.063 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform-uart.dox</destination>
-    <time>9.994 ms</time>
+    <time>9.923 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-platform.dox</destination>
-    <time>7.979 ms</time>
+    <time>10.488 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-processing-protothread.dox</destination>
-    <time>10.001 ms</time>
+    <time>11.480 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-processing-resumable.dox</destination>
-    <time>9.999 ms</time>
+    <time>10.717 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-processing-timer.dox</destination>
-    <time>19.999 ms</time>
+    <time>25.833 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-processing.dox</destination>
-    <time>10.000 ms</time>
+    <time>11.708 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\group.dox.in</source>
     <destination>modm\docs\dox\modm-utils.dox</destination>
-    <time>10.001 ms</time>
+    <time>8.904 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-accessor.md</destination>
-    <time>9.998 ms</time>
+    <time>4.380 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-assert.md</destination>
-    <time>9.998 ms</time>
+    <time>7.228 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-atomic.md</destination>
-    <time>9.999 ms</time>
+    <time>5.027 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-can.md</destination>
-    <time>10.046 ms</time>
+    <time>6.030 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-clock.md</destination>
-    <time>9.956 ms</time>
+    <time>7.403 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-delay.md</destination>
-    <time>10.005 ms</time>
+    <time>6.515 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-gpio.md</destination>
-    <time>9.994 ms</time>
+    <time>6.277 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-heap.md</destination>
-    <time>10.023 ms</time>
+    <time>6.943 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-i2c-device.md</destination>
-    <time>10.002 ms</time>
+    <time>7.644 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-i2c.md</destination>
-    <time>9.977 ms</time>
+    <time>6.624 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-interrupt.md</destination>
-    <time>9.998 ms</time>
+    <time>7.337 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-memory.md</destination>
-    <time>10.000 ms</time>
+    <time>7.416 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-register.md</destination>
-    <time>10.020 ms</time>
+    <time>6.500 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-spi.md</destination>
-    <time>9.981 ms</time>
+    <time>6.290 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-uart.md</destination>
-    <time>9.998 ms</time>
+    <time>11.254 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture-unaligned.md</destination>
-    <time>50.012 ms</time>
+    <time>9.246 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-architecture.md</destination>
-    <time>20.003 ms</time>
+    <time>34.109 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-cmsis-core.md</destination>
-    <time>20.000 ms</time>
+    <time>13.728 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-cmsis-device.md</destination>
-    <time>20.000 ms</time>
+    <time>12.940 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-cmsis.md</destination>
-    <time>39.970 ms</time>
+    <time>8.104 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-container.md</destination>
-    <time>10.019 ms</time>
+    <time>6.454 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-debug.md</destination>
-    <time>9.990 ms</time>
+    <time>3.846 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-docs.md</destination>
-    <time>10.000 ms</time>
+    <time>15.070 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-io.md</destination>
-    <time>10.000 ms</time>
+    <time>8.135 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-math-utils.md</destination>
-    <time>10.001 ms</time>
+    <time>14.167 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-math.md</destination>
-    <time>9.991 ms</time>
+    <time>7.958 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-can-1.md</destination>
-    <time>9.979 ms</time>
+    <time>12.662 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-can-common.md</destination>
-    <time>0.000 ms</time>
+    <time>8.406 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-can.md</destination>
-    <time>10.021 ms</time>
+    <time>5.750 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-clock-cortex.md</destination>
-    <time>10.000 ms</time>
+    <time>20.812 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-clock.md</destination>
-    <time>0.000 ms</time>
+    <time>10.076 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-core.md</destination>
-    <time>10.003 ms</time>
+    <time>7.927 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-gpio-common.md</destination>
-    <time>0.000 ms</time>
+    <time>9.715 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-gpio.md</destination>
-    <time>10.000 ms</time>
+    <time>12.494 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-i2c-1.md</destination>
-    <time>10.009 ms</time>
+    <time>11.658 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-i2c-2.md</destination>
-    <time>9.992 ms</time>
+    <time>6.931 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-i2c.md</destination>
-    <time>9.999 ms</time>
+    <time>10.706 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-spi-1.md</destination>
-    <time>17.588 ms</time>
+    <time>13.165 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-spi-2.md</destination>
-    <time>6.962 ms</time>
+    <time>2.605 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-spi.md</destination>
-    <time>9.999 ms</time>
+    <time>12.177 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-uart-1.md</destination>
-    <time>0.000 ms</time>
+    <time>11.875 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-uart-2.md</destination>
-    <time>10.001 ms</time>
+    <time>12.584 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform-uart.md</destination>
-    <time>10.002 ms</time>
+    <time>10.938 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-platform.md</destination>
-    <time>10.000 ms</time>
+    <time>11.028 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-processing-protothread.md</destination>
-    <time>10.001 ms</time>
+    <time>13.189 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-processing-resumable.md</destination>
-    <time>9.999 ms</time>
+    <time>9.513 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-processing-timer.md</destination>
-    <time>10.000 ms</time>
+    <time>17.131 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-processing.md</destination>
-    <time>0.000 ms</time>
+    <time>12.160 ms</time>
   </operation>
   <operation>
     <module>modm:docs</module>
     <source>modm-repo\tools\doc_generator\tools\doc_generator\module.md.in</source>
     <destination>modm\docs\module\modm-utils.md</destination>
-    <time>9.992 ms</time>
+    <time>1.994 ms</time>
   </operation>
   <operation>
     <module>modm:io</module>
     <source>modm-repo\src\modm\io\io.hpp</source>
     <destination>modm\src\modm\io.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.598 ms</time>
   </operation>
   <operation>
     <module>modm:io</module>
     <source>modm-repo\src\modm\io\iodevice.cpp</source>
     <destination>modm\src\modm\io\iodevice.cpp</destination>
-    <time>10.000 ms</time>
+    <time>2.769 ms</time>
   </operation>
   <operation>
     <module>modm:io</module>
     <source>modm-repo\src\modm\io\iodevice.hpp</source>
     <destination>modm\src\modm\io\iodevice.hpp</destination>
-    <time>10.000 ms</time>
+    <time>2.025 ms</time>
   </operation>
   <operation>
     <module>modm:io</module>
     <source>modm-repo\src\modm\io\iodevice_wrapper.hpp</source>
     <destination>modm\src\modm\io\iodevice_wrapper.hpp</destination>
-    <time>10.000 ms</time>
+    <time>1.995 ms</time>
   </operation>
   <operation>
     <module>modm:io</module>
     <source>modm-repo\src\modm\io\iostream.cpp</source>
     <destination>modm\src\modm\io\iostream.cpp</destination>
-    <time>0.000 ms</time>
+    <time>3.671 ms</time>
   </operation>
   <operation>
     <module>modm:io</module>
     <source>modm-repo\src\modm\io\iostream.hpp</source>
     <destination>modm\src\modm\io\iostream.hpp</destination>
-    <time>10.001 ms</time>
+    <time>11.747 ms</time>
   </operation>
   <operation>
     <module>modm:io</module>
     <source>modm-repo\src\modm\io\iostream_float.cpp</source>
     <destination>modm\src\modm\io\iostream_float.cpp</destination>
-    <time>20.000 ms</time>
+    <time>3.576 ms</time>
   </operation>
   <operation>
     <module>modm:io</module>
     <source>modm-repo\src\modm\io\iostream_printf.cpp</source>
     <destination>modm\src\modm\io\iostream_printf.cpp</destination>
-    <time>10.000 ms</time>
+    <time>4.172 ms</time>
   </operation>
   <operation>
     <module>modm:io</module>
     <source>modm-repo\src\modm\io\module.md</source>
     <destination>modm\src\modm\io\module.md</destination>
-    <time>0.000 ms</time>
+    <time>3.918 ms</time>
   </operation>
   <operation>
     <module>modm:math</module>
     <source>modm-repo\src\modm\math\src\modm\math\math.hpp.in</source>
     <destination>modm\src\modm\math.hpp</destination>
-    <time>4.987 ms</time>
+    <time>7.131 ms</time>
   </operation>
   <operation>
     <module>modm:math</module>
     <source>modm-repo\src\modm\math\tolerance.hpp</source>
     <destination>modm\src\modm\math\tolerance.hpp</destination>
-    <time>20.251 ms</time>
+    <time>15.527 ms</time>
   </operation>
   <operation>
     <module>modm:math:utils</module>
     <source>modm-repo\src\modm\math\utils.hpp</source>
     <destination>modm\src\modm\math\utils.hpp</destination>
-    <time>11.495 ms</time>
+    <time>3.587 ms</time>
   </operation>
   <operation>
     <module>modm:math:utils</module>
     <source>modm-repo\src\modm\math\utils\bit_operation.cpp</source>
     <destination>modm\src\modm\math\utils\bit_operation.cpp</destination>
-    <time>9.996 ms</time>
+    <time>5.511 ms</time>
   </operation>
   <operation>
     <module>modm:math:utils</module>
     <source>modm-repo\src\modm\math\utils\bit_operation.hpp</source>
     <destination>modm\src\modm\math\utils\bit_operation.hpp</destination>
-    <time>20.005 ms</time>
+    <time>14.456 ms</time>
   </operation>
   <operation>
     <module>modm:math:utils</module>
     <source>modm-repo\src\modm\math\utils\endianness.hpp</source>
     <destination>modm\src\modm\math\utils\endianness.hpp</destination>
-    <time>9.995 ms</time>
+    <time>10.449 ms</time>
   </operation>
   <operation>
     <module>modm:math:utils</module>
     <source>modm-repo\src\modm\math\utils\misc.hpp</source>
     <destination>modm\src\modm\math\utils\misc.hpp</destination>
-    <time>10.005 ms</time>
+    <time>3.117 ms</time>
   </operation>
   <operation>
     <module>modm:math:utils</module>
     <source>modm-repo\src\modm\math\utils\operator.hpp</source>
     <destination>modm\src\modm\math\utils\operator.hpp</destination>
-    <time>9.994 ms</time>
+    <time>3.102 ms</time>
   </operation>
   <operation>
     <module>modm:math:utils</module>
     <source>modm-repo\src\modm\math\utils\operator_impl.hpp</source>
     <destination>modm\src\modm\math\utils\operator_impl.hpp</destination>
-    <time>10.004 ms</time>
+    <time>4.302 ms</time>
   </operation>
   <operation>
     <module>modm:math:utils</module>
     <source>modm-repo\src\modm\math\utils\pc\operator.cpp</source>
     <destination>modm\src\modm\math\utils\pc\operator.cpp</destination>
-    <time>10.001 ms</time>
+    <time>20.386 ms</time>
   </operation>
   <operation>
     <module>modm:platform</module>
     <source>modm-repo\src\modm\platform\src\modm\platform\platform.hpp.in</source>
     <destination>modm\src\modm\platform.hpp</destination>
-    <time>10.000 ms</time>
+    <time>12.775 ms</time>
   </operation>
   <operation>
     <module>modm:platform:can</module>
     <source>modm-repo\src\modm\platform\can\stm32\error_code.hpp</source>
     <destination>modm\src\modm\platform\can\error_code.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.703 ms</time>
   </operation>
   <operation>
     <module>modm:platform:can</module>
     <source>modm-repo\src\modm\platform\can\stm32\src\modm\platform\can\stm32\can_filter.cpp.in</source>
     <destination>modm\src\modm\platform\can\can_filter.cpp</destination>
-    <time>10.000 ms</time>
+    <time>15.846 ms</time>
   </operation>
   <operation>
     <module>modm:platform:can</module>
     <source>modm-repo\src\modm\platform\can\stm32\src\modm\platform\can\stm32\can_filter.hpp.in</source>
     <destination>modm\src\modm\platform\can\can_filter.hpp</destination>
-    <time>19.999 ms</time>
+    <time>19.368 ms</time>
   </operation>
   <operation>
     <module>modm:platform:can.common</module>
     <source>modm-repo\src\modm\platform\can\common\can_bit_timings.hpp</source>
     <destination>modm\src\modm\platform\can\can_bit_timings.hpp</destination>
-    <time>10.000 ms</time>
+    <time>1.993 ms</time>
   </operation>
   <operation>
     <module>modm:platform:can:1</module>
     <source>modm-repo\src\modm\platform\can\stm32\src\modm\platform\can\stm32\can.cpp.in</source>
     <destination>modm\src\modm\platform\can\can_1.cpp</destination>
-    <time>39.999 ms</time>
+    <time>55.090 ms</time>
   </operation>
   <operation>
     <module>modm:platform:can:1</module>
     <source>modm-repo\src\modm\platform\can\stm32\src\modm\platform\can\stm32\can.hpp.in</source>
     <destination>modm\src\modm\platform\can\can_1.hpp</destination>
-    <time>10.000 ms</time>
+    <time>11.504 ms</time>
   </operation>
   <operation>
     <module>modm:platform:clock</module>
     <source>modm-repo\src\modm\platform\clock\stm32\src\modm\platform\clock\stm32\clock.cpp.in</source>
     <destination>modm\src\modm\platform\clock\clock.cpp</destination>
-    <time>30.001 ms</time>
+    <time>20.703 ms</time>
   </operation>
   <operation>
     <module>modm:platform:clock</module>
     <source>modm-repo\src\modm\platform\clock\stm32\src\modm\platform\clock\stm32\clock.hpp.in</source>
     <destination>modm\src\modm\platform\clock\clock.hpp</destination>
-    <time>39.999 ms</time>
+    <time>21.809 ms</time>
   </operation>
   <operation>
     <module>modm:platform:clock</module>
     <source>modm-repo\src\modm\platform\clock\stm32\src\modm\platform\clock\stm32\latency.cpp.in</source>
     <destination>modm\src\modm\platform\clock\latency.cpp</destination>
-    <time>60.000 ms</time>
+    <time>41.792 ms</time>
   </operation>
   <operation>
     <module>modm:platform:clock.cortex</module>
     <source>modm-repo\src\modm\platform\clock\common\common_clock.hpp</source>
     <destination>modm\src\modm\platform\clock\common_clock.hpp</destination>
-    <time>20.000 ms</time>
+    <time>3.876 ms</time>
   </operation>
   <operation>
     <module>modm:platform:clock.cortex</module>
     <source>modm-repo\src\modm\platform\clock\cortex\delay.hpp</source>
     <destination>modm\src\modm\platform\clock\delay.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.587 ms</time>
   </operation>
   <operation>
     <module>modm:platform:clock.cortex</module>
     <source>modm-repo\src\modm\platform\clock\cortex\modm_clock.cpp</source>
     <destination>modm\src\modm\platform\clock\modm_clock.cpp</destination>
-    <time>0.000 ms</time>
+    <time>4.261 ms</time>
   </operation>
   <operation>
     <module>modm:platform:clock.cortex</module>
     <source>modm-repo\src\modm\platform\clock\cortex\src\modm\platform\clock\cortex\delay.cpp.in</source>
     <destination>modm\src\modm\platform\clock\delay.cpp</destination>
-    <time>30.000 ms</time>
+    <time>28.423 ms</time>
   </operation>
   <operation>
     <module>modm:platform:clock.cortex</module>
     <source>modm-repo\src\modm\platform\clock\cortex\src\modm\platform\clock\cortex\systick_timer.cpp.in</source>
     <destination>modm\src\modm\platform\clock\systick_timer.cpp</destination>
-    <time>10.001 ms</time>
+    <time>8.659 ms</time>
   </operation>
   <operation>
     <module>modm:platform:clock.cortex</module>
     <source>modm-repo\src\modm\platform\clock\cortex\src\modm\platform\clock\cortex\systick_timer.hpp.in</source>
     <destination>modm\src\modm\platform\clock\systick_timer.hpp</destination>
-    <time>10.000 ms</time>
+    <time>7.981 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\assert.cpp</source>
     <destination>modm\src\modm\platform\core\assert.cpp</destination>
-    <time>20.000 ms</time>
+    <time>2.791 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\atomic_lock.hpp</source>
     <destination>modm\src\modm\platform\core\atomic_lock.hpp</destination>
-    <time>0.000 ms</time>
+    <time>2.796 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\cxxabi.cpp</source>
     <destination>modm\src\modm\platform\core\cxxabi.cpp</destination>
-    <time>11.786 ms</time>
+    <time>3.432 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\default_handler.sx</source>
     <destination>modm\src\modm\platform\core\default_handler.sx</destination>
-    <time>6.043 ms</time>
+    <time>2.737 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\flash_reader.hpp</source>
     <destination>modm\src\modm\platform\core\flash_reader.hpp</destination>
-    <time>9.998 ms</time>
+    <time>4.435 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\heap_table.c</source>
     <destination>modm\src\modm\platform\core\heap_table.c</destination>
-    <time>0.000 ms</time>
+    <time>3.332 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\src\modm\platform\core\cortex\heap_newlib.c.in</source>
     <destination>modm\src\modm\platform\core\heap_newlib.c</destination>
-    <time>20.009 ms</time>
+    <time>12.837 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\src\modm\platform\core\cortex\linkerscript\stm32_ram.ld.in</source>
     <destination>modm\link\linkerscript.ld</destination>
-    <time>59.999 ms</time>
+    <time>58.344 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\src\modm\platform\core\cortex\startup.c.in</source>
     <destination>modm\src\modm\platform\core\startup.c</destination>
-    <time>21.045 ms</time>
+    <time>30.285 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\src\modm\platform\core\cortex\unaligned.hpp.in</source>
     <destination>modm\src\modm\platform\core\unaligned.hpp</destination>
-    <time>19.994 ms</time>
+    <time>16.011 ms</time>
   </operation>
   <operation>
     <module>modm:platform:core</module>
     <source>modm-repo\src\modm\platform\core\cortex\src\modm\platform\core\cortex\vectors.c.in</source>
     <destination>modm\src\modm\platform\core\vectors.c</destination>
-    <time>31.253 ms</time>
+    <time>36.288 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\base.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\base.hpp</destination>
-    <time>20.000 ms</time>
+    <time>16.198 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\enable.cpp.in</source>
     <destination>modm\src\modm\platform\gpio\enable.cpp</destination>
-    <time>20.000 ms</time>
+    <time>27.023 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A0.hpp</destination>
-    <time>40.000 ms</time>
+    <time>51.630 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A1.hpp</destination>
-    <time>10.000 ms</time>
+    <time>10.318 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A10.hpp</destination>
-    <time>9.999 ms</time>
+    <time>11.554 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A11.hpp</destination>
-    <time>9.999 ms</time>
+    <time>10.051 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A12.hpp</destination>
-    <time>10.007 ms</time>
+    <time>14.367 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A13.hpp</destination>
-    <time>9.994 ms</time>
+    <time>3.045 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A14.hpp</destination>
-    <time>10.000 ms</time>
+    <time>12.619 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A15.hpp</destination>
-    <time>10.000 ms</time>
+    <time>12.508 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A2.hpp</destination>
-    <time>10.000 ms</time>
+    <time>11.355 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A3.hpp</destination>
-    <time>10.000 ms</time>
+    <time>12.286 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A4.hpp</destination>
-    <time>20.000 ms</time>
+    <time>13.252 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A5.hpp</destination>
-    <time>10.000 ms</time>
+    <time>16.023 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A6.hpp</destination>
-    <time>10.000 ms</time>
+    <time>10.873 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A7.hpp</destination>
-    <time>9.999 ms</time>
+    <time>20.085 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A8.hpp</destination>
-    <time>20.001 ms</time>
+    <time>16.777 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_A9.hpp</destination>
-    <time>10.000 ms</time>
+    <time>13.037 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B0.hpp</destination>
-    <time>20.000 ms</time>
+    <time>10.473 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B1.hpp</destination>
-    <time>10.000 ms</time>
+    <time>12.511 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B10.hpp</destination>
-    <time>10.000 ms</time>
+    <time>12.374 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B12.hpp</destination>
-    <time>10.000 ms</time>
+    <time>11.004 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B13.hpp</destination>
-    <time>10.000 ms</time>
+    <time>10.985 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B14.hpp</destination>
-    <time>10.000 ms</time>
+    <time>14.277 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B15.hpp</destination>
-    <time>10.000 ms</time>
+    <time>15.698 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B2.hpp</destination>
-    <time>10.000 ms</time>
+    <time>23.221 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B3.hpp</destination>
-    <time>10.000 ms</time>
+    <time>31.925 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B4.hpp</destination>
-    <time>10.000 ms</time>
+    <time>12.822 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B5.hpp</destination>
-    <time>10.001 ms</time>
+    <time>13.598 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B6.hpp</destination>
-    <time>9.999 ms</time>
+    <time>9.755 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B7.hpp</destination>
-    <time>10.000 ms</time>
+    <time>16.847 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B8.hpp</destination>
-    <time>10.000 ms</time>
+    <time>13.114 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_B9.hpp</destination>
-    <time>10.001 ms</time>
+    <time>12.119 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C0.hpp</destination>
-    <time>10.000 ms</time>
+    <time>13.267 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C1.hpp</destination>
-    <time>10.000 ms</time>
+    <time>13.836 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C10.hpp</destination>
-    <time>10.000 ms</time>
+    <time>15.202 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C11.hpp</destination>
-    <time>10.003 ms</time>
+    <time>15.708 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C12.hpp</destination>
-    <time>9.997 ms</time>
+    <time>10.957 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C13.hpp</destination>
-    <time>10.000 ms</time>
+    <time>2.644 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C14.hpp</destination>
-    <time>10.000 ms</time>
+    <time>2.399 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C15.hpp</destination>
-    <time>10.000 ms</time>
+    <time>2.550 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C2.hpp</destination>
-    <time>10.000 ms</time>
+    <time>10.725 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C3.hpp</destination>
-    <time>10.000 ms</time>
+    <time>8.691 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C4.hpp</destination>
-    <time>10.001 ms</time>
+    <time>14.779 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C5.hpp</destination>
-    <time>10.000 ms</time>
+    <time>16.073 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C6.hpp</destination>
-    <time>9.999 ms</time>
+    <time>16.212 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C7.hpp</destination>
-    <time>9.999 ms</time>
+    <time>17.413 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C8.hpp</destination>
-    <time>10.001 ms</time>
+    <time>10.990 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_C9.hpp</destination>
-    <time>10.000 ms</time>
+    <time>10.096 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_D2.hpp</destination>
-    <time>20.000 ms</time>
+    <time>9.869 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_H0.hpp</destination>
-    <time>10.000 ms</time>
+    <time>3.314 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\pin.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\gpio_H1.hpp</destination>
-    <time>0.000 ms</time>
+    <time>2.769 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\port.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\port.hpp</destination>
-    <time>32.206 ms</time>
+    <time>38.366 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\set.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\set.hpp</destination>
-    <time>39.999 ms</time>
+    <time>45.563 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\software_port.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\software_port.hpp</destination>
-    <time>20.001 ms</time>
+    <time>25.822 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio</module>
     <source>modm-repo\src\modm\platform\gpio\stm32\src\modm\platform\gpio\stm32\unused.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\unused.hpp</destination>
-    <time>20.000 ms</time>
+    <time>15.829 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio.common</module>
     <source>modm-repo\src\modm\platform\gpio\common\connector.hpp</source>
     <destination>modm\src\modm\platform\gpio\connector.hpp</destination>
-    <time>9.998 ms</time>
+    <time>4.398 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio.common</module>
     <source>modm-repo\src\modm\platform\gpio\common\inverted.hpp</source>
     <destination>modm\src\modm\platform\gpio\inverted.hpp</destination>
-    <time>0.000 ms</time>
+    <time>2.411 ms</time>
   </operation>
   <operation>
     <module>modm:platform:gpio.common</module>
     <source>modm-repo\src\modm\platform\gpio\common\src\modm\platform\gpio\common\connector_detail.hpp.in</source>
     <destination>modm\src\modm\platform\gpio\connector_detail.hpp</destination>
-    <time>10.001 ms</time>
+    <time>15.206 ms</time>
   </operation>
   <operation>
     <module>modm:platform:i2c:1</module>
     <source>modm-repo\src\modm\platform\i2c\stm32\src\modm\platform\i2c\stm32\i2c_master.cpp.in</source>
     <destination>modm\src\modm\platform\i2c\i2c_master_1.cpp</destination>
-    <time>30.000 ms</time>
+    <time>37.092 ms</time>
   </operation>
   <operation>
     <module>modm:platform:i2c:1</module>
     <source>modm-repo\src\modm\platform\i2c\stm32\src\modm\platform\i2c\stm32\i2c_master.hpp.in</source>
     <destination>modm\src\modm\platform\i2c\i2c_master_1.hpp</destination>
-    <time>10.001 ms</time>
+    <time>11.196 ms</time>
   </operation>
   <operation>
     <module>modm:platform:i2c:2</module>
     <source>modm-repo\src\modm\platform\i2c\stm32\src\modm\platform\i2c\stm32\i2c_master.cpp.in</source>
     <destination>modm\src\modm\platform\i2c\i2c_master_2.cpp</destination>
-    <time>30.000 ms</time>
+    <time>36.359 ms</time>
   </operation>
   <operation>
     <module>modm:platform:i2c:2</module>
     <source>modm-repo\src\modm\platform\i2c\stm32\src\modm\platform\i2c\stm32\i2c_master.hpp.in</source>
     <destination>modm\src\modm\platform\i2c\i2c_master_2.hpp</destination>
-    <time>20.000 ms</time>
+    <time>13.515 ms</time>
   </operation>
   <operation>
     <module>modm:platform:spi</module>
     <source>modm-repo\src\modm\platform\spi\stm32\src\modm\platform\spi\stm32\spi_base.hpp.in</source>
     <destination>modm\src\modm\platform\spi\spi_base.hpp</destination>
-    <time>10.001 ms</time>
+    <time>8.307 ms</time>
   </operation>
   <operation>
     <module>modm:platform:spi:1</module>
     <source>modm-repo\src\modm\platform\spi\stm32\src\modm\platform\spi\stm32\spi_hal.hpp.in</source>
     <destination>modm\src\modm\platform\spi\spi_hal_1.hpp</destination>
-    <time>10.001 ms</time>
+    <time>7.192 ms</time>
   </operation>
   <operation>
     <module>modm:platform:spi:1</module>
     <source>modm-repo\src\modm\platform\spi\stm32\src\modm\platform\spi\stm32\spi_hal_impl.hpp.in</source>
     <destination>modm\src\modm\platform\spi\spi_hal_1_impl.hpp</destination>
-    <time>19.999 ms</time>
+    <time>13.451 ms</time>
   </operation>
   <operation>
     <module>modm:platform:spi:1</module>
     <source>modm-repo\src\modm\platform\spi\stm32\src\modm\platform\spi\stm32\spi_master.cpp.in</source>
     <destination>modm\src\modm\platform\spi\spi_master_1.cpp</destination>
-    <time>10.000 ms</time>
+    <time>21.837 ms</time>
   </operation>
   <operation>
     <module>modm:platform:spi:1</module>
     <source>modm-repo\src\modm\platform\spi\stm32\src\modm\platform\spi\stm32\spi_master.hpp.in</source>
     <destination>modm\src\modm\platform\spi\spi_master_1.hpp</destination>
-    <time>20.000 ms</time>
+    <time>2.798 ms</time>
   </operation>
   <operation>
     <module>modm:platform:spi:2</module>
     <source>modm-repo\src\modm\platform\spi\stm32\src\modm\platform\spi\stm32\spi_hal.hpp.in</source>
     <destination>modm\src\modm\platform\spi\spi_hal_2.hpp</destination>
-    <time>4.987 ms</time>
+    <time>27.658 ms</time>
   </operation>
   <operation>
     <module>modm:platform:spi:2</module>
     <source>modm-repo\src\modm\platform\spi\stm32\src\modm\platform\spi\stm32\spi_hal_impl.hpp.in</source>
     <destination>modm\src\modm\platform\spi\spi_hal_2_impl.hpp</destination>
-    <time>22.938 ms</time>
+    <time>24.082 ms</time>
   </operation>
   <operation>
     <module>modm:platform:spi:2</module>
     <source>modm-repo\src\modm\platform\spi\stm32\src\modm\platform\spi\stm32\spi_master.cpp.in</source>
     <destination>modm\src\modm\platform\spi\spi_master_2.cpp</destination>
-    <time>10.000 ms</time>
+    <time>7.472 ms</time>
   </operation>
   <operation>
     <module>modm:platform:spi:2</module>
     <source>modm-repo\src\modm\platform\spi\stm32\src\modm\platform\spi\stm32\spi_master.hpp.in</source>
     <destination>modm\src\modm\platform\spi\spi_master_2.hpp</destination>
-    <time>16.191 ms</time>
+    <time>19.504 ms</time>
   </operation>
   <operation>
     <module>modm:platform:uart</module>
     <source>modm-repo\src\modm\platform\uart\stm32\src\modm\platform\uart\stm32\uart_base.hpp.in</source>
     <destination>modm\src\modm\platform\uart\uart_base.hpp</destination>
-    <time>11.969 ms</time>
+    <time>0.999 ms</time>
   </operation>
   <operation>
     <module>modm:platform:uart</module>
     <source>modm-repo\src\modm\platform\uart\stm32\src\modm\platform\uart\stm32\uart_baudrate.hpp.in</source>
     <destination>modm\src\modm\platform\uart\uart_baudrate.hpp</destination>
-    <time>15.046 ms</time>
+    <time>12.022 ms</time>
   </operation>
   <operation>
     <module>modm:platform:uart:1</module>
     <source>modm-repo\src\modm\platform\uart\stm32\src\modm\platform\uart\stm32\uart.cpp.in</source>
     <destination>modm\src\modm\platform\uart\uart_1.cpp</destination>
-    <time>39.807 ms</time>
+    <time>21.731 ms</time>
   </operation>
   <operation>
     <module>modm:platform:uart:1</module>
     <source>modm-repo\src\modm\platform\uart\stm32\src\modm\platform\uart\stm32\uart.hpp.in</source>
     <destination>modm\src\modm\platform\uart\uart_1.hpp</destination>
-    <time>20.000 ms</time>
+    <time>24.337 ms</time>
   </operation>
   <operation>
     <module>modm:platform:uart:1</module>
     <source>modm-repo\src\modm\platform\uart\stm32\src\modm\platform\uart\stm32\uart_hal.hpp.in</source>
     <destination>modm\src\modm\platform\uart\uart_hal_1.hpp</destination>
-    <time>14.013 ms</time>
+    <time>18.807 ms</time>
   </operation>
   <operation>
     <module>modm:platform:uart:1</module>
     <source>modm-repo\src\modm\platform\uart\stm32\src\modm\platform\uart\stm32\uart_hal_impl.hpp.in</source>
     <destination>modm\src\modm\platform\uart\uart_hal_1_impl.hpp</destination>
-    <time>50.000 ms</time>
+    <time>80.957 ms</time>
   </operation>
   <operation>
     <module>modm:platform:uart:2</module>
     <source>modm-repo\src\modm\platform\uart\stm32\src\modm\platform\uart\stm32\uart.cpp.in</source>
     <destination>modm\src\modm\platform\uart\uart_2.cpp</destination>
-    <time>30.001 ms</time>
+    <time>22.111 ms</time>
   </operation>
   <operation>
     <module>modm:platform:uart:2</module>
     <source>modm-repo\src\modm\platform\uart\stm32\src\modm\platform\uart\stm32\uart.hpp.in</source>
     <destination>modm\src\modm\platform\uart\uart_2.hpp</destination>
-    <time>20.000 ms</time>
+    <time>15.844 ms</time>
   </operation>
   <operation>
     <module>modm:platform:uart:2</module>
     <source>modm-repo\src\modm\platform\uart\stm32\src\modm\platform\uart\stm32\uart_hal.hpp.in</source>
     <destination>modm\src\modm\platform\uart\uart_hal_2.hpp</destination>
-    <time>70.002 ms</time>
+    <time>13.299 ms</time>
   </operation>
   <operation>
     <module>modm:platform:uart:2</module>
     <source>modm-repo\src\modm\platform\uart\stm32\src\modm\platform\uart\stm32\uart_hal_impl.hpp.in</source>
     <destination>modm\src\modm\platform\uart\uart_hal_2_impl.hpp</destination>
-    <time>49.998 ms</time>
+    <time>40.322 ms</time>
   </operation>
   <operation>
     <module>modm:processing</module>
     <source>modm-repo\src\modm\processing\src\modm\processing\processing.hpp.in</source>
     <destination>modm\src\modm\processing.hpp</destination>
-    <time>0.000 ms</time>
+    <time>7.652 ms</time>
   </operation>
   <operation>
     <module>modm:processing</module>
     <source>modm-repo\src\modm\processing\task.hpp</source>
     <destination>modm\src\modm\processing\task.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.066 ms</time>
   </operation>
   <operation>
     <module>modm:processing:protothread</module>
     <source>modm-repo\src\modm\processing\protothread.hpp</source>
     <destination>modm\src\modm\processing\protothread.hpp</destination>
-    <time>10.001 ms</time>
+    <time>3.142 ms</time>
   </operation>
   <operation>
     <module>modm:processing:protothread</module>
     <source>modm-repo\src\modm\processing\protothread\macros.hpp</source>
     <destination>modm\src\modm\processing\protothread\macros.hpp</destination>
-    <time>10.001 ms</time>
+    <time>2.992 ms</time>
   </operation>
   <operation>
     <module>modm:processing:protothread</module>
     <source>modm-repo\src\modm\processing\protothread\module.md</source>
     <destination>modm\src\modm\processing\protothread\module.md</destination>
-    <time>9.998 ms</time>
+    <time>2.050 ms</time>
   </operation>
   <operation>
     <module>modm:processing:protothread</module>
     <source>modm-repo\src\modm\processing\protothread\protothread.hpp</source>
     <destination>modm\src\modm\processing\protothread\protothread.hpp</destination>
-    <time>10.001 ms</time>
+    <time>2.233 ms</time>
   </operation>
   <operation>
     <module>modm:processing:protothread</module>
     <source>modm-repo\src\modm\processing\protothread\semaphore.hpp</source>
     <destination>modm\src\modm\processing\protothread\semaphore.hpp</destination>
-    <time>10.000 ms</time>
+    <time>3.080 ms</time>
   </operation>
   <operation>
     <module>modm:processing:resumable</module>
     <source>modm-repo\src\modm\processing\resumable.hpp</source>
     <destination>modm\src\modm\processing\resumable.hpp</destination>
-    <time>7.978 ms</time>
+    <time>3.373 ms</time>
   </operation>
   <operation>
     <module>modm:processing:resumable</module>
     <source>modm-repo\src\modm\processing\resumable\macros.hpp</source>
     <destination>modm\src\modm\processing\resumable\macros.hpp</destination>
-    <time>0.000 ms</time>
+    <time>5.824 ms</time>
   </operation>
   <operation>
     <module>modm:processing:resumable</module>
     <source>modm-repo\src\modm\processing\resumable\resumable.hpp</source>
     <destination>modm\src\modm\processing\resumable\resumable.hpp</destination>
-    <time>18.101 ms</time>
+    <time>2.900 ms</time>
   </operation>
   <operation>
     <module>modm:processing:resumable</module>
     <source>modm-repo\src\modm\processing\resumable\src\modm\processing\resumable\nested_resumable.hpp.in</source>
     <destination>modm\src\modm\processing\resumable\nested_resumable.hpp</destination>
-    <time>8.976 ms</time>
+    <time>0.997 ms</time>
   </operation>
   <operation>
     <module>modm:processing:timer</module>
     <source>modm-repo\src\modm\processing\timer.hpp</source>
     <destination>modm\src\modm\processing\timer.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.086 ms</time>
   </operation>
   <operation>
     <module>modm:processing:timer</module>
     <source>modm-repo\src\modm\processing\timer\module.md</source>
     <destination>modm\src\modm\processing\timer\module.md</destination>
-    <time>9.999 ms</time>
+    <time>39.469 ms</time>
   </operation>
   <operation>
     <module>modm:processing:timer</module>
     <source>modm-repo\src\modm\processing\timer\periodic_timer.hpp</source>
     <destination>modm\src\modm\processing\timer\periodic_timer.hpp</destination>
-    <time>0.000 ms</time>
+    <time>3.379 ms</time>
   </operation>
   <operation>
     <module>modm:processing:timer</module>
     <source>modm-repo\src\modm\processing\timer\periodic_timer_impl.hpp</source>
     <destination>modm\src\modm\processing\timer\periodic_timer_impl.hpp</destination>
-    <time>0.000 ms</time>
+    <time>3.175 ms</time>
   </operation>
   <operation>
     <module>modm:processing:timer</module>
     <source>modm-repo\src\modm\processing\timer\timeout.hpp</source>
     <destination>modm\src\modm\processing\timer\timeout.hpp</destination>
-    <time>10.000 ms</time>
+    <time>3.280 ms</time>
   </operation>
   <operation>
     <module>modm:processing:timer</module>
     <source>modm-repo\src\modm\processing\timer\timeout_impl.hpp</source>
     <destination>modm\src\modm\processing\timer\timeout_impl.hpp</destination>
-    <time>9.999 ms</time>
+    <time>4.761 ms</time>
   </operation>
   <operation>
     <module>modm:processing:timer</module>
     <source>modm-repo\src\modm\processing\timer\timestamp.hpp</source>
     <destination>modm\src\modm\processing\timer\timestamp.hpp</destination>
-    <time>0.000 ms</time>
+    <time>3.722 ms</time>
   </operation>
   <operation>
     <module>modm:utils</module>
     <source>modm-repo\src\modm\utils\allocator.hpp</source>
     <destination>modm\src\modm\utils\allocator.hpp</destination>
-    <time>10.000 ms</time>
+    <time>4.344 ms</time>
   </operation>
   <operation>
     <module>modm:utils</module>
     <source>modm-repo\src\modm\utils\allocator\allocator_base.hpp</source>
     <destination>modm\src\modm\utils\allocator\allocator_base.hpp</destination>
-    <time>10.000 ms</time>
+    <time>4.074 ms</time>
   </operation>
   <operation>
     <module>modm:utils</module>
     <source>modm-repo\src\modm\utils\allocator\block.hpp</source>
     <destination>modm\src\modm\utils\allocator\block.hpp</destination>
-    <time>0.000 ms</time>
+    <time>4.802 ms</time>
   </operation>
   <operation>
     <module>modm:utils</module>
     <source>modm-repo\src\modm\utils\allocator\dynamic.hpp</source>
     <destination>modm\src\modm\utils\allocator\dynamic.hpp</destination>
-    <time>10.000 ms</time>
+    <time>15.016 ms</time>
   </operation>
   <operation>
     <module>modm:utils</module>
     <source>modm-repo\src\modm\utils\allocator\static.hpp</source>
     <destination>modm\src\modm\utils\allocator\static.hpp</destination>
-    <time>10.000 ms</time>
+    <time>4.727 ms</time>
   </operation>
   <operation>
     <module>modm:utils</module>
     <source>modm-repo\src\modm\utils\arithmetic_traits.hpp</source>
     <destination>modm\src\modm\utils\arithmetic_traits.hpp</destination>
-    <time>10.001 ms</time>
+    <time>4.520 ms</time>
   </operation>
   <operation>
     <module>modm:utils</module>
     <source>modm-repo\src\modm\utils\bit_constants.hpp</source>
     <destination>modm\src\modm\utils\bit_constants.hpp</destination>
-    <time>0.000 ms</time>
+    <time>3.786 ms</time>
   </operation>
   <operation>
     <module>modm:utils</module>
     <source>modm-repo\src\modm\utils\dummy.cpp</source>
     <destination>modm\src\modm\utils\dummy.cpp</destination>
-    <time>10.000 ms</time>
+    <time>10.491 ms</time>
   </operation>
   <operation>
     <module>modm:utils</module>
     <source>modm-repo\src\modm\utils\dummy.hpp</source>
     <destination>modm\src\modm\utils\dummy.hpp</destination>
-    <time>0.000 ms</time>
+    <time>3.146 ms</time>
   </operation>
   <operation>
     <module>modm:utils</module>
     <source>modm-repo\src\modm\utils\utils.hpp</source>
     <destination>modm\src\modm\utils.hpp</destination>
-    <time>10.001 ms</time>
+    <time>2.269 ms</time>
   </operation>
 </buildlog>

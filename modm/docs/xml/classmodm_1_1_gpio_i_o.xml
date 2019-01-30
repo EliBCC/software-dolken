@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/gpio.hpp" line="122" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/gpio.hpp" bodystart="122" bodyend="-1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/gpio.hpp" line="122" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/gpio.hpp" bodystart="122" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/gpio.hpp" line="127" column="1"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/gpio.hpp" line="127" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -449,7 +449,7 @@
         <link refid="structmodm_1_1_gpio"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/gpio.hpp" line="119" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/gpio.hpp" bodystart="118" bodyend="129"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/gpio.hpp" line="119" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/gpio.hpp" bodystart="118" bodyend="129"/>
     <listofallmembers>
       <member refid="classmodm_1_1_gpio_i_o_1ac3e00d004cfc8c6268085b4468e22684" prot="public" virt="non-virtual"><scope>modm::GpioIO</scope><name>direction</name></member>
       <member refid="structmodm_1_1_gpio_1a5c167852e8d86eded53f554eabace79b" prot="public" virt="non-virtual" ambiguityscope="modm::"><scope>modm::GpioIO</scope><name>Direction</name></member>

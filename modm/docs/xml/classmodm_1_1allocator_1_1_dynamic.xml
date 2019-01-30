@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="43" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="43" bodyend="46"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="43" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="43" bodyend="46"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1allocator_1_1_dynamic_1ad4b5a6866956c7caaccda2b69b66aef5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="48" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="48" bodyend="51"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="48" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="48" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1allocator_1_1_dynamic_1ad95fe6dfb9c163ec45ce7aee8d80453d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="54" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="54" bodyend="57"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="54" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="54" bodyend="57"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1allocator_1_1_dynamic_1aaf81e3dbc05de1ec73903fb4549fcd5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>T *</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="60" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="60" bodyend="65"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="60" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="60" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classmodm_1_1allocator_1_1_dynamic_1adeba2801e6c0095546e6bc793030cb8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="68" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="68" bodyend="74"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="68" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="68" bodyend="74"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -126,7 +126,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="34" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="33" bodyend="75"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" line="34" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/allocator/dynamic.hpp" bodystart="33" bodyend="75"/>
     <listofallmembers>
       <member refid="classmodm_1_1allocator_1_1_dynamic_1aaf81e3dbc05de1ec73903fb4549fcd5b" prot="public" virt="non-virtual"><scope>modm::allocator::Dynamic</scope><name>allocate</name></member>
       <member refid="classmodm_1_1allocator_1_1_allocator_base_1a609f717f38153960b28c8b7894c53761" prot="protected" virt="non-virtual"><scope>modm::allocator::Dynamic</scope><name>AllocatorBase</name></member>

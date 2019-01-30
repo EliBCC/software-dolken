@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" line="92" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="90" bodyend="96"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" line="92" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="90" bodyend="96"/>
       </memberdef>
       <memberdef kind="enum" id="structmodm_1_1platform_1_1_gpio_1ad68170d2e3d45721421375623c8f5a61" prot="public" static="no" strong="yes">
         <type></type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" line="100" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="98" bodyend="103"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" line="100" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="98" bodyend="103"/>
       </memberdef>
       <memberdef kind="enum" id="structmodm_1_1platform_1_1_gpio_1ab7da9c5cdb55f0fad1955686331a5a09" prot="public" static="no" strong="yes">
         <type></type>
@@ -192,7 +192,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" line="107" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="105" bodyend="116"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" line="107" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="105" bodyend="116"/>
       </memberdef>
       <memberdef kind="enum" id="structmodm_1_1platform_1_1_gpio_1a5f683814888fa5a34c2bcf2db9b803a5" prot="public" static="no" strong="yes">
         <type></type>
@@ -224,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" line="120" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="118" bodyend="124"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" line="120" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="118" bodyend="124"/>
       </memberdef>
       <memberdef kind="enum" id="structmodm_1_1platform_1_1_gpio_1a9a07d4a7c6f41489fa3bf81b98e8a19b" prot="public" static="no" strong="yes">
         <type></type>
@@ -275,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" line="129" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="127" bodyend="135"/>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" line="129" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="127" bodyend="135"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -612,7 +612,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" line="89" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="88" bodyend="278"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" line="89" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/base.hpp" bodystart="88" bodyend="278"/>
     <listofallmembers>
       <member refid="structmodm_1_1platform_1_1_gpio_1a5f683814888fa5a34c2bcf2db9b803a5" prot="public" virt="non-virtual"><scope>modm::platform::Gpio</scope><name>InputTrigger</name></member>
       <member refid="structmodm_1_1platform_1_1_gpio_1aadfb2c40d2066e11c0e176332c5a9d6d" prot="public" virt="non-virtual"><scope>modm::platform::Gpio</scope><name>InputType</name></member>

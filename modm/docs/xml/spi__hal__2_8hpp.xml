@@ -4,23 +4,21 @@
     <compoundname>spi_hal_2.hpp</compoundname>
     <includes refid="spi__base_8hpp" local="yes">spi_base.hpp</includes>
     <includes local="yes">spi_hal_2_impl.hpp</includes>
-    <includedby refid="spi__master__2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</includedby>
-    <includedby refid="platform_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</includedby>
+    <includedby refid="spi__master__2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</includedby>
+    <includedby refid="platform_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</includedby>
     <incdepgraph>
-      <node id="2951">
-        <label>../device.hpp</label>
-        <link refid="device_8hpp"/>
-        <childnode refid="2950" relation="include">
-        </childnode>
-        <childnode refid="2952" relation="include">
-        </childnode>
-        <childnode refid="2954" relation="include">
-        </childnode>
-        <childnode refid="2955" relation="include">
-        </childnode>
-      </node>
       <node id="2960">
         <label>stdarg.h</label>
+      </node>
+      <node id="2955">
+        <label>system_stm32f4xx.h</label>
+      </node>
+      <node id="2961">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
+      <node id="2950">
+        <label>stdint.h</label>
       </node>
       <node id="2956">
         <label>modm/architecture/interface/register.hpp</label>
@@ -34,22 +32,42 @@
         <childnode refid="2958" relation="include">
         </childnode>
       </node>
-      <node id="2948">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_hal_2.hpp</label>
-        <link refid="spi__hal__2_8hpp"/>
-        <childnode refid="2949" relation="include">
-        </childnode>
-        <childnode refid="2963" relation="include">
-        </childnode>
-      </node>
-      <node id="2955">
-        <label>system_stm32f4xx.h</label>
-      </node>
-      <node id="2950">
-        <label>stdint.h</label>
-      </node>
       <node id="2963">
         <label>spi_hal_2_impl.hpp</label>
+      </node>
+      <node id="2957">
+        <label>modm/utils/bit_constants.hpp</label>
+        <link refid="bit__constants_8hpp"/>
+        <childnode refid="2950" relation="include">
+        </childnode>
+      </node>
+      <node id="2951">
+        <label>../device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="2950" relation="include">
+        </childnode>
+        <childnode refid="2952" relation="include">
+        </childnode>
+        <childnode refid="2954" relation="include">
+        </childnode>
+        <childnode refid="2955" relation="include">
+        </childnode>
+      </node>
+      <node id="2949">
+        <label>spi_base.hpp</label>
+        <link refid="spi__base_8hpp"/>
+        <childnode refid="2950" relation="include">
+        </childnode>
+        <childnode refid="2951" relation="include">
+        </childnode>
+        <childnode refid="2956" relation="include">
+        </childnode>
+      </node>
+      <node id="2952">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="2953" relation="include">
+        </childnode>
       </node>
       <node id="2958">
         <label>modm/io/iostream.hpp</label>
@@ -67,41 +85,16 @@
         <childnode refid="2962" relation="include">
         </childnode>
       </node>
-      <node id="2953">
-        <label>detect.hpp</label>
-        <link refid="detect_8hpp"/>
-      </node>
-      <node id="2961">
-        <label>iodevice.hpp</label>
-        <link refid="iodevice_8hpp"/>
-      </node>
-      <node id="2957">
-        <label>modm/utils/bit_constants.hpp</label>
-        <link refid="bit__constants_8hpp"/>
-        <childnode refid="2950" relation="include">
+      <node id="2948">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_hal_2.hpp</label>
+        <link refid="spi__hal__2_8hpp"/>
+        <childnode refid="2949" relation="include">
+        </childnode>
+        <childnode refid="2963" relation="include">
         </childnode>
       </node>
       <node id="2959">
         <label>cstddef</label>
-      </node>
-      <node id="2952">
-        <label>modm/architecture/utils.hpp</label>
-        <link refid="architecture_2utils_8hpp"/>
-        <childnode refid="2953" relation="include">
-        </childnode>
-      </node>
-      <node id="2949">
-        <label>spi_base.hpp</label>
-        <link refid="spi__base_8hpp"/>
-        <childnode refid="2950" relation="include">
-        </childnode>
-        <childnode refid="2951" relation="include">
-        </childnode>
-        <childnode refid="2956" relation="include">
-        </childnode>
-      </node>
-      <node id="2954">
-        <label>stm32f446xx.h</label>
       </node>
       <node id="2962">
         <label>iodevice_wrapper.hpp</label>
@@ -111,24 +104,31 @@
         <childnode refid="2961" relation="include">
         </childnode>
       </node>
+      <node id="2954">
+        <label>stm32f446xx.h</label>
+      </node>
+      <node id="2953">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="2965">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <link refid="spi__master__2_8hpp"/>
+        <childnode refid="2966" relation="include">
+        </childnode>
+      </node>
       <node id="2964">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_hal_2.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_hal_2.hpp</label>
         <link refid="spi__hal__2_8hpp"/>
         <childnode refid="2965" relation="include">
         </childnode>
         <childnode refid="2966" relation="include">
         </childnode>
       </node>
-      <node id="2965">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
-        <link refid="spi__master__2_8hpp"/>
-        <childnode refid="2966" relation="include">
-        </childnode>
-      </node>
       <node id="2966">
-        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform.hpp</label>
         <link refid="platform_8hpp"/>
       </node>
     </invincdepgraph>
@@ -139,6 +139,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_hal_2.hpp"/>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_hal_2.hpp"/>
   </compounddef>
 </doxygen>
