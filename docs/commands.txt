@@ -1,0 +1,6 @@
+lbuild build 					Generates the modm libs (run once)
+lbuild build 					Removes the modm libs (try if problem)
+lbuild build --module "modm:docs"  		Generates the modm docs (run once)
+make build-xxxx-yyyy                    build the project where xxxx is the board and yyyy is debug/release
+                                            eksample: "make build-mainboard-debug"
+make upload-xxxx-yyyy                   builds and uploads the project to uM where xxxx is the board and yyyy is debug/release
