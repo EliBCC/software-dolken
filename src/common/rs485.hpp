@@ -198,8 +198,6 @@ namespace rs485
     {
     private:
         RingBuffer<uint8_t, 1024> input_buffer;
-        uint8_t get_cmd_size;
-
 
         /**
         * @brief validates if a valid cmd is in the buffer
@@ -262,8 +260,7 @@ namespace rs485
             _UART_DIR_::setInput((modm::platform::Gpio::InputType) Direction::Receive);
             static uint8_t v;
             while(!input_buffer.IsFull() &&_UART_::read(v)){
-
-            MODM_LOG_INFO.printf("rs485: Read %u\n", v);
+                MODM_LOG_INFO.printf("rs485: Read %u\n", v);
                 input_buffer.insert(v);
             }
             
@@ -305,9 +302,9 @@ namespace rs485
                 static uint8_t cmd = input_buffer.Peek(2);
 
                 if(cmd == (uint8_t) SystemCMD::STA || cmd == (uint8_t) SensorCMD::STACKHEALTH)
-                    get_cmd_size = 1;
+                    size = 1;
                 else if(cmd == (uint8_t) SystemCMD::TIME)
-                    get_cmd_size = 4;
+                    gize = 4;
                 else 
                     size = 2;
 
