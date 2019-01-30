@@ -11,6 +11,12 @@
 * Written by Nicolai Dynweber Bruhn
 */
 
+/*
+ ********* IMPORTANT *************
+  Direction might have to change. Right now it is using gpio function setinput for
+  pulldown and pullup.
+*/
+
 
 // Set the log level
 #undef	MODM_LOG_LEVEL
@@ -123,17 +129,17 @@ namespace rs485
         * @param element to insert
         * @returns true if element is inserted
         */
-        bool insert(T byte)
+        bool Insert(T element)
         {   
+            //insert into ringbuffer if it is not full
             if(count < buffer_size)
             {
                 uint16_t pos = (front + count) % buffer_size;
-                buffer[pos] = byte;
+                buffer[pos] = element;
                 count++;   
                 return true;
             }
-            else
-                return false;
+            return false;
         }
 
         /**
@@ -181,8 +187,8 @@ namespace rs485
 
 
         /**
-        * @brief checks elements in ringbuffer
-        * @returns elements in the buffer
+        * @brief cgetter for amount of elements in the buffer
+        * @returns elements in buffer
         */
         uint16_t GetCount()
         {
@@ -192,15 +198,17 @@ namespace rs485
 
 
     /**
-    * @brief rs485 protocol class
+    * @brief rs485 protocol class - class
     */
     class Rs485 : protected modm::NestedResumable<1>
     {
     private:
         RingBuffer<uint8_t, 1024> input_buffer;
-
+        uint8_t GetCommand_size;
+        uint8_t GetCommand_cmd_id;
+        uint8_t ReadToBuffer_value;
         /**
-        * @brief validates if a valid cmd is in the buffer
+        * @brief validates if a valid cmd id is in the buffer
         * @returns true if valid command id is in the buffer
         */
         bool ValidateCommand()
@@ -219,17 +227,17 @@ namespace rs485
         */
         Command_t PopCommand(uint8_t size)
         {
-            input_buffer.Pop();
-            input_buffer.Pop();
+            input_buffer.Pop(); // pop 0xFF
+            input_buffer.Pop(); // pop 0x01
             Command_t cmd;
-            cmd.id = input_buffer.Pop();
+            cmd.id = input_buffer.Pop(); // pop cmd id
             for(uint8_t i = 0; i < size; i++)
-                cmd.data[i] = input_buffer.Pop();
+                cmd.data[i] = input_buffer.Pop(); // pop data bytes
             cmd.count = size;
 
-            input_buffer.Pop();
-            input_buffer.Pop();
-            input_buffer.Pop();
+            input_buffer.Pop(); // pop 0x01
+            input_buffer.Pop(); // pop 0xFF
+            input_buffer.Pop(); // pop 0xFF
             return cmd;
         }
 
@@ -244,7 +252,7 @@ namespace rs485
             MODM_LOG_INFO.printf("rs485: Setting up uart\n");
             _UART_::connect<_UART_TX_, _UART_RX_>();
             _UART_::initialize<ClockConfiguration, _UART_BAUD_>(); 
-            _UART_DIR_::setInput((modm::platform::Gpio::InputType) Direction::Receive);
+            _UART_DIR_::setInput((modm::platform::Gpio::InputType) Direction::Receive); // THIS MIGHT NEED TO CHANGE
         }
 
 
@@ -257,13 +265,18 @@ namespace rs485
             RF_BEGIN();
 
             MODM_LOG_INFO.printf("rs485: Reading from buffer\n");
-            _UART_DIR_::setInput((modm::platform::Gpio::InputType) Direction::Receive);
-            static uint8_t v;
-            while(!input_buffer.IsFull() &&_UART_::read(v)){
-                MODM_LOG_INFO.printf("rs485: Read %u\n", v);
-                input_buffer.insert(v);
+
+            // Setup direction for receive
+            _UART_DIR_::setInput((modm::platform::Gpio::InputType) Direction::Receive); // THIS MIGHT NEED TO CHANGE
+
+            // read all available bytes in buffer and add them to the ringbuffer
+            while(!input_buffer.IsFull() &&_UART_::read(ReadToBuffer_value)){
+                MODM_LOG_INFO.printf("rs485: Read %u\n", ReadToBuffer_value);
+                input_buffer.Insert(ReadToBuffer_value);
             }
             
+            // The while-loop can only end if ringbuffer is full or if there is no more bytes to receives. 
+            // If there is no more bytes to receive then true is returned and therefor the ringbuffer is not full
             RF_END_RETURN(!input_buffer.IsFull());
         }
 
@@ -277,53 +290,59 @@ namespace rs485
             RF_BEGIN();
 
             MODM_LOG_INFO.printf("rs485: GetCommand\n");
-            static uint8_t size = 0;
             while(true)
             {
+                // ringbuffer must contain at least 3 bytes to validate command start message and command id.
                 if(input_buffer.GetCount() > 3){
 
                     MODM_LOG_INFO.printf("rs485: GetCommand buffer size less than 3\n");
                     RF_RETURN(false);
                 }
 
+                //validate first two bytes in buffer is command start
                 if(input_buffer.Peek(0) != 0xFF || input_buffer.Peek(1) != 0x01)
                 {
-
+                    //pop front if it is not command start.
                     MODM_LOG_INFO.printf("rs485: GetCommand popping front, invalid start bytes\n");
                     input_buffer.Pop();
                     continue;
                 }
 
+                //Validate command id in the ringbuffer at position 2
                 if(!ValidateCommand()){
                     MODM_LOG_WARNING.printf("rs485: GetCommand invalid command byte: %u\n", input_buffer.Peek(2));
                     input_buffer.Pop();
                     continue;
                 }
-                static uint8_t cmd = input_buffer.Peek(2);
+                GetCommand_cmd_id = input_buffer.Peek(2);
 
-                if(cmd == (uint8_t) SystemCMD::STA || cmd == (uint8_t) SensorCMD::STACKHEALTH)
-                    size = 1;
-                else if(cmd == (uint8_t) SystemCMD::TIME)
-                    gize = 4;
+                // Determine number of payload bytes based on command id.
+                if(GetCommand_cmd_id == (uint8_t) SystemCMD::STA || GetCommand_cmd_id == (uint8_t) SensorCMD::STACKHEALTH)
+                    GetCommand_size = 1;
+                else if(GetCommand_cmd_id == (uint8_t) SystemCMD::TIME)
+                    GetCommand_size = 4;
                 else 
-                    size = 2;
+                    GetCommand_size = 2;
 
-                
-                if(input_buffer.GetCount() > size + 6){
+                //Validate buffer contains the full command. must contain atleast 0xFF 0x01 cmd_id, payload bytes and 0x01 0xFF 0xFF
+                if(input_buffer.GetCount() > GetCommand_size + 6){
                     MODM_LOG_INFO.printf("rs485: GetCommand returning not enough bytes in buffer\n");
                     RF_RETURN(false);
                 }
 
-                if(input_buffer.Peek(size+3) != 0x01 || input_buffer.Peek(size+4) != 0xFF || input_buffer.Peek(size+5) != 0xFF)
+                // Validate command ends in with end of command bytes.
+                if(input_buffer.Peek(GetCommand_size+3) != 0x01 || input_buffer.Peek(GetCommand_size+4) != 0xFF || input_buffer.Peek(GetCommand_size+5) != 0xFF)
                 {
 
                     MODM_LOG_WARNING.printf("rs485: GetCommand invalid end command bytes\n");
                     input_buffer.Pop();
                     continue;
                 }
+                // Break because buffer contains a valid command at front.
                 break;
             }
-            ref = PopCommand(size);
+            //Pop command from ringbuffer
+            ref = PopCommand(GetCommand_size);
             RF_END_RETURN(true);
         }
 
@@ -331,23 +350,35 @@ namespace rs485
         * @brief writes a command over uart
         * @param command to write
         */
-        modm::ResumableResult<bool> WriteCommand(Command_t cmd)
+        modm::ResumableResult<bool> WriteCommand(Command_t& cmd)
         {
             RF_BEGIN();
 
             MODM_LOG_INFO.printf("rs485: Writting cmd id: %u\n", cmd.id);
-            _UART_DIR_::setInput((modm::platform::Gpio::InputType)Direction::Transmit);
+            //Set direction pin for transmission
+            _UART_DIR_::setInput((modm::platform::Gpio::InputType)Direction::Transmit); // MIGHT NEED TO CHANGE
+
+            // Start command bytes
             _UART_::write(0xFF);
             _UART_::write(0x01);
+
+            // Write command id
             _UART_::write(cmd.id);
+
+            //Write payload bytes
             for(uint8_t i = 0; i < cmd.count; i++)
                 _UART_::write(cmd.data[i]);
-            _UART_::write(0x1);
+            
+            // Write end of command bytes
+            _UART_::write(0x01);
             _UART_::write(0xFF);
             _UART_::write(0xFF); 
-
+            
+            //Wait until the command has been transmitted
             RF_WAIT_WHILE(!_UART_::isWriteFinished());
-            _UART_DIR_::setInput((modm::platform::Gpio::InputType)Direction::Receive);
+
+            //Switch back to receive mode
+            _UART_DIR_::setInput((modm::platform::Gpio::InputType)Direction::Receive); // MIGHT NEED TO CHANGE
             RF_END_RETURN(true);
         }
 
