@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken
+# Install script for directory: C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/blink-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/blink-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

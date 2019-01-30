@@ -4345,7 +4345,7 @@ END GROUP
  .debug_info    0x00056c52    0x21f65 CMakeFiles/MAX31855.dir/src/common/board.cpp.obj
  .debug_info    0x00078bb7    0x1fe46 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj
 
-.debug_line     0x00000000     0xee76
+.debug_line     0x00000000     0xee8a
  *(.debug_line)
  .debug_line    0x00000000      0x270 CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.obj
  .debug_line    0x00000270      0xb6f CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.obj
@@ -4368,7 +4368,7 @@ END GROUP
  .debug_line    0x000096ce     0x111f CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.obj
  .debug_line    0x0000a7ed     0x111f CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.obj
  .debug_line    0x0000b90c     0x1a31 CMakeFiles/MAX31855.dir/src/common/board.cpp.obj
- .debug_line    0x0000d33d     0x1b39 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj
+ .debug_line    0x0000d33d     0x1b4d CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj
 
 .debug_loc      0x00000000     0x4414
  *(.debug_loc)
@@ -4633,7 +4633,7 @@ END GROUP
  *(.note.GNU-stack)
 OUTPUT(MAX31855.elf elf32-littlearm)
 
-.debug_macro    0x00000000     0x7e55
+.debug_macro    0x00000000     0x7e5a
  .debug_macro   0x00000000       0x72 CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.obj
  .debug_macro   0x00000072      0x37b CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.obj
  .debug_macro   0x000003ed       0x10 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.obj
@@ -4714,9 +4714,9 @@ OUTPUT(MAX31855.elf elf32-littlearm)
  .debug_macro   0x00006a08      0x9a8 CMakeFiles/MAX31855.dir/src/common/board.cpp.obj
  .debug_macro   0x000073b0       0x16 CMakeFiles/MAX31855.dir/src/common/board.cpp.obj
  .debug_macro   0x000073c6       0x34 CMakeFiles/MAX31855.dir/src/common/board.cpp.obj
- .debug_macro   0x000073fa      0xa05 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj
- .debug_macro   0x00007dff       0x46 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj
- .debug_macro   0x00007e45       0x10 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj
+ .debug_macro   0x000073fa      0xa0a CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj
+ .debug_macro   0x00007e04       0x46 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj
+ .debug_macro   0x00007e4a       0x10 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj
 
 Cross Reference Table
 

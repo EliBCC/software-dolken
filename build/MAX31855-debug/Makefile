@@ -48,10 +48,10 @@ RM = C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken
+CMAKE_SOURCE_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug
+CMAKE_BINARY_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

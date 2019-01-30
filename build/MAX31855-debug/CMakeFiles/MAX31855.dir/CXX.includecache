@@ -1204,21 +1204,21 @@ common/board.hpp
 modm/platform.hpp
 -
 
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/MAX31855.cpp
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/MAX31855.cpp
 common/board.hpp
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/common/board.hpp
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/common/board.hpp
 MAX31855/MAX31855.hpp
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/MAX31855/MAX31855.hpp
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/MAX31855/MAX31855.hpp
 modm/architecture/interface/spi.hpp
 -
 
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/MAX31855.hpp
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/MAX31855.hpp
 common/board.hpp
 -
 modm/platform.hpp
 -
 
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/main.cpp
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/main.cpp
 modm/architecture/interface/delay.hpp
 -
 modm/debug/logger.hpp
@@ -1228,5 +1228,7 @@ common/board.hpp
 common/blink_thread.hpp
 -
 MAX31855.hpp
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/MAX31855.hpp
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/MAX31855.hpp
+modm/platform/spi/spi_master_1.hpp
+-
 

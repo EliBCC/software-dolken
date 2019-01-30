@@ -43,10 +43,10 @@ RM = C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken
+CMAKE_SOURCE_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/blink-debug
+CMAKE_BINARY_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/blink-debug
 
 # Utility rule file for blink.lss.
 
@@ -71,6 +71,6 @@ CMakeFiles/blink.lss.dir/clean:
 .PHONY : CMakeFiles/blink.lss.dir/clean
 
 CMakeFiles/blink.lss.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/blink-debug C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/blink-debug C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/blink-debug/CMakeFiles/blink.lss.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/blink-debug C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/blink-debug C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/blink-debug/CMakeFiles/blink.lss.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/blink.lss.dir/depend
 

@@ -7,11 +7,11 @@ C_FLAGS =     -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mt
 
 C_DEFINES = -DMODM_DEBUG_BUILD
 
-C_INCLUDES = -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/ext -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/ext/cmsis/core -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/ext/cmsis/device -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src -isystem C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/include 
+C_INCLUDES = -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/ext -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/ext/cmsis/core -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/ext/cmsis/device -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src -isystem C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/include 
 
 CXX_FLAGS =     -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -fno-exceptions     -fno-rtti     -fno-threadsafe-statics     -fno-unwind-tables     -fstrict-enums     -fuse-cxa-atexit     -std=c++17     -Woverloaded-virtual      -fno-move-loop-invariants     -fno-split-wide-types     -fno-tree-loop-optimize     -Og   
 
 CXX_DEFINES = -DMODM_DEBUG_BUILD
 
-CXX_INCLUDES = -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/ext -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/ext/cmsis/core -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/ext/cmsis/device -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src -isystem C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/include 
+CXX_INCLUDES = -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/ext -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/ext/cmsis/core -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/ext/cmsis/device -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src -IC:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src -isystem C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/include 
 

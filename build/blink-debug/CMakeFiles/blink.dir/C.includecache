@@ -66,7 +66,7 @@ avr/pgmspace.h
 detect.hpp
 ../../modm/src/modm/architecture/detect.hpp
 
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/heap_newlib.c
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/heap_newlib.c
 stdlib.h
 -
 stdint.h
@@ -80,7 +80,13 @@ errno.h
 modm/architecture/interface/assert.h
 -
 
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/startup.c
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/heap_table.c
+stddef.h
+-
+stdint.h
+-
+
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/startup.c
 stdint.h
 -
 modm/architecture/utils.hpp
@@ -88,9 +94,9 @@ modm/architecture/utils.hpp
 modm/architecture/interface/assert.h
 -
 ../device.hpp
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/device.hpp
 
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/vectors.c
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/vectors.c
 stdint.h
 -
 modm/architecture/utils.hpp
@@ -98,9 +104,9 @@ modm/architecture/utils.hpp
 modm/architecture/interface/assert.h
 -
 ../device.hpp
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/device.hpp
 
-C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/device.hpp
 stdint.h
 -
 modm/architecture/utils.hpp

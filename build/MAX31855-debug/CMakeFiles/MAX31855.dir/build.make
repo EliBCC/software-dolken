@@ -43,10 +43,10 @@ RM = C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken
+CMAKE_SOURCE_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug
+CMAKE_BINARY_DIR = C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MAX31855.dir/depend.make
@@ -59,484 +59,484 @@ include CMakeFiles/MAX31855.dir/flags.make
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.obj: ../../modm/src/modm/architecture/driver/atomic/flag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/atomic/flag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver/atomic/flag.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/atomic/flag.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver/atomic/flag.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/atomic/flag.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/driver/atomic/flag.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/driver/atomic/flag.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.obj: ../../modm/src/modm/architecture/interface/can.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.obj: ../../modm/src/modm/architecture/interface/can_message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can_message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can_message.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can_message.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can_message.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/can_message.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/can_message.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/can_message.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.obj: ../../modm/src/modm/architecture/interface/i2c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/architecture/interface/i2c.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/architecture/interface/i2c.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.obj: ../../modm/src/modm/container/smart_pointer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/smart_pointer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/smart_pointer.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/smart_pointer.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/smart_pointer.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container/smart_pointer.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/container/smart_pointer.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/container/smart_pointer.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.obj: ../../modm/src/modm/debug/error_report.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/error_report.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/error_report.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/error_report.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/error_report.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/debug/error_report.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/debug/error_report.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/debug/error_report.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.obj: ../../modm/src/modm/io/iodevice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iodevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iodevice.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iodevice.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iodevice.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iodevice.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iodevice.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iodevice.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.obj: ../../modm/src/modm/io/iostream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.obj: ../../modm/src/modm/io/iostream_float.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream_float.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream_float.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream_float.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream_float.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream_float.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream_float.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_float.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.obj: ../../modm/src/modm/io/iostream_printf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream_printf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream_printf.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream_printf.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream_printf.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/io/iostream_printf.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/io/iostream_printf.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/io/iostream_printf.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.obj: ../../modm/src/modm/math/utils/bit_operation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils/bit_operation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils/bit_operation.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils/bit_operation.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils/bit_operation.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils/bit_operation.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils/bit_operation.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/bit_operation.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.obj: ../../modm/src/modm/math/utils/pc/operator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils/pc/operator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils/pc/operator.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils/pc/operator.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils/pc/operator.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils/pc/operator.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/math/utils/pc/operator.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/math/utils/pc/operator.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.obj: ../../modm/src/modm/platform/can/can_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_1.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_1.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_1.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_1.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.obj: ../../modm/src/modm/platform/can/can_filter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/can/can_filter.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/can/can_filter.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.obj: ../../modm/src/modm/platform/clock/clock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/clock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/clock.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/clock.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/clock.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/clock.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/clock.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/clock.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.obj: ../../modm/src/modm/platform/clock/delay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/delay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/delay.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/delay.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/delay.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/delay.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/delay.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/delay.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.obj: ../../modm/src/modm/platform/clock/latency.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/latency.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/latency.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/latency.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/latency.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/latency.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/latency.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/latency.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.obj: ../../modm/src/modm/platform/clock/modm_clock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/modm_clock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/modm_clock.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/modm_clock.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/modm_clock.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/modm_clock.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/modm_clock.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/modm_clock.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.obj: ../../modm/src/modm/platform/clock/systick_timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/systick_timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/systick_timer.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/systick_timer.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/systick_timer.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/systick_timer.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/clock/systick_timer.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/clock/systick_timer.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.obj: ../../modm/src/modm/platform/core/assert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/assert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/assert.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/assert.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/assert.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/assert.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/assert.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/assert.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.obj: ../../modm/src/modm/platform/core/cxxabi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/cxxabi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/cxxabi.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/cxxabi.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/cxxabi.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/cxxabi.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/cxxabi.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/cxxabi.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.obj: ../../modm/src/modm/platform/core/default_handler.sx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/default_handler.sx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/default_handler.sx
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/default_handler.sx > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/default_handler.sx > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/default_handler.sx -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/default_handler.sx -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/default_handler.sx.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.obj: ../../modm/src/modm/platform/core/heap_newlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/heap_newlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/heap_newlib.c
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/heap_newlib.c > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/heap_newlib.c > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/heap_newlib.c -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/heap_newlib.c -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_newlib.c.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.obj: ../../modm/src/modm/platform/core/heap_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/heap_table.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/heap_table.c
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/heap_table.c > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/heap_table.c > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/heap_table.c -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/heap_table.c -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/heap_table.c.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.obj: ../../modm/src/modm/platform/core/startup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/startup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/startup.c
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/startup.c > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/startup.c > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/startup.c -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/startup.c -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/startup.c.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.obj: ../../modm/src/modm/platform/core/vectors.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/vectors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/vectors.c
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/vectors.c > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/vectors.c > CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/core/vectors.c -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/core/vectors.c -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/core/vectors.c.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.obj: ../../modm/src/modm/platform/gpio/enable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/enable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/enable.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/enable.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/enable.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/enable.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/gpio/enable.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/gpio/enable.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.obj: ../../modm/src/modm/platform/i2c/i2c_master_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_1.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_1.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_1.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_1.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_1.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_1.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.obj: ../../modm/src/modm/platform/i2c/i2c_master_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_2.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_2.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_2.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_2.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/i2c/i2c_master_2.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/i2c/i2c_master_2.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.obj: ../../modm/src/modm/platform/spi/spi_master_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_1.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_1.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.obj: ../../modm/src/modm/platform/spi/spi_master_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/spi/spi_master_2.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/spi/spi_master_2.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.obj: ../../modm/src/modm/platform/uart/uart_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_1.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_1.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.obj: ../../modm/src/modm/platform/uart/uart_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/platform/uart/uart_2.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/platform/uart/uart_2.cpp.s
 
 CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.obj: ../../modm/src/modm/utils/dummy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/dummy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/dummy.cpp
 
 CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/dummy.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/dummy.cpp > CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.i
 
 CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/dummy.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/modm/src/modm/utils/dummy.cpp -o CMakeFiles/MAX31855.dir/modm/src/modm/utils/dummy.cpp.s
 
 CMakeFiles/MAX31855.dir/src/common/board.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/src/common/board.cpp.obj: ../../src/common/board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/MAX31855.dir/src/common/board.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/src/common/board.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/common/board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/MAX31855.dir/src/common/board.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/src/common/board.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/common/board.cpp
 
 CMakeFiles/MAX31855.dir/src/common/board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/src/common/board.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/common/board.cpp > CMakeFiles/MAX31855.dir/src/common/board.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/common/board.cpp > CMakeFiles/MAX31855.dir/src/common/board.cpp.i
 
 CMakeFiles/MAX31855.dir/src/common/board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/src/common/board.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/common/board.cpp -o CMakeFiles/MAX31855.dir/src/common/board.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/common/board.cpp -o CMakeFiles/MAX31855.dir/src/common/board.cpp.s
 
 CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.obj: ../../src/MAX31855/MAX31855.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/MAX31855.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/MAX31855.cpp
 
 CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/MAX31855.cpp > CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/MAX31855.cpp > CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.i
 
 CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/MAX31855.cpp -o CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/MAX31855.cpp -o CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.s
 
 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj: CMakeFiles/MAX31855.dir/flags.make
 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj: ../../src/MAX31855/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj"
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/main.cpp
 
 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.i"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/main.cpp > CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.i
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/main.cpp > CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.i
 
 CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.s"
-	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/src/MAX31855/main.cpp -o CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.s
+	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/src/MAX31855/main.cpp -o CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.s
 
 # Object files for target MAX31855
 MAX31855_OBJECTS = \
@@ -619,7 +619,7 @@ MAX31855.elf: CMakeFiles/MAX31855.dir/src/common/board.cpp.obj
 MAX31855.elf: CMakeFiles/MAX31855.dir/src/MAX31855/MAX31855.cpp.obj
 MAX31855.elf: CMakeFiles/MAX31855.dir/src/MAX31855/main.cpp.obj
 MAX31855.elf: CMakeFiles/MAX31855.dir/build.make
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable MAX31855.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable MAX31855.elf"
 	C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe      -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -fno-exceptions     -fno-rtti     -fno-threadsafe-statics     -fno-unwind-tables     -fstrict-enums     -fuse-cxa-atexit     -std=c++17     -Woverloaded-virtual      -fno-move-loop-invariants     -fno-split-wide-types     -fno-tree-loop-optimize     -Og       -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      --specs=nano.specs     --specs=nosys.specs     -Llink     -nostartfiles     -Tlinkerscript.ld     -Wl,--fatal-warnings     -Wl,--gc-sections     -Wl,--no-wchar-size-warning     -Wl,--relax     -Wl,-Map,MAX31855.map,--cref     -Wl,-wrap,_calloc_r     -Wl,-wrap,_free_r     -Wl,-wrap,_malloc_r     -Wl,-wrap,_realloc_r  $(MAX31855_OBJECTS) $(MAX31855_EXTERNAL_OBJECTS)  -o MAX31855.elf 
 	arm-none-eabi-size.exe MAX31855.elf
 
@@ -633,6 +633,6 @@ CMakeFiles/MAX31855.dir/clean:
 .PHONY : CMakeFiles/MAX31855.dir/clean
 
 CMakeFiles/MAX31855.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/MAX31855-debug/CMakeFiles/MAX31855.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug C:/Users/jakob/OneDrive/Dokumenter/GitHub/software-dolken/build/MAX31855-debug/CMakeFiles/MAX31855.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MAX31855.dir/depend
 

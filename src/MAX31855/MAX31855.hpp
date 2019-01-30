@@ -11,14 +11,34 @@ class MAX31855
 
 private:
 
-	void SPIHardwareRead();
+	void SPIHardwareRead(){
+
+		/*SPI.beginTransaction(SPISettings(4000000, MSBFIRST, SPI_MODE0));
+
+		d = SPI::transfer(0);
+		d <<= 8;
+		d |= SPI::transfer(0);
+		d <<= 8;
+		d |= SPI::transfer(0);
+		d <<= 8;
+		d |= SPI::transfer(0);
+
+		SPI::endTransaction();
+		*/
+
+	}
+
 	void SPISoftwareRead();
+	
 	int SPIread() {
 
-
+		//reset and wait
 		CS::reset();
+		//waitms(1)
 
+		SPIHardwareRead();
 
+		return 0;
 	}
 
 public:
