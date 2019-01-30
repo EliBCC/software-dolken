@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="group__modm__platform__clock" kind="group">
+    <compoundname>modm_platform_clock</compoundname>
+    <title>Reset and Clock Control (RCC)</title>
+    <innerclass refid="classmodm_1_1platform_1_1_clock_control" prot="public">modm::platform::ClockControl</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__modm__platform__clock_1gad3b1d79ffd9cf45e1dff8809ac266100" prot="public" static="no" strong="yes">
+        <type>uint8_t</type>
+        <name>StartupError</name>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100a8ebf726ceabd9db011ff9d387ce22781" prot="public">
+          <name>InternalClock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100a14ee9760e49bcbcdf1fd53dacf282df8" prot="public">
+          <name>ExternalClock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100ae205c0c2435264ef7853bfefef0a35ab" prot="public">
+          <name>ExternalCrystal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100a9329659719c259ecb55bd985b6ef5f91" prot="public">
+          <name>LowSpeedInternalClock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100ae482f143cebcef9622d11908eb9428b6" prot="public">
+          <name>LowSpeedExternalClock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100ac19f1c8c04231be97cf31d2be2acb4df" prot="public">
+          <name>LowSpeedExternalCrystal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100a0add22fc25025c74c6feddca410b2323" prot="public">
+          <name>Pll</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100a431aa99678283da0cd62e1d5ce7966a9" prot="public">
+          <name>SystemClock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100a0fca6a7422594057adb00848972052e2" prot="public">
+          <name>ClockOutput</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100af5d6de4484ea367e1820f93f743256b3" prot="public">
+          <name>RealTimeClock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__platform__clock_1ggad3b1d79ffd9cf45e1dff8809ac266100ab4a2415d551d7ef9f0f509e11bb03dc6" prot="public">
+          <name>WatchdogClock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Errors that might prevent using a certain clock configuration </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/common_clock.hpp" line="30" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/common_clock.hpp" bodystart="28" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

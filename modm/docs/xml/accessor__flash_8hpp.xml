@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="accessor__flash_8hpp" kind="file" language="C++">
+    <compoundname>accessor_flash.hpp</compoundname>
+    <includes refid="architecture_2utils_8hpp" local="no">modm/architecture/utils.hpp</includes>
+    <includes refid="iostream_8hpp" local="no">modm/io/iostream.hpp</includes>
+    <includedby refid="accessor_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor.hpp</includedby>
+    <incdepgraph>
+      <node id="391">
+        <label>stdarg.h</label>
+      </node>
+      <node id="394">
+        <label>stdint.h</label>
+      </node>
+      <node id="389">
+        <label>modm/io/iostream.hpp</label>
+        <link refid="iostream_8hpp"/>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
+      <node id="386">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp</label>
+        <link refid="accessor__flash_8hpp"/>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+      </node>
+      <node id="392">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
+      <node id="390">
+        <label>cstddef</label>
+      </node>
+      <node id="387">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="388" relation="include">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>iodevice_wrapper.hpp</label>
+        <link refid="iodevice__wrapper_8hpp"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="397">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/atomic/container.hpp</label>
+        <link refid="architecture_2driver_2atomic_2container_8hpp"/>
+        <childnode refid="398" relation="include">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/assert.hpp</label>
+        <link refid="assert_8hpp"/>
+        <childnode refid="401" relation="include">
+        </childnode>
+      </node>
+      <node id="401">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/macros.hpp</label>
+        <link refid="resumable_2macros_8hpp"/>
+        <childnode refid="402" relation="include">
+        </childnode>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/resumable.hpp</label>
+        <link refid="resumable_2resumable_8hpp"/>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing.hpp</label>
+        <link refid="processing_8hpp"/>
+      </node>
+      <node id="399">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/atomic/queue.hpp</label>
+        <link refid="architecture_2driver_2atomic_2queue_8hpp"/>
+        <childnode refid="398" relation="include">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/spi_master.hpp</label>
+        <link refid="spi__master_8hpp"/>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/atomic.hpp</label>
+        <link refid="atomic_8hpp"/>
+      </node>
+      <node id="408">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <link refid="spi__master__2_8hpp"/>
+        <childnode refid="407" relation="include">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable.hpp</label>
+        <link refid="resumable_8hpp"/>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="405" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/processing/resumable/nested_resumable.hpp</label>
+        <link refid="nested__resumable_8hpp"/>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp</label>
+        <link refid="accessor__flash_8hpp"/>
+        <childnode refid="396" relation="include">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/i2c_device.hpp</label>
+        <link refid="i2c__device_8hpp"/>
+      </node>
+      <node id="407">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <link refid="platform_8hpp"/>
+      </node>
+      <node id="406">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
+        <link refid="spi__master__1_8hpp"/>
+        <childnode refid="407" relation="include">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor.hpp</label>
+        <link refid="accessor_8hpp"/>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="400" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classmodm_1_1accessor_1_1_flash" prot="public">modm::accessor::Flash</innerclass>
+    <innernamespace refid="namespacemodm">modm</innernamespace>
+    <innernamespace refid="namespacemodm_1_1accessor">modm::accessor</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__modm__architecture__accessor_1ga71c8fdec33b7ac78b2f56e4ca3ccfc9f" prot="public" static="no">
+        <name>FLASH_STORAGE</name>
+        <param><defname>var</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Define a flash variable </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" line="24" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__modm__architecture__accessor_1ga0580e6850196bde58d3dcb5a95d17035" prot="public" static="no">
+        <name>EXTERN_FLASH_STORAGE</name>
+        <param><defname>var</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Define a flash variable with external linkage </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" line="28" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__modm__architecture__accessor_1ga4b2a48bfd556ea5005ecff1f4eec15a0" prot="public" static="no">
+        <name>FLASH_STORAGE_STRING</name>
+        <param><defname>s</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Define a flash string </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" line="32" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__modm__architecture__accessor_1ga4a73026e5059235b8a9157c455392e4b" prot="public" static="no">
+        <name>EXTERN_FLASH_STORAGE_STRING</name>
+        <param><defname>s</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Declare a flash string with external linkage </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" line="36" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__modm__architecture__accessor_1ga05ca900ebf7cd121be73c654d9ccb3eb" prot="public" static="no">
+        <name>PSTR</name>
+        <param><defname>s</defname></param>
+        <initializer>((const char *)(s))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Declare a flash string inline </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" line="40" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="accessor__flash_8hpp_1a4a013820eea017960ef18c933a8981a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classmodm_1_1_i_o_stream" kindref="compound">modm::IOStream</ref> &amp;</type>
+        <definition>modm::IOStream&amp; operator&lt;&lt;</definition>
+        <argsstring>(modm::IOStream &amp;os, modm::accessor::Flash&lt; T &gt; ptr)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type><ref refid="classmodm_1_1_i_o_stream" kindref="compound">modm::IOStream</ref> &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classmodm_1_1accessor_1_1_flash" kindref="compound">modm::accessor::Flash</ref>&lt; T &gt;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" line="189" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="group__modm__architecture__accessor_1ga52cdbd459821b1a49c6bf62b44b0e75f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmodm_1_1_i_o_stream" kindref="compound">modm::IOStream</ref> &amp;</type>
+        <definition>static modm::IOStream&amp; operator&lt;&lt;</definition>
+        <argsstring>(modm::IOStream &amp;os, modm::accessor::Flash&lt; char &gt; ptr)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type><ref refid="classmodm_1_1_i_o_stream" kindref="compound">modm::IOStream</ref> &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classmodm_1_1accessor_1_1_flash" kindref="compound">modm::accessor::Flash</ref>&lt; char &gt;</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Streamoperator - specialization for <computeroutput>char</computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" line="196" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp" bodystart="197" bodyend="204"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/accessor_flash.hpp"/>
+  </compounddef>
+</doxygen>

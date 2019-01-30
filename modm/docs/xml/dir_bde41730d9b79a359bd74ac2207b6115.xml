@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_bde41730d9b79a359bd74ac2207b6115" kind="dir">
+    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils</compoundname>
+    <innerfile refid="bit__operation_8hpp">bit_operation.hpp</innerfile>
+    <innerfile refid="endianness_8hpp">endianness.hpp</innerfile>
+    <innerfile refid="misc_8hpp">misc.hpp</innerfile>
+    <innerfile refid="operator_8hpp">operator.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils/"/>
+  </compounddef>
+</doxygen>

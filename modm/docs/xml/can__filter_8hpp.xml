@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="can__filter_8hpp" kind="file" language="C++">
+    <compoundname>can_filter.hpp</compoundname>
+    <includes refid="can_8hpp" local="no">modm/architecture/interface/can.hpp</includes>
+    <includes refid="device_8hpp" local="yes">../device.hpp</includes>
+    <includedby refid="can__1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.hpp</includedby>
+    <includedby refid="platform_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</includedby>
+    <incdepgraph>
+      <node id="1742">
+        <label>../device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="1732" relation="include">
+        </childnode>
+        <childnode refid="1738" relation="include">
+        </childnode>
+        <childnode refid="1743" relation="include">
+        </childnode>
+        <childnode refid="1744" relation="include">
+        </childnode>
+      </node>
+      <node id="1739">
+        <label>stdarg.h</label>
+      </node>
+      <node id="1744">
+        <label>system_stm32f4xx.h</label>
+      </node>
+      <node id="1735">
+        <label>can_message.hpp</label>
+        <link refid="can__message_8hpp"/>
+        <childnode refid="1732" relation="include">
+        </childnode>
+        <childnode refid="1736" relation="include">
+        </childnode>
+        <childnode refid="1738" relation="include">
+        </childnode>
+      </node>
+      <node id="1732">
+        <label>stdint.h</label>
+      </node>
+      <node id="1736">
+        <label>modm/io/iostream.hpp</label>
+        <link refid="iostream_8hpp"/>
+        <childnode refid="1733" relation="include">
+        </childnode>
+        <childnode refid="1737" relation="include">
+        </childnode>
+        <childnode refid="1738" relation="include">
+        </childnode>
+        <childnode refid="1739" relation="include">
+        </childnode>
+        <childnode refid="1740" relation="include">
+        </childnode>
+        <childnode refid="1741" relation="include">
+        </childnode>
+      </node>
+      <node id="1737">
+        <label>modm/architecture/detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
+      <node id="1731">
+        <label>modm/architecture/interface/peripheral.hpp</label>
+        <link refid="peripheral_8hpp"/>
+        <childnode refid="1732" relation="include">
+        </childnode>
+        <childnode refid="1733" relation="include">
+        </childnode>
+        <childnode refid="1734" relation="include">
+        </childnode>
+      </node>
+      <node id="1740">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
+      <node id="1730">
+        <label>modm/architecture/interface/can.hpp</label>
+        <link refid="can_8hpp"/>
+        <childnode refid="1731" relation="include">
+        </childnode>
+        <childnode refid="1735" relation="include">
+        </childnode>
+      </node>
+      <node id="1733">
+        <label>cstddef</label>
+      </node>
+      <node id="1734">
+        <label>modm/math/tolerance.hpp</label>
+        <link refid="tolerance_8hpp"/>
+        <childnode refid="1732" relation="include">
+        </childnode>
+      </node>
+      <node id="1738">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="1737" relation="include">
+        </childnode>
+      </node>
+      <node id="1729">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp</label>
+        <link refid="can__filter_8hpp"/>
+        <childnode refid="1730" relation="include">
+        </childnode>
+        <childnode refid="1742" relation="include">
+        </childnode>
+      </node>
+      <node id="1743">
+        <label>stm32f446xx.h</label>
+      </node>
+      <node id="1741">
+        <label>iodevice_wrapper.hpp</label>
+        <link refid="iodevice__wrapper_8hpp"/>
+        <childnode refid="1732" relation="include">
+        </childnode>
+        <childnode refid="1740" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1746">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.hpp</label>
+        <link refid="can__1_8hpp"/>
+        <childnode refid="1747" relation="include">
+        </childnode>
+      </node>
+      <node id="1745">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp</label>
+        <link refid="can__filter_8hpp"/>
+        <childnode refid="1746" relation="include">
+        </childnode>
+        <childnode refid="1747" relation="include">
+        </childnode>
+      </node>
+      <node id="1747">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <link refid="platform_8hpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classmodm_1_1platform_1_1_can_filter" prot="public">modm::platform::CanFilter</innerclass>
+    <innerclass refid="structmodm_1_1platform_1_1_can_filter_1_1_identifier" prot="private">modm::platform::CanFilter::Identifier</innerclass>
+    <innerclass refid="structmodm_1_1platform_1_1_can_filter_1_1_extended_identifier" prot="public">modm::platform::CanFilter::ExtendedIdentifier</innerclass>
+    <innerclass refid="structmodm_1_1platform_1_1_can_filter_1_1_extended_filter_mask" prot="public">modm::platform::CanFilter::ExtendedFilterMask</innerclass>
+    <innerclass refid="structmodm_1_1platform_1_1_can_filter_1_1_standard_identifier" prot="public">modm::platform::CanFilter::StandardIdentifier</innerclass>
+    <innerclass refid="structmodm_1_1platform_1_1_can_filter_1_1_standard_filter_mask" prot="public">modm::platform::CanFilter::StandardFilterMask</innerclass>
+    <innerclass refid="structmodm_1_1platform_1_1_can_filter_1_1_identifier_short" prot="private">modm::platform::CanFilter::IdentifierShort</innerclass>
+    <innerclass refid="structmodm_1_1platform_1_1_can_filter_1_1_extended_identifier_short" prot="public">modm::platform::CanFilter::ExtendedIdentifierShort</innerclass>
+    <innerclass refid="structmodm_1_1platform_1_1_can_filter_1_1_extended_filter_mask_short" prot="public">modm::platform::CanFilter::ExtendedFilterMaskShort</innerclass>
+    <innerclass refid="structmodm_1_1platform_1_1_can_filter_1_1_standard_identifier_short" prot="public">modm::platform::CanFilter::StandardIdentifierShort</innerclass>
+    <innerclass refid="structmodm_1_1platform_1_1_can_filter_1_1_standard_filter_mask_short" prot="public">modm::platform::CanFilter::StandardFilterMaskShort</innerclass>
+    <innernamespace refid="namespacemodm">modm</innernamespace>
+    <innernamespace refid="namespacemodm_1_1platform">modm::platform</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp"/>
+  </compounddef>
+</doxygen>

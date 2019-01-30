@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="group__modm__architecture__clock" kind="group">
+    <compoundname>modm_architecture_clock</compoundname>
+    <title>System Tick</title>
+    <innerclass refid="classmodm_1_1_clock" prot="public">modm::Clock</innerclass>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="group__modm__architecture__clock_1ga6ed237157d3bb334824538d78e600728" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr int</type>
+        <definition>static constexpr int modm::clock::MHz</definition>
+        <argsstring>(int f)</argsstring>
+        <name>MHz</name>
+        <param>
+          <type>int</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" line="126" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="group__modm__architecture__clock_1gad06881c41a76a27ff5cbed951ffed24c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__modm__architecture_1gaaf72ffc3478c48b7c7a5eb122295fdc3" kindref="member">modm_unused</ref> constexpr uint32_t</type>
+        <definition>static modm_unused constexpr uint32_t modm::clock::u32MHz</definition>
+        <argsstring>(int f)</argsstring>
+        <name>u32MHz</name>
+        <param>
+          <type>int</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" line="130" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="group__modm__architecture__clock_1ga0a233cf3f27a5e9bd773f343962bdbef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr int</type>
+        <definition>static constexpr int modm::clock::kHz</definition>
+        <argsstring>(int f)</argsstring>
+        <name>kHz</name>
+        <param>
+          <type>int</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" line="133" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="group__modm__architecture__clock_1gaa482630d6af48801031b508d7c656245" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__modm__architecture_1gaaf72ffc3478c48b7c7a5eb122295fdc3" kindref="member">modm_unused</ref> constexpr uint32_t</type>
+        <definition>static modm_unused constexpr uint32_t modm::clock::u32kHz</definition>
+        <argsstring>(int f)</argsstring>
+        <name>u32kHz</name>
+        <param>
+          <type>int</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" line="137" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="group__modm__architecture__clock_1ga391fcb920fcef411eab39e76014bf1c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="group__modm__architecture_1gaaf72ffc3478c48b7c7a5eb122295fdc3" kindref="member">modm_unused</ref> constexpr int</type>
+        <definition>static modm_unused constexpr int modm::clock::Hz</definition>
+        <argsstring>(int f)</argsstring>
+        <name>Hz</name>
+        <param>
+          <type>int</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" line="141" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" bodystart="141" bodyend="141"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__modm__architecture__clock_1gaee2277fcb04e2375aab356c0154b551b" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Frequency</name>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba8122541fe6b667765f98bc1f26caea48" prot="public">
+          <name>HzDontCare</name>
+          <initializer>=         -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551babba75749f4b0013f6bbb098b7a054ca9" prot="public">
+          <name>Hz1</name>
+          <initializer>= static_cast&lt;uint32_t&gt;(1)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551bab9132d6f5b8a5abf64d70b379d2e1d7f" prot="public">
+          <name>kHz1</name>
+          <initializer>= 1000 *  Hz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba49f66e71ea17ee9bd90080be1e0b0567" prot="public">
+          <name>kHz10</name>
+          <initializer>=   10 * kHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba61c82cc30e09e808260ce22fd6633075" prot="public">
+          <name>kHz20</name>
+          <initializer>=   20 * kHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba0613d83c4fc41cd8dad80e16675d3abe" prot="public">
+          <name>kHz32</name>
+          <initializer>=   32 * kHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551baf22b383d728bf16c060803043bab7419" prot="public">
+          <name>kHz40</name>
+          <initializer>=   40 * kHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba3843bb60a94653325d2437c3acd23a52" prot="public">
+          <name>kHz50</name>
+          <initializer>=   50 * kHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba7c745229229fd1a5297c3b274b2c7c62" prot="public">
+          <name>kHz100</name>
+          <initializer>=  100 * kHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551baf08fc36d901c549ec7f4220ef7fb4e72" prot="public">
+          <name>kHz125</name>
+          <initializer>=  125 * kHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551baf8ee2e2063cd135a58c06fce8538060e" prot="public">
+          <name>kHz250</name>
+          <initializer>=  250 * kHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba60097fb470d466794e5b414efb8195ab" prot="public">
+          <name>kHz500</name>
+          <initializer>=  500 * kHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba04dcdf5914a952ff9b6f089b459adbe7" prot="public">
+          <name>MHz1</name>
+          <initializer>= 1000 * kHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba9350882c9102ac0fd8503a6d7a8fc231" prot="public">
+          <name>MHz2</name>
+          <initializer>=    2 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba5f18702f091ced097daade217821485b" prot="public">
+          <name>MHz4</name>
+          <initializer>=    4 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551badf30d6a5bab71159f3f8239ef813c1d7" prot="public">
+          <name>MHz8</name>
+          <initializer>=    8 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba3aece406fe0a19c67bc28cc5b4a9a2e6" prot="public">
+          <name>MHz10</name>
+          <initializer>=   10 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba33165db719e3d57fe5eacb1b62000b97" prot="public">
+          <name>MHz12</name>
+          <initializer>=   12 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba197f5f6e5e1978af037a83b8eccda6dd" prot="public">
+          <name>MHz16</name>
+          <initializer>=   16 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba0b710e31fd70e2cc46d935b307e0ea29" prot="public">
+          <name>MHz17</name>
+          <initializer>=   17 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba7f14b6dd13f74599f54430b102a85001" prot="public">
+          <name>MHz18</name>
+          <initializer>=   18 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba92fb17564893e7b227eedb565fe7d6f9" prot="public">
+          <name>MHz20</name>
+          <initializer>=   20 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba8e7f455b103885de2094b24888d12ebd" prot="public">
+          <name>MHz24</name>
+          <initializer>=   24 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba9bf7bf84e1a7c85497d5823ce2a98a3e" prot="public">
+          <name>MHz25</name>
+          <initializer>=   25 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba674e70d6db17a47f836536ca69b9b851" prot="public">
+          <name>MHz26</name>
+          <initializer>=   26 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551bac2079769456013cc39e02619fddf2361" prot="public">
+          <name>MHz30</name>
+          <initializer>=   30 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551bafa0159a8f4a17aefa4c368274389602c" prot="public">
+          <name>MHz32</name>
+          <initializer>=   32 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551bab84ad6b3777db833c2df915b4db94d9e" prot="public">
+          <name>MHz36</name>
+          <initializer>=   36 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba172aba3072b5496cb831aae09ff0db2a" prot="public">
+          <name>MHz40</name>
+          <initializer>=   40 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba18605899dac7c57c0c76a11961edba89" prot="public">
+          <name>MHz42</name>
+          <initializer>=   42 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba10d52d673bf88c8eaf585576ea2a6df9" prot="public">
+          <name>MHz48</name>
+          <initializer>=   48 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba744c68410a652ab2d4baa12aaa579d14" prot="public">
+          <name>MHz50</name>
+          <initializer>=   50 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba2471d211cf21fbbe8c99433568ce51f7" prot="public">
+          <name>MHz80</name>
+          <initializer>=   80 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551baa4003965b390e09ab98d1cbb21e70e9d" prot="public">
+          <name>MHz64</name>
+          <initializer>=   64 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba4e1c014e7e7839ab39d284b501a5ba45" prot="public">
+          <name>MHz72</name>
+          <initializer>=   72 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba64c510f3680ad743217750a17ca071d3" prot="public">
+          <name>MHz84</name>
+          <initializer>=   84 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba1a65b9ffb49bc1ea88ea093b3c12164f" prot="public">
+          <name>MHz100</name>
+          <initializer>=  100 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551bac00b203ebc5e88e3a873bc7a7f9baf6e" prot="public">
+          <name>MHz120</name>
+          <initializer>=  120 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba8c0dac84c521f55ab3a4d07e3a1d22a8" prot="public">
+          <name>MHz168</name>
+          <initializer>=  168 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba92c4304a18a3811cbb6f179bb39a1dbb" prot="public">
+          <name>MHz180</name>
+          <initializer>=  180 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551baadf8918fe206f6c417731b85611155eb" prot="public">
+          <name>MHz192</name>
+          <initializer>=  192 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba1745ceaaf54b0ee93b2a5cee168a2713" prot="public">
+          <name>MHz200</name>
+          <initializer>=  200 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba214ef541cda35e7982a26551aa853028" prot="public">
+          <name>MHz216</name>
+          <initializer>=  216 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__modm__architecture__clock_1ggaee2277fcb04e2375aab356c0154b551ba28be8df14730600ed1e71ca61dd24d9b" prot="public">
+          <name>MHz432</name>
+          <initializer>=  432 * MHz1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Frequencies enum to make code more readable for common frequencies (in kHz). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" line="76" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/clock.hpp" bodystart="75" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

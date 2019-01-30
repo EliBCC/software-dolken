@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacemodm_1_1cortex" kind="namespace" language="C++">
+    <compoundname>modm::cortex</compoundname>
+    <innerclass refid="classmodm_1_1cortex_1_1_sys_tick_timer" prot="public">modm::cortex::SysTickTimer</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacemodm_1_1cortex_1a0037de8ab44c5c1432c86bd2c6b1a067" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* modm::cortex::InterruptHandler) (void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>InterruptHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/systick_timer.hpp" line="26" column="1" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/systick_timer.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/systick_timer.hpp" line="24" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe 
+Build flags: ;;;;-mcpu=cortex-m4;;;;;-mfloat-abi=hard;;;;;-mfpu=fpv4-sp-d16;;;;;-mthumb;;;;;;-fdata-sections;;;;;-ffunction-sections;;;;;-finline-limit=10000;;;;;-fshort-wchar;;;;;-fsingle-precision-constant;;;;;-funsigned-bitfields;;;;;-funsigned-char;;;;;-fwrapv;;;;;-g3;;;;;-gdwarf;;;;;-W;;;;;-Wall;;;;;-Wdouble-promotion;;;;;-Wduplicated-cond;;;;;-Werror=format;;;;;-Werror=maybe-uninitialized;;;;;-Werror=overflow;;;;;-Werror=sign-compare;;;;;-Wextra;;;;;-Wlogical-op;;;;;-Wpointer-arith;;;;;-Wundef;;;;;;-std=gnu11;;;;;-Wbad-function-cast;;;;;-Wimplicit;;;;;-Wnested-externs;;;;;-Wredundant-decls;;;;;-Wstrict-prototypes;
+Id flags:  
+
+The output was:
+1
+c:/users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: C:\Users\jakob\AppData\Local\Temp\ccueiMkE.o uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+c:/users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libg.a(lib_a-exit.o): In function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe 
+Build flags: ;;;;-mcpu=cortex-m4;;;;;-mfloat-abi=hard;;;;;-mfpu=fpv4-sp-d16;;;;;-mthumb;;;;;;-fdata-sections;;;;;-ffunction-sections;;;;;-finline-limit=10000;;;;;-fshort-wchar;;;;;-fsingle-precision-constant;;;;;-funsigned-bitfields;;;;;-funsigned-char;;;;;-fwrapv;;;;;-g3;;;;;-gdwarf;;;;;-W;;;;;-Wall;;;;;-Wdouble-promotion;;;;;-Wduplicated-cond;;;;;-Werror=format;;;;;-Werror=maybe-uninitialized;;;;;-Werror=overflow;;;;;-Werror=sign-compare;;;;;-Wextra;;;;;-Wlogical-op;;;;;-Wpointer-arith;;;;;-Wundef;;;;;;-fno-exceptions;;;;;-fno-rtti;;;;;-fno-threadsafe-statics;;;;;-fno-unwind-tables;;;;;-fstrict-enums;;;;;-fuse-cxa-atexit;;;;;-std=c++17;;;;;-Woverloaded-virtual;
+Id flags:  
+
+The output was:
+1
+c:/users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: C:\Users\jakob\AppData\Local\Temp\ccmgT6O6.o uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+c:/users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libg.a(lib_a-exit.o): In function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+

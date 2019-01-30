@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="todo" kind="page">
+    <compoundname>todo</compoundname>
+    <title>Todo List</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><variablelist>
+<varlistentry><term><anchor id="todo_1_todo000001"/>Class <ref refid="classmodm_1_1atomic_1_1_queue" kindref="compound">modm::atomic::Queue&lt; T, N &gt;</ref>  </term></varlistentry>
+<listitem><para>This implementation should work but could be improved  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000002"/>Class <ref refid="classmodm_1_1_bounded_deque_1_1const__iterator" kindref="compound">modm::BoundedDeque&lt; T, N &gt;::const_iterator</ref>  </term></varlistentry>
+<listitem><para>check if a simpler implementation is possible  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000004"/>Class <ref refid="classmodm_1_1_doubly_linked_list_1_1const__iterator" kindref="compound">modm::DoublyLinkedList&lt; T, Allocator &gt;::const_iterator</ref>  </term></varlistentry>
+<listitem><para>decrement operator doesn&apos;t work correctly  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000003"/>Class <ref refid="classmodm_1_1_doubly_linked_list_1_1iterator" kindref="compound">modm::DoublyLinkedList&lt; T, Allocator &gt;::iterator</ref>  </term></varlistentry>
+<listitem><para>decrement operator doesn&apos;t work correctly  </para></listitem>
+<varlistentry><term><anchor id="todo_1_todo000005"/>Class <ref refid="classmodm_1_1_linked_list" kindref="compound">modm::LinkedList&lt; T, Allocator &gt;</ref>  </term></varlistentry>
+<listitem><para>implementation</para></listitem>
+</variablelist>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

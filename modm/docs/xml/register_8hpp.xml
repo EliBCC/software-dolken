@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="register_8hpp" kind="file" language="C++">
+    <compoundname>register.hpp</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes refid="bit__constants_8hpp" local="no">modm/utils/bit_constants.hpp</includes>
+    <includes refid="detect_8hpp" local="no">modm/architecture/detect.hpp</includes>
+    <includes refid="iostream_8hpp" local="no">modm/io/iostream.hpp</includes>
+    <includedby refid="memory_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/memory.hpp</includedby>
+    <includedby refid="spi__base_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_base.hpp</includedby>
+    <includedby refid="uart__base_8hpp" local="no">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_base.hpp</includedby>
+    <incdepgraph>
+      <node id="763">
+        <label>stdarg.h</label>
+      </node>
+      <node id="756">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp</label>
+        <link refid="register_8hpp"/>
+        <childnode refid="757" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
+        </childnode>
+        <childnode refid="759" relation="include">
+        </childnode>
+        <childnode refid="760" relation="include">
+        </childnode>
+      </node>
+      <node id="757">
+        <label>stdint.h</label>
+      </node>
+      <node id="760">
+        <label>modm/io/iostream.hpp</label>
+        <link refid="iostream_8hpp"/>
+        <childnode refid="761" relation="include">
+        </childnode>
+        <childnode refid="759" relation="include">
+        </childnode>
+        <childnode refid="762" relation="include">
+        </childnode>
+        <childnode refid="763" relation="include">
+        </childnode>
+        <childnode refid="764" relation="include">
+        </childnode>
+        <childnode refid="765" relation="include">
+        </childnode>
+      </node>
+      <node id="759">
+        <label>modm/architecture/detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
+      <node id="764">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
+      <node id="758">
+        <label>modm/utils/bit_constants.hpp</label>
+        <link refid="bit__constants_8hpp"/>
+        <childnode refid="757" relation="include">
+        </childnode>
+      </node>
+      <node id="761">
+        <label>cstddef</label>
+      </node>
+      <node id="762">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="759" relation="include">
+        </childnode>
+      </node>
+      <node id="765">
+        <label>iodevice_wrapper.hpp</label>
+        <link refid="iodevice__wrapper_8hpp"/>
+        <childnode refid="757" relation="include">
+        </childnode>
+        <childnode refid="764" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="769">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_hal_1.hpp</label>
+        <link refid="spi__hal__1_8hpp"/>
+        <childnode refid="770" relation="include">
+        </childnode>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="766">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp</label>
+        <link refid="register_8hpp"/>
+        <childnode refid="767" relation="include">
+        </childnode>
+        <childnode refid="768" relation="include">
+        </childnode>
+        <childnode refid="774" relation="include">
+        </childnode>
+      </node>
+      <node id="772">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_hal_2.hpp</label>
+        <link refid="spi__hal__2_8hpp"/>
+        <childnode refid="773" relation="include">
+        </childnode>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="777">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</label>
+        <link refid="uart__hal__1_8hpp"/>
+        <childnode refid="775" relation="include">
+        </childnode>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="779">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</label>
+        <link refid="uart__hal__2_8hpp"/>
+        <childnode refid="778" relation="include">
+        </childnode>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="775">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
+        <link refid="uart__1_8hpp"/>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="776">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
+        <link refid="uart__baudrate_8hpp"/>
+        <childnode refid="775" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+        <childnode refid="778" relation="include">
+        </childnode>
+        <childnode refid="779" relation="include">
+        </childnode>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="774">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_base.hpp</label>
+        <link refid="uart__base_8hpp"/>
+        <childnode refid="775" relation="include">
+        </childnode>
+        <childnode refid="776" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+        <childnode refid="778" relation="include">
+        </childnode>
+        <childnode refid="779" relation="include">
+        </childnode>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="773">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <link refid="spi__master__2_8hpp"/>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="778">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
+        <link refid="uart__2_8hpp"/>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="767">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/memory.hpp</label>
+        <link refid="memory_8hpp"/>
+      </node>
+      <node id="768">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_base.hpp</label>
+        <link refid="spi__base_8hpp"/>
+        <childnode refid="769" relation="include">
+        </childnode>
+        <childnode refid="772" relation="include">
+        </childnode>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+      <node id="771">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <link refid="platform_8hpp"/>
+      </node>
+      <node id="770">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
+        <link refid="spi__master__1_8hpp"/>
+        <childnode refid="771" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structmodm_1_1_register" prot="public">modm::Register</innerclass>
+    <innerclass refid="structmodm_1_1_flags_operators" prot="public">modm::FlagsOperators</innerclass>
+    <innerclass refid="structmodm_1_1_flags" prot="public">modm::Flags</innerclass>
+    <innerclass refid="structmodm_1_1_flags_group_3_01_t_8_8_8_01_4" prot="public">modm::FlagsGroup&lt; T... &gt;</innerclass>
+    <innerclass refid="structmodm_1_1_configuration" prot="public">modm::Configuration</innerclass>
+    <innerclass refid="structmodm_1_1_value" prot="public">modm::Value</innerclass>
+    <innernamespace refid="namespacemodm">modm</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="group__modm__architecture__register_1ga7e44b28c63d4d9235b48f814a9becc10" prot="public" static="no">
+        <name>MODM_FLAGS8</name>
+        <param><defname>Enum</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This macro creates a Flags8 class with the enum class provided and adds the required bitwise <computeroutput>(Enum op Enum)</computeroutput> operator overloads for it The resulting Flags8 class type will have the signature <computeroutput>Enum_t</computeroutput>.</para><para><simplesect kind="warning"><para>This macro only works properly <bold>inside</bold> of a struct or class. </para></simplesect>
+<simplesect kind="see"><para><ref refid="group__modm__architecture__register_1ga0fd05bf2b80fcbe189a29fb7599ba868" kindref="member">MODM_TYPE_FLAGS</ref></para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Enum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a strongly-typed enum containing the bit masks </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp" line="698" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp" bodystart="698" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__modm__architecture__register_1ga504f6a42eaea7ddf9c21c18d79694f80" prot="public" static="no">
+        <name>MODM_FLAGS16</name>
+        <param><defname>Enum</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This macro creates a Flags16 class with the enum class provided and adds the required bitwise <computeroutput>(Enum op Enum)</computeroutput> operator overloads for it. The resulting Flags16 class type will have the signature <computeroutput>Enum_t</computeroutput>.</para><para><simplesect kind="warning"><para>This macro only works properly <bold>inside</bold> of a struct or class. </para></simplesect>
+<simplesect kind="see"><para><ref refid="group__modm__architecture__register_1ga0fd05bf2b80fcbe189a29fb7599ba868" kindref="member">MODM_TYPE_FLAGS</ref></para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Enum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a strongly-typed enum containing the bit masks </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp" line="716" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp" bodystart="716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__modm__architecture__register_1ga37de536c84e4014ca93a0c771ae8b07f" prot="public" static="no">
+        <name>MODM_FLAGS32</name>
+        <param><defname>Enum</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This macro creates a Flags32 class with the enum class provided and adds the required bitwise <computeroutput>(Enum op Enum)</computeroutput> operator overloads for it. The resulting Flags32 class type will have the signature <computeroutput>Enum_t</computeroutput>.</para><para><simplesect kind="warning"><para>This macro only works properly <bold>inside</bold> of a struct or class. </para></simplesect>
+<simplesect kind="see"><para><ref refid="group__modm__architecture__register_1ga0fd05bf2b80fcbe189a29fb7599ba868" kindref="member">MODM_TYPE_FLAGS</ref></para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Enum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a strongly-typed enum containing the bit masks </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp" line="734" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp" bodystart="734" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group__modm__architecture__register_1ga0fd05bf2b80fcbe189a29fb7599ba868" prot="public" static="no">
+        <name>MODM_TYPE_FLAGS</name>
+        <param><defname>Parent</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This macro creates bitwise <computeroutput>(Parent::EnumType op Parent::EnumType)</computeroutput> operator overloads for use with the Flags class.</para><para><simplesect kind="warning"><para>This macro only works properly <bold>outside</bold> of a struct or class.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a Flags class </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp" line="750" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp" bodystart="750" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/interface/register.hpp"/>
+  </compounddef>
+</doxygen>

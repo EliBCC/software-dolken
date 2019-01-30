@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+42e1a59deb6b6910de2989d2b32d02f5 CMakeFiles/mainboard.bin
+e14e6555c39d9c39464fdcd00ed2bc09 CMakeFiles/mainboard.hex
+078f49a500dee45f9aab54a20183212a CMakeFiles/mainboard.lss

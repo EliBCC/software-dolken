@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="math_2utils_8hpp" kind="file" language="C++">
+    <compoundname>utils.hpp</compoundname>
+    <includes refid="misc_8hpp" local="yes">utils/misc.hpp</includes>
+    <includes refid="bit__operation_8hpp" local="yes">utils/bit_operation.hpp</includes>
+    <includes refid="operator_8hpp" local="yes">utils/operator.hpp</includes>
+    <includes refid="endianness_8hpp" local="yes">utils/endianness.hpp</includes>
+    <includedby refid="math_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math.hpp</includedby>
+    <incdepgraph>
+      <node id="963">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils.hpp</label>
+        <link refid="math_2utils_8hpp"/>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="971" relation="include">
+        </childnode>
+        <childnode refid="973" relation="include">
+        </childnode>
+      </node>
+      <node id="967">
+        <label>stdint.h</label>
+      </node>
+      <node id="966">
+        <label>cmath</label>
+      </node>
+      <node id="969">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
+      <node id="965">
+        <label>cstddef</label>
+      </node>
+      <node id="964">
+        <label>utils/misc.hpp</label>
+        <link refid="misc_8hpp"/>
+        <childnode refid="965" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+      </node>
+      <node id="971">
+        <label>utils/operator.hpp</label>
+        <link refid="operator_8hpp"/>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+      </node>
+      <node id="968">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="969" relation="include">
+        </childnode>
+      </node>
+      <node id="970">
+        <label>utils/bit_operation.hpp</label>
+        <link refid="bit__operation_8hpp"/>
+        <childnode refid="965" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+      </node>
+      <node id="973">
+        <label>utils/endianness.hpp</label>
+        <link refid="endianness_8hpp"/>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+      </node>
+      <node id="972">
+        <label>operator_impl.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="974">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils.hpp</label>
+        <link refid="math_2utils_8hpp"/>
+        <childnode refid="975" relation="include">
+        </childnode>
+      </node>
+      <node id="975">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math.hpp</label>
+        <link refid="math_8hpp"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/math/utils.hpp"/>
+  </compounddef>
+</doxygen>

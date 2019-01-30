@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="utils_8hpp" kind="file" language="C++">
+    <compoundname>utils.hpp</compoundname>
+    <includes refid="architecture_2utils_8hpp" local="no">modm/architecture/utils.hpp</includes>
+    <includes refid="allocator_8hpp" local="yes">utils/allocator.hpp</includes>
+    <includes refid="arithmetic__traits_8hpp" local="yes">utils/arithmetic_traits.hpp</includes>
+    <includes refid="dummy_8hpp" local="yes">utils/dummy.hpp</includes>
+    <includes refid="bit__constants_8hpp" local="yes">utils/bit_constants.hpp</includes>
+    <incdepgraph>
+      <node id="988">
+        <label>limits</label>
+      </node>
+      <node id="976">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils.hpp</label>
+        <link refid="utils_8hpp"/>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="992" relation="include">
+        </childnode>
+      </node>
+      <node id="987">
+        <label>cstdint</label>
+      </node>
+      <node id="984">
+        <label>allocator/static.hpp</label>
+        <link refid="static_8hpp"/>
+        <childnode refid="981" relation="include">
+        </childnode>
+      </node>
+      <node id="993">
+        <label>stdint.h</label>
+      </node>
+      <node id="990">
+        <label>cmath</label>
+      </node>
+      <node id="985">
+        <label>allocator/block.hpp</label>
+        <link refid="block_8hpp"/>
+        <childnode refid="981" relation="include">
+        </childnode>
+      </node>
+      <node id="981">
+        <label>allocator_base.hpp</label>
+        <link refid="allocator__base_8hpp"/>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="983" relation="include">
+        </childnode>
+      </node>
+      <node id="980">
+        <label>allocator/dynamic.hpp</label>
+        <link refid="dynamic_8hpp"/>
+        <childnode refid="981" relation="include">
+        </childnode>
+      </node>
+      <node id="991">
+        <label>utils/dummy.hpp</label>
+        <link refid="dummy_8hpp"/>
+      </node>
+      <node id="979">
+        <label>utils/allocator.hpp</label>
+        <link refid="allocator_8hpp"/>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+      </node>
+      <node id="983">
+        <label>new</label>
+      </node>
+      <node id="978">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
+      <node id="992">
+        <label>utils/bit_constants.hpp</label>
+        <link refid="bit__constants_8hpp"/>
+        <childnode refid="993" relation="include">
+        </childnode>
+      </node>
+      <node id="982">
+        <label>cstddef</label>
+      </node>
+      <node id="977">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="978" relation="include">
+        </childnode>
+      </node>
+      <node id="989">
+        <label>type_traits</label>
+      </node>
+      <node id="986">
+        <label>utils/arithmetic_traits.hpp</label>
+        <link refid="arithmetic__traits_8hpp"/>
+        <childnode refid="987" relation="include">
+        </childnode>
+        <childnode refid="988" relation="include">
+        </childnode>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="990" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils.hpp"/>
+  </compounddef>
+</doxygen>

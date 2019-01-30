@@ -1,0 +1,557 @@
+The target system is: Generic -  - arm
+The host system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe 
+Build flags: ;;;;-mcpu=cortex-m4;;;;;-mfloat-abi=hard;;;;;-mfpu=fpv4-sp-d16;;;;;-mthumb;;;;;;-fdata-sections;;;;;-ffunction-sections;;;;;-finline-limit=10000;;;;;-fshort-wchar;;;;;-fsingle-precision-constant;;;;;-funsigned-bitfields;;;;;-funsigned-char;;;;;-fwrapv;;;;;-g3;;;;;-gdwarf;;;;;-W;;;;;-Wall;;;;;-Wdouble-promotion;;;;;-Wduplicated-cond;;;;;-Werror=format;;;;;-Werror=maybe-uninitialized;;;;;-Werror=overflow;;;;;-Werror=sign-compare;;;;;-Wextra;;;;;-Wlogical-op;;;;;-Wpointer-arith;;;;;-Wundef;;;;;;-std=gnu11;;;;;-Wbad-function-cast;;;;;-Wimplicit;;;;;-Wnested-externs;;;;;-Wredundant-decls;;;;;-Wstrict-prototypes;
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/3.12.4/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe 
+Build flags: ;;;;-mcpu=cortex-m4;;;;;-mfloat-abi=hard;;;;;-mfpu=fpv4-sp-d16;;;;;-mthumb;;;;;;-fdata-sections;;;;;-ffunction-sections;;;;;-finline-limit=10000;;;;;-fshort-wchar;;;;;-fsingle-precision-constant;;;;;-funsigned-bitfields;;;;;-funsigned-char;;;;;-fwrapv;;;;;-g3;;;;;-gdwarf;;;;;-W;;;;;-Wall;;;;;-Wdouble-promotion;;;;;-Wduplicated-cond;;;;;-Werror=format;;;;;-Werror=maybe-uninitialized;;;;;-Werror=overflow;;;;;-Werror=sign-compare;;;;;-Wextra;;;;;-Wlogical-op;;;;;-Wpointer-arith;;;;;-Wundef;;;;;;-fno-exceptions;;;;;-fno-rtti;;;;;-fno-threadsafe-statics;;;;;-fno-unwind-tables;;;;;-fstrict-enums;;;;;-fuse-cxa-atexit;;;;;-std=c++17;;;;;-Woverloaded-virtual;
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/3.12.4/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_bdf54/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_bdf54.dir/build.make CMakeFiles/cmTC_bdf54.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdf54.dir/testCCompiler.c.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe   -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -std=gnu11     -Wbad-function-cast     -Wimplicit     -Wnested-externs     -Wredundant-decls     -Wstrict-prototypes     -o CMakeFiles/cmTC_bdf54.dir/testCCompiler.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C static library libcmTC_bdf54.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_bdf54.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_bdf54.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_bdf54.a  CMakeFiles/cmTC_bdf54.dir/testCCompiler.c.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_bdf54.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_f0d98/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_f0d98.dir/build.make CMakeFiles/cmTC_f0d98.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f0d98.dir/CMakeCCompilerABI.c.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe   -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -std=gnu11     -Wbad-function-cast     -Wimplicit     -Wnested-externs     -Wredundant-decls     -Wstrict-prototypes     -o CMakeFiles/cmTC_f0d98.dir/CMakeCCompilerABI.c.obj   -c C:/Users/jakob/scoop/apps/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C static library libcmTC_f0d98.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_f0d98.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_f0d98.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_f0d98.a  CMakeFiles/cmTC_f0d98.dir/CMakeCCompilerABI.c.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_f0d98.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-g\+\+\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_f0d98/fast"]
+  ignore line: [make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp']
+  ignore line: [C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_f0d98.dir/build.make CMakeFiles/cmTC_f0d98.dir/build]
+  ignore line: [make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f0d98.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe   -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -std=gnu11     -Wbad-function-cast     -Wimplicit     -Wnested-externs     -Wredundant-decls     -Wstrict-prototypes     -o CMakeFiles/cmTC_f0d98.dir/CMakeCCompilerABI.c.obj   -c C:/Users/jakob/scoop/apps/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C static library libcmTC_f0d98.a]
+  ignore line: [C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_f0d98.dir/cmake_clean_target.cmake]
+  ignore line: [C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_f0d98.dir/link.txt --verbose=1]
+  ignore line: [C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_f0d98.a  CMakeFiles/cmTC_f0d98.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_f0d98.a]
+  ignore line: [make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_a26a1/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_a26a1.dir/build.make CMakeFiles/cmTC_a26a1.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a26a1.dir/feature_tests.c.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe   -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -std=gnu11     -Wbad-function-cast     -Wimplicit     -Wnested-externs     -Wredundant-decls     -Wstrict-prototypes     -std=c11 -o CMakeFiles/cmTC_a26a1.dir/feature_tests.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_a26a1.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_a26a1.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_a26a1.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_a26a1.a  CMakeFiles/cmTC_a26a1.dir/feature_tests.c.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_a26a1.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_46335/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_46335.dir/build.make CMakeFiles/cmTC_46335.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46335.dir/feature_tests.c.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe   -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -std=gnu11     -Wbad-function-cast     -Wimplicit     -Wnested-externs     -Wredundant-decls     -Wstrict-prototypes     -std=c99 -o CMakeFiles/cmTC_46335.dir/feature_tests.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_46335.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_46335.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_46335.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_46335.a  CMakeFiles/cmTC_46335.dir/feature_tests.c.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_46335.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_44f67/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_44f67.dir/build.make CMakeFiles/cmTC_44f67.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44f67.dir/feature_tests.c.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-gcc.exe   -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -std=gnu11     -Wbad-function-cast     -Wimplicit     -Wnested-externs     -Wredundant-decls     -Wstrict-prototypes     -std=c90 -o CMakeFiles/cmTC_44f67.dir/feature_tests.c.obj   -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/feature_tests.c
+Linking C static library libcmTC_44f67.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_44f67.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_44f67.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_44f67.a  CMakeFiles/cmTC_44f67.dir/feature_tests.c.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_44f67.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_ddb5c/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_ddb5c.dir/build.make CMakeFiles/cmTC_ddb5c.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ddb5c.dir/testCXXCompiler.cxx.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe    -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -fno-exceptions     -fno-rtti     -fno-threadsafe-statics     -fno-unwind-tables     -fstrict-enums     -fuse-cxa-atexit     -std=c++17     -Woverloaded-virtual     -o CMakeFiles/cmTC_ddb5c.dir/testCXXCompiler.cxx.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX static library libcmTC_ddb5c.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_ddb5c.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ddb5c.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_ddb5c.a  CMakeFiles/cmTC_ddb5c.dir/testCXXCompiler.cxx.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_ddb5c.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_1b4da/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_1b4da.dir/build.make CMakeFiles/cmTC_1b4da.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b4da.dir/CMakeCXXCompilerABI.cpp.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe    -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -fno-exceptions     -fno-rtti     -fno-threadsafe-statics     -fno-unwind-tables     -fstrict-enums     -fuse-cxa-atexit     -std=c++17     -Woverloaded-virtual     -o CMakeFiles/cmTC_1b4da.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/jakob/scoop/apps/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX static library libcmTC_1b4da.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_1b4da.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_1b4da.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_1b4da.a  CMakeFiles/cmTC_1b4da.dir/CMakeCXXCompilerABI.cpp.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_1b4da.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-g\+\+\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_1b4da/fast"]
+  ignore line: [make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp']
+  ignore line: [C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_1b4da.dir/build.make CMakeFiles/cmTC_1b4da.dir/build]
+  ignore line: [make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1b4da.dir/CMakeCXXCompilerABI.cpp.obj]
+  link line: [C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe    -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -fno-exceptions     -fno-rtti     -fno-threadsafe-statics     -fno-unwind-tables     -fstrict-enums     -fuse-cxa-atexit     -std=c++17     -Woverloaded-virtual     -o CMakeFiles/cmTC_1b4da.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/jakob/scoop/apps/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+    arg [C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe] ==> ignore
+    arg [-mcpu=cortex-m4] ==> ignore
+    arg [-mfloat-abi=hard] ==> ignore
+    arg [-mfpu=fpv4-sp-d16] ==> ignore
+    arg [-mthumb] ==> ignore
+    arg [-fdata-sections] ==> ignore
+    arg [-ffunction-sections] ==> ignore
+    arg [-finline-limit=10000] ==> ignore
+    arg [-fshort-wchar] ==> ignore
+    arg [-fsingle-precision-constant] ==> ignore
+    arg [-funsigned-bitfields] ==> ignore
+    arg [-funsigned-char] ==> ignore
+    arg [-fwrapv] ==> ignore
+    arg [-g3] ==> ignore
+    arg [-gdwarf] ==> ignore
+    arg [-W] ==> ignore
+    arg [-Wall] ==> ignore
+    arg [-Wdouble-promotion] ==> ignore
+    arg [-Wduplicated-cond] ==> ignore
+    arg [-Werror=format] ==> ignore
+    arg [-Werror=maybe-uninitialized] ==> ignore
+    arg [-Werror=overflow] ==> ignore
+    arg [-Werror=sign-compare] ==> ignore
+    arg [-Wextra] ==> ignore
+    arg [-Wlogical-op] ==> ignore
+    arg [-Wpointer-arith] ==> ignore
+    arg [-Wundef] ==> ignore
+    arg [-fno-exceptions] ==> ignore
+    arg [-fno-rtti] ==> ignore
+    arg [-fno-threadsafe-statics] ==> ignore
+    arg [-fno-unwind-tables] ==> ignore
+    arg [-fstrict-enums] ==> ignore
+    arg [-fuse-cxa-atexit] ==> ignore
+    arg [-std=c++17] ==> ignore
+    arg [-Woverloaded-virtual] ==> ignore
+    arg [-o] ==> ignore
+    arg [CMakeFiles/cmTC_1b4da.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-c] ==> ignore
+    arg [C:/Users/jakob/scoop/apps/cmake/3.12.4/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp] ==> ignore
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_3f5b1/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_3f5b1.dir/build.make CMakeFiles/cmTC_3f5b1.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f5b1.dir/feature_tests.cxx.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe    -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -fno-exceptions     -fno-rtti     -fno-threadsafe-statics     -fno-unwind-tables     -fstrict-enums     -fuse-cxa-atexit     -std=c++17     -Woverloaded-virtual     -std=c++1z -o CMakeFiles/cmTC_3f5b1.dir/feature_tests.cxx.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_3f5b1.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_3f5b1.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_3f5b1.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_3f5b1.a  CMakeFiles/cmTC_3f5b1.dir/feature_tests.cxx.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_3f5b1.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_a4917/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_a4917.dir/build.make CMakeFiles/cmTC_a4917.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a4917.dir/feature_tests.cxx.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe    -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -fno-exceptions     -fno-rtti     -fno-threadsafe-statics     -fno-unwind-tables     -fstrict-enums     -fuse-cxa-atexit     -std=c++17     -Woverloaded-virtual     -std=c++14 -o CMakeFiles/cmTC_a4917.dir/feature_tests.cxx.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_a4917.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_a4917.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_a4917.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_a4917.a  CMakeFiles/cmTC_a4917.dir/feature_tests.cxx.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_a4917.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_c42bd/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_c42bd.dir/build.make CMakeFiles/cmTC_c42bd.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c42bd.dir/feature_tests.cxx.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe    -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -fno-exceptions     -fno-rtti     -fno-threadsafe-statics     -fno-unwind-tables     -fstrict-enums     -fuse-cxa-atexit     -std=c++17     -Woverloaded-virtual     -std=c++11 -o CMakeFiles/cmTC_c42bd.dir/feature_tests.cxx.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_c42bd.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_c42bd.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c42bd.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_c42bd.a  CMakeFiles/cmTC_c42bd.dir/feature_tests.cxx.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_c42bd.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/jakob/scoop/shims/make.exe" "cmTC_8b53d/fast"
+make[1]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+C:/Users/jakob/scoop/apps/make/current/make -f CMakeFiles/cmTC_8b53d.dir/build.make CMakeFiles/cmTC_8b53d.dir/build
+make[2]: Entering directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b53d.dir/feature_tests.cxx.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-g++.exe    -mcpu=cortex-m4     -mfloat-abi=hard     -mfpu=fpv4-sp-d16     -mthumb      -fdata-sections     -ffunction-sections     -finline-limit=10000     -fshort-wchar     -fsingle-precision-constant     -funsigned-bitfields     -funsigned-char     -fwrapv     -g3     -gdwarf     -W     -Wall     -Wdouble-promotion     -Wduplicated-cond     -Werror=format     -Werror=maybe-uninitialized     -Werror=overflow     -Werror=sign-compare     -Wextra     -Wlogical-op     -Wpointer-arith     -Wundef      -fno-exceptions     -fno-rtti     -fno-threadsafe-statics     -fno-unwind-tables     -fstrict-enums     -fuse-cxa-atexit     -std=c++17     -Woverloaded-virtual     -std=c++98 -o CMakeFiles/cmTC_8b53d.dir/feature_tests.cxx.obj -c C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/feature_tests.cxx
+Linking CXX static library libcmTC_8b53d.a
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -P CMakeFiles/cmTC_8b53d.dir/cmake_clean_target.cmake
+C:/Users/jakob/scoop/apps/cmake/3.12.4/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8b53d.dir/link.txt --verbose=1
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ar.exe qc libcmTC_8b53d.a  CMakeFiles/cmTC_8b53d.dir/feature_tests.cxx.obj
+C:/Users/jakob/scoop/apps/gcc-arm-none-eabi/current/bin/arm-none-eabi-ranlib.exe libcmTC_8b53d.a
+make[2]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory 'C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

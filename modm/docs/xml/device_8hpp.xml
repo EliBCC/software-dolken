@@ -1,0 +1,2217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="device_8hpp" kind="file" language="C++">
+    <compoundname>device.hpp</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes refid="architecture_2utils_8hpp" local="no">modm/architecture/utils.hpp</includes>
+    <includes local="no">stm32f446xx.h</includes>
+    <includes local="no">system_stm32f4xx.h</includes>
+    <includedby refid="can__1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.hpp</includedby>
+    <includedby refid="can__filter_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp</includedby>
+    <includedby refid="platform_2clock_2clock_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/clock.hpp</includedby>
+    <includedby refid="base_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp</includedby>
+    <includedby refid="gpio___a0_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A0.hpp</includedby>
+    <includedby refid="set_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/set.hpp</includedby>
+    <includedby refid="gpio___a1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A1.hpp</includedby>
+    <includedby refid="gpio___a10_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A10.hpp</includedby>
+    <includedby refid="gpio___a11_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A11.hpp</includedby>
+    <includedby refid="gpio___a12_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A12.hpp</includedby>
+    <includedby refid="gpio___a13_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A13.hpp</includedby>
+    <includedby refid="gpio___a14_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A14.hpp</includedby>
+    <includedby refid="gpio___a15_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A15.hpp</includedby>
+    <includedby refid="gpio___a2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A2.hpp</includedby>
+    <includedby refid="gpio___a3_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A3.hpp</includedby>
+    <includedby refid="gpio___a4_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A4.hpp</includedby>
+    <includedby refid="gpio___a5_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A5.hpp</includedby>
+    <includedby refid="gpio___a6_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A6.hpp</includedby>
+    <includedby refid="gpio___a7_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A7.hpp</includedby>
+    <includedby refid="gpio___a8_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A8.hpp</includedby>
+    <includedby refid="gpio___a9_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A9.hpp</includedby>
+    <includedby refid="gpio___b0_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B0.hpp</includedby>
+    <includedby refid="gpio___b1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B1.hpp</includedby>
+    <includedby refid="gpio___b10_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B10.hpp</includedby>
+    <includedby refid="gpio___b12_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B12.hpp</includedby>
+    <includedby refid="gpio___b13_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B13.hpp</includedby>
+    <includedby refid="gpio___b14_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B14.hpp</includedby>
+    <includedby refid="gpio___b15_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B15.hpp</includedby>
+    <includedby refid="gpio___b2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B2.hpp</includedby>
+    <includedby refid="gpio___b3_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B3.hpp</includedby>
+    <includedby refid="gpio___b4_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B4.hpp</includedby>
+    <includedby refid="gpio___b5_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B5.hpp</includedby>
+    <includedby refid="gpio___b6_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B6.hpp</includedby>
+    <includedby refid="gpio___b7_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B7.hpp</includedby>
+    <includedby refid="gpio___b8_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B8.hpp</includedby>
+    <includedby refid="gpio___b9_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B9.hpp</includedby>
+    <includedby refid="gpio___c0_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C0.hpp</includedby>
+    <includedby refid="gpio___c1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C1.hpp</includedby>
+    <includedby refid="gpio___c10_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C10.hpp</includedby>
+    <includedby refid="gpio___c11_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C11.hpp</includedby>
+    <includedby refid="gpio___c12_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C12.hpp</includedby>
+    <includedby refid="gpio___c13_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C13.hpp</includedby>
+    <includedby refid="gpio___c14_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C14.hpp</includedby>
+    <includedby refid="gpio___c15_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C15.hpp</includedby>
+    <includedby refid="gpio___c2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C2.hpp</includedby>
+    <includedby refid="gpio___c3_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C3.hpp</includedby>
+    <includedby refid="gpio___c4_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C4.hpp</includedby>
+    <includedby refid="gpio___c5_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C5.hpp</includedby>
+    <includedby refid="gpio___c6_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C6.hpp</includedby>
+    <includedby refid="gpio___c7_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C7.hpp</includedby>
+    <includedby refid="gpio___c8_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C8.hpp</includedby>
+    <includedby refid="gpio___c9_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C9.hpp</includedby>
+    <includedby refid="gpio___d2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_D2.hpp</includedby>
+    <includedby refid="gpio___h0_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_H0.hpp</includedby>
+    <includedby refid="gpio___h1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_H1.hpp</includedby>
+    <includedby refid="i2c__master__1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</includedby>
+    <includedby refid="i2c__master__2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</includedby>
+    <includedby refid="spi__base_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_base.hpp</includedby>
+    <includedby refid="uart__base_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_base.hpp</includedby>
+    <includedby refid="uart__hal__1_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</includedby>
+    <includedby refid="uart__hal__2_8hpp" local="yes">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</includedby>
+    <incdepgraph>
+      <node id="1770">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="1771" relation="include">
+        </childnode>
+        <childnode refid="1772" relation="include">
+        </childnode>
+        <childnode refid="1774" relation="include">
+        </childnode>
+        <childnode refid="1775" relation="include">
+        </childnode>
+      </node>
+      <node id="1775">
+        <label>system_stm32f4xx.h</label>
+      </node>
+      <node id="1771">
+        <label>stdint.h</label>
+      </node>
+      <node id="1773">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
+      <node id="1772">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="1773" relation="include">
+        </childnode>
+      </node>
+      <node id="1774">
+        <label>stm32f446xx.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1829">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C14.hpp</label>
+        <link refid="gpio___c14_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1822">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B9.hpp</label>
+        <link refid="gpio___b9_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1776">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp</label>
+        <link refid="device_8hpp"/>
+        <childnode refid="1777" relation="include">
+        </childnode>
+        <childnode refid="1779" relation="include">
+        </childnode>
+        <childnode refid="1780" relation="include">
+        </childnode>
+        <childnode refid="1781" relation="include">
+        </childnode>
+        <childnode refid="1791" relation="include">
+        </childnode>
+        <childnode refid="1792" relation="include">
+        </childnode>
+        <childnode refid="1793" relation="include">
+        </childnode>
+        <childnode refid="1794" relation="include">
+        </childnode>
+        <childnode refid="1795" relation="include">
+        </childnode>
+        <childnode refid="1796" relation="include">
+        </childnode>
+        <childnode refid="1797" relation="include">
+        </childnode>
+        <childnode refid="1798" relation="include">
+        </childnode>
+        <childnode refid="1799" relation="include">
+        </childnode>
+        <childnode refid="1800" relation="include">
+        </childnode>
+        <childnode refid="1801" relation="include">
+        </childnode>
+        <childnode refid="1802" relation="include">
+        </childnode>
+        <childnode refid="1803" relation="include">
+        </childnode>
+        <childnode refid="1804" relation="include">
+        </childnode>
+        <childnode refid="1805" relation="include">
+        </childnode>
+        <childnode refid="1806" relation="include">
+        </childnode>
+        <childnode refid="1807" relation="include">
+        </childnode>
+        <childnode refid="1808" relation="include">
+        </childnode>
+        <childnode refid="1809" relation="include">
+        </childnode>
+        <childnode refid="1810" relation="include">
+        </childnode>
+        <childnode refid="1811" relation="include">
+        </childnode>
+        <childnode refid="1812" relation="include">
+        </childnode>
+        <childnode refid="1813" relation="include">
+        </childnode>
+        <childnode refid="1814" relation="include">
+        </childnode>
+        <childnode refid="1815" relation="include">
+        </childnode>
+        <childnode refid="1816" relation="include">
+        </childnode>
+        <childnode refid="1817" relation="include">
+        </childnode>
+        <childnode refid="1818" relation="include">
+        </childnode>
+        <childnode refid="1819" relation="include">
+        </childnode>
+        <childnode refid="1820" relation="include">
+        </childnode>
+        <childnode refid="1821" relation="include">
+        </childnode>
+        <childnode refid="1822" relation="include">
+        </childnode>
+        <childnode refid="1823" relation="include">
+        </childnode>
+        <childnode refid="1824" relation="include">
+        </childnode>
+        <childnode refid="1825" relation="include">
+        </childnode>
+        <childnode refid="1826" relation="include">
+        </childnode>
+        <childnode refid="1827" relation="include">
+        </childnode>
+        <childnode refid="1828" relation="include">
+        </childnode>
+        <childnode refid="1829" relation="include">
+        </childnode>
+        <childnode refid="1830" relation="include">
+        </childnode>
+        <childnode refid="1831" relation="include">
+        </childnode>
+        <childnode refid="1832" relation="include">
+        </childnode>
+        <childnode refid="1833" relation="include">
+        </childnode>
+        <childnode refid="1834" relation="include">
+        </childnode>
+        <childnode refid="1835" relation="include">
+        </childnode>
+        <childnode refid="1836" relation="include">
+        </childnode>
+        <childnode refid="1837" relation="include">
+        </childnode>
+        <childnode refid="1838" relation="include">
+        </childnode>
+        <childnode refid="1839" relation="include">
+        </childnode>
+        <childnode refid="1840" relation="include">
+        </childnode>
+        <childnode refid="1841" relation="include">
+        </childnode>
+        <childnode refid="1783" relation="include">
+        </childnode>
+        <childnode refid="1784" relation="include">
+        </childnode>
+        <childnode refid="1844" relation="include">
+        </childnode>
+        <childnode refid="1847" relation="include">
+        </childnode>
+        <childnode refid="1849" relation="include">
+        </childnode>
+        <childnode refid="1850" relation="include">
+        </childnode>
+      </node>
+      <node id="1784">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_2.hpp</label>
+        <link refid="i2c__master__2_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1803">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A5.hpp</label>
+        <link refid="gpio___a5_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1796">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A12.hpp</label>
+        <link refid="gpio___a12_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1845">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_hal_1.hpp</label>
+        <link refid="spi__hal__1_8hpp"/>
+        <childnode refid="1785" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1780">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/clock/clock.hpp</label>
+        <link refid="platform_2clock_2clock_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1821">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B8.hpp</label>
+        <link refid="gpio___b8_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1789">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/unused.hpp</label>
+        <link refid="unused_8hpp"/>
+        <childnode refid="1790" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1783">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/i2c/i2c_master_1.hpp</label>
+        <link refid="i2c__master__1_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1802">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A4.hpp</label>
+        <link refid="gpio___a4_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1799">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A15.hpp</label>
+        <link refid="gpio___a15_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1846">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_hal_2.hpp</label>
+        <link refid="spi__hal__2_8hpp"/>
+        <childnode refid="1786" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1790">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/connector_detail.hpp</label>
+        <link refid="connector__detail_8hpp"/>
+        <childnode refid="1782" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1782">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/connector.hpp</label>
+        <link refid="connector_8hpp"/>
+        <childnode refid="1777" relation="include">
+        </childnode>
+        <childnode refid="1783" relation="include">
+        </childnode>
+        <childnode refid="1784" relation="include">
+        </childnode>
+        <childnode refid="1785" relation="include">
+        </childnode>
+        <childnode refid="1786" relation="include">
+        </childnode>
+        <childnode refid="1787" relation="include">
+        </childnode>
+        <childnode refid="1788" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1805">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A7.hpp</label>
+        <link refid="gpio___a7_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1798">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A14.hpp</label>
+        <link refid="gpio___a14_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1826">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C11.hpp</label>
+        <link refid="gpio___c11_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1804">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A6.hpp</label>
+        <link refid="gpio___a6_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1825">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C10.hpp</label>
+        <link refid="gpio___c10_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1849">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_1.hpp</label>
+        <link refid="uart__hal__1_8hpp"/>
+        <childnode refid="1787" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1807">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A9.hpp</label>
+        <link refid="gpio___a9_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1850">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_hal_2.hpp</label>
+        <link refid="uart__hal__2_8hpp"/>
+        <childnode refid="1788" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1806">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A8.hpp</label>
+        <link refid="gpio___a8_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1841">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_H1.hpp</label>
+        <link refid="gpio___h1_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1795">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A11.hpp</label>
+        <link refid="gpio___a11_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1787">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_1.hpp</label>
+        <link refid="uart__1_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1839">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_D2.hpp</label>
+        <link refid="gpio___d2_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1840">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_H0.hpp</label>
+        <link refid="gpio___h0_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1794">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A10.hpp</label>
+        <link refid="gpio___a10_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1824">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C1.hpp</label>
+        <link refid="gpio___c1_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1842">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/port.hpp</label>
+        <link refid="port_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1848">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_baudrate.hpp</label>
+        <link refid="uart__baudrate_8hpp"/>
+        <childnode refid="1787" relation="include">
+        </childnode>
+        <childnode refid="1849" relation="include">
+        </childnode>
+        <childnode refid="1788" relation="include">
+        </childnode>
+        <childnode refid="1850" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1781">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/base.hpp</label>
+        <link refid="base_8hpp"/>
+        <childnode refid="1782" relation="include">
+        </childnode>
+        <childnode refid="1789" relation="include">
+        </childnode>
+        <childnode refid="1791" relation="include">
+        </childnode>
+        <childnode refid="1792" relation="include">
+        </childnode>
+        <childnode refid="1793" relation="include">
+        </childnode>
+        <childnode refid="1794" relation="include">
+        </childnode>
+        <childnode refid="1795" relation="include">
+        </childnode>
+        <childnode refid="1796" relation="include">
+        </childnode>
+        <childnode refid="1797" relation="include">
+        </childnode>
+        <childnode refid="1798" relation="include">
+        </childnode>
+        <childnode refid="1799" relation="include">
+        </childnode>
+        <childnode refid="1800" relation="include">
+        </childnode>
+        <childnode refid="1801" relation="include">
+        </childnode>
+        <childnode refid="1802" relation="include">
+        </childnode>
+        <childnode refid="1803" relation="include">
+        </childnode>
+        <childnode refid="1804" relation="include">
+        </childnode>
+        <childnode refid="1805" relation="include">
+        </childnode>
+        <childnode refid="1806" relation="include">
+        </childnode>
+        <childnode refid="1807" relation="include">
+        </childnode>
+        <childnode refid="1808" relation="include">
+        </childnode>
+        <childnode refid="1809" relation="include">
+        </childnode>
+        <childnode refid="1810" relation="include">
+        </childnode>
+        <childnode refid="1811" relation="include">
+        </childnode>
+        <childnode refid="1812" relation="include">
+        </childnode>
+        <childnode refid="1813" relation="include">
+        </childnode>
+        <childnode refid="1814" relation="include">
+        </childnode>
+        <childnode refid="1815" relation="include">
+        </childnode>
+        <childnode refid="1816" relation="include">
+        </childnode>
+        <childnode refid="1817" relation="include">
+        </childnode>
+        <childnode refid="1818" relation="include">
+        </childnode>
+        <childnode refid="1819" relation="include">
+        </childnode>
+        <childnode refid="1820" relation="include">
+        </childnode>
+        <childnode refid="1821" relation="include">
+        </childnode>
+        <childnode refid="1822" relation="include">
+        </childnode>
+        <childnode refid="1823" relation="include">
+        </childnode>
+        <childnode refid="1824" relation="include">
+        </childnode>
+        <childnode refid="1825" relation="include">
+        </childnode>
+        <childnode refid="1826" relation="include">
+        </childnode>
+        <childnode refid="1827" relation="include">
+        </childnode>
+        <childnode refid="1828" relation="include">
+        </childnode>
+        <childnode refid="1829" relation="include">
+        </childnode>
+        <childnode refid="1830" relation="include">
+        </childnode>
+        <childnode refid="1831" relation="include">
+        </childnode>
+        <childnode refid="1832" relation="include">
+        </childnode>
+        <childnode refid="1833" relation="include">
+        </childnode>
+        <childnode refid="1834" relation="include">
+        </childnode>
+        <childnode refid="1835" relation="include">
+        </childnode>
+        <childnode refid="1836" relation="include">
+        </childnode>
+        <childnode refid="1837" relation="include">
+        </childnode>
+        <childnode refid="1838" relation="include">
+        </childnode>
+        <childnode refid="1839" relation="include">
+        </childnode>
+        <childnode refid="1840" relation="include">
+        </childnode>
+        <childnode refid="1841" relation="include">
+        </childnode>
+        <childnode refid="1842" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1812">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B13.hpp</label>
+        <link refid="gpio___b13_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1823">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C0.hpp</label>
+        <link refid="gpio___c0_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1811">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B12.hpp</label>
+        <link refid="gpio___b12_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1843">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/software_port.hpp</label>
+        <link refid="software__port_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1847">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_base.hpp</label>
+        <link refid="uart__base_8hpp"/>
+        <childnode refid="1787" relation="include">
+        </childnode>
+        <childnode refid="1848" relation="include">
+        </childnode>
+        <childnode refid="1849" relation="include">
+        </childnode>
+        <childnode refid="1788" relation="include">
+        </childnode>
+        <childnode refid="1850" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1832">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C3.hpp</label>
+        <link refid="gpio___c3_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1792">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/set.hpp</label>
+        <link refid="set_8hpp"/>
+        <childnode refid="1791" relation="include">
+        </childnode>
+        <childnode refid="1793" relation="include">
+        </childnode>
+        <childnode refid="1794" relation="include">
+        </childnode>
+        <childnode refid="1795" relation="include">
+        </childnode>
+        <childnode refid="1796" relation="include">
+        </childnode>
+        <childnode refid="1797" relation="include">
+        </childnode>
+        <childnode refid="1798" relation="include">
+        </childnode>
+        <childnode refid="1799" relation="include">
+        </childnode>
+        <childnode refid="1800" relation="include">
+        </childnode>
+        <childnode refid="1801" relation="include">
+        </childnode>
+        <childnode refid="1802" relation="include">
+        </childnode>
+        <childnode refid="1803" relation="include">
+        </childnode>
+        <childnode refid="1804" relation="include">
+        </childnode>
+        <childnode refid="1805" relation="include">
+        </childnode>
+        <childnode refid="1806" relation="include">
+        </childnode>
+        <childnode refid="1807" relation="include">
+        </childnode>
+        <childnode refid="1808" relation="include">
+        </childnode>
+        <childnode refid="1809" relation="include">
+        </childnode>
+        <childnode refid="1810" relation="include">
+        </childnode>
+        <childnode refid="1811" relation="include">
+        </childnode>
+        <childnode refid="1812" relation="include">
+        </childnode>
+        <childnode refid="1813" relation="include">
+        </childnode>
+        <childnode refid="1814" relation="include">
+        </childnode>
+        <childnode refid="1815" relation="include">
+        </childnode>
+        <childnode refid="1816" relation="include">
+        </childnode>
+        <childnode refid="1817" relation="include">
+        </childnode>
+        <childnode refid="1818" relation="include">
+        </childnode>
+        <childnode refid="1819" relation="include">
+        </childnode>
+        <childnode refid="1820" relation="include">
+        </childnode>
+        <childnode refid="1821" relation="include">
+        </childnode>
+        <childnode refid="1822" relation="include">
+        </childnode>
+        <childnode refid="1823" relation="include">
+        </childnode>
+        <childnode refid="1824" relation="include">
+        </childnode>
+        <childnode refid="1825" relation="include">
+        </childnode>
+        <childnode refid="1826" relation="include">
+        </childnode>
+        <childnode refid="1827" relation="include">
+        </childnode>
+        <childnode refid="1828" relation="include">
+        </childnode>
+        <childnode refid="1829" relation="include">
+        </childnode>
+        <childnode refid="1830" relation="include">
+        </childnode>
+        <childnode refid="1831" relation="include">
+        </childnode>
+        <childnode refid="1832" relation="include">
+        </childnode>
+        <childnode refid="1833" relation="include">
+        </childnode>
+        <childnode refid="1834" relation="include">
+        </childnode>
+        <childnode refid="1835" relation="include">
+        </childnode>
+        <childnode refid="1836" relation="include">
+        </childnode>
+        <childnode refid="1837" relation="include">
+        </childnode>
+        <childnode refid="1838" relation="include">
+        </childnode>
+        <childnode refid="1839" relation="include">
+        </childnode>
+        <childnode refid="1840" relation="include">
+        </childnode>
+        <childnode refid="1841" relation="include">
+        </childnode>
+        <childnode refid="1842" relation="include">
+        </childnode>
+        <childnode refid="1843" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1814">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B15.hpp</label>
+        <link refid="gpio___b15_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1831">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C2.hpp</label>
+        <link refid="gpio___c2_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1813">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B14.hpp</label>
+        <link refid="gpio___b14_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1834">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C5.hpp</label>
+        <link refid="gpio___c5_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1786">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_2.hpp</label>
+        <link refid="spi__master__2_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1777">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_1.hpp</label>
+        <link refid="can__1_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1809">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B1.hpp</label>
+        <link refid="gpio___b1_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1788">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/uart/uart_2.hpp</label>
+        <link refid="uart__2_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1833">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C4.hpp</label>
+        <link refid="gpio___c4_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1808">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B0.hpp</label>
+        <link refid="gpio___b0_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1836">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C7.hpp</label>
+        <link refid="gpio___c7_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1816">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B3.hpp</label>
+        <link refid="gpio___b3_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1835">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C6.hpp</label>
+        <link refid="gpio___c6_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1815">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B2.hpp</label>
+        <link refid="gpio___b2_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1810">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B10.hpp</label>
+        <link refid="gpio___b10_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1838">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C9.hpp</label>
+        <link refid="gpio___c9_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1818">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B5.hpp</label>
+        <link refid="gpio___b5_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1837">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C8.hpp</label>
+        <link refid="gpio___c8_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1793">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A1.hpp</label>
+        <link refid="gpio___a1_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1828">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C13.hpp</label>
+        <link refid="gpio___c13_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1817">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B4.hpp</label>
+        <link refid="gpio___b4_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1779">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/can/can_filter.hpp</label>
+        <link refid="can__filter_8hpp"/>
+        <childnode refid="1777" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1844">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_base.hpp</label>
+        <link refid="spi__base_8hpp"/>
+        <childnode refid="1845" relation="include">
+        </childnode>
+        <childnode refid="1846" relation="include">
+        </childnode>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1791">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A0.hpp</label>
+        <link refid="gpio___a0_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1778">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform.hpp</label>
+        <link refid="platform_8hpp"/>
+      </node>
+      <node id="1827">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C12.hpp</label>
+        <link refid="gpio___c12_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1820">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B7.hpp</label>
+        <link refid="gpio___b7_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1785">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/spi/spi_master_1.hpp</label>
+        <link refid="spi__master__1_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1801">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A3.hpp</label>
+        <link refid="gpio___a3_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1830">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_C15.hpp</label>
+        <link refid="gpio___c15_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1819">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_B6.hpp</label>
+        <link refid="gpio___b6_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1800">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A2.hpp</label>
+        <link refid="gpio___a2_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+      <node id="1797">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/gpio/gpio_A13.hpp</label>
+        <link refid="gpio___a13_8hpp"/>
+        <childnode refid="1778" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="device_8hpp_1a89c3f6e33fc5056c1c5c4b09463458da" prot="public" static="no">
+        <name>STM32F446xx</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="19" column="9" bodyfile="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="device_8hpp_1a6d17c4110720f6ba5c86d6c4ffdebc14" prot="public" static="no" mutable="no">
+        <type>ADC_TypeDef</type>
+        <definition>ADC_TypeDef ___ADC1</definition>
+        <argsstring></argsstring>
+        <name>___ADC1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ad920416322ae960797f3bea376e73e36" prot="public" static="no" mutable="no">
+        <type>ADC_Common_TypeDef</type>
+        <definition>ADC_Common_TypeDef ___ADC123_COMMON</definition>
+        <argsstring></argsstring>
+        <name>___ADC123_COMMON</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ae4247aee30001b6d2c45b16cec1e3f15" prot="public" static="no" mutable="no">
+        <type>ADC_TypeDef</type>
+        <definition>ADC_TypeDef ___ADC2</definition>
+        <argsstring></argsstring>
+        <name>___ADC2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a07306c7031aaa30f04843140b27a7815" prot="public" static="no" mutable="no">
+        <type>ADC_TypeDef</type>
+        <definition>ADC_TypeDef ___ADC3</definition>
+        <argsstring></argsstring>
+        <name>___ADC3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a647fea02c5baeeedea9e7c234eb8d02d" prot="public" static="no" mutable="no">
+        <type>CAN_TypeDef</type>
+        <definition>CAN_TypeDef ___CAN1</definition>
+        <argsstring></argsstring>
+        <name>___CAN1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a68e62e3ae459fe250c7bb99ed5694dda" prot="public" static="no" mutable="no">
+        <type>CAN_TypeDef</type>
+        <definition>CAN_TypeDef ___CAN2</definition>
+        <argsstring></argsstring>
+        <name>___CAN2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ade76bb53f9308b47ee573bd85b8dba6c" prot="public" static="no" mutable="no">
+        <type>CEC_TypeDef</type>
+        <definition>CEC_TypeDef ___CEC</definition>
+        <argsstring></argsstring>
+        <name>___CEC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a50f6805442c50c79bdd3fabc85437768" prot="public" static="no" mutable="no">
+        <type>CRC_TypeDef</type>
+        <definition>CRC_TypeDef ___CRC</definition>
+        <argsstring></argsstring>
+        <name>___CRC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a738c346ef47998dd447f4206d052ade2" prot="public" static="no" mutable="no">
+        <type>CoreDebug_Type</type>
+        <definition>CoreDebug_Type ___CoreDebug</definition>
+        <argsstring></argsstring>
+        <name>___CoreDebug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a36e964ccd4aa3b1fe0b41629885999bb" prot="public" static="no" mutable="no">
+        <type>DAC_TypeDef</type>
+        <definition>DAC_TypeDef ___DAC</definition>
+        <argsstring></argsstring>
+        <name>___DAC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1abcddc41daa8ccc15c33bb45a0933845b" prot="public" static="no" mutable="no">
+        <type>DAC_TypeDef</type>
+        <definition>DAC_TypeDef ___DAC1</definition>
+        <argsstring></argsstring>
+        <name>___DAC1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a16164d91a852f340a49d4ce4ee0958d9" prot="public" static="no" mutable="no">
+        <type>DBGMCU_TypeDef</type>
+        <definition>DBGMCU_TypeDef ___DBGMCU</definition>
+        <argsstring></argsstring>
+        <name>___DBGMCU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a364e2548c319dc33fb6748bf004a4301" prot="public" static="no" mutable="no">
+        <type>DCMI_TypeDef</type>
+        <definition>DCMI_TypeDef ___DCMI</definition>
+        <argsstring></argsstring>
+        <name>___DCMI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a923f877ae03086953b12b92f50d6843a" prot="public" static="no" mutable="no">
+        <type>DMA_TypeDef</type>
+        <definition>DMA_TypeDef ___DMA1</definition>
+        <argsstring></argsstring>
+        <name>___DMA1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ac51e895b967ac3d2ad18ebe1eb6ebb0f" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA1_Stream0</definition>
+        <argsstring></argsstring>
+        <name>___DMA1_Stream0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a64bff5d6550eded9c3db1efe6d5e12fc" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA1_Stream1</definition>
+        <argsstring></argsstring>
+        <name>___DMA1_Stream1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1aadc06c60e0675f72927ea48495f11ab3" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA1_Stream2</definition>
+        <argsstring></argsstring>
+        <name>___DMA1_Stream2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ad9aee548ee6661aa460cfd687df94c07" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA1_Stream3</definition>
+        <argsstring></argsstring>
+        <name>___DMA1_Stream3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1aa6606b77475bf5db6c0e444b7fe8c365" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA1_Stream4</definition>
+        <argsstring></argsstring>
+        <name>___DMA1_Stream4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a3264e39eed6fd2a2f0c990e35694f153" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA1_Stream5</definition>
+        <argsstring></argsstring>
+        <name>___DMA1_Stream5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a4238ed72d4b6d9e0c216e51da503f358" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA1_Stream6</definition>
+        <argsstring></argsstring>
+        <name>___DMA1_Stream6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a968e72989b389f82fcab0210970e14f7" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA1_Stream7</definition>
+        <argsstring></argsstring>
+        <name>___DMA1_Stream7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a036d5e42d169d1227b200abde31f7bd4" prot="public" static="no" mutable="no">
+        <type>DMA_TypeDef</type>
+        <definition>DMA_TypeDef ___DMA2</definition>
+        <argsstring></argsstring>
+        <name>___DMA2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a0ce947938c781808f0a93214805928e7" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA2_Stream0</definition>
+        <argsstring></argsstring>
+        <name>___DMA2_Stream0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1af3adeea4055eafa094b1a33c5608d443" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA2_Stream1</definition>
+        <argsstring></argsstring>
+        <name>___DMA2_Stream1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ae3343ca20f70b7bde494120a23d044bd" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA2_Stream2</definition>
+        <argsstring></argsstring>
+        <name>___DMA2_Stream2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ac1474e0bbf527ade4b1e7935e7eb288a" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA2_Stream3</definition>
+        <argsstring></argsstring>
+        <name>___DMA2_Stream3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a311140f9ebdda72c086200110006c7ac" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA2_Stream4</definition>
+        <argsstring></argsstring>
+        <name>___DMA2_Stream4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a9e3ed430fdac59f7394dc56185f65d70" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA2_Stream5</definition>
+        <argsstring></argsstring>
+        <name>___DMA2_Stream5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a3bfe7b4748aa3c0942dfe891a1bdd321" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA2_Stream6</definition>
+        <argsstring></argsstring>
+        <name>___DMA2_Stream6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a71e31693b266d626abc2ad4e86ddb309" prot="public" static="no" mutable="no">
+        <type>DMA_Stream_TypeDef</type>
+        <definition>DMA_Stream_TypeDef ___DMA2_Stream7</definition>
+        <argsstring></argsstring>
+        <name>___DMA2_Stream7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a70548b64a6b87b6d202b7246799ba913" prot="public" static="no" mutable="no">
+        <type>DWT_Type</type>
+        <definition>DWT_Type ___DWT</definition>
+        <argsstring></argsstring>
+        <name>___DWT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a94654248d726d5518d9f227d537ba95f" prot="public" static="no" mutable="no">
+        <type>EXTI_TypeDef</type>
+        <definition>EXTI_TypeDef ___EXTI</definition>
+        <argsstring></argsstring>
+        <name>___EXTI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a63ef226fbab69afb043fc78023a1d671" prot="public" static="no" mutable="no">
+        <type>FLASH_TypeDef</type>
+        <definition>FLASH_TypeDef ___FLASH</definition>
+        <argsstring></argsstring>
+        <name>___FLASH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a0b7f5f5d90aa438fb67117439fd06b3b" prot="public" static="no" mutable="no">
+        <type>FMC_Bank1_TypeDef</type>
+        <definition>FMC_Bank1_TypeDef ___FMC_Bank1</definition>
+        <argsstring></argsstring>
+        <name>___FMC_Bank1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1af059f3ad05fb0db8a5fe8eca5bc44a01" prot="public" static="no" mutable="no">
+        <type>FMC_Bank1E_TypeDef</type>
+        <definition>FMC_Bank1E_TypeDef ___FMC_Bank1E</definition>
+        <argsstring></argsstring>
+        <name>___FMC_Bank1E</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a306f888b5677300e06ef8334cc992b74" prot="public" static="no" mutable="no">
+        <type>FMC_Bank3_TypeDef</type>
+        <definition>FMC_Bank3_TypeDef ___FMC_Bank3</definition>
+        <argsstring></argsstring>
+        <name>___FMC_Bank3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a52b8cf8d818b54013ce1d1b018ae55ea" prot="public" static="no" mutable="no">
+        <type>FMC_Bank5_6_TypeDef</type>
+        <definition>FMC_Bank5_6_TypeDef ___FMC_Bank5_6</definition>
+        <argsstring></argsstring>
+        <name>___FMC_Bank5_6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ad4fe2a10ab7a72de0ad3c30c1795d977" prot="public" static="no" mutable="no">
+        <type>FMPI2C_TypeDef</type>
+        <definition>FMPI2C_TypeDef ___FMPI2C1</definition>
+        <argsstring></argsstring>
+        <name>___FMPI2C1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a55f97eb936e933e14328afe65ffef79d" prot="public" static="no" mutable="no">
+        <type>FPU_Type</type>
+        <definition>FPU_Type ___FPU</definition>
+        <argsstring></argsstring>
+        <name>___FPU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a5ec98ed8085f930977f0aa25e03d9090" prot="public" static="no" mutable="no">
+        <type>GPIO_TypeDef</type>
+        <definition>GPIO_TypeDef ___GPIOA</definition>
+        <argsstring></argsstring>
+        <name>___GPIOA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a2466f54578258c4c3fcb1a2dfcfe9268" prot="public" static="no" mutable="no">
+        <type>GPIO_TypeDef</type>
+        <definition>GPIO_TypeDef ___GPIOB</definition>
+        <argsstring></argsstring>
+        <name>___GPIOB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a6443ff22991a252b3ab6c5843a3acdb2" prot="public" static="no" mutable="no">
+        <type>GPIO_TypeDef</type>
+        <definition>GPIO_TypeDef ___GPIOC</definition>
+        <argsstring></argsstring>
+        <name>___GPIOC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ab467bca177b5fa8747a86216b518c1be" prot="public" static="no" mutable="no">
+        <type>GPIO_TypeDef</type>
+        <definition>GPIO_TypeDef ___GPIOD</definition>
+        <argsstring></argsstring>
+        <name>___GPIOD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1abe7cd354f95a440961e063fb9a4970fb" prot="public" static="no" mutable="no">
+        <type>GPIO_TypeDef</type>
+        <definition>GPIO_TypeDef ___GPIOE</definition>
+        <argsstring></argsstring>
+        <name>___GPIOE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a548fb2d153637fe5a0f900b79e67c40f" prot="public" static="no" mutable="no">
+        <type>GPIO_TypeDef</type>
+        <definition>GPIO_TypeDef ___GPIOF</definition>
+        <argsstring></argsstring>
+        <name>___GPIOF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a335926c244309f98a47b10d80e8cba0c" prot="public" static="no" mutable="no">
+        <type>GPIO_TypeDef</type>
+        <definition>GPIO_TypeDef ___GPIOG</definition>
+        <argsstring></argsstring>
+        <name>___GPIOG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ac4ba29de16372a49d320746b0b3f97e7" prot="public" static="no" mutable="no">
+        <type>GPIO_TypeDef</type>
+        <definition>GPIO_TypeDef ___GPIOH</definition>
+        <argsstring></argsstring>
+        <name>___GPIOH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a46c2e3ba5e6eaace2d37df4033c5bc6e" prot="public" static="no" mutable="no">
+        <type>I2C_TypeDef</type>
+        <definition>I2C_TypeDef ___I2C1</definition>
+        <argsstring></argsstring>
+        <name>___I2C1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a988c1f6ff80d9bb4a1f75553a4baa662" prot="public" static="no" mutable="no">
+        <type>I2C_TypeDef</type>
+        <definition>I2C_TypeDef ___I2C2</definition>
+        <argsstring></argsstring>
+        <name>___I2C2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a29c3cf15e1f9bfa4f4cda2ba3f5b18a8" prot="public" static="no" mutable="no">
+        <type>I2C_TypeDef</type>
+        <definition>I2C_TypeDef ___I2C3</definition>
+        <argsstring></argsstring>
+        <name>___I2C3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a290e07c7a7aaa984d176890218182c93" prot="public" static="no" mutable="no">
+        <type>ITM_Type</type>
+        <definition>ITM_Type ___ITM</definition>
+        <argsstring></argsstring>
+        <name>___ITM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ad6d27f5738d819dfdcc4b464aa0366f7" prot="public" static="no" mutable="no">
+        <type>IWDG_TypeDef</type>
+        <definition>IWDG_TypeDef ___IWDG</definition>
+        <argsstring></argsstring>
+        <name>___IWDG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a9d72ae6eab9e4598a6827163b26f2364" prot="public" static="no" mutable="no">
+        <type>MPU_Type</type>
+        <definition>MPU_Type ___MPU</definition>
+        <argsstring></argsstring>
+        <name>___MPU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a72bcb8200909a34297b353b63996841f" prot="public" static="no" mutable="no">
+        <type>NVIC_Type</type>
+        <definition>NVIC_Type ___NVIC</definition>
+        <argsstring></argsstring>
+        <name>___NVIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1addf002eea59a94e3effaa57c1e738272" prot="public" static="no" mutable="no">
+        <type>PWR_TypeDef</type>
+        <definition>PWR_TypeDef ___PWR</definition>
+        <argsstring></argsstring>
+        <name>___PWR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a525eb6b1d4ab72805ade652cf0a4d1a9" prot="public" static="no" mutable="no">
+        <type>QUADSPI_TypeDef</type>
+        <definition>QUADSPI_TypeDef ___QUADSPI</definition>
+        <argsstring></argsstring>
+        <name>___QUADSPI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a32aaacafc64628db311be64c760108ac" prot="public" static="no" mutable="no">
+        <type>RCC_TypeDef</type>
+        <definition>RCC_TypeDef ___RCC</definition>
+        <argsstring></argsstring>
+        <name>___RCC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ae7f9d5a3e0464e9d9de5f2dcdc25e89c" prot="public" static="no" mutable="no">
+        <type>RTC_TypeDef</type>
+        <definition>RTC_TypeDef ___RTC</definition>
+        <argsstring></argsstring>
+        <name>___RTC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ad8d61f9e62ee7e3c7721c35cc3e9c7a9" prot="public" static="no" mutable="no">
+        <type>SAI_TypeDef</type>
+        <definition>SAI_TypeDef ___SAI1</definition>
+        <argsstring></argsstring>
+        <name>___SAI1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1af380ed7a8c839a6ff023ad44d7e5fc39" prot="public" static="no" mutable="no">
+        <type>SAI_Block_TypeDef</type>
+        <definition>SAI_Block_TypeDef ___SAI1_Block_A</definition>
+        <argsstring></argsstring>
+        <name>___SAI1_Block_A</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ae773e93a72f385814e33f89eb46d98d6" prot="public" static="no" mutable="no">
+        <type>SAI_Block_TypeDef</type>
+        <definition>SAI_Block_TypeDef ___SAI1_Block_B</definition>
+        <argsstring></argsstring>
+        <name>___SAI1_Block_B</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a181e628e5aa4c2a9f78a5de6dcbff1c5" prot="public" static="no" mutable="no">
+        <type>SAI_TypeDef</type>
+        <definition>SAI_TypeDef ___SAI2</definition>
+        <argsstring></argsstring>
+        <name>___SAI2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a51363bc56bacb1c94b2c62fe9fc1e510" prot="public" static="no" mutable="no">
+        <type>SAI_Block_TypeDef</type>
+        <definition>SAI_Block_TypeDef ___SAI2_Block_A</definition>
+        <argsstring></argsstring>
+        <name>___SAI2_Block_A</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1aa8a08f66901e6fd6c32a6bbfdd792163" prot="public" static="no" mutable="no">
+        <type>SAI_Block_TypeDef</type>
+        <definition>SAI_Block_TypeDef ___SAI2_Block_B</definition>
+        <argsstring></argsstring>
+        <name>___SAI2_Block_B</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a387b34cf709b9e126d0c201a87bf9c7c" prot="public" static="no" mutable="no">
+        <type>SCB_Type</type>
+        <definition>SCB_Type ___SCB</definition>
+        <argsstring></argsstring>
+        <name>___SCB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="95" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ad2c9427795d545174f56717782bf0771" prot="public" static="no" mutable="no">
+        <type>SCnSCB_Type</type>
+        <definition>SCnSCB_Type ___SCnSCB</definition>
+        <argsstring></argsstring>
+        <name>___SCnSCB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="96" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a7ae2fdc16bc595ac80ec045e576cdd0a" prot="public" static="no" mutable="no">
+        <type>SDIO_TypeDef</type>
+        <definition>SDIO_TypeDef ___SDIO</definition>
+        <argsstring></argsstring>
+        <name>___SDIO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a5661b833fb42a852738ce2b61399cd71" prot="public" static="no" mutable="no">
+        <type>SPDIFRX_TypeDef</type>
+        <definition>SPDIFRX_TypeDef ___SPDIFRX</definition>
+        <argsstring></argsstring>
+        <name>___SPDIFRX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ae467eaf1412af3bb8bd450ce28651bf2" prot="public" static="no" mutable="no">
+        <type>SPI_TypeDef</type>
+        <definition>SPI_TypeDef ___SPI1</definition>
+        <argsstring></argsstring>
+        <name>___SPI1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="99" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a02c26e9dcaf01201595a9f52fc69755e" prot="public" static="no" mutable="no">
+        <type>SPI_TypeDef</type>
+        <definition>SPI_TypeDef ___SPI2</definition>
+        <argsstring></argsstring>
+        <name>___SPI2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="100" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a4900bf1f4328ef5017ec6d28ab8c6952" prot="public" static="no" mutable="no">
+        <type>SPI_TypeDef</type>
+        <definition>SPI_TypeDef ___SPI3</definition>
+        <argsstring></argsstring>
+        <name>___SPI3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a645080cc45a500dff0a9fdca605e1742" prot="public" static="no" mutable="no">
+        <type>SPI_TypeDef</type>
+        <definition>SPI_TypeDef ___SPI4</definition>
+        <argsstring></argsstring>
+        <name>___SPI4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ac158d23931b7189389dbdefc86104b01" prot="public" static="no" mutable="no">
+        <type>SYSCFG_TypeDef</type>
+        <definition>SYSCFG_TypeDef ___SYSCFG</definition>
+        <argsstring></argsstring>
+        <name>___SYSCFG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1af50a69d20a04ad6bb1e924e894e0e773" prot="public" static="no" mutable="no">
+        <type>SysTick_Type</type>
+        <definition>SysTick_Type ___SysTick</definition>
+        <argsstring></argsstring>
+        <name>___SysTick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a8170fcc94c730677c6c2f0af16b4b61b" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM1</definition>
+        <argsstring></argsstring>
+        <name>___TIM1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ae54ee9a94db0f84d3e85fb8c1096d74d" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM10</definition>
+        <argsstring></argsstring>
+        <name>___TIM10</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a11b49102c24cecec3874b4562a81240e" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM11</definition>
+        <argsstring></argsstring>
+        <name>___TIM11</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ae7f24f8cdd46e7aa5aaece96bf9a6898" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM12</definition>
+        <argsstring></argsstring>
+        <name>___TIM12</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a30f586252693e44fdc126f30fbc32bf5" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM13</definition>
+        <argsstring></argsstring>
+        <name>___TIM13</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a50ed7da7f4dad6c06d40fe5cd02298b7" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM14</definition>
+        <argsstring></argsstring>
+        <name>___TIM14</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1afe033d0525ebf102ba05cb07aa97ba28" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM2</definition>
+        <argsstring></argsstring>
+        <name>___TIM2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="111" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a93cfb0812ea74f77b851981d30496f5e" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM3</definition>
+        <argsstring></argsstring>
+        <name>___TIM3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a337e76eb9e12f401173b88e94b289c24" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM4</definition>
+        <argsstring></argsstring>
+        <name>___TIM4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="113" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a716efd179b3be7dd55f31e78293914e3" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM5</definition>
+        <argsstring></argsstring>
+        <name>___TIM5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a19d46ee7fe5c8949558eda00101c8bf7" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM6</definition>
+        <argsstring></argsstring>
+        <name>___TIM6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a6490f76158aa42fa93c9a1e03923b5b6" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM7</definition>
+        <argsstring></argsstring>
+        <name>___TIM7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1adf89f3d27b9732e896d9aae6db7693e3" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM8</definition>
+        <argsstring></argsstring>
+        <name>___TIM8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a1e1da5f42ad9a91224453bbdb5a2e37f" prot="public" static="no" mutable="no">
+        <type>TIM_TypeDef</type>
+        <definition>TIM_TypeDef ___TIM9</definition>
+        <argsstring></argsstring>
+        <name>___TIM9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ac77308b0183afacc40beff7501e88f1e" prot="public" static="no" mutable="no">
+        <type>TPI_Type</type>
+        <definition>TPI_Type ___TPI</definition>
+        <argsstring></argsstring>
+        <name>___TPI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="119" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ab49914e6c908f9a5640e9da3475da747" prot="public" static="no" mutable="no">
+        <type>USART_TypeDef</type>
+        <definition>USART_TypeDef ___UART4</definition>
+        <argsstring></argsstring>
+        <name>___UART4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a09e86d60b9631a988f62ac95285b52b1" prot="public" static="no" mutable="no">
+        <type>USART_TypeDef</type>
+        <definition>USART_TypeDef ___UART5</definition>
+        <argsstring></argsstring>
+        <name>___UART5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a4c54bd04b9a9b6a19e15b821168b2ec7" prot="public" static="no" mutable="no">
+        <type>USART_TypeDef</type>
+        <definition>USART_TypeDef ___USART1</definition>
+        <argsstring></argsstring>
+        <name>___USART1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a337e2dbb747a33a4475493db066494cf" prot="public" static="no" mutable="no">
+        <type>USART_TypeDef</type>
+        <definition>USART_TypeDef ___USART2</definition>
+        <argsstring></argsstring>
+        <name>___USART2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1ac41d0521f42c48a872a192f61babace9" prot="public" static="no" mutable="no">
+        <type>USART_TypeDef</type>
+        <definition>USART_TypeDef ___USART3</definition>
+        <argsstring></argsstring>
+        <name>___USART3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="124" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1afbad51cd5311100084c5bd10ee5fdf4a" prot="public" static="no" mutable="no">
+        <type>USART_TypeDef</type>
+        <definition>USART_TypeDef ___USART6</definition>
+        <argsstring></argsstring>
+        <name>___USART6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="125" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="device_8hpp_1a6c296261165d3e4b8bd1b86c92dc078f" prot="public" static="no" mutable="no">
+        <type>WWDG_TypeDef</type>
+        <definition>WWDG_TypeDef ___WWDG</definition>
+        <argsstring></argsstring>
+        <name>___WWDG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp" line="126" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/platform/device.hpp"/>
+  </compounddef>
+</doxygen>

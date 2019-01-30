@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_a03e4cce18256d22bfbc509c49c95e45" kind="dir">
+    <compoundname>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils</compoundname>
+    <innerdir refid="dir_950f61fe10323b4b6d7a075744db6885">C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/allocator</innerdir>
+    <innerfile refid="allocator_8hpp">allocator.hpp</innerfile>
+    <innerfile refid="arithmetic__traits_8hpp">arithmetic_traits.hpp</innerfile>
+    <innerfile refid="bit__constants_8hpp">bit_constants.hpp</innerfile>
+    <innerfile refid="dummy_8hpp">dummy.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/utils/"/>
+  </compounddef>
+</doxygen>

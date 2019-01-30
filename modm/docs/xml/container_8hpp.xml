@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="container_8hpp" kind="file" language="C++">
+    <compoundname>container.hpp</compoundname>
+    <includes refid="deque_8hpp" local="yes">container/deque.hpp</includes>
+    <includes refid="container_2queue_8hpp" local="yes">container/queue.hpp</includes>
+    <includes refid="stack_8hpp" local="yes">container/stack.hpp</includes>
+    <includes refid="linked__list_8hpp" local="yes">container/linked_list.hpp</includes>
+    <includes refid="doubly__linked__list_8hpp" local="yes">container/doubly_linked_list.hpp</includes>
+    <includes refid="dynamic__array_8hpp" local="yes">container/dynamic_array.hpp</includes>
+    <includes refid="pair_8hpp" local="yes">container/pair.hpp</includes>
+    <includes refid="smart__pointer_8hpp" local="yes">container/smart_pointer.hpp</includes>
+    <incdepgraph>
+      <node id="308">
+        <label>stdarg.h</label>
+      </node>
+      <node id="303">
+        <label>container/smart_pointer.hpp</label>
+        <link refid="smart__pointer_8hpp"/>
+        <childnode refid="304" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="305" relation="include">
+        </childnode>
+        <childnode refid="307" relation="include">
+        </childnode>
+      </node>
+      <node id="298">
+        <label>container/dynamic_array.hpp</label>
+        <link refid="dynamic__array_8hpp"/>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+      </node>
+      <node id="280">
+        <label>cstdint</label>
+      </node>
+      <node id="291">
+        <label>allocator/static.hpp</label>
+        <link refid="static_8hpp"/>
+        <childnode refid="289" relation="include">
+        </childnode>
+      </node>
+      <node id="297">
+        <label>doubly_linked_list_iterator_impl.hpp</label>
+      </node>
+      <node id="285">
+        <label>stdint.h</label>
+      </node>
+      <node id="296">
+        <label>doubly_linked_list_impl.hpp</label>
+      </node>
+      <node id="294">
+        <label>linked_list_iterator_impl.hpp</label>
+      </node>
+      <node id="277">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container.hpp</label>
+        <link refid="container_8hpp"/>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+        <childnode refid="286" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+      </node>
+      <node id="278">
+        <label>container/deque.hpp</label>
+        <link refid="deque_8hpp"/>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>linked_list_impl.hpp</label>
+      </node>
+      <node id="300">
+        <label>dynamic_array_impl.hpp</label>
+      </node>
+      <node id="302">
+        <label>container/pair.hpp</label>
+        <link refid="pair_8hpp"/>
+      </node>
+      <node id="307">
+        <label>modm/io/iostream.hpp</label>
+        <link refid="iostream_8hpp"/>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+        <childnode refid="305" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="309" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>deque_impl.hpp</label>
+      </node>
+      <node id="292">
+        <label>allocator/block.hpp</label>
+        <link refid="block_8hpp"/>
+        <childnode refid="289" relation="include">
+        </childnode>
+      </node>
+      <node id="284">
+        <label>container/stack.hpp</label>
+        <link refid="stack_8hpp"/>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+      </node>
+      <node id="289">
+        <label>allocator_base.hpp</label>
+        <link refid="allocator__base_8hpp"/>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="290" relation="include">
+        </childnode>
+      </node>
+      <node id="288">
+        <label>allocator/dynamic.hpp</label>
+        <link refid="dynamic_8hpp"/>
+        <childnode refid="289" relation="include">
+        </childnode>
+      </node>
+      <node id="295">
+        <label>container/doubly_linked_list.hpp</label>
+        <link refid="doubly__linked__list_8hpp"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
+        </childnode>
+      </node>
+      <node id="287">
+        <label>modm/utils/allocator.hpp</label>
+        <link refid="allocator_8hpp"/>
+        <childnode refid="288" relation="include">
+        </childnode>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+      </node>
+      <node id="290">
+        <label>new</label>
+      </node>
+      <node id="306">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
+      <node id="309">
+        <label>iodevice.hpp</label>
+        <link refid="iodevice_8hpp"/>
+      </node>
+      <node id="279">
+        <label>cstddef</label>
+      </node>
+      <node id="283">
+        <label>container/queue.hpp</label>
+        <link refid="container_2queue_8hpp"/>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+      </node>
+      <node id="286">
+        <label>container/linked_list.hpp</label>
+        <link refid="linked__list_8hpp"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+        <childnode refid="294" relation="include">
+        </childnode>
+      </node>
+      <node id="301">
+        <label>dynamic_array_iterator_impl.hpp</label>
+      </node>
+      <node id="305">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="281">
+        <label>type_traits</label>
+      </node>
+      <node id="310">
+        <label>iodevice_wrapper.hpp</label>
+        <link refid="iodevice__wrapper_8hpp"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="309" relation="include">
+        </childnode>
+      </node>
+      <node id="304">
+        <label>cstring</label>
+      </node>
+      <node id="299">
+        <label>initializer_list</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/container.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,6 @@
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-debug/CMakeFiles/edit_cache.dir
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-debug/CMakeFiles/mainboard.lss.dir
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-debug/CMakeFiles/mainboard.dir
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-debug/CMakeFiles/mainboard.bin.dir
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-debug/CMakeFiles/mainboard.hex.dir
+C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/build/mainboard-debug/CMakeFiles/rebuild_cache.dir

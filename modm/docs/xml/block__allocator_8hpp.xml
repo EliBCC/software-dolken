@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="block__allocator_8hpp" kind="file" language="C++">
+    <compoundname>block_allocator.hpp</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">cstddef</includes>
+    <includes refid="architecture_2utils_8hpp" local="no">modm/architecture/utils.hpp</includes>
+    <includes refid="arithmetic__traits_8hpp" local="no">modm/utils/arithmetic_traits.hpp</includes>
+    <includes local="yes">block_allocator_impl.hpp</includes>
+    <incdepgraph>
+      <node id="348">
+        <label>limits</label>
+      </node>
+      <node id="341">
+        <label>C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/heap/block_allocator.hpp</label>
+        <link refid="block__allocator_8hpp"/>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="351" relation="include">
+        </childnode>
+      </node>
+      <node id="347">
+        <label>cstdint</label>
+      </node>
+      <node id="342">
+        <label>stdint.h</label>
+      </node>
+      <node id="350">
+        <label>cmath</label>
+      </node>
+      <node id="345">
+        <label>detect.hpp</label>
+        <link refid="detect_8hpp"/>
+      </node>
+      <node id="351">
+        <label>block_allocator_impl.hpp</label>
+      </node>
+      <node id="343">
+        <label>cstddef</label>
+      </node>
+      <node id="344">
+        <label>modm/architecture/utils.hpp</label>
+        <link refid="architecture_2utils_8hpp"/>
+        <childnode refid="345" relation="include">
+        </childnode>
+      </node>
+      <node id="349">
+        <label>type_traits</label>
+      </node>
+      <node id="346">
+        <label>modm/utils/arithmetic_traits.hpp</label>
+        <link refid="arithmetic__traits_8hpp"/>
+        <childnode refid="347" relation="include">
+        </childnode>
+        <childnode refid="348" relation="include">
+        </childnode>
+        <childnode refid="349" relation="include">
+        </childnode>
+        <childnode refid="350" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classmodm_1_1_block_allocator" prot="public">modm::BlockAllocator</innerclass>
+    <innernamespace refid="namespacemodm">modm</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/jakob/OneDrive/Dokumenter/GitHub/Software-dolken/modm/src/modm/architecture/driver/heap/block_allocator.hpp"/>
+  </compounddef>
+</doxygen>

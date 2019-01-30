@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+f17d3a26046d6a31b1bbbb3bf996f849 CMakeFiles/MAX31855.bin
+feebec681edd476d60589cbe759971bb CMakeFiles/MAX31855.hex
+53a86b9b3c3781d4e9e9408e58def1a5 CMakeFiles/MAX31855.lss
