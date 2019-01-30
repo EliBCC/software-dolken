@@ -22,6 +22,11 @@ If you have never used PowerShell scripts before, you will need to open up a new
 
 Next, just run the `windows_install.ps1` script in this repository and everything will be installed, if not already detected on your computer. If you want to know what the script is doing, open it in a text editor and look at the comments. If your antivirus complains, turn it off temporarily, as it doesn't like the idea of scripts downloading and running code from the internet.
 
+Finally, install these Python packages [using pip](https://packaging.python.org/tutorials/installing-packages/) and ensure you can run the lbuild command from a terminal.
+
+ * lbuild
+ * graphviz (Python interface)
+
 ### Linux
 
 You should be able to get everything through your system package manager and pip. Just watch out for arm-none-eabi-gcc being too old, in which case you can download binaries from [ARM](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads), extract, and add to your path.

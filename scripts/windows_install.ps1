@@ -52,25 +52,5 @@ Install-Necessary openocd "openocd --version" fb39ca4 "https://github.com/fb39ca
 Install-Necessary doxygen "doxygen --version"
 Install-Necessary graphviz "gvgen -?"
 
-# Check for Python 3 installation
-$pipCandidates = @("py -3 -m pip", "python3 -m pip", "python -m pip", "pip")
-$pipCmd = $null
-Foreach ($candidate in $pipCandidates) {
-    Write-Output "Checking for pip command $candidate"
-    If (Check-Available($candidate)){
-        $pipCmd = $candidate
-        break
-    }
-}
-If ($pipCmd -eq $null) {
-    $global:toInstall += "python"
-    scoop install python
-    $pipCmd = "pip"
-}
-
-# Install python packages
-Write-Output "Install lbuild and graphviz (Python interface) using $pipCmd"
-Invoke-Expression "$pipCmd install --user lbuild graphviz"
-
 Write-Output "Already installed: $alreadyInstalled"
 Write-Output "Newly Installed: $toInstall"
