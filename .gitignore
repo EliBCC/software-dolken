@@ -2,3 +2,5 @@ build/*
 modm/*
 docs/modm.html
 *.log
+ModmDocs.*
+.vscode/*
