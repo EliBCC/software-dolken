@@ -11,10 +11,10 @@
 		<option name=":docs:generate_module_docs">True</option>
 	</options>
 	<modules>
+		<module>:debug</module>
 		<module>:platform:core</module>
 		<module>:platform:clock</module>
 		<module>:platform:gpio</module>
-		<module>:platform:can:1</module>
 		<module>:platform:uart:1</module>
 		<module>:platform:uart:2</module>
 		<module>:platform:spi:1</module>
@@ -22,7 +22,9 @@
 		<module>:platform:i2c:1</module>
 		<module>:platform:i2c:2</module>
 		<module>:architecture:i2c.device</module>
+		<module>:architecture:spi.device</module>
 		<module>:processing:protothread</module>
 		<module>:processing:resumable</module>
+		<module>:math:filter</module>
 	</modules>
 </library>

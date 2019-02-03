@@ -1,6 +1,7 @@
 #pragma once
 
 #include <modm/platform.hpp>
+#include <modm/architecture/interface/clock.hpp>
 
 #define MODM_BOARD_HAS_LOGGER
 
