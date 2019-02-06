@@ -252,7 +252,7 @@ namespace rs485
             MODM_LOG_INFO.printf("rs485: Setting up uart\n");
             _UART_::connect<_UART_TX_, _UART_RX_>();
             _UART_::initialize<ClockConfiguration, _UART_BAUD_>(); 
-            _UART_DIR_::setOutput(Direction::Receive); // THIS MIGHT NEED TO CHANGE
+            _UART_DIR_::setOutput((bool)Direction::Receive); // THIS MIGHT NEED TO CHANGE
         }
 
 
@@ -267,7 +267,7 @@ namespace rs485
             MODM_LOG_INFO.printf("rs485: Reading from buffer\n");
 
             // Setup direction for receive
-            _UART_DIR_::setOutput( Direction::Receive); // THIS MIGHT NEED TO CHANGE
+            _UART_DIR_::setOutput((bool) Direction::Receive); // THIS MIGHT NEED TO CHANGE
 
             // read all available bytes in buffer and add them to the ringbuffer
             while(!input_buffer.IsFull() &&_UART_::read(ReadToBuffer_value)){
@@ -357,7 +357,7 @@ namespace rs485
 
             MODM_LOG_INFO.printf("rs485: Writting cmd id: %u\n", cmd.id);
             //Set direction pin for transmission
-            _UART_DIR_::setOutput(Direction::Transmit); // MIGHT NEED TO CHANGE
+            _UART_DIR_::setOutput((bool)Direction::Transmit); // MIGHT NEED TO CHANGE
 
             // Start command bytes
             _UART_::write(0xFF);
@@ -381,7 +381,7 @@ namespace rs485
             RF_WAIT_WHILE(!_UART_::isWriteFinished());
 
             //Switch back to receive mode
-            _UART_DIR_::setOutput(Direction::Receive); // MIGHT NEED TO CHANGE
+            _UART_DIR_::setOutput((bool)Direction::Receive); // MIGHT NEED TO CHANGE
             RF_END_RETURN(true);
         }
 
