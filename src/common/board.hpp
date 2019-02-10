@@ -53,12 +53,12 @@ struct ClockConfiguration
 	static constexpr uint32_t Timer13 = Apb1Timer;
 	static constexpr uint32_t Timer14 = Apb1Timer;
 
-	static bool inline enable();
+	static bool enable();
 };
 
-using LedD2 = modm::platform::GpioOutputC8;
+using LedD2 = modm::platform::GpioOutputA5;
 using LedD3 = modm::platform::GpioOutputC6;
 
-using SerialDebug = modm::platform::Usart1;
+using SerialDebug = modm::platform::Usart2;
 
 void initCommon();

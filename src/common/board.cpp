@@ -1,5 +1,6 @@
 #include "board.hpp"
 #include <modm/architecture/interface/clock.hpp>
+#include <modm/architecture/interface/can.hpp>
 #include <modm/debug/logger.hpp>
 
 
@@ -45,9 +46,17 @@ void initCommon() {
 	LedD2::setOutput(modm::Gpio::Low);
 	LedD3::setOutput(modm::Gpio::High);
 
-	SerialDebug::connect<modm::platform::GpioA9::Tx>();
+	SerialDebug::connect<modm::platform::GpioA2::Tx>();
 	SerialDebug::initialize<ClockConfiguration, 115200>();
 
 	I2cMaster1::connect<GpioB7::Sda, GpioB6::Scl>(I2cMaster1::PullUps::Internal);
 	I2cMaster1::initialize<ClockConfiguration, I2cMaster1::Baudrate::Standard>();
+
+	Can1::connect<GpioA11::Rx, GpioA12::Tx>(Gpio::InputType::PullUp);
+	Can1::initialize<ClockConfiguration, Can1::Bitrate::MBps1>(9);
+	Can1::setAutomaticRetransmission(false);
+	Can1::setMode(Can1::Mode::LoopBack);
+	CanFilter::setFilter(0, CanFilter::FIFO0,
+	CanFilter::StandardIdentifier(0),
+	CanFilter::StandardFilterMask(0));
 }
