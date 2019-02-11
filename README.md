@@ -72,7 +72,7 @@ If you do not already have a preferred text editor, Visual Studio code works wel
 
  * The [Microsoft C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) provides autocompletion and error detection.
 
- * The [CMake Tools extension](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug) provides an interface to build CMake projects.
+ * The [CMake Tools extension](https://marketplace.visualstudio.com/items?itemName=vector-of-bool.cmake-tools) provides an interface to build CMake projects.
 
  * The [Cortex-Debug extension](https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug) provides graphical debugging support for ARM microcontrollers.
 
